@@ -1,103 +1,110 @@
-import Image from "next/image";
+import Link from 'next/link'
+import { Metadata } from 'next'
+import SpellingBeeSolver from '@/components/SpellingBeeSolver'
+import Image from 'next/image'
+
+export const metadata: Metadata = {
+  title: 'NYT Spelling Bee Solver | Find All Possible Words',
+  description: 'Solve today\'s NYT Spelling Bee puzzle. Enter your letters and find all possible words including pangrams.',
+}
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div className="max-w-5xl mx-auto">
+      <section className="mb-12">
+        <div className="text-center mb-8">
+          <h1 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">
+            NYT Spelling Bee <span className="text-yellow-500">Solver</span>
+          </h1>
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            Enter the center letter and surrounding letters from today's puzzle to instantly find all possible words.
+          </p>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+        <div className="bg-gradient-to-r from-yellow-50 to-amber-50 rounded-2xl overflow-hidden border border-yellow-100">
+          <div className="md:flex">
+            <div className="md:w-2/3 p-6 md:p-8">
+              <SpellingBeeSolver />
+            </div>
+            <div className="hidden md:block md:w-1/3 bg-gradient-to-br from-yellow-400 to-amber-500 p-8 text-white">
+              <div className="h-full flex flex-col justify-center">
+                <h3 className="text-2xl font-bold mb-4">Why Use Our Solver?</h3>
+                <ul className="space-y-3">
+                  <li className="flex items-start">
+                    <span className="inline-block mr-2">✓</span>
+                    <span>Find all possible words instantly</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="inline-block mr-2">✓</span>
+                    <span>Highlights pangrams (words using all 7 letters)</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="inline-block mr-2">✓</span>
+                    <span>Organizes words by length for easy browsing</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="inline-block mr-2">✓</span>
+                    <span>Uses an extensive dictionary of English words</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section className="mb-12">
+        <div className="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
+          <h2 className="text-2xl font-bold mb-4 text-gray-800">About NYT Spelling Bee</h2>
+          <div className="flex flex-col md:flex-row gap-6">
+            <div className="md:w-2/3">
+              <p className="mb-4 text-gray-600">
+                Spelling Bee is a popular word puzzle game from The New York Times where players try to make words using only the provided letters. Each puzzle has a central letter that must be used in every word.
+              </p>
+              <p className="text-gray-600">
+                A <span className="font-semibold text-yellow-600">"pangram"</span> is a word that uses all seven letters at least once. Finding all the pangrams is the ultimate challenge!
+              </p>
+            </div>
+            <div className="md:w-1/3 flex justify-center items-center">
+              <div className="w-40 h-40 bg-yellow-400 rounded-full flex items-center justify-center">
+                <div className="text-center">
+                  <div className="text-4xl font-bold text-white mb-1">NYT</div>
+                  <div className="text-sm font-medium text-yellow-800">SPELLING BEE</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section className="mb-6">
+        <h2 className="text-2xl font-bold mb-6 text-gray-800">Explore More</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <Link href="/today" className="group">
+            <div className="bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-xl overflow-hidden shadow-sm border border-yellow-200 hover:shadow-md transition-all duration-300 h-full">
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2 text-yellow-800 group-hover:text-yellow-900">Today's Answers</h3>
+                <p className="text-yellow-700">Get a complete list of all answers for today's NYT Spelling Bee puzzle, including pangrams.</p>
+                <div className="mt-4 text-yellow-800 font-medium group-hover:translate-x-1 transition-transform duration-300">
+                  View today's answers →
+                </div>
+              </div>
+            </div>
+          </Link>
+          
+          <Link href="/articles" className="group">
+            <div className="bg-gradient-to-br from-blue-100 to-blue-200 rounded-xl overflow-hidden shadow-sm border border-blue-200 hover:shadow-md transition-all duration-300 h-full">
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2 text-blue-800 group-hover:text-blue-900">Spelling Bee Articles</h3>
+                <p className="text-blue-700">Read helpful tips, strategies, and analysis to improve your NYT Spelling Bee game.</p>
+                <div className="mt-4 text-blue-800 font-medium group-hover:translate-x-1 transition-transform duration-300">
+                  Browse articles →
+                </div>
+              </div>
+            </div>
+          </Link>
+        </div>
+      </section>
     </div>
-  );
+  )
 }

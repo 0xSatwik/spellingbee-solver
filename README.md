@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NYT Spelling Bee Solver
+
+A web application that helps solve the New York Times Spelling Bee puzzle. This tool finds all possible words for a given set of letters, prioritizing pangrams and organizing words by length.
+
+## Features
+
+- **Two input methods:**
+  - Traditional text input for quick entry
+  - Interactive hexagonal interface that mimics the NYT Spelling Bee puzzle layout
+- Input center letter and outer letters from the NYT Spelling Bee puzzle
+- View all possible valid words sorted by length
+- Highlight pangrams (words that use all letters)
+- Word counts and statistics
+- SEO-friendly structure for content about Spelling Bee
+- Articles section with tips and strategies for the game
+
+## Technology Stack
+
+- Next.js 14 (React framework)
+- TypeScript
+- Tailwind CSS for styling
+- Axios for API requests
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js 18.17.0 or later
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/spellingbee-solver.git
+   cd spellingbee-solver
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Install the dependencies:
+   ```
+   npm install
+   ```
 
-## Learn More
+3. Run the development server:
+   ```
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `src/app/page.tsx` - The home page with the solver tool
+- `src/app/api/solve/route.ts` - API endpoint for solving puzzles
+- `src/app/today/page.tsx` - Page showing today's Spelling Bee answers
+- `src/app/articles/page.tsx` - Articles listing page
+- `src/app/articles/[slug]/page.tsx` - Dynamic article page
+- `src/components/SpellingBeeSolver.tsx` - The main solver component
+- `src/components/HexagonalInput.tsx` - The hexagonal puzzle input interface
 
-## Deploy on Vercel
+## How It Works
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The solver uses a comprehensive dictionary from [words/an-array-of-english-words](https://github.com/words/an-array-of-english-words) to find all possible words that:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Are at least 4 letters long
+2. Contain the center letter
+3. Only use the provided letters
+
+Pangrams (words that use all seven letters) are displayed first, followed by other words organized by length.
+
+## How to Use
+
+1. Choose your preferred input method: Text Input or Hexagon Input
+2. For Text Input:
+   - Enter the required center letter in the first field
+   - Enter the 6 outer letters in the second field
+3. For Hexagon Input:
+   - Click on a cell to select it
+   - Type a letter or use the on-screen keyboard
+   - The yellow center cell is for the required letter
+4. Click "Solve Puzzle" to get all possible words
+
+## Contributing
+
+Contributions are welcome! Feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Disclaimer
+
+This project is not affiliated with The New York Times or the official Spelling Bee game. It is an independent tool created for educational and entertainment purposes.
