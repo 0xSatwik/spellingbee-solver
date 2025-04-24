@@ -41,11 +41,11 @@ export default function Home() {
                   <li className="flex items-start">
                     <span className="inline-block mr-2">✓</span>
                     <span>Organizes words by length for easy browsing</span>
-                  </li>
+          </li>
                   <li className="flex items-start">
                     <span className="inline-block mr-2">✓</span>
                     <span>Uses an extensive dictionary of English words</span>
-                  </li>
+          </li>
                 </ul>
               </div>
             </div>

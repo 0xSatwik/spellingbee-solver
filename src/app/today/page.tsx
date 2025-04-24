@@ -1,155 +1,156 @@
-import { Metadata } from 'next';
-import Link from 'next/link';
+'use client';
 
-export const metadata: Metadata = {
-  title: 'Today\'s NYT Spelling Bee Answers | Complete Solutions',
-  description: 'Find all the answers for today\'s New York Times Spelling Bee puzzle, including pangrams and words of all lengths.',
-};
+import Link from 'next/link';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
+
+interface PuzzleData {
+  date: string;
+  center: string;
+  letters: string[];
+  words: string[];
+  pangrams: string[];
+}
 
 export default function TodayPage() {
-  return (
-    <div className="max-w-4xl mx-auto">
-      <div className="mb-6">
-        <Link href="/" className="text-blue-600 hover:underline">
-          ← Back to Solver
-        </Link>
-      </div>
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState('');
+  const [puzzleData, setPuzzleData] = useState<PuzzleData>({
+    date: '',
+    center: '',
+    letters: [],
+    words: [],
+    pangrams: [],
+  });
 
-      <h1 className="text-3xl font-bold mb-6">Today's NYT Spelling Bee Answers</h1>
-      
-      <div className="bg-white rounded-lg shadow-md p-6 mb-8">
-        <div className="mb-4">
-          <h2 className="text-xl font-bold mb-2">Today's Puzzle Information</h2>
-          <div className="flex flex-wrap gap-2 mb-4">
-            <div className="bg-yellow-400 w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold">
-              L
-            </div>
-            <div className="bg-gray-200 w-12 h-12 rounded-full flex items-center justify-center text-xl">
-              I
-            </div>
-            <div className="bg-gray-200 w-12 h-12 rounded-full flex items-center justify-center text-xl">
-              N
-            </div>
-            <div className="bg-gray-200 w-12 h-12 rounded-full flex items-center justify-center text-xl">
-              G
-            </div>
-            <div className="bg-gray-200 w-12 h-12 rounded-full flex items-center justify-center text-xl">
-              U
-            </div>
-            <div className="bg-gray-200 w-12 h-12 rounded-full flex items-center justify-center text-xl">
-              A
-            </div>
-            <div className="bg-gray-200 w-12 h-12 rounded-full flex items-center justify-center text-xl">
-              E
-            </div>
-          </div>
-          <p className="text-gray-700">
-            <strong>Center letter:</strong> L<br />
-            <strong>Other letters:</strong> I, N, G, U, A, E
+  useEffect(() => {
+    const fetchDailyPuzzle = async () => {
+      try {
+        setLoading(true);
+        const response = await axios.get('/api/daily');
+        const data = response.data;
+        
+        // The first word is always the pangram
+        const pangrams = data.words.filter((word: string) => 
+          new Set([...word]).size === data.letters.length + 1
+        );
+        
+        setPuzzleData({
+          date: data.date,
+          center: data.center,
+          letters: data.letters,
+          words: data.words,
+          pangrams: pangrams,
+        });
+      } catch (err) {
+        console.error('Error fetching daily puzzle:', err);
+        setError('Failed to load today\'s puzzle. Please try again later.');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchDailyPuzzle();
+  }, []);
+
+  // Group words by length
+  const wordsByLength: Record<number, string[]> = {};
+  puzzleData.words.forEach((word: string) => {
+    const length = word.length;
+    if (!wordsByLength[length]) {
+      wordsByLength[length] = [];
+    }
+    wordsByLength[length].push(word);
+  });
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-amber-50 p-5">
+        <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
+          <h1 className="text-3xl font-bold text-amber-600 mb-6">Today's NYT Spelling Bee Answers</h1>
+          <p className="text-lg">Loading today's puzzle...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="min-h-screen bg-amber-50 p-5">
+        <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
+          <h1 className="text-3xl font-bold text-amber-600 mb-6">Today's NYT Spelling Bee Answers</h1>
+          <p className="text-red-500">{error}</p>
+          <p className="mt-4">
+            <Link href="/" className="text-amber-600 hover:text-amber-800 underline">
+              Go back to the Solver tool
+            </Link>
           </p>
         </div>
-        
-        <div className="stats p-3 bg-yellow-100 rounded-md mb-6">
-          <p className="font-medium">Total words: 48</p>
-          <p>Pangrams: 2</p>
-          <p>Points: 180</p>
-        </div>
-        
-        <div className="mb-6">
-          <h3 className="text-lg font-bold mb-2">Pangrams (2)</h3>
-          <div className="flex flex-wrap gap-2">
-            <span className="inline-block px-3 py-1 bg-yellow-200 rounded-full text-sm">
-              LANGUAGE
-            </span>
-            <span className="inline-block px-3 py-1 bg-yellow-200 rounded-full text-sm">
-              LINGUALE
-            </span>
-          </div>
-        </div>
-        
-        <div className="space-y-6">
-          <div>
-            <h3 className="text-lg font-bold mb-2">8-letter words (5)</h3>
-            <div className="flex flex-wrap gap-2">
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">ANGELING</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LINGUALE</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LANGUAGE</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LUNGEING</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">UNGULATE</span>
-            </div>
-          </div>
-          
-          <div>
-            <h3 className="text-lg font-bold mb-2">7-letter words (8)</h3>
-            <div className="flex flex-wrap gap-2">
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LINEAGE</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LINGULA</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LUNGFUL</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">GAINFUL</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">GENIAL</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">GILLIAN</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">GUNNEL</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LINGUAL</span>
-            </div>
-          </div>
-          
-          <div>
-            <h3 className="text-lg font-bold mb-2">6-letter words (12)</h3>
-            <div className="flex flex-wrap gap-2">
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">ANGEL</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">ANGLE</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">GLEANING</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LIGNIN</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LINAGE</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LINING</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LUGGAGE</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LUNGING</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LUPIN</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">ENLING</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LEGAL</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LINGAL</span>
-            </div>
-          </div>
-          
-          <div>
-            <h3 className="text-lg font-bold mb-2">5-letter words (23)</h3>
-            <div className="flex flex-wrap gap-2">
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">ALIGN</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">ALIEN</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">ALGIN</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">ALLEGE</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">ANGEL</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">ANGLE</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">EAGLE</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">GALEN</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">GALLI</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">GALLU</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">GELLA</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">GELID</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">GENIE</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">GIGUE</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">GLEAN</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">GLEEN</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">GLIAL</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LEGAL</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LIANA</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LIANG</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LILAC</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LUAU</span>
-              <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm">LUNGE</span>
-            </div>
-          </div>
-        </div>
       </div>
-      
-      <div className="bg-white rounded-lg shadow-md p-6 mb-6">
-        <h2 className="text-xl font-bold mb-4">Need to solve a different puzzle?</h2>
-        <p className="mb-4">
-          Use our Spelling Bee Solver tool to find all possible words for any Spelling Bee puzzle.
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-amber-50 p-5">
+      <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
+        <h1 className="text-3xl font-bold text-amber-600 mb-6">Today's NYT Spelling Bee Answers</h1>
+        
+        <div className="mb-8">
+          <p className="text-lg mb-2"><span className="font-semibold">Date:</span> {puzzleData.date}</p>
+          <div className="flex gap-2 mb-6">
+            <div className="h-12 w-12 flex items-center justify-center bg-yellow-400 text-white font-bold text-xl rounded-full">
+              {puzzleData.center.toUpperCase()}
+            </div>
+            {puzzleData.letters.map((letter, index) => (
+              <div key={index} className="h-12 w-12 flex items-center justify-center bg-gray-200 font-bold text-xl rounded-full">
+                {letter.toUpperCase()}
+              </div>
+            ))}
+          </div>
+          <p className="text-lg"><span className="font-semibold">Total Words:</span> {puzzleData.words.length}</p>
+        </div>
+
+        <div className="mb-8">
+          <h2 className="text-2xl font-bold text-amber-600 mb-4">Pangrams ({puzzleData.pangrams.length})</h2>
+          <div className="flex flex-wrap gap-2">
+            {puzzleData.pangrams.map((word, index) => (
+              <span key={index} className="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">
+                {word}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        <div className="mb-8">
+          <h2 className="text-2xl font-bold text-amber-600 mb-4">Words by Length</h2>
+          {Object.keys(wordsByLength)
+            .sort((a, b) => parseInt(b) - parseInt(a))
+            .map(length => (
+              <div key={length} className="mb-6">
+                <h3 className="text-xl font-semibold mb-2">{parseInt(length)}-letter words ({wordsByLength[parseInt(length)].length})</h3>
+                <div className="flex flex-wrap gap-2">
+                  {wordsByLength[parseInt(length)].map((word, index) => (
+                    <span 
+                      key={index} 
+                      className={`px-3 py-1 rounded-full text-sm ${
+                        puzzleData.pangrams.includes(word) 
+                          ? 'bg-yellow-100 text-yellow-800' 
+                          : 'bg-gray-100 text-gray-800'
+                      }`}
+                    >
+                      {word}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            ))}
+        </div>
+
+        <p className="mt-8">
+          <Link href="/" className="text-amber-600 hover:text-amber-800 underline">
+            Go back to the Solver tool
+          </Link>
         </p>
-        <Link href="/" className="inline-block px-6 py-2 bg-yellow-400 text-gray-900 font-medium rounded-md hover:bg-yellow-500">
-          Go to Solver
-        </Link>
       </div>
     </div>
   );
