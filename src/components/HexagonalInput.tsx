@@ -36,6 +36,13 @@ export default function HexagonalInput({ onLettersChange }: HexagonalInputProps)
 
   // Handle keyboard input with proper dependencies
   useEffect(() => {
+    // Define handleLetterInput inside the effect to avoid dependency issues
+    const handleKeyboardLetterInput = (index: number, value: string) => {
+      const newLetters = [...letters];
+      newLetters[index] = value;
+      setLetters(newLetters);
+    };
+
     const handleKeyDown = (e: KeyboardEvent) => {
       if (!keyboardActive) return;
       
@@ -43,14 +50,14 @@ export default function HexagonalInput({ onLettersChange }: HexagonalInputProps)
       
       // Check if key is a letter
       if (/^[A-Z]$/.test(key)) {
-        handleLetterInput(activeCell, key);
+        handleKeyboardLetterInput(activeCell, key);
         // Move to next cell
         const nextIndex = (activeCell + 1) % 7;
         setActiveCell(nextIndex);
       } 
       // Backspace
       else if (e.key === 'Backspace') {
-        handleLetterInput(activeCell, '');
+        handleKeyboardLetterInput(activeCell, '');
         // Move to previous cell
         const prevIndex = (activeCell - 1 + 7) % 7;
         setActiveCell(prevIndex);

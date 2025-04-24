@@ -221,17 +221,19 @@ const articles: Article[] = [
   }
 ];
 
-export function generateMetadata({ 
-  params 
-}: { 
-  params: { slug: string } 
-}): Metadata {
-  const article = articles.find(article => article.id === params.slug);
+// Generate static params at build time
+export async function generateStaticParams() {
+  return articles.map((article) => ({
+    slug: article.id,
+  }));
+}
+
+// Generate metadata
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const article = articles.find((article) => article.id === params.slug);
   
   if (!article) {
-    return {
-      title: 'Article Not Found',
-    };
+    return { title: 'Article Not Found' };
   }
   
   return {
@@ -240,19 +242,16 @@ export function generateMetadata({
   };
 }
 
-export default function ArticlePage({ 
-  params 
-}: { 
-  params: { slug: string } 
-}) {
-  const article = articles.find(article => article.id === params.slug);
+// Page component
+export default async function Page({ params }: { params: { slug: string } }) {
+  const article = articles.find((article) => article.id === params.slug);
   
   if (!article) {
     notFound();
   }
   
   // Get other article IDs for navigation
-  const articleIds = articles.map(a => a.id);
+  const articleIds = articles.map((a) => a.id);
   const currentIndex = articleIds.indexOf(params.slug);
   const prevArticle = currentIndex > 0 ? articles[currentIndex - 1] : null;
   const nextArticle = currentIndex < articleIds.length - 1 ? articles[currentIndex + 1] : null;
@@ -294,7 +293,7 @@ export default function ArticlePage({
       <div className="bg-yellow-100 rounded-lg p-6">
         <h2 className="text-xl font-bold mb-2">Try Our Spelling Bee Solver</h2>
         <p className="mb-4">
-          Put your new knowledge to the test! Use our Spelling Bee Solver to find all possible words for today's puzzle.
+          Put your new knowledge to the test! Use our Spelling Bee Solver to find all possible words for today&apos;s puzzle.
         </p>
         <Link href="/" className="inline-block px-6 py-2 bg-yellow-400 text-gray-900 font-medium rounded-md hover:bg-yellow-500">
           Go to Solver
