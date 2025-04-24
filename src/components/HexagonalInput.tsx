@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 
 interface HexagonalInputProps {
   onLettersChange: (centerLetter: string, outerLetters: string) => void;
@@ -9,48 +9,44 @@ interface HexagonalInputProps {
 export default function HexagonalInput({ onLettersChange }: HexagonalInputProps) {
   const [letters, setLetters] = useState<string[]>(Array(7).fill(''));
   const [activeCell, setActiveCell] = useState<number>(0);
-  const [keyboardActive, setKeyboardActive] = useState(false);
+  const [keyboardActive, setKeyboardActive] = useState(true);
 
   useEffect(() => {
-    const centerLetter = letters[0] || '';
+    const centerLetter = letters[0];
     const outerLetters = letters.slice(1).join('');
     onLettersChange(centerLetter, outerLetters);
   }, [letters, onLettersChange]);
 
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (!keyboardActive) return;
-      
-      const key = e.key.toLowerCase();
-      if (/^[a-z]$/.test(key)) {
-        const newLetters = [...letters];
-        newLetters[activeCell] = key;
-        setLetters(newLetters);
-        
-        // Move to next empty cell if available
-        const nextIndex = letters.findIndex((letter, index) => index !== activeCell && !letter);
-        if (nextIndex !== -1) {
-          setActiveCell(nextIndex);
-        }
-      } else if (e.key === 'Backspace') {
-        const newLetters = [...letters];
-        newLetters[activeCell] = '';
-        setLetters(newLetters);
-        
-        // Move to previous cell if current cell is now empty
-        if (activeCell > 0) {
-          setActiveCell(activeCell - 1);
-        }
-      } else if (e.key === 'Tab') {
-        e.preventDefault();
-        const nextIndex = (activeCell + 1) % 7;
-        setActiveCell(nextIndex);
-      }
-    };
+  const handleKeyDown = useCallback((e: KeyboardEvent) => {
+    if (!keyboardActive) return;
+    
+    const key = e.key.toUpperCase();
+    
+    if (/^[A-Z]$/.test(key)) {
+      handleLetterInput(activeCell, key);
+      const nextIndex = (activeCell + 1) % 7;
+      setActiveCell(nextIndex);
+    } else if (e.key === 'Backspace') {
+      handleLetterInput(activeCell, '');
+      const prevIndex = (activeCell - 1 + 7) % 7;
+      setActiveCell(prevIndex);
+    } else if (e.key === 'Tab') {
+      e.preventDefault();
+      const nextIndex = (activeCell + 1) % 7;
+      setActiveCell(nextIndex);
+    } else if (e.key === 'ArrowLeft') {
+      e.preventDefault();
+      const prevIndex = (activeCell - 1 + 7) % 7;
+      setActiveCell(prevIndex);
+    }
+  }, [activeCell, keyboardActive]);
 
+  useEffect(() => {
     window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [activeCell, keyboardActive, letters]);
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [handleKeyDown]);
 
   const handleCellClick = (index: number) => {
     setActiveCell(index);
@@ -58,49 +54,15 @@ export default function HexagonalInput({ onLettersChange }: HexagonalInputProps)
   };
 
   const handleLetterInput = (index: number, value: string) => {
-    const sanitizedValue = value.replace(/[^a-zA-Z]/g, '').slice(0, 1).toLowerCase();
-    
-    if (sanitizedValue || value === '') {
-      const newLetters = [...letters];
-      newLetters[index] = sanitizedValue;
-      setLetters(newLetters);
-    }
+    const newLetters = [...letters];
+    newLetters[index] = value;
+    setLetters(newLetters);
   };
 
   const handleClearAll = () => {
     setLetters(Array(7).fill(''));
     setActiveCell(0);
   };
-
-  // CSS for hexagon shape
-  const hexagonBaseStyles = `
-    relative
-    flex
-    items-center
-    justify-center
-    cursor-pointer
-    transition-all
-    duration-200
-    before:content-['']
-    before:w-full
-    before:pb-[115%]
-    before:block
-  `;
-  
-  const centerHexStyles = `
-    ${hexagonBaseStyles}
-    w-20
-    ${activeCell === 0 ? 'bg-yellow-400' : 'bg-yellow-300 hover:bg-yellow-400'}
-    text-2xl
-    font-bold
-  `;
-  
-  const outerHexStyles = (index: number) => `
-    ${hexagonBaseStyles}
-    w-16
-    ${activeCell === index + 1 ? 'bg-gray-300' : 'bg-gray-200 hover:bg-gray-300'}
-    text-xl
-  `;
 
   return (
     <div className="w-full max-w-xs mx-auto" onClick={() => setKeyboardActive(true)}>

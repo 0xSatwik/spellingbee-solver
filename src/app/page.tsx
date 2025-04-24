@@ -1,11 +1,10 @@
 import Link from 'next/link'
 import { Metadata } from 'next'
 import SpellingBeeSolver from '@/components/SpellingBeeSolver'
-import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'NYT Spelling Bee Solver | Find All Possible Words',
-  description: 'Solve today\'s NYT Spelling Bee puzzle. Enter your letters and find all possible words including pangrams.',
+  description: 'Solve today&apos;s NYT Spelling Bee puzzle. Enter your letters and find all possible words including pangrams.',
 }
 
 export default function Home() {
@@ -17,7 +16,7 @@ export default function Home() {
             NYT Spelling Bee <span className="text-yellow-500">Solver</span>
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Enter the center letter and surrounding letters from today's puzzle to instantly find all possible words.
+            Enter the center letter and surrounding letters from today&apos;s puzzle to instantly find all possible words.
           </p>
         </div>
 
@@ -62,7 +61,7 @@ export default function Home() {
                 Spelling Bee is a popular word puzzle game from The New York Times where players try to make words using only the provided letters. Each puzzle has a central letter that must be used in every word.
               </p>
               <p className="text-gray-600">
-                A <span className="font-semibold text-yellow-600">"pangram"</span> is a word that uses all seven letters at least once. Finding all the pangrams is the ultimate challenge!
+                A <span className="font-semibold text-yellow-600">&quot;pangram&quot;</span> is a word that uses all seven letters at least once. Finding all the pangrams is the ultimate challenge!
               </p>
             </div>
             <div className="md:w-1/3 flex justify-center items-center">
@@ -83,10 +82,10 @@ export default function Home() {
           <Link href="/today" className="group">
             <div className="bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-xl overflow-hidden shadow-sm border border-yellow-200 hover:shadow-md transition-all duration-300 h-full">
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-yellow-800 group-hover:text-yellow-900">Today's Answers</h3>
-                <p className="text-yellow-700">Get a complete list of all answers for today's NYT Spelling Bee puzzle, including pangrams.</p>
+                <h3 className="text-xl font-bold mb-2 text-yellow-800 group-hover:text-yellow-900">Today&apos;s Answers</h3>
+                <p className="text-yellow-700">Get a complete list of all answers for today&apos;s NYT Spelling Bee puzzle, including pangrams.</p>
                 <div className="mt-4 text-yellow-800 font-medium group-hover:translate-x-1 transition-transform duration-300">
-                  View today's answers →
+                  View today&apos;s answers →
                 </div>
               </div>
             </div>

@@ -181,7 +181,7 @@ const articles: Article[] = [
   {
     id: 'hardest-puzzles',
     title: 'The 10 Most Challenging Spelling Bee Puzzles Ever',
-    excerpt: 'Think you\'re a Spelling Bee expert? These notoriously difficult puzzles have stumped even the most dedicated players.',
+    excerpt: 'Think you&apos;re a Spelling Bee expert? These notoriously difficult puzzles have stumped even the most dedicated players.',
     date: 'February 19, 2023',
     content: `
       <p>Even seasoned Spelling Bee players occasionally encounter a puzzle that seems impossible to crack. Here are ten of the most challenging Spelling Bee puzzles ever published by The New York Times.</p>
@@ -193,7 +193,7 @@ const articles: Article[] = [
       <p>With words like ACTIVITE and CATIVATE, this puzzle required knowledge of uncommon scientific vocabulary.</p>
       
       <h2>3. The "CEGILNU" Puzzle (Center: N)</h2>
-      <p>This puzzle included several linguistic terms and medical vocabulary that aren't part of everyday language.</p>
+      <p>This puzzle included several linguistic terms and medical vocabulary that aren&apos;t part of everyday language.</p>
       
       <h2>4. The "AEILRST" Puzzle (Center: A)</h2>
       <p>While these are common letters, the sheer number of possible combinations made this puzzle overwhelming. It had over 120 valid words!</p>
@@ -205,10 +205,10 @@ const articles: Article[] = [
       <p>Players struggled with the limited vowels in this puzzle, making word formation challenging.</p>
       
       <h2>7. The "ACEILNP" Puzzle (Center: L)</h2>
-      <p>This puzzle included many technical and legal terms that aren't commonly used.</p>
+      <p>This puzzle included many technical and legal terms that aren&apos;t commonly used.</p>
       
       <h2>8. The "AEORSTY" Puzzle (Center: S)</h2>
-      <p>Another puzzle with an extremely high word count that tested players' endurance and vocabulary breadth.</p>
+      <p>Another puzzle with an extremely high word count that tested players&apos; endurance and vocabulary breadth.</p>
       
       <h2>9. The "AEFLRTX" Puzzle (Center: F)</h2>
       <p>The unusual combination of letters made word formation difficult, with several obscure scientific terms included.</p>
@@ -221,11 +221,13 @@ const articles: Article[] = [
   }
 ];
 
-interface PageProps {
+// Updated PageProps interface to match Next.js typing expectations
+type PageProps = {
   params: {
     slug: string;
   };
-}
+  searchParams?: Record<string, string | string[] | undefined>;
+};
 
 export function generateMetadata({ params }: PageProps): Metadata {
   const article = articles.find(article => article.id === params.slug);

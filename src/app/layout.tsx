@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+import Link from "next/link";
 import "./globals.css";
 
 const poppins = Poppins({ 
@@ -28,9 +29,9 @@ export default function RootLayout({
                 NYT Spelling Bee Solver
               </h1>
               <div className="hidden md:flex space-x-4">
-                <a href="/" className="text-white hover:text-yellow-100 font-medium transition">Home</a>
-                <a href="/today" className="text-white hover:text-yellow-100 font-medium transition">Today's Answers</a>
-                <a href="/articles" className="text-white hover:text-yellow-100 font-medium transition">Articles</a>
+                <Link href="/" className="text-white hover:text-yellow-100 font-medium transition">Home</Link>
+                <Link href="/today" className="text-white hover:text-yellow-100 font-medium transition">Today&apos;s Answers</Link>
+                <Link href="/articles" className="text-white hover:text-yellow-100 font-medium transition">Articles</Link>
               </div>
             </div>
           </header>
@@ -51,9 +52,9 @@ export default function RootLayout({
                 <div>
                   <h3 className="text-lg font-bold mb-3">Quick Links</h3>
                   <ul className="space-y-2">
-                    <li><a href="/" className="text-gray-300 hover:text-yellow-300 text-sm transition">Home</a></li>
-                    <li><a href="/today" className="text-gray-300 hover:text-yellow-300 text-sm transition">Today's Answers</a></li>
-                    <li><a href="/articles" className="text-gray-300 hover:text-yellow-300 text-sm transition">Articles</a></li>
+                    <li><Link href="/" className="text-gray-300 hover:text-yellow-300 text-sm transition">Home</Link></li>
+                    <li><Link href="/today" className="text-gray-300 hover:text-yellow-300 text-sm transition">Today&apos;s Answers</Link></li>
+                    <li><Link href="/articles" className="text-gray-300 hover:text-yellow-300 text-sm transition">Articles</Link></li>
                   </ul>
                 </div>
                 <div>
