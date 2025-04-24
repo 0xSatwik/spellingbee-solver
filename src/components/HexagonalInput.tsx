@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect } from 'react';
 
 interface HexagonalInputProps {
   onLettersChange: (centerLetter: string, outerLetters: string) => void;
@@ -11,58 +11,68 @@ export default function HexagonalInput({ onLettersChange }: HexagonalInputProps)
   const [activeCell, setActiveCell] = useState<number>(0);
   const [keyboardActive, setKeyboardActive] = useState(true);
 
+  // Handle letter updates and callback to parent
   useEffect(() => {
     const centerLetter = letters[0];
     const outerLetters = letters.slice(1).join('');
     onLettersChange(centerLetter, outerLetters);
   }, [letters, onLettersChange]);
 
-  const handleKeyDown = useCallback((e: KeyboardEvent) => {
-    if (!keyboardActive) return;
-    
-    const key = e.key.toUpperCase();
-    
-    if (/^[A-Z]$/.test(key)) {
-      handleLetterInput(activeCell, key);
-      const nextIndex = (activeCell + 1) % 7;
-      setActiveCell(nextIndex);
-    } else if (e.key === 'Backspace') {
-      handleLetterInput(activeCell, '');
-      const prevIndex = (activeCell - 1 + 7) % 7;
-      setActiveCell(prevIndex);
-    } else if (e.key === 'Tab') {
-      e.preventDefault();
-      const nextIndex = (activeCell + 1) % 7;
-      setActiveCell(nextIndex);
-    } else if (e.key === 'ArrowLeft') {
-      e.preventDefault();
-      const prevIndex = (activeCell - 1 + 7) % 7;
-      setActiveCell(prevIndex);
-    }
-  }, [activeCell, keyboardActive]);
-
-  useEffect(() => {
-    window.addEventListener('keydown', handleKeyDown);
-    return () => {
-      window.removeEventListener('keydown', handleKeyDown);
-    };
-  }, [handleKeyDown]);
-
   const handleCellClick = (index: number) => {
     setActiveCell(index);
     setKeyboardActive(true);
   };
-
+  
   const handleLetterInput = (index: number, value: string) => {
     const newLetters = [...letters];
     newLetters[index] = value;
     setLetters(newLetters);
   };
-
+  
   const handleClearAll = () => {
     setLetters(Array(7).fill(''));
     setActiveCell(0);
   };
+
+  // Handle keyboard input with proper dependencies
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (!keyboardActive) return;
+      
+      const key = e.key.toUpperCase();
+      
+      // Check if key is a letter
+      if (/^[A-Z]$/.test(key)) {
+        handleLetterInput(activeCell, key);
+        // Move to next cell
+        const nextIndex = (activeCell + 1) % 7;
+        setActiveCell(nextIndex);
+      } 
+      // Backspace
+      else if (e.key === 'Backspace') {
+        handleLetterInput(activeCell, '');
+        // Move to previous cell
+        const prevIndex = (activeCell - 1 + 7) % 7;
+        setActiveCell(prevIndex);
+      }
+      // Arrow keys
+      else if (e.key === 'ArrowRight' || e.key === 'Tab') {
+        e.preventDefault();
+        const nextIndex = (activeCell + 1) % 7;
+        setActiveCell(nextIndex);
+      }
+      else if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        const prevIndex = (activeCell - 1 + 7) % 7;
+        setActiveCell(prevIndex);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [activeCell, keyboardActive, letters]);
 
   return (
     <div className="w-full max-w-xs mx-auto" onClick={() => setKeyboardActive(true)}>

@@ -221,15 +221,11 @@ const articles: Article[] = [
   }
 ];
 
-// Updated PageProps interface to match Next.js typing expectations
-type PageProps = {
-  params: {
-    slug: string;
-  };
-  searchParams?: Record<string, string | string[] | undefined>;
-};
-
-export function generateMetadata({ params }: PageProps): Metadata {
+export function generateMetadata({ 
+  params 
+}: { 
+  params: { slug: string } 
+}): Metadata {
   const article = articles.find(article => article.id === params.slug);
   
   if (!article) {
@@ -244,7 +240,11 @@ export function generateMetadata({ params }: PageProps): Metadata {
   };
 }
 
-export default function ArticlePage({ params }: PageProps) {
+export default function ArticlePage({ 
+  params 
+}: { 
+  params: { slug: string } 
+}) {
   const article = articles.find(article => article.id === params.slug);
   
   if (!article) {
