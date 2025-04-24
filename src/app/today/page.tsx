@@ -68,7 +68,7 @@ export default function TodayPage() {
       <div className="min-h-screen bg-amber-50 p-5">
         <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
           <h1 className="text-3xl font-bold text-amber-600 mb-6">Today's NYT Spelling Bee Answers</h1>
-          <p className="text-lg">Loading today's puzzle...</p>
+          <p className="text-lg">Loading today&apos;s puzzle...</p>
         </div>
       </div>
     );
@@ -93,7 +93,7 @@ export default function TodayPage() {
   return (
     <div className="min-h-screen bg-amber-50 p-5">
       <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
-        <h1 className="text-3xl font-bold text-amber-600 mb-6">Today's NYT Spelling Bee Answers</h1>
+        <h1 className="text-3xl font-bold text-amber-600 mb-6">Today&apos;s NYT Spelling Bee Answers</h1>
         
         <div className="mb-8">
           <p className="text-lg mb-2"><span className="font-semibold">Date:</span> {puzzleData.date}</p>
