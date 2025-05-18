@@ -12,7 +12,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-3/5 text-white mb-8 md:mb-0">
                 <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
-                  NYT Spelling Bee <span className="relative inline-block">
+                  Spelling Bee <span className="relative inline-block">
                     Solutions
                     <span className="absolute bottom-1 left-0 w-full h-2 bg-white opacity-30"></span>
                   </span>
