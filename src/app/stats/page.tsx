@@ -330,30 +330,30 @@ export default function StatsPage() {
           </div>
         </div>
 
-        <div className="flex justify-center mt-12 space-x-4">
+        <div className="flex flex-wrap justify-center gap-2 sm:gap-0 mt-8 sm:mt-12 space-x-0 sm:space-x-4">
           <Link 
             href="/" 
-            className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
+            className="px-3 py-2 sm:px-5 sm:py-2 bg-gradient-to-r from-indigo-600 to-blue-600 text-white rounded-lg hover:from-indigo-700 hover:to-blue-700 transition-all shadow-md hover:shadow-lg text-sm sm:text-base"
           >
             Home
           </Link>
           <Link 
             href="/today" 
-            className="px-4 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 transition-colors"
+            className="px-3 py-2 sm:px-5 sm:py-2 bg-gradient-to-r from-yellow-500 to-amber-500 text-white rounded-lg hover:from-yellow-600 hover:to-amber-600 transition-all shadow-md hover:shadow-lg text-sm sm:text-base"
           >
             Today's Puzzle
           </Link>
           <Link 
             href="/yesterday" 
-            className="px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition-colors"
+            className="px-3 py-2 sm:px-5 sm:py-2 bg-gradient-to-r from-purple-500 to-violet-500 text-white rounded-lg hover:from-purple-600 hover:to-violet-600 transition-all shadow-md hover:shadow-lg text-sm sm:text-base"
           >
-            Yesterday's Puzzle
+            Yesterday
           </Link>
           <Link 
             href="/archive" 
-            className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors"
+            className="px-3 py-2 sm:px-5 sm:py-2 bg-gradient-to-r from-green-500 to-emerald-500 text-white rounded-lg hover:from-green-600 hover:to-emerald-600 transition-all shadow-md hover:shadow-lg text-sm sm:text-base"
           >
-            Puzzle Archive
+            Archive
           </Link>
         </div>
       </div>
