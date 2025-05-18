@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import DatePicker from 'react-datepicker';
@@ -33,7 +33,17 @@ interface SearchResult {
   words: Word[];
 }
 
-export default function ArchivePage() {
+// Loading component to show while content is loading
+function Loading() {
+  return (
+    <div className="flex justify-center items-center p-12">
+      <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-indigo-600"></div>
+    </div>
+  );
+}
+
+// The main component that uses useSearchParams
+function ArchiveContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   
@@ -732,5 +742,14 @@ export default function ArchivePage() {
         </div>
       </div>
     </div>
+  );
+}
+
+// Main export that wraps the content in a Suspense boundary
+export default function ArchivePage() {
+  return (
+    <Suspense fallback={<Loading />}>
+      <ArchiveContent />
+    </Suspense>
   );
 } 

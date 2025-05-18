@@ -2,6 +2,7 @@
 
 import { Poppins } from "next/font/google";
 import Link from 'next/link';
+import { useEffect } from "react";
 
 const poppins = Poppins({ 
   weight: ['400', '500', '600', '700'],
@@ -15,6 +16,11 @@ export default function GlobalError({
   error: Error & { digest?: string };
   reset: () => void;
 }) {
+  useEffect(() => {
+    // Log the error to an error reporting service
+    console.error('Global error occurred:', error);
+  }, [error]);
+  
   return (
     <html lang="en">
       <body className={poppins.className}>
