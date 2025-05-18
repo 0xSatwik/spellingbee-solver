@@ -91,30 +91,70 @@ export default function TodayPage() {
   }
 
   return (
-    <div className="min-h-screen bg-amber-50 p-5">
-      <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
-        <h1 className="text-3xl font-bold text-amber-600 mb-6">Today&apos;s NYT Spelling Bee Answers</h1>
+    <div className="min-h-screen bg-gray-100 p-8">
+      <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+        <h1 className="text-3xl font-bold text-center mb-8">Today's Spelling Bee</h1>
         
         <div className="mb-8">
-          <p className="text-lg mb-2"><span className="font-semibold">Date:</span> {puzzleData.date}</p>
-          <div className="flex gap-2 mb-6">
-            <div className="h-12 w-12 flex items-center justify-center bg-yellow-400 text-white font-bold text-xl rounded-full">
-              {puzzleData.center.toUpperCase()}
+          <div className="text-center mb-6">
+            <p className="text-xl font-semibold mb-2">Date: {puzzleData.date}</p>
+            
+            <div className="flex justify-center items-center mb-6">
+              <div className="relative w-72 h-72">
+                <div className="honeycomb">
+                  {/* Center letter */}
+                  <div className="hexagon center">
+                    <div className="hexagon-content">{puzzleData.center.toUpperCase()}</div>
+                  </div>
+                  
+                  {/* Top hexagon */}
+                  <div className="hexagon top">
+                    <div className="hexagon-content">{puzzleData.letters[0]?.toUpperCase()}</div>
+                  </div>
+                  
+                  {/* Top-right hexagon */}
+                  <div className="hexagon top-right">
+                    <div className="hexagon-content">{puzzleData.letters[1]?.toUpperCase()}</div>
+                  </div>
+                  
+                  {/* Bottom-right hexagon */}
+                  <div className="hexagon bottom-right">
+                    <div className="hexagon-content">{puzzleData.letters[2]?.toUpperCase()}</div>
+                  </div>
+                  
+                  {/* Bottom hexagon */}
+                  <div className="hexagon bottom">
+                    <div className="hexagon-content">{puzzleData.letters[3]?.toUpperCase()}</div>
+                  </div>
+                  
+                  {/* Bottom-left hexagon */}
+                  <div className="hexagon bottom-left">
+                    <div className="hexagon-content">{puzzleData.letters[4]?.toUpperCase()}</div>
+                  </div>
+                  
+                  {/* Top-left hexagon */}
+                  <div className="hexagon top-left">
+                    <div className="hexagon-content">{puzzleData.letters[5]?.toUpperCase()}</div>
+                  </div>
             </div>
-            {puzzleData.letters.map((letter, index) => (
-              <div key={index} className="h-12 w-12 flex items-center justify-center bg-gray-200 font-bold text-xl rounded-full">
-                {letter.toUpperCase()}
               </div>
-            ))}
+            </div>
+            
+            <p className="mt-2">
+              <span className="font-semibold">Letters:</span> {puzzleData.center.toUpperCase()}, {puzzleData.letters.map(l => l.toUpperCase()).join(', ')}
+            </p>
+            <p className="mt-1">
+              <span className="font-semibold">Words:</span> {puzzleData.words.length} • 
+              <span className="font-semibold ml-2">Pangrams:</span> {puzzleData.pangrams.length}
+            </p>
           </div>
-          <p className="text-lg"><span className="font-semibold">Total Words:</span> {puzzleData.words.length}</p>
         </div>
 
         <div className="mb-8">
-          <h2 className="text-2xl font-bold text-amber-600 mb-4">Pangrams ({puzzleData.pangrams.length})</h2>
+          <h2 className="text-2xl font-bold mb-4">Pangrams ({puzzleData.pangrams.length})</h2>
           <div className="flex flex-wrap gap-2">
             {puzzleData.pangrams.map((word, index) => (
-              <span key={index} className="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">
+              <span key={index} className="bg-yellow-300 px-3 py-1 rounded-full">
                 {word}
               </span>
             ))}
@@ -122,20 +162,20 @@ export default function TodayPage() {
         </div>
 
         <div className="mb-8">
-          <h2 className="text-2xl font-bold text-amber-600 mb-4">Words by Length</h2>
+          <h2 className="text-2xl font-bold mb-4">Words by Length</h2>
           {Object.keys(wordsByLength)
             .sort((a, b) => parseInt(b) - parseInt(a))
             .map(length => (
               <div key={length} className="mb-6">
-                <h3 className="text-xl font-semibold mb-2">{parseInt(length)}-letter words ({wordsByLength[parseInt(length)].length})</h3>
+                <h3 className="text-lg font-semibold mb-2">{parseInt(length)}-letter words ({wordsByLength[parseInt(length)].length})</h3>
                 <div className="flex flex-wrap gap-2">
                   {wordsByLength[parseInt(length)].map((word, index) => (
                     <span 
                       key={index} 
-                      className={`px-3 py-1 rounded-full text-sm ${
+                      className={`px-3 py-1 rounded-full ${
                         puzzleData.pangrams.includes(word) 
-                          ? 'bg-yellow-100 text-yellow-800' 
-                          : 'bg-gray-100 text-gray-800'
+                          ? 'bg-yellow-300' 
+                          : 'bg-gray-200'
                       }`}
                     >
                       {word}
@@ -146,11 +186,101 @@ export default function TodayPage() {
             ))}
         </div>
 
-        <p className="mt-8">
-          <Link href="/" className="text-amber-600 hover:text-amber-800 underline">
-            Go back to the Solver tool
+        <style jsx>{`
+          .honeycomb {
+            position: relative;
+            width: 100%;
+            height: 100%;
+          }
+          
+          .hexagon {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background-color: #E5E7EB; /* gray-200 */
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+          }
+          
+          .hexagon.center {
+            width: 70px;
+            height: 70px;
+            background-color: #FBBF24; /* yellow-400 */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+          }
+          
+          .hexagon.top {
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, 0%);
+          }
+          
+          .hexagon.top-right {
+            top: 25%;
+            right: 15%;
+          }
+          
+          .hexagon.bottom-right {
+            bottom: 25%;
+            right: 15%;
+          }
+          
+          .hexagon.bottom {
+            bottom: 10%;
+            left: 50%;
+            transform: translate(-50%, 0%);
+          }
+          
+          .hexagon.bottom-left {
+            bottom: 25%;
+            left: 15%;
+          }
+          
+          .hexagon.top-left {
+            top: 25%;
+            left: 15%;
+          }
+        `}</style>
+
+        <div className="flex justify-center mt-8 space-x-4">
+          <Link 
+            href="/" 
+            className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
+          >
+            Home
           </Link>
-        </p>
+          <Link 
+            href="/solver" 
+            className="px-4 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600 transition-colors"
+          >
+            Solver
+          </Link>
+          <Link 
+            href="/yesterday" 
+            className="px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition-colors"
+          >
+            Yesterday's Puzzle
+          </Link>
+          <Link 
+            href="/archive" 
+            className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors"
+          >
+            Puzzle Archive
+          </Link>
+          <Link 
+            href="/stats" 
+            className="px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors"
+          >
+            Statistics
+          </Link>
+        </div>
       </div>
     </div>
   );

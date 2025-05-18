@@ -230,7 +230,7 @@ export async function generateMetadata({ params }) {
   }
   
   return {
-    title: `${article.title} | NYT Spelling Bee Solver`,
+    title: `${article.title} | SbAnswer.com`,
     description: article.excerpt,
   };
 }

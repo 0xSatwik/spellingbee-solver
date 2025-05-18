@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Spelling Bee Articles & Tips | NYT Spelling Bee Solver',
+  title: 'Spelling Bee Articles & Tips | SbAnswer.com',
   description: 'Articles, tips, strategies, and analysis of the New York Times Spelling Bee word puzzle game.',
 };
 

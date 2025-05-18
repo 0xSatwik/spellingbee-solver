@@ -1,92 +1,81 @@
-# NYT Spelling Bee Solver
+# Spelling Bee Puzzle Explorer
 
-A web application that helps solve the New York Times Spelling Bee puzzle. This tool finds all possible words for a given set of letters, prioritizing pangrams and organizing words by length.
-
-## Features
-
-- **Two input methods:**
-  - Traditional text input for quick entry
-  - Interactive hexagonal interface that mimics the NYT Spelling Bee puzzle layout
-- Input center letter and outer letters from the NYT Spelling Bee puzzle
-- View all possible valid words sorted by length
-- Highlight pangrams (words that use all letters)
-- Word counts and statistics
-- SEO-friendly structure for content about Spelling Bee
-- Articles section with tips and strategies for the game
-
-## Technology Stack
-
-- Next.js 14 (React framework)
-- TypeScript
-- Tailwind CSS for styling
-- Axios for API requests
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18.17.0 or later
-
-### Installation
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/spellingbee-solver.git
-   cd spellingbee-solver
-   ```
-
-2. Install the dependencies:
-   ```
-   npm install
-   ```
-
-3. Run the development server:
-   ```
-   npm run dev
-   ```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+This repository contains tools for collecting, storing, and exploring New York Times Spelling Bee puzzles.
 
 ## Project Structure
 
-- `src/app/page.tsx` - The home page with the solver tool
-- `src/app/api/solve/route.ts` - API endpoint for solving puzzles
-- `src/app/today/page.tsx` - Page showing today's Spelling Bee answers
-- `src/app/articles/page.tsx` - Articles listing page
-- `src/app/articles/[slug]/page.tsx` - Dynamic article page
-- `src/components/SpellingBeeSolver.tsx` - The main solver component
-- `src/components/HexagonalInput.tsx` - The hexagonal puzzle input interface
+- `spellingbee_database_scraper.py`: Script to scrape Spelling Bee puzzles and store them in a SQLite database
+- `web_database_explorer.py`: Flask web application for browsing and searching puzzles
+- `remove_score_field.py`: Script that removed the 'score' field from the database schema
+- `worker/`: Cloudflare Worker API for accessing the database through the cloud
 
-## How It Works
+## Local Web Application
 
-The solver uses a comprehensive dictionary from [words/an-array-of-english-words](https://github.com/words/an-array-of-english-words) to find all possible words that:
+The Flask web application provides a user interface for browsing and exploring puzzles. Features include:
 
-1. Are at least 4 letters long
-2. Contain the center letter
-3. Only use the provided letters
+- Browse all puzzles with pagination
+- View detailed information about each puzzle
+- Search puzzles by date, letter, or word
+- View statistics about letters, pangrams, and more
 
-Pangrams (words that use all seven letters) are displayed first, followed by other words organized by length.
+To run the web application:
 
-## How to Use
+```
+python web_database_explorer.py
+```
 
-1. Choose your preferred input method: Text Input or Hexagon Input
-2. For Text Input:
-   - Enter the required center letter in the first field
-   - Enter the 6 outer letters in the second field
-3. For Hexagon Input:
-   - Click on a cell to select it
-   - Type a letter or use the on-screen keyboard
-   - The yellow center cell is for the required letter
-4. Click "Solve Puzzle" to get all possible words
+Then visit http://localhost:5000 in your browser.
 
-## Contributing
+## Cloudflare Worker API
 
-Contributions are welcome! Feel free to submit a Pull Request.
+The Cloudflare Worker provides RESTful API access to the puzzle database. Key features:
+
+- JSON API endpoints for all data
+- Fast global access through Cloudflare's network
+- Database hosted in Cloudflare D1
+
+For details on setting up and deploying the Worker API, see [worker/README.md](worker/README.md) and [worker/DEPLOYMENT.md](worker/DEPLOYMENT.md).
+
+## Database Schema
+
+The database contains two tables:
+
+### Puzzles Table
+
+```sql
+CREATE TABLE puzzles (
+    id INTEGER PRIMARY KEY,
+    puzzle_id INTEGER UNIQUE,
+    date TEXT,
+    word_count INTEGER,
+    pangrams_count INTEGER,
+    letters TEXT,
+    other_letters TEXT,
+    all_letters TEXT
+)
+```
+
+### Words Table
+
+```sql
+CREATE TABLE words (
+    id INTEGER PRIMARY KEY,
+    puzzle_id INTEGER,
+    word TEXT,
+    is_pangram INTEGER,
+    length INTEGER,
+    FOREIGN KEY (puzzle_id) REFERENCES puzzles(puzzle_id),
+    UNIQUE(puzzle_id, word)
+)
+```
+
+## Getting Started
+
+1. **Clone the repository**
+2. **Set up the database**: Run `spellingbee_database_scraper.py` to create and populate the database
+3. **Explore locally**: Run `web_database_explorer.py` to start the web interface
+4. **Deploy to cloud**: Follow the instructions in `worker/DEPLOYMENT.md` to deploy the API
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Disclaimer
-
-This project is not affiliated with The New York Times or the official Spelling Bee game. It is an independent tool created for educational and entertainment purposes.
+This project is licensed under the MIT License - see the LICENSE file for details. 
