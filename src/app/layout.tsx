@@ -59,10 +59,8 @@ export default function RootLayout({
               </div>
             </div>
           </header>
-          <main className="flex-grow container mx-auto p-4 md:p-6 lg:p-8">
-            <div className="bg-white rounded-xl shadow-sm p-6 md:p-8">
-              {children}
-            </div>
+          <main className="flex-grow">
+            {children}
           </main>
           <footer className="bg-gradient-to-b from-gray-800 to-gray-900 text-white py-10">
             <div className="container mx-auto px-4">
