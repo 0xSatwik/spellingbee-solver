@@ -193,7 +193,7 @@ function ArchiveContent() {
   const lengths = Object.keys(wordsByLength).map(Number).sort((a, b) => b - a);
   
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-indigo-100 px-2 py-4 sm:p-4 md:p-6">
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-indigo-100 px-2 py-4 sm:p-4 md:p-6 sm:pt-5">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-3xl sm:text-4xl font-bold text-center mb-4 sm:mb-6 text-indigo-800">Spelling Bee Archive</h1>
         

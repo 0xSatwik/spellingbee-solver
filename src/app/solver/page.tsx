@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function SolverPage() {
   return (
-    <div className="max-w-5xl mx-auto">
+    <div className="max-w-5xl mx-auto px-2 py-4 sm:pt-5">
       <section className="mb-12">
         <div className="text-center mb-8">
           <h1 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">
