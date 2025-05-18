@@ -65,9 +65,9 @@ export default function TodayPage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-amber-50 p-5">
-        <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
-          <h1 className="text-3xl font-bold text-amber-600 mb-6">Today's NYT Spelling Bee Answers</h1>
+      <div className="min-h-screen bg-amber-50 px-2 py-4 sm:p-4">
+        <div className="max-w-5xl mx-auto bg-white p-4 sm:p-6 rounded-lg shadow-md">
+          <h1 className="text-3xl font-bold text-amber-600 mb-4">Today's NYT Spelling Bee Answers</h1>
           <p className="text-lg">Loading today&apos;s puzzle...</p>
         </div>
       </div>
@@ -76,9 +76,9 @@ export default function TodayPage() {
 
   if (error) {
     return (
-      <div className="min-h-screen bg-amber-50 p-5">
-        <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
-          <h1 className="text-3xl font-bold text-amber-600 mb-6">Today's NYT Spelling Bee Answers</h1>
+      <div className="min-h-screen bg-amber-50 px-2 py-4 sm:p-4">
+        <div className="max-w-5xl mx-auto bg-white p-4 sm:p-6 rounded-lg shadow-md">
+          <h1 className="text-3xl font-bold text-amber-600 mb-4">Today's NYT Spelling Bee Answers</h1>
           <p className="text-red-500">{error}</p>
           <p className="mt-4">
             <Link href="/" className="text-amber-600 hover:text-amber-800 underline">
@@ -91,15 +91,15 @@ export default function TodayPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 p-8">
-      <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
-        <h1 className="text-3xl font-bold text-center mb-8">Today's Spelling Bee</h1>
+    <div className="min-h-screen bg-gray-100 px-2 py-4 sm:p-4">
+      <div className="max-w-5xl mx-auto bg-white p-4 sm:p-6 rounded-lg shadow-md">
+        <h1 className="text-3xl font-bold text-center mb-4 sm:mb-6">Today's Spelling Bee</h1>
         
-        <div className="mb-8">
-          <div className="text-center mb-6">
+        <div className="mb-6">
+          <div className="text-center mb-4">
             <p className="text-xl font-semibold mb-2">Date: {puzzleData.date}</p>
             
-            <div className="flex justify-center items-center mb-6">
+            <div className="flex justify-center items-center mb-4">
               <div className="relative w-72 h-72">
                 <div className="honeycomb">
                   {/* Center letter */}
@@ -150,8 +150,8 @@ export default function TodayPage() {
           </div>
         </div>
 
-        <div className="mb-8">
-          <h2 className="text-2xl font-bold mb-4">Pangrams ({puzzleData.pangrams.length})</h2>
+        <div className="mb-6">
+          <h2 className="text-2xl font-bold mb-3">Pangrams ({puzzleData.pangrams.length})</h2>
           <div className="flex flex-wrap gap-2">
             {puzzleData.pangrams.map((word, index) => (
               <span key={index} className="bg-yellow-300 px-3 py-1 rounded-full">
@@ -161,12 +161,12 @@ export default function TodayPage() {
           </div>
         </div>
 
-        <div className="mb-8">
-          <h2 className="text-2xl font-bold mb-4">Words by Length</h2>
+        <div className="mb-6">
+          <h2 className="text-2xl font-bold mb-3">Words by Length</h2>
           {Object.keys(wordsByLength)
             .sort((a, b) => parseInt(b) - parseInt(a))
             .map(length => (
-              <div key={length} className="mb-6">
+              <div key={length} className="mb-4">
                 <h3 className="text-lg font-semibold mb-2">{parseInt(length)}-letter words ({wordsByLength[parseInt(length)].length})</h3>
                 <div className="flex flex-wrap gap-2">
                   {wordsByLength[parseInt(length)].map((word, index) => (
@@ -184,6 +184,27 @@ export default function TodayPage() {
                 </div>
               </div>
             ))}
+        </div>
+        
+        <div className="flex justify-center space-x-3 sm:space-x-4 mt-6">
+          <Link 
+            href="/" 
+            className="px-3 py-2 sm:px-4 sm:py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors text-sm sm:text-base"
+          >
+            Home
+          </Link>
+          <Link 
+            href="/yesterday" 
+            className="px-3 py-2 sm:px-4 sm:py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition-colors text-sm sm:text-base"
+          >
+            Yesterday
+          </Link>
+          <Link 
+            href="/archive" 
+            className="px-3 py-2 sm:px-4 sm:py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors text-sm sm:text-base"
+          >
+            Archive
+          </Link>
         </div>
 
         <style jsx>{`
@@ -248,39 +269,6 @@ export default function TodayPage() {
             left: 15%;
           }
         `}</style>
-
-        <div className="flex justify-center mt-8 space-x-4">
-          <Link 
-            href="/" 
-            className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
-          >
-            Home
-          </Link>
-          <Link 
-            href="/solver" 
-            className="px-4 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600 transition-colors"
-          >
-            Solver
-          </Link>
-          <Link 
-            href="/yesterday" 
-            className="px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition-colors"
-          >
-            Yesterday's Puzzle
-          </Link>
-          <Link 
-            href="/archive" 
-            className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors"
-          >
-            Puzzle Archive
-          </Link>
-          <Link 
-            href="/stats" 
-            className="px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors"
-          >
-            Statistics
-          </Link>
-        </div>
       </div>
     </div>
   );

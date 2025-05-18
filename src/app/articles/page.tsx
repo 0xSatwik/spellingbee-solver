@@ -49,7 +49,7 @@ const articles: Article[] = [
 
 export default function ArticlesPage() {
   return (
-    <div className="max-w-4xl mx-auto">
+    <div className="max-w-4xl mx-auto px-2 py-3 sm:px-4">
       <div className="mb-6">
         <Link href="/" className="text-blue-600 hover:underline">
           ← Back to Solver

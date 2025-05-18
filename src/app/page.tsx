@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="max-w-6xl mx-auto">
+    <div className="max-w-6xl mx-auto px-2 py-3 sm:px-4">
       {/* Hero Section */}
       <section className="mb-12">
         <div className="bg-gradient-to-br from-yellow-400 to-amber-500 rounded-3xl overflow-hidden">
