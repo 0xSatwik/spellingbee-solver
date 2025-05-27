@@ -31,7 +31,7 @@ interface PuzzleWithWords {
 }
 
 // Interface for search results - each item will be a PuzzleWithWords
-interface SearchResult extends PuzzleWithWords {}
+type SearchResult = PuzzleWithWords;
 
 // Loading component to show while content is loading
 function Loading() {
@@ -140,11 +140,11 @@ function ArchiveContent() {
       const data = await res.json();
       
       // Set the search results from the API
-      setSearchResults(data.results);
+      setSearchResults(data.results as SearchResult[]);
       
       // If we have exactly one result, we can directly show it as the current puzzle
       if (data.results.length === 1) {
-        const result = data.results[0];
+        const result = data.results[0] as SearchResult;
         setCurrentPuzzle(result);
         setActiveTab('puzzle');
       } else if (data.results.length > 1) {
@@ -384,7 +384,7 @@ function ArchiveContent() {
                     <button
                       onClick={() => {
                         // We already have the puzzle and words data, so we can set it directly
-                        setCurrentPuzzle(result);
+                        setCurrentPuzzle(result as PuzzleWithWords);
                         setPuzzleId(String(result.puzzle.puzzle_id));
                         router.push(`/archive?id=${result.puzzle.puzzle_id}`);
                         setActiveTab('puzzle');

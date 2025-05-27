@@ -4,6 +4,12 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
+interface Word {
+  word: string;
+  is_pangram: number; // Assuming 0 or 1 based on typical boolean representation in DB
+  length: number;
+}
+
 interface PuzzleData {
   date: string;
   center: string;
@@ -40,8 +46,8 @@ export default function TodayPage() {
           date: data.puzzle.date,
           center: data.puzzle.letters,
           letters: data.puzzle.all_letters.replace(data.puzzle.letters, '').split(''),
-          words: data.words.map((w: any) => w.word),
-          pangrams: data.words.filter((w: any) => w.is_pangram).map((w: any) => w.word),
+          words: data.words.map((w: Word) => w.word),
+          pangrams: data.words.filter((w: Word) => w.is_pangram).map((w: Word) => w.word),
           totalPoints: data.totalPoints,
           hasPerfectPangram: data.hasPerfectPangram,
           perfectPangrams: data.perfectPangrams,
