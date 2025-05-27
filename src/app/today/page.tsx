@@ -10,6 +10,9 @@ interface PuzzleData {
   letters: string[];
   words: string[];
   pangrams: string[];
+  totalPoints: number;
+  hasPerfectPangram: boolean;
+  perfectPangrams: string[];
 }
 
 export default function TodayPage() {
@@ -21,26 +24,27 @@ export default function TodayPage() {
     letters: [],
     words: [],
     pangrams: [],
+    totalPoints: 0,
+    hasPerfectPangram: false,
+    perfectPangrams: [],
   });
 
   useEffect(() => {
     const fetchDailyPuzzle = async () => {
       try {
         setLoading(true);
-        const response = await axios.get('/api/daily');
+        const response = await axios.get('https://spelling-bee-api.ronysamanta710.workers.dev/today');
         const data = response.data;
         
-        // The first word is always the pangram
-        const pangrams = data.words.filter((word: string) => 
-          new Set([...word]).size === data.letters.length + 1
-        );
-        
         setPuzzleData({
-          date: data.date,
-          center: data.center,
-          letters: data.letters,
-          words: data.words,
-          pangrams: pangrams,
+          date: data.puzzle.date,
+          center: data.puzzle.letters,
+          letters: data.puzzle.all_letters.replace(data.puzzle.letters, '').split(''),
+          words: data.words.map((w: any) => w.word),
+          pangrams: data.words.filter((w: any) => w.is_pangram).map((w: any) => w.word),
+          totalPoints: data.totalPoints,
+          hasPerfectPangram: data.hasPerfectPangram,
+          perfectPangrams: data.perfectPangrams,
         });
       } catch (err) {
         console.error('Error fetching daily puzzle:', err);
@@ -147,13 +151,26 @@ export default function TodayPage() {
               <span className="font-semibold">Words:</span> {puzzleData.words.length} • 
               <span className="font-semibold ml-2">Pangrams:</span> {puzzleData.pangrams.length}
             </p>
+            <p className="mt-1">
+              <span className="font-semibold">Total Points:</span> {puzzleData.totalPoints}
+            </p>
+            {puzzleData.hasPerfectPangram && puzzleData.perfectPangrams.length > 0 && (
+              <p className="mt-1 text-green-600 font-semibold">
+                Perfect Pangram(s): {puzzleData.perfectPangrams.join(', ').toUpperCase()}
+              </p>
+            )}
           </div>
         </div>
 
         <div className="mb-6">
           <h2 className="text-2xl font-bold mb-3">Pangrams ({puzzleData.pangrams.length})</h2>
+          {puzzleData.perfectPangrams.length > 0 && (
+            <div className="mb-2 p-2 bg-green-100 border border-green-300 text-green-700 rounded-md">
+              Perfect: {puzzleData.perfectPangrams.join(', ').toUpperCase()}
+            </div>
+          )}
           <div className="flex flex-wrap gap-2">
-            {puzzleData.pangrams.map((word, index) => (
+            {puzzleData.pangrams.filter(p => !puzzleData.perfectPangrams.includes(p)).map((word, index) => (
               <span key={index} className="bg-yellow-300 px-3 py-1 rounded-full">
                 {word}
               </span>

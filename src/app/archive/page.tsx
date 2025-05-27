@@ -25,13 +25,13 @@ interface Puzzle {
 interface PuzzleWithWords {
   puzzle: Puzzle;
   words: Word[];
+  totalPoints: number;
+  hasPerfectPangram: boolean;
+  perfectPangrams: string[];
 }
 
-// Interface for search results
-interface SearchResult {
-  puzzle: Puzzle;
-  words: Word[];
-}
+// Interface for search results - each item will be a PuzzleWithWords
+interface SearchResult extends PuzzleWithWords {}
 
 // Loading component to show while content is loading
 function Loading() {
@@ -107,10 +107,13 @@ function ArchiveContent() {
       const data = await puzzleRes.json();
       
       // Create SearchResult structure expected by our app
-      // Wrap the puzzle and words in the structure we're using
+      // The API now returns the full structure directly
       const puzzleWithWords: PuzzleWithWords = {
         puzzle: data.puzzle,
-        words: data.words
+        words: data.words,
+        totalPoints: data.totalPoints,
+        hasPerfectPangram: data.hasPerfectPangram,
+        perfectPangrams: data.perfectPangrams,
       };
       
       setCurrentPuzzle(puzzleWithWords);
@@ -142,10 +145,7 @@ function ArchiveContent() {
       // If we have exactly one result, we can directly show it as the current puzzle
       if (data.results.length === 1) {
         const result = data.results[0];
-        setCurrentPuzzle({
-          puzzle: result.puzzle,
-          words: result.words
-        });
+        setCurrentPuzzle(result);
         setActiveTab('puzzle');
       } else if (data.results.length > 1) {
         setActiveTab('results');
@@ -376,14 +376,15 @@ function ArchiveContent() {
                     <p className="mb-1"><span className="font-semibold">Letters:</span> {result.puzzle.all_letters}</p>
                     <p className="mb-1"><span className="font-semibold">Words:</span> {result.puzzle.word_count}</p>
                     <p className="mb-2"><span className="font-semibold">Pangrams:</span> {result.puzzle.pangrams_count}</p>
+                    <p className="mb-1"><span className="font-semibold">Points:</span> {result.totalPoints}</p>
+                    {result.hasPerfectPangram && result.perfectPangrams.length > 0 && (
+                       <p className="mb-2 text-sm text-green-600 font-semibold">Perfect: {result.perfectPangrams.join(', ').toUpperCase()}</p>
+                    )}
                     
                     <button
                       onClick={() => {
                         // We already have the puzzle and words data, so we can set it directly
-                        setCurrentPuzzle({
-                          puzzle: result.puzzle,
-                          words: result.words
-                        });
+                        setCurrentPuzzle(result);
                         setPuzzleId(String(result.puzzle.puzzle_id));
                         router.push(`/archive?id=${result.puzzle.puzzle_id}`);
                         setActiveTab('puzzle');
@@ -471,6 +472,14 @@ function ArchiveContent() {
                   <span className="font-semibold">Words:</span> {currentPuzzle.puzzle.word_count} • 
                   <span className="font-semibold ml-2">Pangrams:</span> {currentPuzzle.puzzle.pangrams_count}
                 </p>
+                <p className="mt-1">
+                  <span className="font-semibold">Total Points:</span> {currentPuzzle.totalPoints}
+                </p>
+                {currentPuzzle.hasPerfectPangram && currentPuzzle.perfectPangrams.length > 0 && (
+                  <p className="mt-1 text-green-600 font-semibold">
+                    Perfect Pangram(s): {currentPuzzle.perfectPangrams.join(', ').toUpperCase()}
+                  </p>
+                )}
               </div>
             </div>
             

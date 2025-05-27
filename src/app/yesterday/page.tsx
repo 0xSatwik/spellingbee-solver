@@ -18,9 +18,17 @@ interface Puzzle {
   pangrams_count: number;
 }
 
+// Extended interface to include new fields from the API
+interface EnrichedPuzzleData {
+  puzzle: Puzzle;
+  words: Word[];
+  totalPoints: number;
+  hasPerfectPangram: boolean;
+  perfectPangrams: string[];
+}
+
 export default function YesterdayPage() {
-  const [puzzle, setPuzzle] = useState<Puzzle | null>(null);
-  const [words, setWords] = useState<Word[]>([]);
+  const [puzzleData, setPuzzleData] = useState<EnrichedPuzzleData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   
@@ -33,8 +41,7 @@ export default function YesterdayPage() {
         }
         
         const data = await response.json();
-        setPuzzle(data.puzzle);
-        setWords(data.words);
+        setPuzzleData(data);
       } catch (err) {
         console.error('Error fetching yesterday\'s puzzle:', err);
         setError('Failed to load yesterday\'s puzzle. Please try again later.');
@@ -47,12 +54,12 @@ export default function YesterdayPage() {
   }, []);
   
   // Group words by length for better display
-  const wordsByLength = words.reduce((acc, word) => {
+  const wordsByLength = puzzleData?.words?.reduce((acc, word) => {
     const len = word.length;
     if (!acc[len]) acc[len] = [];
     acc[len].push(word);
     return acc;
-  }, {} as Record<number, Word[]>);
+  }, {} as Record<number, Word[]>) || {};
   
   // Sort lengths in descending order
   const lengths = Object.keys(wordsByLength).map(Number).sort((a, b) => b - a);
@@ -91,59 +98,48 @@ export default function YesterdayPage() {
       <div className="max-w-5xl mx-auto bg-white p-4 sm:p-6 rounded-lg shadow-md">
         <h1 className="text-3xl font-bold text-center mb-4 sm:mb-6">Yesterday's Spelling Bee</h1>
         
-        {puzzle && (
+        {puzzleData && puzzleData.puzzle && (
           <div className="mb-6">
             <div className="text-center mb-4">
-              <p className="text-xl font-semibold mb-2">Puzzle #{puzzle.puzzle_id} - {new Date(puzzle.date).toLocaleDateString()}</p>
+              <p className="text-xl font-semibold mb-2">Puzzle #{puzzleData.puzzle.puzzle_id} - {new Date(puzzleData.puzzle.date).toLocaleDateString()}</p>
               
               <div className="flex justify-center items-center mb-4">
                 <div className="relative w-72 h-72">
                   <div className="honeycomb">
                     {/* Center letter - always the puzzle.letters */}
                     <div className="hexagon center">
-                      <div className="hexagon-content">{puzzle.letters}</div>
+                      <div className="hexagon-content">{puzzleData.puzzle.letters}</div>
                     </div>
                     
-                    {/* Top hexagon */}
-                    <div className="hexagon top">
-                      <div className="hexagon-content">{puzzle.all_letters[1]}</div>
-                    </div>
-                    
-                    {/* Top-right hexagon */}
-                    <div className="hexagon top-right">
-                      <div className="hexagon-content">{puzzle.all_letters[2]}</div>
-                    </div>
-                    
-                    {/* Bottom-right hexagon */}
-                    <div className="hexagon bottom-right">
-                      <div className="hexagon-content">{puzzle.all_letters[3]}</div>
-                    </div>
-                    
-                    {/* Bottom hexagon */}
-                    <div className="hexagon bottom">
-                      <div className="hexagon-content">{puzzle.all_letters[4]}</div>
-                    </div>
-                    
-                    {/* Bottom-left hexagon */}
-                    <div className="hexagon bottom-left">
-                      <div className="hexagon-content">{puzzle.all_letters[5]}</div>
-                    </div>
-                    
-                    {/* Top-left hexagon */}
-                    <div className="hexagon top-left">
-                      <div className="hexagon-content">{puzzle.all_letters[6]}</div>
-                    </div>
+                    {/* Derive outer letters from all_letters minus center letter */}
+                    {puzzleData.puzzle.all_letters.replace(puzzleData.puzzle.letters, '').split('').map((letter, index) => (
+                      <div key={index} className={`hexagon ${
+                        index === 0 ? 'top' : 
+                        index === 1 ? 'top-right' : 
+                        index === 2 ? 'bottom-right' : 
+                        index === 3 ? 'bottom' : 
+                        index === 4 ? 'bottom-left' : 'top-left'
+                      }`}>
+                        <div className="hexagon-content">{letter.toUpperCase()}</div>
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>
               
               <p className="mt-2">
-                <span className="font-semibold">Letters:</span> {puzzle.letters}, {puzzle.all_letters.substring(1).split('').join(', ')}
+                <span className="font-semibold">Letters:</span> {puzzleData.puzzle.letters}, {puzzleData.puzzle.all_letters.replace(puzzleData.puzzle.letters, '').split('').join(', ')}
               </p>
               <p className="mt-1">
-                <span className="font-semibold">Words:</span> {puzzle.word_count} • 
-                <span className="font-semibold ml-2">Pangrams:</span> {puzzle.pangrams_count}
+                <span className="font-semibold">Words:</span> {puzzleData.puzzle.word_count} • 
+                <span className="font-semibold ml-2">Pangrams:</span> {puzzleData.puzzle.pangrams_count} •
+                <span className="font-semibold ml-2">Total Points:</span> {puzzleData.totalPoints}
               </p>
+              {puzzleData.hasPerfectPangram && puzzleData.perfectPangrams.length > 0 && (
+                <p className="mt-1 text-green-600 font-semibold">
+                  Perfect Pangram(s): {puzzleData.perfectPangrams.join(', ').toUpperCase()}
+                </p>
+              )}
             </div>
             
             <div className="mt-6">

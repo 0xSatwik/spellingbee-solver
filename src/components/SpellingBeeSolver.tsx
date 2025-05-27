@@ -17,6 +17,7 @@ export default function SpellingBeeSolver() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [inputMode, setInputMode] = useState<'text' | 'hexagon'>('text');
+  const [perfectPangramsList, setPerfectPangramsList] = useState<string[]>([]);
   
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -45,6 +46,10 @@ export default function SpellingBeeSolver() {
       
       setResults(response.data);
       
+      // Check for perfect pangram
+      const perfectPangrams = response.data.pangrams.filter((p: string) => p.length === 7);
+      setPerfectPangramsList(perfectPangrams);
+
       // Scroll to results after a short delay
       setTimeout(() => {
         const resultsElement = document.getElementById('results-section');
@@ -229,6 +234,19 @@ export default function SpellingBeeSolver() {
                   </div>
                 </div>
               </div>
+              {perfectPangramsList.length > 0 && (
+                <div className="w-full md:w-1/3 px-2 mb-4">
+                  <div className="bg-gradient-to-br from-green-100 to-emerald-200 rounded-xl p-4 border border-green-300 shadow-lg h-full flex flex-col justify-center">
+                    <div className="text-center">
+                      <div className="text-yellow-400 text-2xl mb-1">⭐</div>
+                      <div className="text-xl font-bold text-green-700 mb-1 leading-tight">
+                        {perfectPangramsList.map(p => p.toUpperCase()).join(', ')}
+                      </div>
+                      <div className="text-green-800 text-sm font-semibold">Perfect Pangram{perfectPangramsList.length > 1 ? 's' : ''}!</div>
+                    </div>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
           
