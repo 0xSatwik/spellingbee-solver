@@ -2,8 +2,32 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Spelling Bee Articles & Tips | SbAnswer.com',
-  description: 'Articles, tips, strategies, and analysis of the New York Times Spelling Bee word puzzle game.',
+  title: 'Spelling Bee Articles, Tips & Strategies - Expert Guides',
+  description: 'Expert articles, tips, and strategies for the NYT Spelling Bee puzzle. Learn how to find pangrams, reach Genius level, and master word patterns.',
+  keywords: ['spelling bee tips', 'spelling bee strategies', 'how to win spelling bee', 'pangram tips', 'genius level', 'spelling bee guide'],
+  openGraph: {
+    title: 'Spelling Bee Articles, Tips & Strategies - Expert Guides',
+    description: 'Expert articles, tips, and strategies for the NYT Spelling Bee puzzle',
+    url: 'https://sbsolver.online/articles',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Spelling Bee Articles, Tips & Strategies',
+    description: 'Expert articles about NYT Spelling Bee puzzle',
+  },
+  alternates: {
+    canonical: 'https://sbsolver.online/articles',
+  },
+};
+
+// Blog Schema
+const blogSchema = {
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Spelling Bee Solver Blog",
+  "description": "Articles, tips, and strategies for the NYT Spelling Bee puzzle",
+  "url": "https://sbsolver.online/articles"
 };
 
 interface Article {
@@ -49,41 +73,49 @@ const articles: Article[] = [
 
 export default function ArticlesPage() {
   return (
-    <div className="max-w-4xl mx-auto px-2 py-4 sm:pt-5">
-      <div className="mb-6">
-        <Link href="/" className="text-blue-600 hover:underline">
-          ← Back to Solver
-        </Link>
-      </div>
+    <>
+      {/* Blog Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+      />
 
-      <h1 className="text-3xl font-bold mb-6">Spelling Bee Articles & Tips</h1>
-      
-      <div className="mb-8">
-        <p className="text-lg mb-4">
-          Explore our collection of articles about the NYT Spelling Bee puzzle. Find tips, strategies, 
-          and insights to improve your gameplay and reach those elusive genius and queen bee levels.
-        </p>
+      <div className="max-w-4xl mx-auto px-2 py-4 sm:pt-5">
+        <div className="mb-6">
+          <Link href="/" className="text-blue-600 hover:underline">
+            ← Back to Solver
+          </Link>
+        </div>
+
+        <h1 className="text-3xl font-bold mb-6">Spelling Bee Articles & Tips</h1>
+
+        <div className="mb-8">
+          <p className="text-lg mb-4">
+            Explore our collection of articles about the NYT Spelling Bee puzzle. Find tips, strategies,
+            and insights to improve your gameplay and reach those elusive genius and queen bee levels.
+          </p>
+        </div>
+
+        <div className="space-y-6">
+          {articles.map((article) => (
+            <div key={article.id} className="bg-white rounded-lg shadow-md p-6 transition hover:shadow-lg">
+              <Link href={`/articles/${article.id}`} className="block">
+                <p className="text-sm text-gray-500 mb-2">{article.date}</p>
+                <h2 className="text-xl font-bold mb-2 hover:text-blue-600">{article.title}</h2>
+                <p className="text-gray-700">{article.excerpt}</p>
+                <p className="mt-4 text-blue-600 font-medium">Read more →</p>
+              </Link>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-8 bg-yellow-100 rounded-lg p-6">
+          <h2 className="text-xl font-bold mb-2">Want more Spelling Bee content?</h2>
+          <p className="mb-4">
+            We're constantly adding new articles and tips. Check back regularly for the latest Spelling Bee strategies!
+          </p>
+        </div>
       </div>
-      
-      <div className="space-y-6">
-        {articles.map((article) => (
-          <div key={article.id} className="bg-white rounded-lg shadow-md p-6 transition hover:shadow-lg">
-            <Link href={`/articles/${article.id}`} className="block">
-              <p className="text-sm text-gray-500 mb-2">{article.date}</p>
-              <h2 className="text-xl font-bold mb-2 hover:text-blue-600">{article.title}</h2>
-              <p className="text-gray-700">{article.excerpt}</p>
-              <p className="mt-4 text-blue-600 font-medium">Read more →</p>
-            </Link>
-          </div>
-        ))}
-      </div>
-      
-      <div className="mt-8 bg-yellow-100 rounded-lg p-6">
-        <h2 className="text-xl font-bold mb-2">Want more Spelling Bee content?</h2>
-        <p className="mb-4">
-          We're constantly adding new articles and tips. Check back regularly for the latest Spelling Bee strategies!
-        </p>
-      </div>
-    </div>
+    </>
   );
 } 

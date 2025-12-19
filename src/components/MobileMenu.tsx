@@ -6,131 +6,112 @@ import Link from 'next/link';
 export default function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-    // When opening the menu, prevent scrolling
-    if (!isOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'auto';
-    }
-  };
-
-  const closeMenu = () => {
-    setIsOpen(false);
-    document.body.style.overflow = 'auto';
-  };
+  const menuItems = [
+    { href: '/', label: 'Home', icon: '🏠' },
+    { href: '/solver', label: 'Solver', icon: '🔍' },
+    { href: '/today', label: "Today's Answers", icon: '📅' },
+    { href: '/yesterday', label: 'Yesterday', icon: '⏮️' },
+    { href: '/archive', label: 'Archive', icon: '📚' },
+    { href: '/stats', label: 'Statistics', icon: '📊' },
+    { href: '/articles', label: 'Articles', icon: '📝' },
+    { href: '/about', label: 'About Us', icon: 'ℹ️' },
+    { href: '/contact', label: 'Contact', icon: '✉️' },
+  ];
 
   return (
-    <div>
-      {/* Hamburger button */}
-      <button 
-        onClick={toggleMenu}
+    <>
+      {/* Hamburger Button */}
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="relative z-50 p-2 text-white hover:bg-white/20 rounded-lg transition-all duration-300"
         aria-label="Toggle menu"
-        className="flex flex-col justify-center items-center w-10 h-10 space-y-1.5 focus:outline-none"
       >
-        <span className={`block w-6 h-0.5 bg-white transition-transform duration-300 ease-in-out ${isOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
-        <span className={`block w-6 h-0.5 bg-white transition-opacity duration-300 ease-in-out ${isOpen ? 'opacity-0' : 'opacity-100'}`}></span>
-        <span className={`block w-6 h-0.5 bg-white transition-transform duration-300 ease-in-out ${isOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
+        <div className="w-6 h-5 flex flex-col justify-between">
+          <span
+            className={`block h-0.5 w-full bg-white transform transition-all duration-300 ${isOpen ? 'rotate-45 translate-y-2' : ''
+              }`}
+          ></span>
+          <span
+            className={`block h-0.5 w-full bg-white transition-all duration-300 ${isOpen ? 'opacity-0' : 'opacity-100'
+              }`}
+          ></span>
+          <span
+            className={`block h-0.5 w-full bg-white transform transition-all duration-300 ${isOpen ? '-rotate-45 -translate-y-2' : ''
+              }`}
+          ></span>
+        </div>
       </button>
 
-      {/* Overlay */}
+      {/* Backdrop */}
       {isOpen && (
-        <div 
-          className="fixed inset-0 bg-black bg-opacity-50 z-40"
-          onClick={closeMenu}
+        <div
+          className="fixed inset-0 bg-black/50 backdrop-blur-sm z-40 md:hidden"
+          onClick={() => setIsOpen(false)}
         ></div>
       )}
 
-      {/* Menu drawer */}
-      <div 
-        className={`fixed top-0 right-0 h-full w-64 bg-white z-50 shadow-lg transform transition-transform duration-300 ease-in-out ${
-          isOpen ? 'translate-x-0' : 'translate-x-full'
-        }`}
+      {/* Sliding Menu */}
+      <div
+        className={`fixed top-0 right-0 h-full w-80 bg-gradient-to-b from-amber-500 via-yellow-500 to-orange-500 shadow-2xl z-40 transform transition-transform duration-300 ease-in-out md:hidden ${isOpen ? 'translate-x-0' : 'translate-x-full'
+          }`}
       >
-        <div className="flex justify-between items-center p-5 border-b border-gray-200">
-          <span className="font-bold text-xl text-amber-600">Menu</span>
-          <button 
-            onClick={closeMenu}
-            aria-label="Close menu"
-            className="text-gray-500 hover:text-gray-700 focus:outline-none"
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-        </div>
-        
-        <div className="p-5">
-          <nav>
-            <ul className="space-y-4">
-              <li>
-                <Link 
-                  href="/" 
-                  className="block py-2 px-4 text-gray-800 hover:bg-amber-50 hover:text-amber-600 rounded-lg transition-colors"
-                  onClick={closeMenu}
+        <div className="flex flex-col h-full">
+          {/* Menu Header */}
+          <div className="p-6 bg-white/10 backdrop-blur-sm border-b border-white/20">
+            <div className="flex items-center gap-3">
+              <div className="w-12 h-12 bg-white rounded-xl shadow-lg flex items-center justify-center transform rotate-45">
+                <span className="text-amber-600 font-black text-xl -rotate-45">SB</span>
+              </div>
+              <div>
+                <h2 className="text-2xl font-black text-white">SbSolver</h2>
+                <p className="text-sm text-yellow-100">NYT Spelling Bee</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Menu Items */}
+          <nav className="flex-1 overflow-y-auto py-4 px-4">
+            <div className="space-y-2">
+              {menuItems.map((item, index) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setIsOpen(false)}
+                  className="flex items-center gap-4 px-4 py-3 text-white hover:bg-white/20 rounded-xl transition-all duration-200 group"
+                  style={{
+                    animationDelay: `${index * 50}ms`,
+                    animation: isOpen ? 'slideIn 0.3s ease-out forwards' : 'none'
+                  }}
                 >
-                  Home
+                  <span className="text-2xl group-hover:scale-125 transition-transform duration-200">{item.icon}</span>
+                  <span className="font-semibold group-hover:translate-x-1 transition-transform duration-200">{item.label}</span>
+                  <span className="ml-auto opacity-0 group-hover:opacity-100 transition-opacity duration-200">→</span>
                 </Link>
-              </li>
-              <li>
-                <Link 
-                  href="/solver" 
-                  className="block py-2 px-4 text-gray-800 hover:bg-amber-50 hover:text-amber-600 rounded-lg transition-colors"
-                  onClick={closeMenu}
-                >
-                  Solver
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  href="/today" 
-                  className="block py-2 px-4 text-gray-800 hover:bg-amber-50 hover:text-amber-600 rounded-lg transition-colors"
-                  onClick={closeMenu}
-                >
-                  Today&apos;s Answers
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  href="/yesterday" 
-                  className="block py-2 px-4 text-gray-800 hover:bg-amber-50 hover:text-amber-600 rounded-lg transition-colors"
-                  onClick={closeMenu}
-                >
-                  Yesterday
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  href="/archive" 
-                  className="block py-2 px-4 text-gray-800 hover:bg-amber-50 hover:text-amber-600 rounded-lg transition-colors"
-                  onClick={closeMenu}
-                >
-                  Archive
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  href="/stats" 
-                  className="block py-2 px-4 text-gray-800 hover:bg-amber-50 hover:text-amber-600 rounded-lg transition-colors"
-                  onClick={closeMenu}
-                >
-                  Stats
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  href="/articles" 
-                  className="block py-2 px-4 text-gray-800 hover:bg-amber-50 hover:text-amber-600 rounded-lg transition-colors"
-                  onClick={closeMenu}
-                >
-                  Articles
-                </Link>
-              </li>
-            </ul>
+              ))}
+            </div>
           </nav>
+
+          {/* Menu Footer */}
+          <div className="p-6 bg-white/10 backdrop-blur-sm border-t border-white/20">
+            <p className="text-white/80 text-sm text-center">
+              Your ultimate NYT Spelling Bee resource
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+
+      <style jsx>{`
+        @keyframes slideIn {
+          from {
+            opacity: 0;
+            transform: translateX(20px);
+          }
+          to {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+      `}</style>
+    </>
   );
-} 
+}

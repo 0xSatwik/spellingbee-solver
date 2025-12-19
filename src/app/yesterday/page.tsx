@@ -31,7 +31,7 @@ export default function YesterdayPage() {
   const [puzzleData, setPuzzleData] = useState<EnrichedPuzzleData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  
+
   useEffect(() => {
     const fetchYesterdayPuzzle = async () => {
       try {
@@ -39,7 +39,7 @@ export default function YesterdayPage() {
         if (!response.ok) {
           throw new Error('Failed to fetch yesterday\'s puzzle');
         }
-        
+
         const data = await response.json();
         setPuzzleData(data);
       } catch (err) {
@@ -49,10 +49,10 @@ export default function YesterdayPage() {
         setLoading(false);
       }
     };
-    
+
     fetchYesterdayPuzzle();
   }, []);
-  
+
   // Group words by length for better display
   const wordsByLength = puzzleData?.words?.reduce((acc, word) => {
     const len = word.length;
@@ -60,31 +60,33 @@ export default function YesterdayPage() {
     acc[len].push(word);
     return acc;
   }, {} as Record<number, Word[]>) || {};
-  
+
   // Sort lengths in descending order
   const lengths = Object.keys(wordsByLength).map(Number).sort((a, b) => b - a);
-  
+
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-100 px-2 py-4 sm:p-4">
-        <div className="max-w-5xl mx-auto bg-white p-4 sm:p-6 rounded-lg shadow-md">
-          <h1 className="text-3xl font-bold text-center mb-4 sm:mb-6">Yesterday's Spelling Bee</h1>
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-violet-50 to-indigo-50 px-2 py-4 sm:p-6">
+        <div className="max-w-6xl mx-auto bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-2xl">
+          <h1 className="text-4xl font-black text-center mb-8 bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">
+            Yesterday's Puzzle ⏮️
+          </h1>
           <div className="flex justify-center items-center h-64">
-            <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-yellow-400"></div>
+            <div className="animate-spin rounded-full h-20 w-20 border-t-4 border-b-4 border-purple-500"></div>
           </div>
         </div>
       </div>
     );
   }
-  
+
   if (error) {
     return (
-      <div className="min-h-screen bg-gray-100 px-2 py-4 sm:p-4">
-        <div className="max-w-5xl mx-auto bg-white p-4 sm:p-6 rounded-lg shadow-md">
-          <h1 className="text-3xl font-bold text-center mb-4 sm:mb-6">Yesterday's Spelling Bee</h1>
-          <div className="text-center text-red-500 p-4">{error}</div>
-          <div className="text-center mt-4">
-            <Link href="/" className="text-blue-500 hover:underline">
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-violet-50 to-indigo-50 px-2 py-4 sm:p-6">
+        <div className="max-w-6xl mx-auto bg-white rounded-3xl shadow-2xl p-8">
+          <h1 className="text-4xl font-black text-center mb-6 text-purple-600">Yesterday's Puzzle ⏮️</h1>
+          <div className="text-center text-red-500 p-6 bg-red-50 rounded-xl">{error}</div>
+          <div className="text-center mt-6">
+            <Link href="/" className="text-purple-600 hover:text-purple-800 underline font-semibold">
               Return to Home
             </Link>
           </div>
@@ -92,78 +94,202 @@ export default function YesterdayPage() {
       </div>
     );
   }
-  
+
   return (
-    <div className="min-h-screen bg-gray-100 px-2 py-4 sm:p-4">
-      <div className="max-w-5xl mx-auto bg-white p-4 sm:p-6 rounded-lg shadow-md">
-        <h1 className="text-3xl font-bold text-center mb-4 sm:mb-6">Yesterday's Spelling Bee</h1>
-        
-        {puzzleData && puzzleData.puzzle && (
-          <div className="mb-6">
-            <div className="text-center mb-4">
-              <p className="text-xl font-semibold mb-2">Puzzle #{puzzleData.puzzle.puzzle_id} - {new Date(puzzleData.puzzle.date).toLocaleDateString()}</p>
-              
-              <div className="flex justify-center items-center mb-4">
-                <div className="relative w-72 h-72">
-                  <div className="honeycomb">
-                    {/* Center letter - always the puzzle.letters */}
-                    <div className="hexagon center">
-                      <div className="hexagon-content">{puzzleData.puzzle.letters}</div>
-                    </div>
-                    
-                    {/* Derive outer letters from all_letters minus center letter */}
-                    {puzzleData.puzzle.all_letters.replace(puzzleData.puzzle.letters, '').split('').map((letter, index) => (
-                      <div key={index} className={`hexagon ${
-                        index === 0 ? 'top' : 
-                        index === 1 ? 'top-right' : 
-                        index === 2 ? 'bottom-right' : 
-                        index === 3 ? 'bottom' : 
-                        index === 4 ? 'bottom-left' : 'top-left'
-                      }`}>
-                        <div className="hexagon-content">{letter.toUpperCase()}</div>
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-violet-50 to-indigo-50 px-2 py-4 sm:p-6">
+      <div className="max-w-6xl mx-auto">
+        {/* Header Card with Gradient */}
+        <div className="bg-gradient-to-r from-purple-500 via-violet-600 to-indigo-600 rounded-3xl overflow-hidden shadow-2xl mb-6 sm:mb-8">
+          <div className="p-6 sm:p-8 md:p-10 text-white">
+            <div className="flex items-center justify-between flex-wrap gap-4">
+              <div>
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-black mb-2 drop-shadow-lg">
+                  Yesterday's Puzzle ⏮️
+                </h1>
+                <p className="text-lg sm:text-xl text-purple-100 font-medium">
+                  {puzzleData?.puzzle?.date && new Date(puzzleData.puzzle.date).toLocaleDateString('en-US', {
+                    weekday: 'long',
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                  })}
+                </p>
+              </div>
+              <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-4 sm:p-6">
+                <div className="text-center">
+                  <p className="text-purple-100 text-sm mb-1">Total Points</p>
+                  <p className="text-4xl sm:text-5xl font-black drop-shadow-lg">{puzzleData?.totalPoints || 0}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+          {/* Honeycomb Letters Card */}
+          <div className="lg:col-span-1">
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 h-full">
+              <div className="bg-gradient-to-r from-violet-500 to-purple-600 px-6 py-4">
+                <h2 className="text-2xl font-bold text-white">Letters</h2>
+              </div>
+              <div className="p-6">
+                <div className="flex justify-center items-center">
+                  <div className="relative w-64 h-64">
+                    <div className="honeycomb">
+                      {/* Center letter */}
+                      <div className="hexagon center">
+                        <div className="hexagon-content">{puzzleData?.puzzle?.letters?.toUpperCase()}</div>
                       </div>
-                    ))}
+
+                      {/* Surrounding hexagons */}
+                      {puzzleData?.puzzle?.all_letters?.replace(puzzleData.puzzle.letters, '').split('').map((letter, index) => {
+                        const positions = ['top', 'top-right', 'bottom-right', 'bottom', 'bottom-left', 'top-left'];
+                        return (
+                          <div key={index} className={`hexagon ${positions[index]}`}>
+                            <div className="hexagon-content">{letter.toUpperCase()}</div>
+                          </div>
+                        );
+                      })}
+                    </div>
                   </div>
                 </div>
               </div>
-              
-              <p className="mt-2">
-                <span className="font-semibold">Letters:</span> {puzzleData.puzzle.letters}, {puzzleData.puzzle.all_letters.replace(puzzleData.puzzle.letters, '').split('').join(', ')}
-              </p>
-              <p className="mt-1">
-                <span className="font-semibold">Words:</span> {puzzleData.puzzle.word_count} • 
-                <span className="font-semibold ml-2">Pangrams:</span> {puzzleData.puzzle.pangrams_count} •
-                <span className="font-semibold ml-2">Total Points:</span> {puzzleData.totalPoints}
-              </p>
-              {puzzleData.hasPerfectPangram && puzzleData.perfectPangrams.length > 0 && (
-                <p className="mt-1 text-green-600 font-semibold">
-                  Perfect Pangram(s): {puzzleData.perfectPangrams.join(', ').toUpperCase()}
-                </p>
-              )}
             </div>
-            
-            <div className="mt-6">
-              <h2 className="text-2xl font-bold mb-3">Words</h2>
-              
+          </div>
+
+          {/* Stats Cards */}
+          <div className="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {/* Words Count Card */}
+            <div className="bg-gradient-to-br from-pink-500 to-rose-600 rounded-2xl p-6 text-white shadow-xl transform hover:scale-105 transition-transform duration-300">
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-pink-100 text-sm mb-1">Total Words</p>
+                  <p className="text-5xl font-black">{puzzleData?.words?.length || 0}</p>
+                </div>
+                <div className="bg-white/20 rounded-full p-4">
+                  <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            {/* Pangrams Card */}
+            <div className="bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl p-6 text-white shadow-xl transform hover:scale-105 transition-transform duration-300">
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-yellow-100 text-sm mb-1">Pangrams</p>
+                  <p className="text-5xl font-black">{puzzleData?.words?.filter(w => w.is_pangram).length || 0}</p>
+                </div>
+                <div className="bg-white/20 rounded-full p-4">
+                  <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            {/* Perfect Pangrams Card */}
+            {puzzleData?.hasPerfectPangram && (
+              <div className="sm:col-span-2 bg-gradient-to-r from-emerald-400 via-green-500 to-teal-600 rounded-2xl p-6 text-white shadow-xl">
+                <div className="flex items-center gap-4">
+                  <div className="bg-white/20 rounded-full p-4">
+                    <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p className="text-emerald-100 text-sm mb-1">Perfect Pangram!</p>
+                    <p className="text-2xl font-bold">{puzzleData?.perfectPangrams?.join(', ').toUpperCase()}</p>
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Pangrams Section */}
+        {puzzleData?.words?.filter(w => w.is_pangram).length > 0 && (
+          <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 mb-6">
+            <div className="bg-gradient-to-r from-amber-400 to-orange-500 px-6 py-4">
+              <h2 className="text-2xl font-bold text-white flex items-center gap-2">
+                <span>⚡</span> Pangrams ({puzzleData?.words?.filter(w => w.is_pangram).length})
+              </h2>
+            </div>
+            <div className="p-6">
+              <div className="flex flex-wrap gap-3">
+                {puzzleData?.words?.filter(w => w.is_pangram).map((word, index) => (
+                  <div
+                    key={index}
+                    className={`px-5 py-3 rounded-xl font-semibold text-lg transform hover:scale-105 transition-all duration-200 shadow-md ${puzzleData?.perfectPangrams?.includes(word.word)
+                        ? 'bg-gradient-to-r from-green-400 to-emerald-500 text-white'
+                        : 'bg-gradient-to-r from-yellow-300 to-amber-400 text-amber-900'
+                      }`}
+                  >
+                    {word.word}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Words by Length */}
+        <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 mb-6">
+          <div className="bg-gradient-to-r from-violet-500 to-purple-600 px-6 py-4">
+            <h2 className="text-2xl font-bold text-white">All Words</h2>
+          </div>
+          <div className="p-6">
+            <div className="space-y-6">
               {lengths.map(length => (
-                <div key={length} className="mb-4">
-                  <h3 className="text-lg font-semibold mb-2">{length}-letter words ({wordsByLength[length].length})</h3>
+                <div key={length} className="border-l-4 border-violet-500 pl-4">
+                  <h3 className="text-xl font-bold mb-3 text-gray-800 flex items-center gap-2">
+                    <span className="bg-violet-100 text-violet-700 px-3 py-1 rounded-lg">
+                      {length}-letter words
+                    </span>
+                    <span className="text-gray-500 text-sm">({wordsByLength[length].length})</span>
+                  </h3>
                   <div className="flex flex-wrap gap-2">
-                    {wordsByLength[length].map(word => (
-                      <div
-                        key={word.word}
-                        className={`px-3 py-1 rounded-full ${word.is_pangram ? 'bg-yellow-300' : 'bg-gray-200'}`}
+                    {wordsByLength[length].map((word, index) => (
+                      <span
+                        key={index}
+                        className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 hover:shadow-md ${word.is_pangram
+                            ? 'bg-gradient-to-r from-yellow-200 to-amber-300 text-amber-900'
+                            : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
+                          }`}
                       >
                         {word.word}
-                      </div>
+                      </span>
                     ))}
                   </div>
                 </div>
               ))}
             </div>
           </div>
-        )}
-        
+        </div>
+
+        {/* Navigation Buttons */}
+        <div className="flex flex-wrap justify-center gap-4">
+          <Link
+            href="/"
+            className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-blue-600 text-white rounded-xl hover:from-indigo-700 hover:to-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl font-semibold transform hover:scale-105"
+          >
+            🏠 Home
+          </Link>
+          <Link
+            href="/today"
+            className="px-6 py-3 bg-gradient-to-r from-yellow-500 to-orange-500 text-white rounded-xl hover:from-yellow-600 hover:to-orange-600 transition-all duration-300 shadow-lg hover:shadow-xl font-semibold transform hover:scale-105"
+          >
+            ⏭️ Today
+          </Link>
+          <Link
+            href="/archive"
+            className="px-6 py-3 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-xl hover:from-green-600 hover:to-emerald-700 transition-all duration-300 shadow-lg hover:shadow-xl font-semibold transform hover:scale-105"
+          >
+            📚 Archive
+          </Link>
+        </div>
+
         <style jsx>{`
           .honeycomb {
             position: relative;
@@ -173,25 +299,40 @@ export default function YesterdayPage() {
           
           .hexagon {
             position: absolute;
-            width: 60px;
-            height: 60px;
-            background-color: #E5E7EB; /* gray-200 */
+            width: 58px;
+            height: 58px;
+            background: linear-gradient(135deg, #E5E7EB 0%, #D1D5DB 100%);
             clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 24px;
+            font-size: 22px;
             font-weight: bold;
+            transition: all 0.3s ease;
+            border: 2px solid white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+          }
+          
+          .hexagon:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
           }
           
           .hexagon.center {
-            width: 70px;
-            height: 70px;
-            background-color: #FBBF24; /* yellow-400 */
+            width: 68px;
+            height: 68px;
+            background: linear-gradient(135deg, #8B5CF6 0%, #7C3AED 100%);
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
             z-index: 1;
+            color: white;
+            font-size: 26px;
+          }
+          
+          .hexagon.center:hover {
+            transform: translate(-50%, -50%) scale(1.1);
           }
           
           .hexagon.top {
@@ -226,28 +367,7 @@ export default function YesterdayPage() {
             left: 15%;
           }
         `}</style>
-        
-        <div className="flex justify-center space-x-3 sm:space-x-4 mt-6">
-          <Link 
-            href="/" 
-            className="px-3 py-2 sm:px-4 sm:py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors text-sm sm:text-base"
-          >
-            Home
-          </Link>
-          <Link 
-            href="/today" 
-            className="px-3 py-2 sm:px-4 sm:py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 transition-colors text-sm sm:text-base"
-          >
-            Today
-          </Link>
-          <Link 
-            href="/archive" 
-            className="px-3 py-2 sm:px-4 sm:py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors text-sm sm:text-base"
-          >
-            Archive
-          </Link>
-        </div>
       </div>
     </div>
   );
-} 
+}

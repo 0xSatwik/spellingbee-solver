@@ -1,408 +1,348 @@
 "use client";
 
 import Link from 'next/link'
+import FAQ from '@/components/FAQ'
 
 export default function Home() {
+  // WebPage Schema with updated branding
+  const webPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "SbSolver - NYT Spelling Bee Solver & Daily Answers",
+    "description": "Free NYT Spelling Bee solver, daily answers, and practice puzzles. Get today's solutions, find all words and pangrams, improve your skills with our powerful tools.",
+    "url": "https://sbsolver.online",
+    "mainEntity": {
+      "@type": "WebApplication",
+      "name": "SbSolver - NYT Spelling Bee Solver",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Daily NYT Spelling Bee answers",
+        "Puzzle solver with all possible words",
+        "Pangram finder",
+        "Historical puzzle archive",
+        "Free practice mode"
+      ]
+    }
+  };
+
+  // FAQ data for homepage
+  const faqItems = [
+    {
+      question: "What is the NYT Spelling Bee puzzle?",
+      answer: "The NYT Spelling Bee is a daily word puzzle published by The New York Times. Players create words using seven letters arranged in a honeycomb pattern, with each word containing the center letter. The goal is to find as many valid words as possible to reach the maximum score and achieve Genius level."
+    },
+    {
+      question: "How does SbSolver's Spelling Bee Solver work?",
+      answer: "Our free Spelling Bee Solver analyzes the seven letters you provide and uses a comprehensive dictionary to find all valid words instantly. Simply enter your letters (with the center letter marked), and the solver displays all possible words, including pangrams that use all seven letters, helping you reach Genius level."
+    },
+    {
+      question: "What is a pangram in Spelling Bee?",
+      answer: "A pangram is a word that uses all seven letters from the puzzle at least once. Pangrams award bonus points (7 extra points) and are often the most challenging words to find. A perfect pangram uses each letter exactly once. Our solver clearly marks pangrams to help you identify them quickly."
+    },
+    {
+      question: "Can I practice Spelling Bee for free on SbSolver?",
+      answer: "Yes! SbSolver offers completely free practice puzzles that work just like the NYT Spelling Bee. You can play unlimited practice games to improve your vocabulary, learn new word patterns, and develop better strategies without any subscription or payment."
+    },
+    {
+      question: "How often are the NYT Spelling Bee answers updated on SbSolver?",
+      answer: "We update our answers daily as soon as the new NYT Spelling Bee puzzle is released (typically at 3 AM ET). You can always find today's answers, yesterday's solutions, and browse our complete archive of past puzzles with full word lists and pangrams."
+    },
+    {
+      question: "Is SbSolver affiliated with The New York Times?",
+      answer: "No, SbSolver (sbsolver.online) is an independent, free resource created by Spelling Bee enthusiasts. We are not affiliated with, endorsed by, or connected to The New York Times or the official NYT Spelling Bee game. Spelling Bee is a trademark of The New York Times Company."
+    }
+  ];
+
   return (
-    <div className="max-w-6xl mx-auto px-2 py-3 sm:px-4">
-      {/* Hero Section */}
-      <section className="mb-12">
-        <div className="bg-gradient-to-br from-yellow-400 to-amber-500 rounded-3xl overflow-hidden">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 py-12 md:py-16">
-            <div className="flex flex-col md:flex-row items-center">
-              <div className="md:w-3/5 text-white mb-8 md:mb-0">
-                <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
-                  Spelling Bee <span className="relative inline-block">
-                    Solutions
-                    <span className="absolute bottom-1 left-0 w-full h-2 bg-white opacity-30"></span>
-                  </span>
-                </h1>
-                <p className="text-xl mb-6 text-yellow-50">
-                  Get answers to NYT Spelling Bee puzzles, use our solving tools, and improve your skills with our free practice puzzles.
-                </p>
-                <div className="flex flex-wrap gap-3">
-                  <Link href="/solver" className="bg-amber-900 text-white hover:bg-amber-950 font-medium rounded-lg px-6 py-3 text-center transition-colors duration-300 shadow-md hover:shadow-lg">
-                    NYT Solver
-                  </Link>
-                  <Link href="/today" className="bg-white text-yellow-600 hover:bg-yellow-50 font-medium rounded-lg px-6 py-3 text-center transition-colors duration-300 shadow-md hover:shadow-lg">
-                    Today's Answers
-                  </Link>
-                </div>
-              </div>
-              <div className="md:w-2/5 flex justify-center">
-                <div className="relative w-64 h-64">
-                  {/* Honeycomb background pattern */}
-                  <div className="absolute inset-0 honeycomb-pattern opacity-20"></div>
-                  {/* Main circular element */}
-                  <div className="absolute inset-0 bg-yellow-300 rounded-full opacity-20 animate-pulse"></div>
-                  <div className="absolute inset-4 bg-yellow-300 rounded-full flex items-center justify-center shadow-lg">
+    <>
+      {/* WebPage Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      />
+
+      <div className="max-w-7xl mx-auto px-3 py-4 sm:px-6">
+        {/* Hero Section - Premium Design */}
+        <section className="mb-16">
+          <div className="bg-gradient-to-br from-amber-500 via-yellow-500 to-orange-500 rounded-3xl overflow-hidden shadow-2xl">
+            <div className="max-w-6xl mx-auto px-6 sm:px-8 py-12 md:py-20">
+              <div className="flex flex-col md:flex-row items-center gap-8">
+                <div className="md:w-3/5 text-white">
+                  <div className="inline-block mb-4">
+                    <span className="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-semibold">
+                      🐝 #1 Free NYT Spelling Bee Tool
+                    </span>
+                  </div>
+                  <h1 className="text-4xl md:text-6xl font-black leading-tight mb-6">
+                    NYT Spelling Bee <br />
+                    <span className="relative inline-block">
+                      Solver & Answers
+                      <span className="absolute -bottom-2 left-0 w-full h-3 bg-white/30 -skew-x-12"></span>
+                    </span>
+                  </h1>
+                  <p className="text-xl md:text-2xl mb-8 text-yellow-50 leading-relaxed">
+                    Get instant solutions, find all words & pangrams, and master today's NYT Spelling Bee puzzle for free!
+                  </p>
+                  <div className="flex flex-wrap gap-4">
+                    <Link
+                      href="/solver"
+                      className="group bg-white text-amber-600 hover:bg-yellow-50 font-bold rounded-xl px-8 py-4 text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 transform"
+                    >
+                      <span className="flex items-center gap-2">
+                        🔍 Use Solver Now
+                        <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                        </svg>
+                      </span>
+                    </Link>
+                    <Link
+                      href="/today"
+                      className="bg-amber-900 hover:bg-amber-950 text-white font-bold rounded-xl px-8 py-4 text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 transform"
+                    >
+                      📅 Today's Answers
+                    </Link>
+                  </div>
+
+                  {/* Quick Stats */}
+                  <div className="mt-8 grid grid-cols-3 gap-4">
                     <div className="text-center">
-                      <div className="text-5xl font-bold text-white mb-1">SbA</div>
-                      <div className="text-lg font-medium text-yellow-800">SbAnswer.com</div>
+                      <div className="text-3xl font-black">Free</div>
+                      <div className="text-sm text-yellow-100">Always</div>
+                    </div>
+                    <div className="text-center">
+                      <div className="text-3xl font-black">Daily</div>
+                      <div className="text-sm text-yellow-100">Updates</div>
+                    </div>
+                    <div className="text-center">
+                      <div className="text-3xl font-black">100%</div>
+                      <div className="text-sm text-yellow-100">Accurate</div>
                     </div>
                   </div>
-                  {/* Floating letter tiles */}
-                  <div className="absolute -top-2 -right-2 w-12 h-12 bg-white rounded-lg shadow-md flex items-center justify-center transform rotate-12 animate-float">
-                    <span className="text-yellow-600 font-bold text-xl">A</span>
-                  </div>
-                  <div className="absolute -bottom-4 left-5 w-10 h-10 bg-white rounded-lg shadow-md flex items-center justify-center transform -rotate-6 animate-float-delay">
-                    <span className="text-yellow-600 font-bold text-xl">B</span>
-                  </div>
-                  <div className="absolute top-10 -left-4 w-11 h-11 bg-white rounded-lg shadow-md flex items-center justify-center transform rotate-3 animate-float-slow">
-                    <span className="text-yellow-600 font-bold text-xl">S</span>
+                </div>
+
+                {/* Animated Honeycomb Visual */}
+                <div className="md:w-2/5 flex justify-center">
+                  <div className="relative w-72 h-72">
+                    <div className="absolute inset-0 bg-white/10 rounded-full animate-pulse"></div>
+                    <div className="absolute inset-8 bg-white rounded-full shadow-2xl flex items-center justify-center">
+                      <div className="text-center">
+                        <div className="text-6xl font-black text-amber-600 mb-2">Sb</div>
+                        <div className="text-xl font-bold text-yellow-600">Solver</div>
+                        <div className="text-sm text-gray-600 mt-1">sbsolver.online</div>
+                      </div>
+                    </div>
+                    {/* Floating Elements */}
+                    <div className="absolute -top-4 -right-4 w-16 h-16 bg-white rounded-2xl shadow-xl flex items-center justify-center transform rotate-12 animate-bounce">
+                      <span className="text-3xl font-black text-amber-600">A</span>
+                    </div>
+                    <div className="absolute -bottom-6 left-4 w-14 h-14 bg-yellow-300 rounded-2xl shadow-xl flex items-center justify-center transform -rotate-6 animate-bounce" style={{ animationDelay: '0.2s' }}>
+                      <span className="text-2xl font-black text-white">🐝</span>
+                    </div>
+                    <div className="absolute top-12 -left-6 w-12 h-12 bg-orange-400 rounded-2xl shadow-xl flex items-center justify-center transform rotate-3 animate-bounce" style={{ animationDelay: '0.4s' }}>
+                      <span className="text-2xl font-black text-white">S</span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      
-      {/* NYT Solutions Section */}
-      <section className="mb-12 bg-gradient-to-r from-amber-50 to-yellow-100 p-6 rounded-2xl shadow-sm">
-        <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="md:w-2/3 mb-6 md:mb-0 md:pr-6">
-            <h2 className="text-2xl md:text-3xl font-bold text-amber-800 mb-3">Today's NYT Spelling Bee Solutions</h2>
-            <p className="text-gray-700 mb-4">
-              Get instant access to all solutions for today's New York Times Spelling Bee puzzle, including pangrams, point values, and more.
-            </p>
-            <div className="flex flex-wrap gap-3">
-              <Link href="/today" className="bg-amber-500 text-white hover:bg-amber-600 font-medium rounded-lg px-6 py-2 text-center transition-colors">
-                Today's Answers
-              </Link>
-              <Link href="/yesterday" className="bg-blue-500 text-white hover:bg-blue-600 font-medium rounded-lg px-6 py-2 text-center transition-colors">
-                Yesterday's Answers
-              </Link>
-            </div>
+        </section>
+
+        {/* Quick Access Cards - Modern Grid */}
+        <section className="mb-16">
+          <h2 className="text-3xl md:text-4xl font-black text-center mb-10 text-gray-900">
+            Free NYT Spelling Bee <span className="text-amber-600">Tools & Solutions</span>
+          </h2>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Solver Card */}
+            <Link href="/solver" className="group">
+              <div className="bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl p-6 text-white shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 h-full">
+                <div className="bg-white/20 rounded-xl w-14 h-14 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-black mb-2">Puzzle Solver</h3>
+                <p className="text-yellow-100 text-sm">Find all valid words & pangrams instantly</p>
+              </div>
+            </Link>
+
+            {/* Today Card */}
+            <Link href="/today" className="group">
+              <div className="bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl p-6 text-white shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 h-full">
+                <div className="bg-white/20 rounded-xl w-14 h-14 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-black mb-2">Today's Answers</h3>
+                <p className="text-green-100 text-sm">Complete solution for today's puzzle</p>
+              </div>
+            </Link>
+
+            {/* Yesterday Card */}
+            <Link href="/yesterday" className="group">
+              <div className="bg-gradient-to-br from-purple-500 to-violet-600 rounded-2xl p-6 text-white shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 h-full">
+                <div className="bg-white/20 rounded-xl w-14 h-14 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-black mb-2">Yesterday</h3>
+                <p className="text-purple-100 text-sm">Previous puzzle solutions</p>
+              </div>
+            </Link>
+
+            {/* Archive Card */}
+            <Link href="/archive" className="group">
+              <div className="bg-gradient-to-br from-blue-500 to-cyan-600 rounded-2xl p-6 text-white shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 h-full">
+                <div className="bg-white/20 rounded-xl w-14 h-14 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-black mb-2">Puzzle Archive</h3>
+                <p className="text-blue-100 text-sm">Access past puzzles & solutions</p>
+              </div>
+            </Link>
           </div>
-          <div className="flex md:w-1/3 justify-center">
-            <div className="honeycomb">
-              {/* Sample honeycomb preview of today's puzzle */}
-              <div className="hexagon center">
-                <div className="hexagon-content">S</div>
-              </div>
-              <div className="hexagon top">
-                <div className="hexagon-content">E</div>
-              </div>
-              <div className="hexagon top-right">
-                <div className="hexagon-content">L</div>
-              </div>
-              <div className="hexagon bottom-right">
-                <div className="hexagon-content">P</div>
-              </div>
-              <div className="hexagon bottom">
-                <div className="hexagon-content">A</div>
-              </div>
-              <div className="hexagon bottom-left">
-                <div className="hexagon-content">Y</div>
-              </div>
-              <div className="hexagon top-left">
-                <div className="hexagon-content">R</div>
-              </div>
+        </section>
+
+        {/* Features Section */}
+        <section className="mb-16">
+          <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
+            <div className="bg-gradient-to-r from-indigo-600 to-purple-600 px-8 py-6">
+              <h2 className="text-3xl font-black text-white text-center">Why Choose SbSolver?</h2>
             </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* Tools Grid */}
-      <section className="mb-12">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-gray-800">
-          Our <span className="text-yellow-500">Spelling Bee</span> Tools
-        </h2>
-        
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          <Link href="/solver" className="flex flex-col h-full bg-gradient-to-br from-amber-50 to-amber-100 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 border border-amber-200">
-            <div className="p-5 flex items-center">
-              <div className="w-10 h-10 bg-amber-400 rounded-lg flex items-center justify-center mr-3">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-              </div>
-              <h3 className="text-lg font-bold text-amber-700">NYT Solver</h3>
-            </div>
-          </Link>
-          
-          <Link href="/today" className="flex flex-col h-full bg-gradient-to-br from-green-50 to-green-100 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 border border-green-200">
-            <div className="p-5 flex items-center">
-              <div className="w-10 h-10 bg-green-400 rounded-lg flex items-center justify-center mr-3">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-                </svg>
-              </div>
-              <h3 className="text-lg font-bold text-green-700">NYT Today</h3>
-            </div>
-          </Link>
-          
-          <Link href="/yesterday" className="flex flex-col h-full bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 border border-purple-200">
-            <div className="p-5 flex items-center">
-              <div className="w-10 h-10 bg-purple-400 rounded-lg flex items-center justify-center mr-3">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="text-lg font-bold text-purple-700">NYT Yesterday</h3>
-            </div>
-          </Link>
-          
-          <Link href="/play" className="flex flex-col h-full bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 border border-blue-200">
-            <div className="p-5 flex items-center">
-              <div className="w-10 h-10 bg-blue-400 rounded-lg flex items-center justify-center mr-3">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="text-lg font-bold text-blue-700">Practice Spelling Bee</h3>
-            </div>
-          </Link>
-        </div>
-      </section>
-      
-      {/* Practice Section */}
-      <section className="mb-12 bg-blue-50 p-6 rounded-2xl shadow-sm">
-        <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="md:w-2/3 mb-6 md:mb-0 md:pr-6">
-            <h2 className="text-2xl md:text-3xl font-bold text-blue-700 mb-3">Free Practice Puzzles</h2>
-            <p className="text-gray-700 mb-4">
-              Improve your Spelling Bee skills with our free practice puzzles. Create words using the given letters, with each word containing the center letter.
-            </p>
-            <div className="flex flex-wrap gap-3">
-              <Link href="/play" className="bg-blue-500 text-white hover:bg-blue-600 font-medium rounded-lg px-6 py-2 text-center transition-colors">
-                Practice Now
-              </Link>
-            </div>
-          </div>
-          <div className="md:w-1/3 flex justify-center">
-            <div className="relative w-32 h-32">
-              <div className="absolute inset-0 bg-blue-200 rounded-full"></div>
-              <div className="absolute inset-2 flex items-center justify-center">
+            <div className="p-8">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-blue-700">Practice</div>
-                  <div className="text-sm text-blue-600">Free</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* About Spelling Bee Section */}
-      <section className="mb-12">
-        <div className="bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm p-6">
-          <div className="flex flex-col md:flex-row items-center gap-6">
-            <div className="md:w-1/3 flex justify-center mb-6 md:mb-0">
-              <div className="relative w-40 h-40">
-                <div className="absolute inset-0 bg-yellow-200 rounded-full"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="hexagon-large">
-                    <div className="hexagon-content-large text-5xl font-bold text-amber-500">Bee</div>
+                  <div className="inline-flex items-center justify-center w-16 h-16 bg-amber-100 rounded-2xl mb-4">
+                    <span className="text-3xl">⚡</span>
                   </div>
+                  <h3 className="text-xl font-bold mb-2 text-gray-900">Instant Results</h3>
+                  <p className="text-gray-600">Get all possible words and pangrams in seconds with our lightning-fast solver</p>
+                </div>
+                <div className="text-center">
+                  <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 rounded-2xl mb-4">
+                    <span className="text-3xl">✓</span>
+                  </div>
+                  <h3 className="text-xl font-bold mb-2 text-gray-900">100% Accurate</h3>
+                  <p className="text-gray-600">Updated daily with verified solutions matching the official NYT puzzle</p>
+                </div>
+                <div className="text-center">
+                  <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 rounded-2xl mb-4">
+                    <span className="text-3xl">🎯</span>
+                  </div>
+                  <h3 className="text-xl font-bold mb-2 text-gray-900">Always Free</h3>
+                  <p className="text-gray-600">No subscription, no hidden fees - completely free Spelling Bee help forever</p>
                 </div>
               </div>
             </div>
-            <div className="md:w-2/3">
-              <h2 className="text-2xl md:text-3xl font-bold mb-4 text-gray-800">About SbAnswer</h2>
-              <p className="text-gray-700 mb-4">
-                SbAnswer is your premier resource for NYT Spelling Bee solutions. Our site provides comprehensive answers and tools to help you solve the daily New York Times Spelling Bee puzzles.
-              </p>
-              <p className="text-gray-700 mb-4">
-                Each puzzle features seven letters arranged in a honeycomb pattern, with one letter in the center. Players must create words using these letters, with each word containing the center letter.
-              </p>
-              <p className="text-gray-700">
-                While our primary focus is on providing NYT puzzle solutions and solving tools, we also offer free practice puzzles to help you improve your skills and enjoy the Spelling Bee experience.
-              </p>
+          </div>
+        </section>
+
+        {/* Stats & Insights */}
+        <section className="mb-16">
+          <div className="bg-gradient-to-r from-cyan-500 to-blue-600 rounded-3xl p-8 md:p-12 text-white shadow-2xl">
+            <div className="text-center mb-8">
+              <h2 className="text-3xl md:text-4xl font-black mb-4">Puzzle Statistics & Insights</h2>
+              <p className="text-xl text-cyan-100">Explore patterns, trends, and records from thousands of puzzles</p>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+              <div className="text-center">
+                <div className="text-4xl md:text-5xl font-black mb-2">2000+</div>
+                <div className="text-cyan-100">Puzzles Solved</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl md:text-5xl font-black mb-2">50K+</div>
+                <div className="text-cyan-100">Words Found</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl md:text-5xl font-black mb-2">Daily</div>
+                <div className="text-cyan-100">Updates</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl md:text-5xl font-black mb-2">Free</div>
+                <div className="text-cyan-100">Forever</div>
+              </div>
+            </div>
+            <div className="text-center mt-8">
+              <Link href="/stats" className="inline-block bg-white text-blue-600 hover:bg-blue-50 font-bold rounded-xl px-8 py-4 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105">
+                View Full Statistics →
+              </Link>
             </div>
           </div>
-        </div>
-      </section>
-      
-      {/* Features Section - Highlights */}
-      <section className="mb-12">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-gray-800">
-          Why Choose <span className="text-yellow-500">SbAnswer</span>?
-        </h2>
-        
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
-            <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-              </svg>
+        </section>
+
+        {/* How It Works */}
+        <section className="mb-16">
+          <h2 className="text-3xl md:text-4xl font-black text-center mb-12 text-gray-900">
+            How to Use <span className="text-amber-600">SbSolver</span>
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="relative">
+              <div className="bg-gradient-to-br from-amber-50 to-yellow-100 rounded-2xl p-8 border-2 border-amber-200 h-full">
+                <div className="absolute -top-4 -left-4 w-12 h-12 bg-amber-500 rounded-xl flex items-center justify-center text-white font-black text-2xl shadow-lg">
+                  1
+                </div>
+                <h3 className="text-2xl font-bold mb-3 text-gray-900 mt-4">Enter Letters</h3>
+                <p className="text-gray-700">Input the 7 letters from today's NYT Spelling Bee puzzle, marking the center letter</p>
+              </div>
             </div>
-            <h3 className="text-xl font-bold mb-2 text-gray-800">Complete NYT Solutions</h3>
-            <p className="text-gray-600">
-              Get all possible answers for any NYT Spelling Bee puzzle, including pangrams, point values, and difficulty levels.
+            <div className="relative">
+              <div className="bg-gradient-to-br from-green-50 to-emerald-100 rounded-2xl p-8 border-2 border-green-200 h-full">
+                <div className="absolute -top-4 -left-4 w-12 h-12 bg-green-500 rounded-xl flex items-center justify-center text-white font-black text-2xl shadow-lg">
+                  2
+                </div>
+                <h3 className="text-2xl font-bold mb-3 text-gray-900 mt-4">Get Solutions</h3>
+                <p className="text-gray-700">Instantly receive all valid words, pangrams, and point values for the puzzle</p>
+              </div>
+            </div>
+            <div className="relative">
+              <div className="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-2xl p-8 border-2 border-blue-200 h-full">
+                <div className="absolute -top-4 -left-4 w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center text-white font-black text-2xl shadow-lg">
+                  3
+                </div>
+                <h3 className="text-2xl font-bold mb-3 text-gray-900 mt-4">Reach Genius</h3>
+                <p className="text-gray-700">Use our solutions to achieve Genius level and find all hidden words & pangrams</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="mb-16">
+          <FAQ items={faqItems} />
+        </section>
+
+        {/* CTA Section */}
+        <section className="mb-12">
+          <div className="bg-gradient-to-r from-amber-500 via-orange-500 to-yellow-500 rounded-3xl p-12 text-center shadow-2xl">
+            <h2 className="text-3xl md:text-5xl font-black text-white mb-6">
+              Ready to Solve Today's NYT Spelling Bee?
+            </h2>
+            <p className="text-xl text-yellow-100 mb-8 max-w-2xl mx-auto">
+              Join thousands of players using SbSolver to find all words, discover pangrams, and reach Genius level every day!
             </p>
-          </div>
-          
-          <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
-            <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
+            <div className="flex flex-wrap justify-center gap-4">
+              <Link href="/solver" className="bg-white text-amber-600 hover:bg-yellow-50 font-black rounded-xl px-10 py-5 text-xl transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105">
+                Start Solving Now →
+              </Link>
+              <Link href="/today" className="bg-amber-900 hover:bg-amber-950 text-white font-black rounded-xl px-10 py-5 text-xl transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105">
+                View Today's Answers
+              </Link>
             </div>
-            <h3 className="text-xl font-bold mb-2 text-gray-800">Powerful Solver Tool</h3>
-            <p className="text-gray-600">
-              Our advanced solver helps you find all valid words for any NYT Spelling Bee puzzle, including those elusive pangrams that might be hard to spot.
-            </p>
           </div>
-          
-          <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
-            <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold mb-2 text-gray-800">Free Practice Mode</h3>
-            <p className="text-gray-600">
-              Improve your skills with our free practice puzzles, designed to help you become better at solving the daily NYT Spelling Bee.
-            </p>
-          </div>
-        </div>
-      </section>
-      
-      {/* CTA Section */}
-      <section>
-        <div className="bg-gradient-to-br from-yellow-500 to-amber-600 rounded-xl p-8 text-center text-white">
-          <h2 className="text-3xl font-bold mb-4">Ready to Solve?</h2>
-          <p className="text-xl mb-6 max-w-3xl mx-auto">
-            Get solutions to today's NYT Spelling Bee puzzle or use our solver to help with any challenge.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/today" className="bg-white text-amber-600 hover:bg-gray-100 font-medium rounded-lg px-8 py-3 text-lg transition-colors shadow-md">
-              Today's Answers
-            </Link>
-            <Link href="/solver" className="bg-amber-800 text-white hover:bg-amber-900 font-medium rounded-lg px-8 py-3 text-lg transition-colors shadow-md">
-              Use NYT Solver
-            </Link>
-          </div>
-        </div>
-      </section>
-      
-      {/* Custom styles for hexagon elements */}
-      <style jsx>{`
-        .honeycomb {
-          position: relative;
-          width: 160px;
-          height: 160px;
-        }
-        
-        .hexagon {
-          position: absolute;
-          width: 50px;
-          height: 50px;
-          background-color: #E5E7EB;
-          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 20px;
-          font-weight: bold;
-          transition: all 0.3s ease;
-          border: 2px solid white;
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        
-        .hexagon.center {
-          width: 60px;
-          height: 60px;
-          background-color: #F59E0B;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          z-index: 1;
-          color: white;
-        }
-        
-        .hexagon.top {
-          top: 10%;
-          left: 50%;
-          transform: translate(-50%, 0%);
-        }
-        
-        .hexagon.top-right {
-          top: 25%;
-          right: 15%;
-        }
-        
-        .hexagon.bottom-right {
-          bottom: 25%;
-          right: 15%;
-        }
-        
-        .hexagon.bottom {
-          bottom: 10%;
-          left: 50%;
-          transform: translate(-50%, 0%);
-        }
-        
-        .hexagon.bottom-left {
-          bottom: 25%;
-          left: 15%;
-        }
-        
-        .hexagon.top-left {
-          top: 25%;
-          left: 15%;
-        }
-        
-        .hexagon-content {
-          transform: translateY(2px);
-        }
-        
-        .hexagon-large {
-          width: 120px;
-          height: 120px;
-          background-color: white;
-          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        
-        .hexagon-content-large {
-          transform: translateY(4px);
-        }
-        
-        .honeycomb-pattern {
-          background-image: radial-gradient(#FCD34D 10%, transparent 11%), 
-                           radial-gradient(#FCD34D 10%, transparent 11%);
-          background-size: 20px 20px;
-          background-position: 0 0, 10px 10px;
-        }
-        
-        /* Animation for floating letter tiles */
-        @keyframes float {
-          0% { transform: translateY(0) rotate(12deg); }
-          50% { transform: translateY(-8px) rotate(10deg); }
-          100% { transform: translateY(0) rotate(12deg); }
-        }
-        
-        @keyframes float-delay {
-          0% { transform: translateY(0) rotate(-6deg); }
-          60% { transform: translateY(-10px) rotate(-8deg); }
-          100% { transform: translateY(0) rotate(-6deg); }
-        }
-        
-        @keyframes float-slow {
-          0% { transform: translateY(0) rotate(3deg); }
-          40% { transform: translateY(-6px) rotate(5deg); }
-          100% { transform: translateY(0) rotate(3deg); }
-        }
-        
-        .animate-float {
-          animation: float 3s ease-in-out infinite;
-        }
-        
-        .animate-float-delay {
-          animation: float-delay 4s ease-in-out infinite;
-        }
-        
-        .animate-float-slow {
-          animation: float-slow 5s ease-in-out infinite;
-        }
-      `}</style>
-    </div>
-  )
+        </section>
+      </div>
+    </>
+  );
 }

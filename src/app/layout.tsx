@@ -4,15 +4,78 @@ import Link from "next/link";
 import "./globals.css";
 import MobileMenu from "@/components/MobileMenu";
 
-const poppins = Poppins({ 
+const poppins = Poppins({
   weight: ['400', '500', '600', '700'],
-  subsets: ["latin"] 
+  subsets: ["latin"]
 });
 
 export const metadata: Metadata = {
-  title: "SbAnswer | NYT Spelling Bee Tools & Resources",
-  description: "The ultimate resource for NYT Spelling Bee enthusiasts. Access our solver, today's answers, tips, articles, and more.",
-  keywords: "spelling bee, nyt, new york times, spelling bee solver, pangrams, word game, puzzle solver",
+  metadataBase: new URL('https://sbsolver.online'),
+  title: {
+    default: "Spelling Bee Solver | NYT Answers, Tools & Resources",
+    template: "%s | Spelling Bee Solver"
+  },
+  description: "The ultimate free resource for NYT Spelling Bee enthusiasts. Get today's answers, use our powerful solver, access historical puzzles, and improve your skills with practice mode.",
+  keywords: [
+    "spelling bee",
+    "nyt spelling bee",
+    "new york times spelling bee",
+    "spelling bee solver",
+    "spelling bee answers",
+    "spelling bee today",
+    "pangrams",
+    "word game",
+    "puzzle solver",
+    "spelling bee hints",
+    "spelling bee archive",
+    "daily spelling bee",
+    "free spelling bee solver"
+  ],
+  authors: [{ name: "Spelling Bee Solver Team" }],
+  creator: "Spelling Bee Solver",
+  publisher: "Spelling Bee Solver",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://sbsolver.online",
+    siteName: "Spelling Bee Solver - NYT Solutions & Tools",
+    title: "Spelling Bee Solver | NYT Answers, Tools & Resources",
+    description: "The ultimate free resource for NYT Spelling Bee enthusiasts. Get today's answers, use our powerful solver, and improve your skills.",
+    images: [
+      {
+        url: "/og-image.png", // You can create this image later
+        width: 1200,
+        height: 630,
+        alt: "Spelling Bee Solver - NYT Solutions"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Spelling Bee Solver | NYT Answers & Tools",
+    description: "The ultimate free resource for NYT Spelling Bee enthusiasts. Get today's answers, use our powerful solver, and improve your skills.",
+    images: ["/og-image.png"], // Same image as Open Graph
+    creator: "@sbanswer", // Update with actual Twitter handle if available
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: 'your-google-site-verification-code', // Replace with actual code from Google Search Console
+  },
 };
 
 export default function RootLayout({
@@ -20,119 +83,257 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  // Organization Schema
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Spelling Bee Solver",
+    "url": "https://sbsolver.online",
+    "logo": "https://sbsolver.online/logo.png",
+    "description": "The ultimate resource for NYT Spelling Bee solutions, tools, and practice puzzles.",
+    "sameAs": [
+      // Add your social media URLs here when available
+      "https://facebook.com/sbanswer",
+      "https://twitter.com/sbanswer"
+    ]
+  };
+
+  // WebSite Schema with Search Action
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Spelling Bee Solver",
+    "url": "https://sbsolver.online",
+    "description": "NYT Spelling Bee solver, answers, and tools",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://sbsolver.online/solver?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  };
+
   return (
     <html lang="en">
+      <head>
+        {/* Organization Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        {/* WebSite Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+        {/* Google Analytics - Replace with your actual GA4 ID */}
+        {process.env.NEXT_PUBLIC_GA_ID && (
+          <>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`} />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
+                `,
+              }}
+            />
+          </>
+        )}
+      </head>
       <body className={poppins.className}>
         <div className="flex min-h-screen flex-col bg-gray-50">
-          <header className="bg-gradient-to-r from-yellow-400 to-amber-500 p-4 shadow-md">
-            <div className="container mx-auto flex items-center justify-between">
-              <Link href="/" className="flex items-center group">
-                <div className="relative px-1 py-1 flex items-center">
-                  <div className="w-8 h-8 md:w-10 md:h-10 bg-yellow-200 rotate-45 mr-2 transform transition-transform group-hover:rotate-[225deg] duration-500 flex items-center justify-center">
-                    <span className="text-amber-600 font-bold text-sm md:text-base -rotate-45 transform transition-transform group-hover:rotate-[135deg] duration-500">SB</span>
+          {/* Enhanced Header */}
+          <header className="sticky top-0 z-50 bg-gradient-to-r from-amber-500 via-yellow-500 to-orange-500 shadow-lg">
+            <div className="container mx-auto px-4">
+              <div className="flex items-center justify-between h-16 md:h-20">
+                {/* Logo */}
+                <Link href="/" className="flex items-center group">
+                  <div className="relative flex items-center gap-2">
+                    <div className="w-10 h-10 md:w-12 md:h-12 bg-white rounded-xl shadow-lg flex items-center justify-center transform rotate-45 transition-all duration-500 group-hover:rotate-[405deg] group-hover:scale-110">
+                      <span className="text-amber-600 font-black text-lg md:text-xl -rotate-45 transform transition-transform duration-500 group-hover:-rotate-[405deg]">SB</span>
+                    </div>
+                    <div className="flex flex-col">
+                      <span className="text-2xl md:text-3xl font-black text-white drop-shadow-lg tracking-tight">
+                        SbSolver
+                      </span>
+                      <span className="text-xs text-yellow-100 -mt-1 font-medium">NYT Spelling Bee</span>
+                    </div>
+                    <div className="absolute -top-1 -right-1 w-2 h-2 bg-green-400 rounded-full animate-pulse shadow-lg"></div>
                   </div>
-                  <div className="text-2xl md:text-3xl font-bold text-white drop-shadow-md transition-colors">
-                    <span className="text-3xl md:text-5xl font-black relative z-10">S</span>
-                    <span className="relative z-10">b</span>
-                    <span className="text-3xl md:text-5xl font-black relative z-10">A</span>
-                    <span className="relative z-10">nswer</span>
-                    <span className="absolute -top-1 -right-2 w-3 h-3 bg-yellow-200 rounded-full animate-pulse"></span>
-                  </div>
-                  <span className="block h-1 bg-white scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
+                </Link>
+
+                {/* Desktop Navigation */}
+                <nav className="hidden md:flex items-center gap-1">
+                  <Link href="/" className="px-4 py-2 text-white hover:bg-white/20 rounded-lg transition-all duration-200 font-medium hover:scale-105 transform">
+                    Home
+                  </Link>
+                  <Link href="/solver" className="px-4 py-2 text-white hover:bg-white/20 rounded-lg transition-all duration-200 font-medium hover:scale-105 transform">
+                    Solver
+                  </Link>
+                  <Link href="/today" className="px-4 py-2 text-white hover:bg-white/20 rounded-lg transition-all duration-200 font-medium hover:scale-105 transform">
+                    Today
+                  </Link>
+                  <Link href="/yesterday" className="px-4 py-2 text-white hover:bg-white/20 rounded-lg transition-all duration-200 font-medium hover:scale-105 transform">
+                    Yesterday
+                  </Link>
+                  <Link href="/archive" className="px-4 py-2 text-white hover:bg-white/20 rounded-lg transition-all duration-200 font-medium hover:scale-105 transform">
+                    Archive
+                  </Link>
+                  <Link href="/stats" className="px-4 py-2 text-white hover:bg-white/20 rounded-lg transition-all duration-200 font-medium hover:scale-105 transform">
+                    Stats
+                  </Link>
+                  <Link href="/articles" className="px-4 py-2 text-white hover:bg-white/20 rounded-lg transition-all duration-200 font-medium hover:scale-105 transform">
+                    Articles
+                  </Link>
+                </nav>
+
+                {/* Mobile Menu Button */}
+                <div className="md:hidden">
+                  <MobileMenu />
                 </div>
-              </Link>
-              
-              {/* Desktop Navigation - hidden on mobile */}
-              <div className="hidden md:flex space-x-6">
-                <Link href="/" className="text-white hover:text-yellow-100 font-medium transition">Home</Link>
-                <Link href="/solver" className="text-white hover:text-yellow-100 font-medium transition">Solver</Link>
-                <Link href="/today" className="text-white hover:text-yellow-100 font-medium transition">Today&apos;s Answers</Link>
-                <Link href="/yesterday" className="text-white hover:text-yellow-100 font-medium transition">Yesterday</Link>
-                <Link href="/archive" className="text-white hover:text-yellow-100 font-medium transition">Archive</Link>
-                <Link href="/stats" className="text-white hover:text-yellow-100 font-medium transition">Stats</Link>
-                <Link href="/articles" className="text-white hover:text-yellow-100 font-medium transition">Articles</Link>
-              </div>
-              
-              {/* Mobile Menu Button - only visible on mobile */}
-              <div className="md:hidden">
-                <MobileMenu />
               </div>
             </div>
           </header>
-          <main className="flex-grow">
+
+          {/* Main Content with proper padding to prevent overlapping */}
+          <main className="flex-grow pt-4 pb-8">
             {children}
           </main>
-          <footer className="bg-gradient-to-b from-gray-800 to-gray-900 text-white py-10">
-            <div className="container mx-auto px-4">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div>
-                  <div className="flex items-center mb-4">
-                    <div className="w-10 h-10 bg-yellow-300 rotate-45 mr-3 flex items-center justify-center">
-                      <span className="text-amber-600 font-bold text-sm -rotate-45">SB</span>
+          <footer className="bg-gradient-to-b from-gray-900 via-gray-800 to-black text-white">
+            <div className="container mx-auto px-4 py-12">
+              {/* Top Section with decorative element */}
+              <div className="text-center mb-8">
+                <div className="inline-flex items-center gap-3 mb-6">
+                  <span className="h-px w-12 bg-gradient-to-r from-transparent to-yellow-400"></span>
+                  <div className="flex items-center gap-2">
+                    <div className="w-10 h-10 bg-yellow-400 rounded-xl rotate-45 flex items-center justify-center shadow-lg">
+                      <span className="text-gray-900 font-black text-lg -rotate-45">SB</span>
                     </div>
-                    <h3 className="text-xl font-bold">
-                      <span className="text-2xl">S</span>b<span className="text-2xl">A</span>nswer
-                    </h3>
+                    <div className="text-left">
+                      <div className="text-2xl font-black text-white">SbSolver</div>
+                      <div className="text-sm text-yellow-400 -mt-1">NYT Spelling Bee</div>
+                    </div>
                   </div>
+                  <span className="h-px w-12 bg-gradient-to-l from-transparent to-yellow-400"></span>
+                </div>
+                <p className="text-gray-300 max-w-2xl mx-auto text-sm sm:text-base">
+                  Your ultimate resource for NYT Spelling Bee with powerful tools, daily solutions, and expert strategies to help you reach Genius level!
+                </p>
+              </div>
+
+              {/* Main Footer Content */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
+                {/* Quick Links */}
+                <div>
+                  <h3 className="text-lg font-bold mb-4 text-yellow-400">🚀 Quick Tools</h3>
+                  <div className="space-y-2">
+                    <Link href="/solver" className="block text-gray-300 hover:text-yellow-400 hover:translate-x-1 transition-all duration-200 text-sm">
+                      🔍 Puzzle Solver
+                    </Link>
+                    <Link href="/today" className="block text-gray-300 hover:text-yellow-400 hover:translate-x-1 transition-all duration-200 text-sm">
+                      📅 Today's Answers
+                    </Link>
+                    <Link href="/yesterday" className="block text-gray-300 hover:text-yellow-400 hover:translate-x-1 transition-all duration-200 text-sm">
+                      ⏮️ Yesterday's Puzzle
+                    </Link>
+                    <Link href="/archive" className="block text-gray-300 hover:text-yellow-400 hover:translate-x-1 transition-all duration-200 text-sm">
+                      📚 Puzzle Archive
+                    </Link>
+                  </div>
+                </div>
+
+                {/* Resources */}
+                <div>
+                  <h3 className="text-lg font-bold mb-4 text-yellow-400">📖 Resources</h3>
+                  <div className="space-y-2">
+                    <Link href="/stats" className="block text-gray-300 hover:text-yellow-400 hover:translate-x-1 transition-all duration-200 text-sm">
+                      📊 Statistics & Insights
+                    </Link>
+                    <Link href="/articles" className="block text-gray-300 hover:text-yellow-400 hover:translate-x-1 transition-all duration-200 text-sm">
+                      📝 Tips & Strategies
+                    </Link>
+                    <Link href="/about" className="block text-gray-300 hover:text-yellow-400 hover:translate-x-1 transition-all duration-200 text-sm">
+                      ℹ️ About Us
+                    </Link>
+                    <Link href="/contact" className="block text-gray-300 hover:text-yellow-400 hover:translate-x-1 transition-all duration-200 text-sm">
+                      ✉️ Contact Support
+                    </Link>
+                  </div>
+                </div>
+
+                {/* Legal */}
+                <div>
+                  <h3 className="text-lg font-bold mb-4 text-yellow-400">⚖️ Legal</h3>
+                  <div className="space-y-2">
+                    <Link href="/privacy" className="block text-gray-300 hover:text-yellow-400 hover:translate-x-1 transition-all duration-200 text-sm">
+                      🔒 Privacy Policy
+                    </Link>
+                    <p className="text-gray-400 text-xs leading-relaxed mt-4">
+                      Not affiliated with The New York Times. "Spelling Bee" is a trademark of The New York Times Company.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Connect */}
+                <div>
+                  <h3 className="text-lg font-bold mb-4 text-yellow-400">🔗 Connect</h3>
                   <p className="text-gray-300 text-sm mb-4">
-                    Your ultimate resource for the Spelling Bee puzzle with tools, solutions, and strategies.
+                    Follow us for updates, tips, and daily puzzle insights!
                   </p>
-                  <div className="flex space-x-4">
-                    <a href="#" className="text-gray-300 hover:text-yellow-300 transition-colors">
-                      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                  <div className="flex gap-3">
+                    <a
+                      href="#"
+                      className="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-600 to-indigo-700 hover:from-blue-500 hover:to-indigo-600 flex items-center justify-center transform hover:scale-110 transition-all duration-200 shadow-lg"
+                      aria-label="Facebook"
+                    >
+                      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                       </svg>
                     </a>
-                    <a href="#" className="text-gray-300 hover:text-yellow-300 transition-colors">
-                      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723 10.054 10.054 0 01-3.127 1.184 4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z"/>
+                    <a
+                      href="#"
+                      className="w-10 h-10 rounded-lg bg-gradient-to-br from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 flex items-center justify-center transform hover:scale-110 transition-all duration-200 shadow-lg"
+                      aria-label="Twitter"
+                    >
+                      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723 10.054 10.054 0 01-3.127 1.184 4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z" />
                       </svg>
                     </a>
-                    <a href="#" className="text-gray-300 hover:text-yellow-300 transition-colors">
-                      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-6h2v6zm-1-6.7c-.66 0-1.2-.54-1.2-1.2s.54-1.2 1.2-1.2 1.2.54 1.2 1.2-.54 1.2-1.2 1.2zM17 17h-2v-3c0-.77-.22-1.3-1-1.3-.77 0-1 .53-1 1.3v3h-2V9h2v1.2c.13-.12.62-.8 2-.8 1.57 0 2 1.25 2 2.5V17z"/>
+                    <a
+                      href="#"
+                      className="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-700 to-indigo-800 hover:from-blue-600 hover:to-indigo-700 flex items-center justify-center transform hover:scale-110 transition-all duration-200 shadow-lg"
+                      aria-label="LinkedIn"
+                    >
+                      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
                       </svg>
                     </a>
-                  </div>
-                </div>
-                
-                <div>
-                  <h3 className="text-xl font-bold mb-4">Main Tools</h3>
-                  <div className="grid grid-cols-2 gap-2">
-                    <Link href="/solver" className="text-gray-300 hover:text-yellow-300 hover:underline text-sm transition">Solver</Link>
-                    <Link href="/today" className="text-gray-300 hover:text-yellow-300 hover:underline text-sm transition">Today&apos;s Answers</Link>
-                    <Link href="/yesterday" className="text-gray-300 hover:text-yellow-300 hover:underline text-sm transition">Yesterday</Link>
-                    <Link href="/archive" className="text-gray-300 hover:text-yellow-300 hover:underline text-sm transition">Archive</Link>
-                    <Link href="/stats" className="text-gray-300 hover:text-yellow-300 hover:underline text-sm transition">Stats</Link>
-                    <Link href="/articles" className="text-gray-300 hover:text-yellow-300 hover:underline text-sm transition">Articles</Link>
-                  </div>
-                </div>
-                
-                <div>
-                  <h3 className="text-xl font-bold mb-4">Company</h3>
-                  <div className="grid grid-cols-2 gap-2">
-                    <Link href="/about" className="text-gray-300 hover:text-yellow-300 hover:underline text-sm transition">About Us</Link>
-                    <Link href="/privacy" className="text-gray-300 hover:text-yellow-300 hover:underline text-sm transition">Privacy Policy</Link>
-                    <Link href="/contact" className="text-gray-300 hover:text-yellow-300 hover:underline text-sm transition">Contact Us</Link>
                   </div>
                 </div>
               </div>
-              
-              <div className="mt-10 pt-8 border-t border-gray-700 text-center">
-                <p className="text-gray-400 text-sm">© {new Date().getFullYear()} SbAnswer.com. All rights reserved.</p>
-              </div>
-            </div>
-            
-            <div className="mt-6 text-center">
-              <div className="inline-flex items-center">
-                <span className="h-px w-10 bg-yellow-400"></span>
-                <span className="mx-3 text-yellow-400">•</span>
-                <span className="h-px w-10 bg-yellow-400"></span>
+
+              {/* Bottom Section */}
+              <div className="border-t border-gray-700 pt-8">
+                <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
+                  <p className="text-gray-400 text-sm text-center sm:text-left">
+                    © {new Date().getFullYear()} <span className="text-yellow-400 font-semibold">sbsolver.online</span>. All rights reserved.
+                  </p>
+                  <div className="flex items-center gap-2 text-sm text-gray-400">
+                    <span>Made with</span>
+                    <span className="text-red-500 animate-pulse">❤️</span>
+                    <span>for Spelling Bee fans</span>
+                  </div>
+                </div>
               </div>
             </div>
           </footer>
         </div>
       </body>
-    </html>
+    </html >
   );
 }

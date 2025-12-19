@@ -14,6 +14,7 @@
 !/postcss.config.mjs
 !/eslint.config.mjs
 !/tailwind.config.ts
+!/next-sitemap.config.js
 !/README.md
 
 # dependencies

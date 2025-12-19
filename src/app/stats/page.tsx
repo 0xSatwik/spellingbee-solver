@@ -58,7 +58,7 @@ export default function StatsPage() {
     const fetchAllStats = async () => {
       try {
         const API_BASE = 'https://spelling-bee-api.ronysamanta710.workers.dev';
-        
+
         // Fetch all data concurrently
         const [
           centerLettersRes,
@@ -77,25 +77,56 @@ export default function StatsPage() {
         ]);
 
         // Check if any requests failed
-        if (!centerLettersRes.ok || !mostWordsRes.ok || !mostPangramsRes.ok || 
-            !letterFreqRes.ok || !longestPangramsRes.ok || !statsRes.ok) {
+        if (!centerLettersRes.ok || !mostWordsRes.ok || !mostPangramsRes.ok ||
+          !letterFreqRes.ok || !longestPangramsRes.ok || !statsRes.ok) {
           throw new Error('Failed to fetch one or more statistics');
         }
 
         // Parse all responses
-        const centerLettersData = await centerLettersRes.json();
-        const mostWordsData = await mostWordsRes.json();
-        const mostPangramsData = await mostPangramsRes.json();
-        const letterFreqData = await letterFreqRes.json();
-        const longestPangramsData = await longestPangramsRes.json();
-        const statsData = await statsRes.json();
+        const [
+          centerLettersData,
+          mostWordsData,
+          mostPangramsData,
+          letterFreqData,
+          longestPangramsData,
+          statsData
+        ] = await Promise.all([
+          centerLettersRes.json(),
+          mostWordsRes.json(),
+          mostPangramsRes.json(),
+          letterFreqRes.json(),
+          longestPangramsRes.json(),
+          statsRes.json()
+        ]);
 
-        // Update state with fetched data
-        setCenterLetters(centerLettersData.centerLetterFrequency);
-        setPuzzlesWithMostWords(mostWordsData.puzzlesWithMostWords);
-        setPuzzlesWithMostPangrams(mostPangramsData.puzzlesWithMostPangrams);
-        setLetterFrequency(letterFreqData.allLettersFrequency);
-        setLongestPangrams(longestPangramsData.longestPangrams);
+        // Handle API responses - extract arrays from various response formats
+        const extractArray = (data: any, expectedKey?: string) => {
+          // If it's already an array, return it
+          if (Array.isArray(data)) return data;
+
+          // If data is an object
+          if (data && typeof data === 'object') {
+            // Try to find array in common property names
+            if (expectedKey && Array.isArray(data[expectedKey])) {
+              return data[expectedKey];
+            }
+            if (Array.isArray(data.data)) return data.data;
+            if (Array.isArray(data.results)) return data.results;
+
+            // Check all object values for arrays
+            const values = Object.values(data);
+            const arrayValue = values.find(v => Array.isArray(v));
+            if (arrayValue) return arrayValue as any[];
+          }
+
+          return [];
+        };
+
+        setCenterLetters(extractArray(centerLettersData, 'centerLetters'));
+        setPuzzlesWithMostWords(extractArray(mostWordsData, 'puzzlesWithMostWords'));
+        setPuzzlesWithMostPangrams(extractArray(mostPangramsData, 'puzzlesWithMostPangrams'));
+        setLetterFrequency(extractArray(letterFreqData, 'letterFrequency'));
+        setLongestPangrams(extractArray(longestPangramsData, 'longestPangrams'));
         setStatistics(statsData);
 
       } catch (err) {
@@ -111,13 +142,13 @@ export default function StatsPage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-100 px-2 py-4 sm:p-4">
-        <div className="max-w-6xl mx-auto bg-white p-4 sm:p-6 rounded-lg shadow-md">
-          <h1 className="text-3xl font-bold text-center mb-6">
-            <span className="text-4xl">S</span>b<span className="text-4xl">A</span>nswer Statistics
+      <div className="min-h-screen bg-gradient-to-br from-cyan-50 via-blue-50 to-indigo-50 px-2 py-4 sm:p-6">
+        <div className="max-w-7xl mx-auto bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-2xl">
+          <h1 className="text-4xl font-black text-center mb-8 bg-gradient-to-r from-cyan-600 to-blue-600 bg-clip-text text-transparent">
+            Puzzle Statistics 📊
           </h1>
           <div className="flex justify-center items-center h-64">
-            <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-yellow-400"></div>
+            <div className="animate-spin rounded-full h-20 w-20 border-t-4 border-b-4 border-cyan-500"></div>
           </div>
         </div>
       </div>
@@ -126,14 +157,12 @@ export default function StatsPage() {
 
   if (error) {
     return (
-      <div className="min-h-screen bg-gray-100 px-2 py-4 sm:p-4">
-        <div className="max-w-6xl mx-auto bg-white p-4 sm:p-6 rounded-lg shadow-md">
-          <h1 className="text-3xl font-bold text-center mb-6">
-            <span className="text-4xl">S</span>b<span className="text-4xl">A</span>nswer Statistics
-          </h1>
-          <div className="text-center text-red-500 p-4">{error}</div>
-          <div className="text-center mt-4">
-            <Link href="/" className="text-blue-500 hover:underline">
+      <div className="min-h-screen bg-gradient-to-br from-cyan-50 via-blue-50 to-indigo-50 px-2 py-4 sm:p-6">
+        <div className="max-w-7xl mx-auto bg-white rounded-3xl shadow-2xl p-8">
+          <h1 className="text-4xl font-black text-center mb-6 text-cyan-600">Puzzle Statistics 📊</h1>
+          <div className="text-center text-red-500 p-6 bg-red-50 rounded-xl">{error}</div>
+          <div className="text-center mt-6">
+            <Link href="/" className="text-cyan-600 hover:text-cyan-800 underline font-semibold">
               Return to Home
             </Link>
           </div>
@@ -143,220 +172,280 @@ export default function StatsPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 px-2 py-4 sm:p-4">
-      <div className="max-w-6xl mx-auto bg-white p-4 sm:p-6 rounded-lg shadow-md">
-        <h1 className="text-3xl font-bold text-center mb-6">
-          <span className="text-4xl">S</span>b<span className="text-4xl">A</span>nswer Statistics
-        </h1>
+    <div className="min-h-screen bg-gradient-to-br from-cyan-50 via-blue-50 to-indigo-50 px-2 py-4 sm:p-6">
+      <div className="max-w-7xl mx-auto">
+        {/* Header */}
+        <div className="bg-gradient-to-r from-cyan-500 via-blue-600 to-indigo-600 rounded-3xl overflow-hidden shadow-2xl mb-6 sm:mb-8 p-6 sm:p-10 text-white text-center">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-black mb-2 drop-shadow-lg">
+            Puzzle Statistics 📊
+          </h1>
+          <p className="text-lg sm:text-xl text-cyan-100">
+            Explore insights from thousands of Spelling Bee puzzles
+          </p>
+        </div>
 
         {/* Overview Statistics */}
         {statistics && (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
-              <h2 className="text-xl font-bold mb-4">Overall Stats</h2>
-              <p className="mb-2"><span className="font-semibold">Total Puzzles:</span> {statistics.totalPuzzles.toLocaleString()}</p>
-              <p className="mb-2"><span className="font-semibold">Total Words:</span> {statistics.totalWords.toLocaleString()}</p>
-              <p className="mb-2"><span className="font-semibold">Total Pangrams:</span> {statistics.totalPangrams.toLocaleString()}</p>
-              <p className="mb-2"><span className="font-semibold">Avg. Words/Puzzle:</span> {statistics.averageWordsPerPuzzle.toFixed(2)}</p>
-              <p className="mb-2"><span className="font-semibold">Avg. Pangrams/Puzzle:</span> {statistics.averagePangramsPerPuzzle.toFixed(2)}</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-8">
+            {/* Total Puzzles */}
+            <div className="bg-gradient-to-br from-purple-500 to-indigo-600 rounded-2xl p-6 text-white shadow-xl transform hover:scale-105 transition-all duration-300">
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-purple-100 text-sm mb-1">Total Puzzles</p>
+                  <p className="text-4xl font-black">{statistics.totalPuzzles.toLocaleString()}</p>
+                </div>
+                <div className="bg-white/20 rounded-full p-4">
+                  <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+                    <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clipRule="evenodd" />
+                  </svg>
+                </div>
+              </div>
             </div>
 
-            <div className="bg-green-50 p-6 rounded-lg border border-green-200">
-              <h2 className="text-xl font-bold mb-4">Most Words</h2>
-              <p className="mb-2">
-                <span className="font-semibold">Puzzle #{statistics.puzzleWithMostWords.puzzle_id}</span> (
-                {new Date(statistics.puzzleWithMostWords.date).toLocaleDateString()})
+            {/* Total Words */}
+            <div className="bg-gradient-to-br from-blue-500 to-cyan-600 rounded-2xl p-6 text-white shadow-xl transform hover:scale-105 transition-all duration-300">
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-blue-100 text-sm mb-1">Total Words</p>
+                  <p className="text-4xl font-black">{statistics.totalWords.toLocaleString()}</p>
+                </div>
+                <div className="bg-white/20 rounded-full p-4">
+                  <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z" clipRule="evenodd" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            {/* Total Pangrams */}
+            <div className="bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl p-6 text-white shadow-xl transform hover:scale-105 transition-all duration-300">
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-yellow-100 text-sm mb-1">Total Pangrams</p>
+                  <p className="text-4xl font-black">{statistics.totalPangrams.toLocaleString()}</p>
+                </div>
+                <div className="bg-white/20 rounded-full p-4">
+                  <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            {/* Average Words per Puzzle */}
+            <div className="bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl p-6 text-white shadow-xl">
+              <p className="text-green-100 text-sm mb-1">Avg Words/Puzzle</p>
+              <p className="text-3xl font-black">{statistics.averageWordsPerPuzzle.toFixed(1)}</p>
+            </div>
+
+            {/* Average Pangrams per Puzzle */}
+            <div className="bg-gradient-to-br from-pink-500 to-rose-600 rounded-2xl p-6 text-white shadow-xl">
+              <p className="text-pink-100 text-sm mb-1">Avg Pangrams/Puzzle</p>
+              <p className="text-3xl font-black">{statistics.averagePangramsPerPuzzle.toFixed(2)}</p>
+            </div>
+
+            {/* Puzzle with Most Words */}
+            <div className="bg-gradient-to-br from-teal-500 to-cyan-600 rounded-2xl p-6 text-white shadow-xl">
+              <p className="text-teal-100 text-sm mb-1">Most Words in a Puzzle</p>
+              <p className="text-3xl font-black mb-1">{statistics.puzzleWithMostWords.word_count} words</p>
+              <p className="text-teal-100 text-xs mb-2">
+                {new Date(statistics.puzzleWithMostWords.date).toLocaleDateString()} (#{statistics.puzzleWithMostWords.puzzle_id})
               </p>
-              <p className="mb-2"><span className="font-semibold">Word Count:</span> {statistics.puzzleWithMostWords.word_count}</p>
-              <Link 
+              <Link
                 href={`/archive?id=${statistics.puzzleWithMostWords.puzzle_id}`}
-                className="text-blue-500 hover:underline"
+                className="text-sm bg-white/20 hover:bg-white/30 px-3 py-1 rounded-lg inline-block transition"
               >
-                View Puzzle
+                View Puzzle →
               </Link>
             </div>
 
-            <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
-              <h2 className="text-xl font-bold mb-4">Fewest Words</h2>
-              <p className="mb-2">
-                <span className="font-semibold">Puzzle #{statistics.puzzleWithFewestWords.puzzle_id}</span> (
-                {new Date(statistics.puzzleWithFewestWords.date).toLocaleDateString()})
+            {/* Puzzle with Fewest Words */}
+            <div className="bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl p-6 text-white shadow-xl">
+              <p className="text-indigo-100 text-sm mb-1">Fewest Words in a Puzzle</p>
+              <p className="text-3xl font-black mb-1">{statistics.puzzleWithFewestWords.word_count} words</p>
+              <p className="text-indigo-100 text-xs mb-2">
+                {new Date(statistics.puzzleWithFewestWords.date).toLocaleDateString()} (#{statistics.puzzleWithFewestWords.puzzle_id})
               </p>
-              <p className="mb-2"><span className="font-semibold">Word Count:</span> {statistics.puzzleWithFewestWords.word_count}</p>
-              <Link 
+              <Link
                 href={`/archive?id=${statistics.puzzleWithFewestWords.puzzle_id}`}
-                className="text-blue-500 hover:underline"
+                className="text-sm bg-white/20 hover:bg-white/30 px-3 py-1 rounded-lg inline-block transition"
               >
-                View Puzzle
+                View Puzzle →
               </Link>
             </div>
           </div>
         )}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Center Letter Frequency */}
-          <div className="bg-white p-6 rounded-lg border border-gray-200">
-            <h2 className="text-xl font-bold mb-4">Most Common Center Letters</h2>
-            <div className="overflow-x-auto">
-              <table className="min-w-full divide-y divide-gray-200">
-                <thead className="bg-gray-50">
-                  <tr>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Letter</th>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Count</th>
-                  </tr>
-                </thead>
-                <tbody className="bg-white divide-y divide-gray-200">
-                  {centerLetters.slice(0, 10).map((item, index) => (
-                    <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
-                      <td className="px-6 py-2">{item.letters}</td>
-                      <td className="px-6 py-2">{item.count}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+          {/* Most Common Center Letters */}
+          <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
+            <div className="bg-gradient-to-r from-violet-500 to-purple-600 px-6 py-4">
+              <h2 className="text-2xl font-bold text-white">🎯 Most Common Center Letters</h2>
             </div>
-          </div>
-
-          {/* Letter Frequency */}
-          <div className="bg-white p-6 rounded-lg border border-gray-200">
-            <h2 className="text-xl font-bold mb-4">All Letters Frequency</h2>
-            <div className="overflow-x-auto">
-              <table className="min-w-full divide-y divide-gray-200">
-                <thead className="bg-gray-50">
-                  <tr>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Letter</th>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Count</th>
-                  </tr>
-                </thead>
-                <tbody className="bg-white divide-y divide-gray-200">
-                  {letterFrequency.slice(0, 10).map((item, index) => (
-                    <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
-                      <td className="px-6 py-2">{item.letter}</td>
-                      <td className="px-6 py-2">{item.count}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+            <div className="p-6">
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                {centerLetters.slice(0, 12).map((item, index) => (
+                  item && item.letters ? (
+                    <div key={index} className="bg-gradient-to-br from-violet-100 to-purple-100 rounded-xl p-4 text-center transform hover:scale-105 transition-all duration-200 shadow-md">
+                      <div className="text-3xl font-black text-violet-700 mb-1">{item.letters.toUpperCase()}</div>
+                      <div className="text-sm text-violet-600">{item.count} puzzles</div>
+                    </div>
+                  ) : null
+                ))}
+              </div>
             </div>
           </div>
 
           {/* Puzzles with Most Words */}
-          <div className="bg-white p-6 rounded-lg border border-gray-200">
-            <h2 className="text-xl font-bold mb-4">Puzzles with Most Words</h2>
-            <div className="overflow-x-auto">
-              <table className="min-w-full divide-y divide-gray-200">
-                <thead className="bg-gray-50">
-                  <tr>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Puzzle ID</th>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Date</th>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Word Count</th>
-                  </tr>
-                </thead>
-                <tbody className="bg-white divide-y divide-gray-200">
-                  {puzzlesWithMostWords.map((puzzle, index) => (
-                    <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
-                      <td className="px-6 py-2">
-                        <Link href={`/archive?id=${puzzle.puzzle_id}`} className="text-blue-500 hover:underline">
-                          #{puzzle.puzzle_id}
-                        </Link>
-                      </td>
-                      <td className="px-6 py-2">{new Date(puzzle.date).toLocaleDateString()}</td>
-                      <td className="px-6 py-2">{puzzle.word_count}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+          <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
+            <div className="bg-gradient-to-r from-blue-500 to-cyan-600 px-6 py-4">
+              <h2 className="text-2xl font-bold text-white">🏆 Puzzles with Most Words</h2>
+            </div>
+            <div className="p-6">
+              <div className="space-y-3">
+                {puzzlesWithMostWords.slice(0, 10).map((puzzle, index) => (
+                  puzzle && puzzle.date && puzzle.word_count ? (
+                    <div key={index} className="flex items-center justify-between bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl p-4 hover:shadow-md transition-all duration-200">
+                      <div className="flex items-center gap-3">
+                        <div className="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                          {index + 1}
+                        </div>
+                        <div>
+                          <p className="font-semibold text-gray-800">{new Date(puzzle.date).toLocaleDateString()}</p>
+                          <p className="text-sm text-gray-600">{puzzle.word_count} words</p>
+                        </div>
+                      </div>
+                      <Link
+                        href={`/archive?id=${puzzle.puzzle_id}`}
+                        className="text-blue-600 hover:text-blue-800 font-medium text-sm"
+                      >
+                        View →
+                      </Link>
+                    </div>
+                  ) : null
+                ))}
+              </div>
             </div>
           </div>
 
           {/* Puzzles with Most Pangrams */}
-          <div className="bg-white p-6 rounded-lg border border-gray-200">
-            <h2 className="text-xl font-bold mb-4">Puzzles with Most Pangrams</h2>
-            <div className="overflow-x-auto">
-              <table className="min-w-full divide-y divide-gray-200">
-                <thead className="bg-gray-50">
-                  <tr>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Puzzle ID</th>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Date</th>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Pangram Count</th>
-                  </tr>
-                </thead>
-                <tbody className="bg-white divide-y divide-gray-200">
-                  {puzzlesWithMostPangrams.map((puzzle, index) => (
-                    <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
-                      <td className="px-6 py-2">
-                        <Link href={`/archive?id=${puzzle.puzzle_id}`} className="text-blue-500 hover:underline">
-                          #{puzzle.puzzle_id}
-                        </Link>
-                      </td>
-                      <td className="px-6 py-2">{new Date(puzzle.date).toLocaleDateString()}</td>
-                      <td className="px-6 py-2">{puzzle.pangrams_count}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+          <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
+            <div className="bg-gradient-to-r from-amber-400 to-orange-500 px-6 py-4">
+              <h2 className="text-2xl font-bold text-white">⚡ Puzzles with Most Pangrams</h2>
+            </div>
+            <div className="p-6">
+              <div className="space-y-3">
+                {puzzlesWithMostPangrams.slice(0, 10).map((puzzle, index) => (
+                  puzzle && puzzle.date && puzzle.pangrams_count ? (
+                    <div key={index} className="flex items-center justify-between bg-gradient-to-r from-yellow-50 to-orange-50 rounded-xl p-4 hover:shadow-md transition-all duration-200">
+                      <div className="flex items-center gap-3">
+                        <div className="bg-amber-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
+                          {index + 1}
+                        </div>
+                        <div>
+                          <p className="font-semibold text-gray-800">{new Date(puzzle.date).toLocaleDateString()}</p>
+                          <p className="text-sm text-gray-600">{puzzle.pangrams_count} pangrams</p>
+                        </div>
+                      </div>
+                      <Link
+                        href={`/archive?id=${puzzle.puzzle_id}`}
+                        className="text-orange-600 hover:text-orange-800 font-medium text-sm"
+                      >
+                        View →
+                      </Link>
+                    </div>
+                  ) : null
+                ))}
+              </div>
             </div>
           </div>
 
           {/* Longest Pangrams */}
-          <div className="bg-white p-6 rounded-lg border border-gray-200 col-span-1 md:col-span-2">
-            <h2 className="text-xl font-bold mb-4">Longest Pangrams</h2>
-            <div className="overflow-x-auto">
-              <table className="min-w-full divide-y divide-gray-200">
-                <thead className="bg-gray-50">
-                  <tr>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Word</th>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Length</th>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Puzzle ID</th>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Date</th>
-                  </tr>
-                </thead>
-                <tbody className="bg-white divide-y divide-gray-200">
-                  {longestPangrams.map((pangram, index) => (
-                    <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
-                      <td className="px-6 py-2 font-medium">{pangram.word}</td>
-                      <td className="px-6 py-2">{pangram.len}</td>
-                      <td className="px-6 py-2">
-                        <Link href={`/archive?id=${pangram.puzzle_id}`} className="text-blue-500 hover:underline">
-                          #{pangram.puzzle_id}
+          <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
+            <div className="bg-gradient-to-r from-green-500 to-emerald-600 px-6 py-4">
+              <h2 className="text-2xl font-bold text-white">📏 Longest Pangrams</h2>
+            </div>
+            <div className="p-6">
+              <div className="space-y-3">
+                {longestPangrams.slice(0, 10).map((pangram, index) => (
+                  pangram && pangram.word && pangram.len ? (
+                    <div key={index} className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-4 hover:shadow-md transition-all duration-200">
+                      <div className="flex items-center gap-3 mb-2">
+                        <div className="bg-green-500 text-white rounded-full px-3 py-1 font-bold text-sm">
+                          {pangram.len} letters
+                        </div>
+                      </div>
+                      <p className="text-xl font-bold text-gray-800 mb-1">{pangram.word}</p>
+                      <div className="flex items-center justify-between text-sm text-gray-600">
+                        <span>{new Date(pangram.date).toLocaleDateString()}</span>
+                        <Link
+                          href={`/archive?id=${pangram.puzzle_id}`}
+                          className="text-green-600 hover:text-green-800 font-medium"
+                        >
+                          View Puzzle →
                         </Link>
-                      </td>
-                      <td className="px-6 py-2">{new Date(pangram.date).toLocaleDateString()}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+                      </div>
+                    </div>
+                  ) : null
+                ))}
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-2 sm:gap-0 mt-8 sm:mt-12 space-x-0 sm:space-x-4">
-          <Link 
-            href="/" 
-            className="px-3 py-2 sm:px-5 sm:py-2 bg-gradient-to-r from-indigo-600 to-blue-600 text-white rounded-lg hover:from-indigo-700 hover:to-blue-700 transition-all shadow-md hover:shadow-lg text-sm sm:text-base"
+        {/* Letter Frequency Chart */}
+        <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 mb-6">
+          <div className="bg-gradient-to-r from-indigo-500 to-purple-600 px-6 py-4">
+            <h2 className="text-2xl font-bold text-white">🔤 All Letters Frequency</h2>
+          </div>
+          <div className="p-6">
+            <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-3">
+              {letterFrequency.map((letter, index) => {
+                if (!letter || !letter.letter || !letter.count) return null;
+                const maxCount = Math.max(...letterFrequency.filter(l => l && l.count).map(l => l.count));
+                const percentage = (letter.count / maxCount) * 100;
+                return (
+                  <div key={index} className="text-center">
+                    <div className="bg-gradient-to-br from-indigo-100 to-purple-100 rounded-xl p-4 mb-2 transform hover:scale-105 transition-all duration-200">
+                      <div className="text-2xl font-black text-indigo-700 mb-1">{letter.letter.toUpperCase()}</div>
+                      <div className="text-sm font-semibold text-indigo-600">{letter.count}</div>
+                    </div>
+                    <div className="bg-gray-200 rounded-full h-2 overflow-hidden">
+                      <div
+                        className="bg-gradient-to-r from-indigo-500 to-purple-600 h-full transition-all duration-500"
+                        style={{ width: `${percentage}%` }}
+                      ></div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+
+        {/* Navigation */}
+        <div className="flex flex-wrap justify-center gap-4">
+          <Link
+            href="/"
+            className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-blue-600 text-white rounded-xl hover:from-indigo-700 hover:to-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl font-semibold transform hover:scale-105"
           >
-            Home
+            🏠 Home
           </Link>
-          <Link 
-            href="/today" 
-            className="px-3 py-2 sm:px-5 sm:py-2 bg-gradient-to-r from-yellow-500 to-amber-500 text-white rounded-lg hover:from-yellow-600 hover:to-amber-600 transition-all shadow-md hover:shadow-lg text-sm sm:text-base"
+          <Link
+            href="/today"
+            className="px-6 py-3 bg-gradient-to-r from-yellow-500 to-orange-500 text-white rounded-xl hover:from-yellow-600 hover:to-orange-600 transition-all duration-300 shadow-lg hover:shadow-xl font-semibold transform hover:scale-105"
           >
-            Today's Puzzle
+            📅 Today
           </Link>
-          <Link 
-            href="/yesterday" 
-            className="px-3 py-2 sm:px-5 sm:py-2 bg-gradient-to-r from-purple-500 to-violet-500 text-white rounded-lg hover:from-purple-600 hover:to-violet-600 transition-all shadow-md hover:shadow-lg text-sm sm:text-base"
+          <Link
+            href="/archive"
+            className="px-6 py-3 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-xl hover:from-green-600 hover:to-emerald-700 transition-all duration-300 shadow-lg hover:shadow-xl font-semibold transform hover:scale-105"
           >
-            Yesterday
-          </Link>
-          <Link 
-            href="/archive" 
-            className="px-3 py-2 sm:px-5 sm:py-2 bg-gradient-to-r from-green-500 to-emerald-500 text-white rounded-lg hover:from-green-600 hover:to-emerald-600 transition-all shadow-md hover:shadow-lg text-sm sm:text-base"
-          >
-            Archive
+            📚 Archive
           </Link>
         </div>
       </div>
     </div>
   );
-} 
+}
