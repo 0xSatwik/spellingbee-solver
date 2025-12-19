@@ -100,33 +100,37 @@ export default function StatsPage() {
         ]);
 
         // Handle API responses - extract arrays from various response formats
-        const extractArray = (data: any, expectedKey?: string) => {
+        const extractArray = (data: unknown, expectedKey?: string): unknown[] => {
           // If it's already an array, return it
           if (Array.isArray(data)) return data;
 
           // If data is an object
           if (data && typeof data === 'object') {
             // Try to find array in common property names
-            if (expectedKey && Array.isArray(data[expectedKey])) {
-              return data[expectedKey];
+            if (expectedKey && Array.isArray((data as Record<string, unknown>)[expectedKey])) {
+              return (data as Record<string, unknown>)[expectedKey] as unknown[];
             }
-            if (Array.isArray(data.data)) return data.data;
-            if (Array.isArray(data.results)) return data.results;
+            if (Array.isArray((data as Record<string, unknown>).data)) {
+              return (data as Record<string, unknown>).data as unknown[];
+            }
+            if (Array.isArray((data as Record<string, unknown>).results)) {
+              return (data as Record<string, unknown>).results as unknown[];
+            }
 
             // Check all object values for arrays
             const values = Object.values(data);
             const arrayValue = values.find(v => Array.isArray(v));
-            if (arrayValue) return arrayValue as any[];
+            if (arrayValue) return arrayValue as unknown[];
           }
 
           return [];
         };
 
-        setCenterLetters(extractArray(centerLettersData, 'centerLetters'));
-        setPuzzlesWithMostWords(extractArray(mostWordsData, 'puzzlesWithMostWords'));
-        setPuzzlesWithMostPangrams(extractArray(mostPangramsData, 'puzzlesWithMostPangrams'));
-        setLetterFrequency(extractArray(letterFreqData, 'letterFrequency'));
-        setLongestPangrams(extractArray(longestPangramsData, 'longestPangrams'));
+        setCenterLetters(extractArray(centerLettersData, 'centerLetters') as CenterLetterFrequency[]);
+        setPuzzlesWithMostWords(extractArray(mostWordsData, 'puzzlesWithMostWords') as PuzzleWithWords[]);
+        setPuzzlesWithMostPangrams(extractArray(mostPangramsData, 'puzzlesWithMostPangrams') as PuzzleWithPangrams[]);
+        setLetterFrequency(extractArray(letterFreqData, 'letterFrequency') as LetterFrequency[]);
+        setLongestPangrams(extractArray(longestPangramsData, 'longestPangrams') as Pangram[]);
         setStatistics(statsData);
 
       } catch (err) {

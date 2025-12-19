@@ -209,7 +209,7 @@ export default function YesterdayPage() {
         </div>
 
         {/* Pangrams Section */}
-        {puzzleData?.words?.filter(w => w.is_pangram).length > 0 && (
+        {(puzzleData?.words?.filter(w => w.is_pangram).length ?? 0) > 0 && (
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 mb-6">
             <div className="bg-gradient-to-r from-amber-400 to-orange-500 px-6 py-4">
               <h2 className="text-2xl font-bold text-white flex items-center gap-2">
@@ -222,8 +222,8 @@ export default function YesterdayPage() {
                   <div
                     key={index}
                     className={`px-5 py-3 rounded-xl font-semibold text-lg transform hover:scale-105 transition-all duration-200 shadow-md ${puzzleData?.perfectPangrams?.includes(word.word)
-                        ? 'bg-gradient-to-r from-green-400 to-emerald-500 text-white'
-                        : 'bg-gradient-to-r from-yellow-300 to-amber-400 text-amber-900'
+                      ? 'bg-gradient-to-r from-green-400 to-emerald-500 text-white'
+                      : 'bg-gradient-to-r from-yellow-300 to-amber-400 text-amber-900'
                       }`}
                   >
                     {word.word}
@@ -254,8 +254,8 @@ export default function YesterdayPage() {
                       <span
                         key={index}
                         className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 hover:shadow-md ${word.is_pangram
-                            ? 'bg-gradient-to-r from-yellow-200 to-amber-300 text-amber-900'
-                            : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
+                          ? 'bg-gradient-to-r from-yellow-200 to-amber-300 text-amber-900'
+                          : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
                           }`}
                       >
                         {word.word}
