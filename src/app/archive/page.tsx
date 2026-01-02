@@ -46,66 +46,88 @@ function Loading() {
 function ArchiveContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
-  
+
   // Search states
   const [puzzleId, setPuzzleId] = useState(searchParams.get('id') || '');
   const [selectedDate, setSelectedDate] = useState<Date | null>(null);
-  
+
   // Results states
   const [searchResults, setSearchResults] = useState<SearchResult[]>([]);
   const [currentPuzzle, setCurrentPuzzle] = useState<PuzzleWithWords | null>(null);
-  
+
   // UI states
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [activeTab, setActiveTab] = useState('search'); // 'search', 'puzzle', 'results'
-  
+
   const API_BASE = 'https://spelling-bee-api.ronysamanta710.workers.dev';
-  
+
   // Define the earliest date for the calendar (May 9, 2018)
   const minDate = new Date('2018-05-09');
   const maxDate = new Date(); // Today
-  
-  // Check if we have a puzzle ID in the URL params on load
+
+  // Month names for generating SEO-friendly URLs
+  const monthNames = [
+    'january', 'february', 'march', 'april', 'may', 'june',
+    'july', 'august', 'september', 'october', 'november', 'december'
+  ];
+
+  // Check if we have a puzzle ID or date in the URL params on load - redirect to SEO-friendly URL
   useEffect(() => {
     const id = searchParams.get('id');
     if (id) {
-      setPuzzleId(id);
-      fetchPuzzleById(id);
+      // Fetch puzzle to get date, then redirect
+      const fetchAndRedirect = async () => {
+        try {
+          const puzzleRes = await fetch(`${API_BASE}/api/puzzle/${id}`);
+          if (puzzleRes.ok) {
+            const data = await puzzleRes.json();
+            const puzzleDate = new Date(data.puzzle.date);
+            const month = monthNames[puzzleDate.getMonth()];
+            const day = puzzleDate.getDate();
+            const year = puzzleDate.getFullYear();
+            router.replace(`/answer-for-${month}-${day}-${year}`);
+          }
+        } catch (err) {
+          console.error('Error fetching puzzle for redirect:', err);
+        }
+      };
+      fetchAndRedirect();
+      return;
     }
-    
+
     const date = searchParams.get('date');
     if (date) {
       const dateObj = new Date(date);
       if (!isNaN(dateObj.getTime())) {
-        setSelectedDate(dateObj);
-        // Format date in ISO format for the API
-        const isoDate = dateObj.toISOString().split('T')[0];
-        searchByDate(isoDate);
+        const month = monthNames[dateObj.getMonth()];
+        const day = dateObj.getDate();
+        const year = dateObj.getFullYear();
+        router.replace(`/answer-for-${month}-${day}-${year}`);
       }
     }
-  }, [searchParams]);
-  
+  }, [searchParams, router]);
+
   // Helper function to format date for search
   const formatDateForSearch = (date: Date): string => {
     // Return ISO format YYYY-MM-DD for the API
     return date.toISOString().split('T')[0];
   };
-  
+
   // Fetch puzzle by ID
   const fetchPuzzleById = async (id: string) => {
     setLoading(true);
     setError(null);
-    
+
     try {
       // Get puzzle details
       const puzzleRes = await fetch(`${API_BASE}/api/puzzle/${id}`);
       if (!puzzleRes.ok) {
         throw new Error(`Failed to fetch puzzle #${id}`);
       }
-      
+
       const data = await puzzleRes.json();
-      
+
       // Create SearchResult structure expected by our app
       // The API now returns the full structure directly
       const puzzleWithWords: PuzzleWithWords = {
@@ -115,7 +137,7 @@ function ArchiveContent() {
         hasPerfectPangram: data.hasPerfectPangram,
         perfectPangrams: data.perfectPangrams,
       };
-      
+
       setCurrentPuzzle(puzzleWithWords);
       setActiveTab('puzzle');
     } catch (err) {
@@ -125,23 +147,23 @@ function ArchiveContent() {
       setLoading(false);
     }
   };
-  
+
   // Search by date
   const searchByDate = async (query: string) => {
     setLoading(true);
     setError(null);
-    
+
     try {
       const res = await fetch(`${API_BASE}/api/search/date/${query}`);
       if (!res.ok) {
         throw new Error('Failed to search by date');
       }
-      
+
       const data = await res.json();
-      
+
       // Set the search results from the API
       setSearchResults(data.results as SearchResult[]);
-      
+
       // If we have exactly one result, we can directly show it as the current puzzle
       if (data.results.length === 1) {
         const result = data.results[0] as SearchResult;
@@ -153,7 +175,7 @@ function ArchiveContent() {
         setActiveTab('search');
         setError(`No puzzles found for the selected date. Try another date.`);
       }
-      
+
     } catch (err) {
       console.error('Error searching by date:', err);
       setError('Failed to search puzzles by date.');
@@ -161,26 +183,55 @@ function ArchiveContent() {
       setLoading(false);
     }
   };
-  
-  // Handle ID search
-  const handleIdSearch = () => {
-    if (puzzleId) {
-      router.push(`/archive?id=${puzzleId}`);
-      fetchPuzzleById(puzzleId);
+
+  // Handle ID search - fetch puzzle date and redirect to SEO-friendly URL
+  const handleIdSearch = async () => {
+    if (!puzzleId) return;
+
+    setLoading(true);
+    setError(null);
+
+    try {
+      const puzzleRes = await fetch(`${API_BASE}/api/puzzle/${puzzleId}`);
+      if (!puzzleRes.ok) {
+        throw new Error(`Failed to fetch puzzle #${puzzleId}`);
+      }
+
+      const data = await puzzleRes.json();
+      const puzzleDate = new Date(data.puzzle.date);
+
+      // Format date for SEO-friendly URL: month-dd-yyyy
+      const monthNames = [
+        'january', 'february', 'march', 'april', 'may', 'june',
+        'july', 'august', 'september', 'october', 'november', 'december'
+      ];
+      const month = monthNames[puzzleDate.getMonth()];
+      const day = puzzleDate.getDate();
+      const year = puzzleDate.getFullYear();
+      router.push(`/answer-for-${month}-${day}-${year}`);
+    } catch (err) {
+      console.error('Error fetching puzzle:', err);
+      setError('Failed to load puzzle. Please try again.');
+      setLoading(false);
     }
   };
-  
+
   // Handle date selection
   const handleDateSelect = (date: Date | null) => {
     if (date) {
       setSelectedDate(date);
-      // Format date in ISO format for the API
-      const isoDate = formatDateForSearch(date);
-      router.push(`/archive?date=${isoDate}`);
-      searchByDate(isoDate);
+      // Format date for SEO-friendly URL: month-dd-yyyy
+      const monthNames = [
+        'january', 'february', 'march', 'april', 'may', 'june',
+        'july', 'august', 'september', 'october', 'november', 'december'
+      ];
+      const month = monthNames[date.getMonth()];
+      const day = date.getDate();
+      const year = date.getFullYear();
+      router.push(`/answer-for-${month}-${day}-${year}`);
     }
   };
-  
+
   // Group words by length for the current puzzle
   const wordsByLength = currentPuzzle?.words?.reduce((acc, word) => {
     const len = word.length;
@@ -188,18 +239,18 @@ function ArchiveContent() {
     acc[len].push(word);
     return acc;
   }, {} as Record<number, Word[]>) || {};
-  
+
   // Sort lengths in descending order
   const lengths = Object.keys(wordsByLength).map(Number).sort((a, b) => b - a);
-  
+
   return (
     <div className="max-w-6xl mx-auto px-2 py-3 sm:px-4">
       <h1 className="text-3xl sm:text-4xl font-bold text-center mb-4 sm:mb-6 text-indigo-800">Spelling Bee Archive</h1>
-      
+
       {/* Tabs */}
       <div className="flex justify-center mb-4">
         <div className="flex space-x-2 bg-gray-100 p-1 rounded-lg">
-          <button 
+          <button
             onClick={() => {
               setActiveTab('search');
               setError(null);
@@ -209,7 +260,7 @@ function ArchiveContent() {
             Search Archive
           </button>
           {currentPuzzle && (
-            <button 
+            <button
               onClick={() => {
                 setActiveTab('puzzle');
                 setError(null);
@@ -220,7 +271,7 @@ function ArchiveContent() {
             </button>
           )}
           {searchResults.length > 0 && (
-            <button 
+            <button
               onClick={() => {
                 setActiveTab('results');
                 setError(null);
@@ -232,7 +283,7 @@ function ArchiveContent() {
           )}
         </div>
       </div>
-      
+
       {error && (
         <div className="bg-red-50 border border-red-200 text-red-600 p-3 sm:p-4 rounded-lg mb-4 shadow-sm flex items-start">
           <div className="mr-3 flex-shrink-0">
@@ -248,7 +299,7 @@ function ArchiveContent() {
           </div>
         </div>
       )}
-      
+
       {/* Search Form - Combined */}
       {activeTab === 'search' && (
         <div className="mb-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
@@ -302,7 +353,7 @@ function ArchiveContent() {
               </p>
             </div>
           </div>
-          
+
           {/* Calendar Picker */}
           <div className="p-4 bg-gradient-to-br from-purple-50 to-pink-100 rounded-lg shadow-md transition-all hover:shadow-lg border border-purple-100">
             <h2 className="text-xl sm:text-2xl font-bold mb-3 text-purple-800">Find by Date</h2>
@@ -329,7 +380,7 @@ function ArchiveContent() {
                     yearDropdownItemNumber={8}
                     scrollableYearDropdown
                     calendarClassName="bg-white rounded-lg shadow-md border border-purple-200"
-                    dayClassName={date => 
+                    dayClassName={date =>
                       date.getTime() >= minDate.getTime() && date.getTime() <= maxDate.getTime()
                         ? "hover:bg-purple-200"
                         : "text-gray-300"
@@ -343,26 +394,26 @@ function ArchiveContent() {
             </p>
             {selectedDate && (
               <p className="mt-2 text-purple-700 font-medium">
-                Selected: {selectedDate.toLocaleDateString('en-US', { 
-                  year: 'numeric', 
-                  month: 'long', 
-                  day: 'numeric' 
+                Selected: {selectedDate.toLocaleDateString('en-US', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric'
                 })}
               </p>
             )}
           </div>
         </div>
       )}
-      
+
       {/* Search Results */}
       {activeTab === 'results' && (
         <div className="mb-6">
           <h2 className="text-xl sm:text-2xl font-bold mb-3 text-indigo-800">Search Results</h2>
-          
+
           {searchResults.length > 0 ? (
             <>
               <p className="mb-4 text-gray-600">Found {searchResults.length} puzzles matching your search.</p>
-              
+
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {searchResults.map((result, index) => (
                   <div key={index} className="border border-indigo-100 rounded-lg p-3 sm:p-4 shadow-md hover:shadow-lg transition-all bg-gradient-to-r from-white to-indigo-50">
@@ -378,9 +429,9 @@ function ArchiveContent() {
                     <p className="mb-2"><span className="font-semibold">Pangrams:</span> {result.puzzle.pangrams_count}</p>
                     <p className="mb-1"><span className="font-semibold">Points:</span> {result.totalPoints}</p>
                     {result.hasPerfectPangram && result.perfectPangrams.length > 0 && (
-                       <p className="mb-2 text-sm text-green-600 font-semibold">Perfect: {result.perfectPangrams.join(', ').toUpperCase()}</p>
+                      <p className="mb-2 text-sm text-green-600 font-semibold">Perfect: {result.perfectPangrams.join(', ').toUpperCase()}</p>
                     )}
-                    
+
                     <button
                       onClick={() => {
                         // We already have the puzzle and words data, so we can set it directly
@@ -413,7 +464,7 @@ function ArchiveContent() {
           )}
         </div>
       )}
-      
+
       {/* Current Puzzle Display */}
       {activeTab === 'puzzle' && currentPuzzle && (
         <div className="mb-6">
@@ -422,7 +473,7 @@ function ArchiveContent() {
               <h2 className="text-2xl sm:text-3xl font-bold mb-3 text-indigo-800">
                 Puzzle #{currentPuzzle.puzzle.puzzle_id} - {new Date(currentPuzzle.puzzle.date).toLocaleDateString()}
               </h2>
-              
+
               <div className="flex justify-center items-center mb-6">
                 <div className="relative w-72 h-72 sm:w-80 sm:h-80">
                   <div className="honeycomb">
@@ -430,32 +481,32 @@ function ArchiveContent() {
                     <div className="hexagon center">
                       <div className="hexagon-content">{currentPuzzle.puzzle.letters}</div>
                     </div>
-                    
+
                     {/* Top hexagon */}
                     <div className="hexagon top">
                       <div className="hexagon-content">{currentPuzzle.puzzle.all_letters[1]}</div>
                     </div>
-                    
+
                     {/* Top-right hexagon */}
                     <div className="hexagon top-right">
                       <div className="hexagon-content">{currentPuzzle.puzzle.all_letters[2]}</div>
                     </div>
-                    
+
                     {/* Bottom-right hexagon */}
                     <div className="hexagon bottom-right">
                       <div className="hexagon-content">{currentPuzzle.puzzle.all_letters[3]}</div>
                     </div>
-                    
+
                     {/* Bottom hexagon */}
                     <div className="hexagon bottom">
                       <div className="hexagon-content">{currentPuzzle.puzzle.all_letters[4]}</div>
                     </div>
-                    
+
                     {/* Bottom-left hexagon */}
                     <div className="hexagon bottom-left">
                       <div className="hexagon-content">{currentPuzzle.puzzle.all_letters[5]}</div>
                     </div>
-                    
+
                     {/* Top-left hexagon */}
                     <div className="hexagon top-left">
                       <div className="hexagon-content">{currentPuzzle.puzzle.all_letters[6]}</div>
@@ -463,13 +514,13 @@ function ArchiveContent() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="inline-block px-4 py-2 sm:px-6 sm:py-3 bg-indigo-50 rounded-lg shadow-sm">
                 <p className="mt-1">
                   <span className="font-semibold">Letters:</span> {currentPuzzle.puzzle.all_letters.split('').join(', ')}
                 </p>
                 <p className="mt-1">
-                  <span className="font-semibold">Words:</span> {currentPuzzle.puzzle.word_count} • 
+                  <span className="font-semibold">Words:</span> {currentPuzzle.puzzle.word_count} •
                   <span className="font-semibold ml-2">Pangrams:</span> {currentPuzzle.puzzle.pangrams_count}
                 </p>
                 <p className="mt-1">
@@ -482,16 +533,16 @@ function ArchiveContent() {
                 )}
               </div>
             </div>
-            
+
             <div className="mt-6">
               <h3 className="text-xl sm:text-2xl font-bold mb-4 text-indigo-800">Words</h3>
-              
+
               {lengths.map(length => (
                 <div key={length} className="mb-6">
                   <h4 className="text-lg font-semibold mb-2 pl-2 border-l-4 border-indigo-500">{length}-letter words ({wordsByLength[length].length})</h4>
                   <div className="flex flex-wrap gap-2">
                     {wordsByLength[length].map((word, index) => (
-                      <div 
+                      <div
                         key={index}
                         className={`px-2 sm:px-3 py-1 rounded-full shadow-sm ${word.is_pangram ? 'bg-yellow-300 font-semibold' : 'bg-gray-100'} hover:transform hover:scale-105 transition-transform`}
                       >
@@ -505,7 +556,7 @@ function ArchiveContent() {
           </div>
         </div>
       )}
-      
+
       <style jsx>{`
         .honeycomb {
           position: relative;
@@ -740,26 +791,26 @@ function ArchiveContent() {
       `}</style>
 
       <div className="flex justify-center mt-6 space-x-2 sm:space-x-4">
-        <Link 
-          href="/" 
+        <Link
+          href="/"
           className="px-3 py-2 sm:px-5 sm:py-2 bg-gradient-to-r from-indigo-600 to-blue-600 text-white rounded-lg hover:from-indigo-700 hover:to-blue-700 transition-all shadow-md hover:shadow-lg text-sm sm:text-base"
         >
           Home
         </Link>
-        <Link 
-          href="/today" 
+        <Link
+          href="/today"
           className="px-3 py-2 sm:px-5 sm:py-2 bg-gradient-to-r from-yellow-500 to-amber-500 text-white rounded-lg hover:from-yellow-600 hover:to-amber-600 transition-all shadow-md hover:shadow-lg text-sm sm:text-base"
         >
           Today
         </Link>
-        <Link 
-          href="/yesterday" 
+        <Link
+          href="/yesterday"
           className="px-3 py-2 sm:px-5 sm:py-2 bg-gradient-to-r from-purple-500 to-violet-500 text-white rounded-lg hover:from-purple-600 hover:to-violet-600 transition-all shadow-md hover:shadow-lg text-sm sm:text-base"
         >
           Yesterday
         </Link>
-        <Link 
-          href="/stats" 
+        <Link
+          href="/stats"
           className="px-3 py-2 sm:px-5 sm:py-2 bg-gradient-to-r from-green-500 to-emerald-500 text-white rounded-lg hover:from-green-600 hover:to-emerald-600 transition-all shadow-md hover:shadow-lg text-sm sm:text-base"
         >
           Stats
