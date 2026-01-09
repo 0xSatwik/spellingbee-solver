@@ -141,6 +141,106 @@ async function scrapeNYTSpellingBee(env) {
   }
 }
 
+// Parser for SBSolver.com puzzles
+// Parser for SBSolver.com puzzles
+// Parser for SBSolver.com puzzles
+function parseSBSolverGameData(html) {
+  try {
+    const data = {};
+
+    // Extract Date - capture everything until invalid end tag, then strip HTML
+    // We remove <a and <br from the stop list so we capture the link content if present
+    const dateMatch = html.match(/Spelling Bee for\s+(.*?)(?:<\/span>|<\/h\d>)/i) ||
+      html.match(/<span class="bee-date[^>]*">Spelling Bee for (.*?)<\/span>/i);
+
+    let dateRaw = dateMatch ? dateMatch[1] : "Unknown Date";
+    // Clean up any remaining HTML tags (like <a>...</a>) or extra whitespace
+    data.printDate = dateRaw.replace(/<[^>]*>/g, '').trim();
+
+    // Extract Letters and Center Letter from input field
+    const inputMatch = html.match(/<input[^>]*id="string"[^>]*value="([^"]*)"/) ||
+      html.match(/value="([^"]*)"[^>]*id="string"/);
+
+    if (inputMatch && inputMatch[1]) {
+      const lettersStr = inputMatch[1];
+      let center = "";
+      let all = [];
+      for (const char of lettersStr) {
+        if (/[a-zA-Z]/.test(char)) {
+          if (char === char.toUpperCase()) center = char.toUpperCase();
+          all.push(char.toUpperCase());
+        }
+      }
+      data.centerLetter = center;
+      data.validLetters = all;
+    }
+
+    // Extract All Answers and detect pangrams
+    const answers = [];
+    const pangrams = [];
+
+    // Look for words in the table.bee-set
+    const tableMatch = html.match(/<table[^>]*class="[^"]*bee-set[^"]*"[^>]*>(.*?)<\/table>/s);
+
+    if (tableMatch) {
+      const tableContent = tableMatch[1];
+      const trMatches = tableContent.matchAll(/<tr[^>]*>(.*?)<\/tr>/gs);
+
+      for (const trMatch of trMatches) {
+        const trHtml = trMatch[1];
+
+        // Check if this row is a pangram (look for 'pangram' text in row)
+        const isPangram = /pangram/i.test(trHtml);
+
+        // Find the word in the row
+        // Words now often contain spans for center letter: <a ...>AC<span class="bee-center">H</span>E</a>
+        // So we capture (.*?) instead of ([^<]*)
+        const wordMatch = trHtml.match(/<td class="bee-hover">\s*<a[^>]*>(.*?)<\/a>/i);
+
+        if (wordMatch) {
+          // Strip tags from the captured word string (removes <span...>)
+          const rawWord = wordMatch[1];
+          const cleanWord = rawWord.replace(/<[^>]*>/g, '').trim().toLowerCase();
+
+          if (cleanWord.length >= 4) {
+            answers.push(cleanWord);
+            if (isPangram) {
+              pangrams.push(cleanWord);
+            }
+          }
+        }
+      }
+    } else {
+      // Fallback: look for any valid looking word links if table structure isn't as expected, 
+      const allLinks = html.matchAll(/<td class="bee-hover">\s*<a[^>]*>(.*?)<\/a>/gi);
+      for (const match of allLinks) {
+        const rawWord = match[1];
+        const cleanWord = rawWord.replace(/<[^>]*>/g, '').trim().toLowerCase();
+
+        if (cleanWord.length >= 4 && /^[a-z]+$/.test(cleanWord)) {
+          answers.push(cleanWord);
+          if (data.validLetters && data.validLetters.every(l => cleanWord.toUpperCase().includes(l))) {
+            pangrams.push(cleanWord);
+          }
+        }
+      }
+    }
+
+    data.pangrams = [...new Set(pangrams)];
+    data.answers = [...new Set(answers)]; // Remove duplicates
+
+    if (!data.centerLetter || !data.answers || data.answers.length === 0) {
+      console.error(`Incomplete data extracted for SBSolver: Center='${data.centerLetter}', Words=${data.answers?.length || 0}`);
+      return null;
+    }
+
+    return data;
+  } catch (error) {
+    console.error('Error parsing SBSolver game data:', error);
+    return null;
+  }
+}
+
 // Store puzzle data in the database using the format from our existing database
 async function storePuzzleData(env, puzzleData) {
   try {
@@ -152,37 +252,17 @@ async function storePuzzleData(env, puzzleData) {
     const lastPuzzleResult = await getLastPuzzleStmt.first();
     const nextPuzzleId = lastPuzzleResult && lastPuzzleResult.last_id ? lastPuzzleResult.last_id + 1 : 2567;
 
-    // Format the date to be consistent with existing data
+    // Format the date to be consistent with existing data (Month Day, Year)
     let date = puzzleData.printDate;
 
-    // Check if date is in ISO format (YYYY-MM-DD)
+    // Check if date is in ISO format (YYYY-MM-DD) and convert if necessary
     if (/^\d{4}-\d{2}-\d{2}$/.test(date)) {
-      // Convert from ISO format to Month Day, Year format
-      const dateObj = new Date(date);
-      const options = { year: 'numeric', month: 'long', day: 'numeric' };
+      const parts = date.split('-');
+      // Use UTC to avoid timezone shifts when formatting
+      const dateObj = new Date(Date.UTC(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2])));
+      const options = { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' };
       date = dateObj.toLocaleDateString('en-US', options);
     }
-
-    // Override with current date for new puzzles - this ensures today's puzzle always has today's date
-    const currentDate = new Date();
-    const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    const todayFormatted = currentDate.toLocaleDateString('en-US', options);
-
-    // Check if a puzzle for this date already exists
-    const checkDateStmt = env.DB.prepare(`
-      SELECT puzzle_id FROM puzzles WHERE date = ?
-    `).bind(todayFormatted);
-
-    const existingPuzzleDate = await checkDateStmt.first();
-    if (existingPuzzleDate) {
-      return {
-        success: false,
-        message: `A puzzle for today (${todayFormatted}) already exists with ID #${existingPuzzleDate.puzzle_id}`
-      };
-    }
-
-    // Use today's date instead of the puzzleData date
-    date = todayFormatted;
 
     // Prepare other data
     const centerLetter = puzzleData.centerLetter.toUpperCase();
@@ -195,12 +275,43 @@ async function storePuzzleData(env, puzzleData) {
       outerLetters = puzzleData.outerLetters.toUpperCase();
     }
 
-    // Make sure validLetters is an array before joining
+    // Make sure allLetters is an array before joining
     let allLetters = "";
     if (Array.isArray(puzzleData.validLetters)) {
       allLetters = puzzleData.validLetters.join('').toUpperCase();
     } else if (typeof puzzleData.validLetters === 'string') {
       allLetters = puzzleData.validLetters.toUpperCase();
+    }
+
+    // Sort letters alphabetically for consistent duplicate checking
+    const sortedLetters = allLetters.split('').sort().join('');
+
+    // Check if a puzzle for this date already exists
+    const checkDateStmt = env.DB.prepare(`
+      SELECT puzzle_id FROM puzzles WHERE date = ?
+    `).bind(date);
+
+    const existingPuzzleDate = await checkDateStmt.first();
+    if (existingPuzzleDate) {
+      return {
+        success: false,
+        message: `A puzzle for ${date} already exists with ID #${existingPuzzleDate.puzzle_id}`
+      };
+    }
+
+    // CRITICAL: Check if this letter combination already exists in the database
+    // This prevents storing the same puzzle twice even if the date is different
+    const checkLettersStmt = env.DB.prepare(`
+      SELECT puzzle_id, date FROM puzzles 
+      WHERE letters = ? AND all_letters = ?
+    `).bind(centerLetter, allLetters);
+
+    const existingLetters = await checkLettersStmt.first();
+    if (existingLetters) {
+      return {
+        success: false,
+        message: `This exact puzzle (Center: ${centerLetter}, All: ${allLetters}) was already stored for ${existingLetters.date} (ID #${existingLetters.puzzle_id}). Skipping duplicate.`
+      };
     }
 
     const wordCount = puzzleData.answers ? puzzleData.answers.length : 0;
@@ -853,13 +964,6 @@ router.get('/api/update/nyt', async (request, env, params, ctx) => {
   try {
     const puzzleData = await scrapeNYTSpellingBee(env);
 
-    // Override date with current date to avoid future date issues
-    const currentDate = new Date();
-    const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' };
-    const todayFormatted = currentDate.toLocaleDateString('en-US', dateOptions);
-    console.log(`Using current date for puzzle: ${todayFormatted}`);
-    puzzleData.printDate = todayFormatted;
-
     const result = await storePuzzleData(env, puzzleData);
 
     // After storing, sync to GitHub for high traffic support
@@ -924,6 +1028,122 @@ router.get('/api/delete/([0-9]+)', async (request, env, params) => {
     });
   } catch (error) {
     console.error('Error deleting puzzle:', error);
+    return jsonResponse({
+      success: false,
+      error: error.message
+    }, 500);
+  }
+});
+
+// Delete a puzzle by date with authentication
+router.get('/api/delete/date/(.+)', async (request, env, params) => {
+  // Check authentication
+  if (!isAuthenticated(request, env)) {
+    return jsonResponse({
+      success: false,
+      error: 'Unauthorized access. Valid API key is required.'
+    }, 401);
+  }
+
+  try {
+    let dateParam = decodeURIComponent(params[0]);
+    let date = dateParam;
+
+    // Normalize date format if it's ISO (YYYY-MM-DD)
+    if (/^\d{4}-\d{2}-\d{2}$/.test(date)) {
+      const parts = date.split('-');
+      const dateObj = new Date(Date.UTC(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2])));
+      const options = { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' };
+      date = dateObj.toLocaleDateString('en-US', options);
+    }
+
+    // First check if a puzzle for this date exists and get its ID
+    const findPuzzleStmt = env.DB.prepare(`
+      SELECT puzzle_id FROM puzzles WHERE date = ?
+    `).bind(date);
+
+    const puzzleResult = await findPuzzleStmt.first();
+    if (!puzzleResult) {
+      return jsonResponse({
+        success: false,
+        message: `No puzzle found for date: ${date}`
+      }, 404);
+    }
+
+    const puzzleId = puzzleResult.puzzle_id;
+
+    // Delete associated words
+    const deleteWordsStmt = env.DB.prepare(`
+      DELETE FROM words WHERE puzzle_id = ?
+    `).bind(puzzleId);
+    await deleteWordsStmt.run();
+
+    // Delete the puzzle
+    const deletePuzzleStmt = env.DB.prepare(`
+      DELETE FROM puzzles WHERE puzzle_id = ?
+    `).bind(puzzleId);
+    await deletePuzzleStmt.run();
+
+    return jsonResponse({
+      success: true,
+      message: `Puzzle for date ${date} (ID #${puzzleId}) has been deleted`,
+      puzzleId,
+      date
+    });
+  } catch (error) {
+    console.error('Error deleting puzzle by date:', error);
+    return jsonResponse({
+      success: false,
+      error: error.message
+    }, 500);
+  }
+});
+
+// Add a puzzle by scraping SBSolver.com using ID
+router.get('/api/add/id/([0-9]+)', async (request, env, params, ctx) => {
+  // Check authentication
+  if (!isAuthenticated(request, env)) {
+    return jsonResponse({
+      success: false,
+      error: 'Unauthorized access. Valid API key is required.'
+    }, 401);
+  }
+
+  try {
+    const sbsId = params[0];
+    const url = `https://www.sbsolver.com/s/${sbsId}`;
+
+    console.log(`Manually adding puzzle from SBSolver ID: ${sbsId}`);
+
+    const response = await fetch(url, {
+      headers: {
+        'User-Agent': 'python-requests/2.25.1'
+      }
+    });
+
+    if (!response.ok) {
+      throw new Error(`Failed to fetch SBSolver page: ${response.status}`);
+    }
+
+    const html = await response.text();
+    const puzzleData = parseSBSolverGameData(html);
+
+    if (!puzzleData) {
+      throw new Error(`Failed to parse puzzle data from SBSolver ID: ${sbsId}`);
+    }
+
+    // Explicitly set the original ID
+    puzzleData.id = sbsId;
+
+    const result = await storePuzzleData(env, puzzleData);
+
+    return jsonResponse({
+      ...result,
+      source: 'SBSolver',
+      sourceId: sbsId
+    });
+  } catch (error) {
+    console.error('Error adding puzzle by ID:', error);
     return jsonResponse({
       success: false,
       error: error.message
@@ -1002,7 +1222,7 @@ export default {
     return router.handle(request, env, ctx);
   },
 
-  // Scheduled task - runs at 07:01 UTC (12:31 IST) every day
+  // Scheduled task - runs at 07:01 UTC and fallback at 07:05 UTC every day
   async scheduled(event, env, ctx) {
     try {
       console.log('Running scheduled NYT Spelling Bee update');
@@ -1017,13 +1237,6 @@ export default {
 
       // Check date format and log it
       console.log(`Raw date from NYT: ${puzzleData.printDate}`);
-
-      // Always override date with current date to avoid future date issues
-      const currentDate = new Date();
-      const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' };
-      const todayFormatted = currentDate.toLocaleDateString('en-US', dateOptions);
-      console.log(`Using current date for puzzle: ${todayFormatted}`);
-      puzzleData.printDate = todayFormatted;
 
       const result = await storePuzzleData(env, puzzleData);
 

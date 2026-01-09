@@ -1,0 +1,200 @@
+{
+    "puzzle": {
+        "puzzle_id": 2803,
+        "date": "January 9, 2026",
+        "letters": "H",
+        "all_letters": "HACDEIP",
+        "word_count": 37,
+        "pangrams_count": 1
+    },
+    "words": [
+        {
+            "word": "headpiece",
+            "is_pangram": 1,
+            "length": 9
+        },
+        {
+            "word": "deadheaded",
+            "is_pangram": 0,
+            "length": 10
+        },
+        {
+            "word": "deadhead",
+            "is_pangram": 0,
+            "length": 8
+        },
+        {
+            "word": "headache",
+            "is_pangram": 0,
+            "length": 8
+        },
+        {
+            "word": "chapped",
+            "is_pangram": 0,
+            "length": 7
+        },
+        {
+            "word": "cheapie",
+            "is_pangram": 0,
+            "length": 7
+        },
+        {
+            "word": "cheeped",
+            "is_pangram": 0,
+            "length": 7
+        },
+        {
+            "word": "chipped",
+            "is_pangram": 0,
+            "length": 7
+        },
+        {
+            "word": "cached",
+            "is_pangram": 0,
+            "length": 6
+        },
+        {
+            "word": "chichi",
+            "is_pangram": 0,
+            "length": 6
+        },
+        {
+            "word": "chided",
+            "is_pangram": 0,
+            "length": 6
+        },
+        {
+            "word": "headed",
+            "is_pangram": 0,
+            "length": 6
+        },
+        {
+            "word": "heaped",
+            "is_pangram": 0,
+            "length": 6
+        },
+        {
+            "word": "heeded",
+            "is_pangram": 0,
+            "length": 6
+        },
+        {
+            "word": "hippie",
+            "is_pangram": 0,
+            "length": 6
+        },
+        {
+            "word": "ached",
+            "is_pangram": 0,
+            "length": 5
+        },
+        {
+            "word": "ahead",
+            "is_pangram": 0,
+            "length": 5
+        },
+        {
+            "word": "aphid",
+            "is_pangram": 0,
+            "length": 5
+        },
+        {
+            "word": "cache",
+            "is_pangram": 0,
+            "length": 5
+        },
+        {
+            "word": "cheap",
+            "is_pangram": 0,
+            "length": 5
+        },
+        {
+            "word": "cheep",
+            "is_pangram": 0,
+            "length": 5
+        },
+        {
+            "word": "chica",
+            "is_pangram": 0,
+            "length": 5
+        },
+        {
+            "word": "chide",
+            "is_pangram": 0,
+            "length": 5
+        },
+        {
+            "word": "dacha",
+            "is_pangram": 0,
+            "length": 5
+        },
+        {
+            "word": "peach",
+            "is_pangram": 0,
+            "length": 5
+        },
+        {
+            "word": "ache",
+            "is_pangram": 0,
+            "length": 4
+        },
+        {
+            "word": "chad",
+            "is_pangram": 0,
+            "length": 4
+        },
+        {
+            "word": "chai",
+            "is_pangram": 0,
+            "length": 4
+        },
+        {
+            "word": "chap",
+            "is_pangram": 0,
+            "length": 4
+        },
+        {
+            "word": "chia",
+            "is_pangram": 0,
+            "length": 4
+        },
+        {
+            "word": "chic",
+            "is_pangram": 0,
+            "length": 4
+        },
+        {
+            "word": "chip",
+            "is_pangram": 0,
+            "length": 4
+        },
+        {
+            "word": "each",
+            "is_pangram": 0,
+            "length": 4
+        },
+        {
+            "word": "head",
+            "is_pangram": 0,
+            "length": 4
+        },
+        {
+            "word": "heap",
+            "is_pangram": 0,
+            "length": 4
+        },
+        {
+            "word": "heed",
+            "is_pangram": 0,
+            "length": 4
+        },
+        {
+            "word": "hide",
+            "is_pangram": 0,
+            "length": 4
+        }
+    ],
+    "totalPoints": 174,
+    "hasPerfectPangram": false,
+    "perfectPangrams": []
+}

@@ -145,7 +145,7 @@ export default function RootLayout({
           </>
         )}
       </head>
-      <body className={poppins.className}>
+      <body className={poppins.className} suppressHydrationWarning>
         <div className="flex min-h-screen flex-col bg-gray-50">
           {/* Enhanced Header */}
           <header className="sticky top-0 z-50 bg-gradient-to-r from-amber-500 via-yellow-500 to-orange-500 shadow-lg">

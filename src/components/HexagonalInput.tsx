@@ -4,31 +4,54 @@ import { useState, useEffect } from 'react';
 
 interface HexagonalInputProps {
   onLettersChange: (centerLetter: string, outerLetters: string) => void;
+  centerLetter?: string;
+  outerLetters?: string;
 }
 
-export default function HexagonalInput({ onLettersChange }: HexagonalInputProps) {
+export default function HexagonalInput({ onLettersChange, centerLetter = '', outerLetters = '' }: HexagonalInputProps) {
   const [letters, setLetters] = useState<string[]>(Array(7).fill(''));
   const [activeCell, setActiveCell] = useState<number>(0);
   const [keyboardActive, setKeyboardActive] = useState(true);
 
+  // Sync internal state with props when they change (e.g. from autofill)
+  useEffect(() => {
+    const currentCenter = letters[0];
+    const currentOuter = letters.slice(1).join('');
+
+    // Only update if props are different from current state to avoid loops
+    if (centerLetter !== currentCenter || outerLetters !== currentOuter) {
+      const newLetters = Array(7).fill('');
+      newLetters[0] = centerLetter.toUpperCase();
+      const outerArray = outerLetters.toUpperCase().split('');
+      for (let i = 0; i < 6; i++) {
+        newLetters[i + 1] = outerArray[i] || '';
+      }
+      setLetters(newLetters);
+    }
+  }, [centerLetter, outerLetters]);
+
   // Handle letter updates and callback to parent
   useEffect(() => {
-    const centerLetter = letters[0];
-    const outerLetters = letters.slice(1).join('');
-    onLettersChange(centerLetter, outerLetters);
+    const currentCenter = letters[0];
+    const currentOuter = letters.slice(1).join('');
+
+    // Prevent infinite loop by not calling onChange if values match props
+    // But we need to call it if the user typed it
+    // The parent should handle the loop or we trust React's batching
+    onLettersChange(currentCenter, currentOuter);
   }, [letters, onLettersChange]);
 
   const handleCellClick = (index: number) => {
     setActiveCell(index);
     setKeyboardActive(true);
   };
-  
+
   const handleLetterInput = (index: number, value: string) => {
     const newLetters = [...letters];
     newLetters[index] = value;
     setLetters(newLetters);
   };
-  
+
   const handleClearAll = () => {
     setLetters(Array(7).fill(''));
     setActiveCell(0);
@@ -45,16 +68,16 @@ export default function HexagonalInput({ onLettersChange }: HexagonalInputProps)
 
     const handleKeyDown = (e: KeyboardEvent) => {
       if (!keyboardActive) return;
-      
+
       const key = e.key.toUpperCase();
-      
+
       // Check if key is a letter
       if (/^[A-Z]$/.test(key)) {
         handleKeyboardLetterInput(activeCell, key);
         // Move to next cell
         const nextIndex = (activeCell + 1) % 7;
         setActiveCell(nextIndex);
-      } 
+      }
       // Backspace
       else if (e.key === 'Backspace') {
         handleKeyboardLetterInput(activeCell, '');
@@ -87,55 +110,55 @@ export default function HexagonalInput({ onLettersChange }: HexagonalInputProps)
       <div className="relative mx-auto w-72 h-72 mb-6">
         <div className="honeycomb">
           {/* Center hexagon */}
-          <div 
+          <div
             className={`hexagon center ${activeCell === 0 ? 'active' : ''}`}
             onClick={() => handleCellClick(0)}
           >
             <div className="hexagon-content">{letters[0] || ''}</div>
           </div>
-          
+
           {/* Top hexagon */}
-          <div 
+          <div
             className={`hexagon top ${activeCell === 1 ? 'active' : ''}`}
             onClick={() => handleCellClick(1)}
           >
             <div className="hexagon-content">{letters[1] || ''}</div>
           </div>
-          
+
           {/* Top-right hexagon */}
-          <div 
+          <div
             className={`hexagon top-right ${activeCell === 2 ? 'active' : ''}`}
             onClick={() => handleCellClick(2)}
           >
             <div className="hexagon-content">{letters[2] || ''}</div>
           </div>
-          
+
           {/* Bottom-right hexagon */}
-          <div 
+          <div
             className={`hexagon bottom-right ${activeCell === 3 ? 'active' : ''}`}
             onClick={() => handleCellClick(3)}
           >
             <div className="hexagon-content">{letters[3] || ''}</div>
           </div>
-          
+
           {/* Bottom hexagon */}
-          <div 
+          <div
             className={`hexagon bottom ${activeCell === 4 ? 'active' : ''}`}
             onClick={() => handleCellClick(4)}
           >
             <div className="hexagon-content">{letters[4] || ''}</div>
           </div>
-          
+
           {/* Bottom-left hexagon */}
-          <div 
+          <div
             className={`hexagon bottom-left ${activeCell === 5 ? 'active' : ''}`}
             onClick={() => handleCellClick(5)}
           >
             <div className="hexagon-content">{letters[5] || ''}</div>
           </div>
-          
+
           {/* Top-left hexagon */}
-          <div 
+          <div
             className={`hexagon top-left ${activeCell === 6 ? 'active' : ''}`}
             onClick={() => handleCellClick(6)}
           >
@@ -245,7 +268,7 @@ export default function HexagonalInput({ onLettersChange }: HexagonalInputProps)
       </div>
 
       <div className="grid grid-cols-7 gap-1 mb-4">
-        {['A','B','C','D','E','F','G'].map((letter) => (
+        {['A', 'B', 'C', 'D', 'E', 'F', 'G'].map((letter) => (
           <button
             key={letter}
             type="button"
@@ -261,7 +284,7 @@ export default function HexagonalInput({ onLettersChange }: HexagonalInputProps)
         ))}
       </div>
       <div className="grid grid-cols-7 gap-1 mb-4">
-        {['H','I','J','K','L','M','N'].map((letter) => (
+        {['H', 'I', 'J', 'K', 'L', 'M', 'N'].map((letter) => (
           <button
             key={letter}
             type="button"
@@ -277,7 +300,7 @@ export default function HexagonalInput({ onLettersChange }: HexagonalInputProps)
         ))}
       </div>
       <div className="grid grid-cols-7 gap-1 mb-4">
-        {['O','P','Q','R','S','T','U'].map((letter) => (
+        {['O', 'P', 'Q', 'R', 'S', 'T', 'U'].map((letter) => (
           <button
             key={letter}
             type="button"
@@ -293,7 +316,7 @@ export default function HexagonalInput({ onLettersChange }: HexagonalInputProps)
         ))}
       </div>
       <div className="grid grid-cols-7 gap-1">
-        {['V','W','X','Y','Z','⌫','Tab'].map((key) => (
+        {['V', 'W', 'X', 'Y', 'Z', '⌫', 'Tab'].map((key) => (
           <button
             key={key}
             type="button"
