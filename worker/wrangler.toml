@@ -8,9 +8,7 @@ binding = "DB"
 database_name = "spelling_bee"
 database_id = "07d50185-619d-40f9-bcd9-bb46ae5bd142"
 
-# API Security Key
-[vars]
-APIKEY = "BloggingIo@7"
+
 
 # Scheduled Trigger - Runs at 7:01 UTC (12:31 IST) every day
 [triggers]
