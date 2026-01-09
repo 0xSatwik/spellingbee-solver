@@ -16,6 +16,7 @@
 !/tailwind.config.ts
 !/next-sitemap.config.js
 !/README.md
+!/worker/
 
 # dependencies
 /node_modules
