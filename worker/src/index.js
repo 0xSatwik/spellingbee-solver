@@ -21,7 +21,7 @@ class Router {
     return this;
   }
 
-  async handle(request, env) {
+  async handle(request, env, ctx) {
     const url = new URL(request.url);
     const path = url.pathname;
     const method = request.method;
@@ -39,7 +39,7 @@ class Router {
         const match = path.match(new RegExp(`^${route.pattern}$`));
         if (match) {
           const params = match.slice(1);
-          return await route.handler(request, env, params);
+          return await route.handler(request, env, params, ctx);
         }
       }
     }
@@ -64,7 +64,7 @@ function jsonResponse(data, status = 200) {
 function isAuthenticated(request, env) {
   const url = new URL(request.url);
   const apiKey = url.searchParams.get('key');
-  
+
   // Check if the API key is valid
   return apiKey === env.APIKEY;
 }
@@ -75,7 +75,7 @@ function parseNYTGameData(html) {
     // Look for the script tag with gameData
     const regex = /<script type="text\/javascript">window\.gameData = ({.*?}),?<\/script>/s;
     const match = html.match(regex);
-    
+
     if (match && match[1]) {
       const gameDataStr = match[1];
       // Parse the data and extract today's puzzle
@@ -84,7 +84,7 @@ function parseNYTGameData(html) {
         return gameData.today;
       }
     }
-    
+
     // If the specific format doesn't match, try a more generic approach
     const genericMatch = html.match(/window\.gameData\s*=\s*({.*?});/s);
     if (genericMatch && genericMatch[1]) {
@@ -97,7 +97,7 @@ function parseNYTGameData(html) {
         console.error("Failed to parse generic match:", e);
       }
     }
-    
+
     return null;
   } catch (error) {
     console.error('Error parsing NYT game data:', error);
@@ -113,12 +113,12 @@ async function scrapeNYTSpellingBee(env) {
     if (!response.ok) {
       throw new Error(`Failed to fetch NYT page: ${response.status}`);
     }
-    
+
     const html = await response.text();
-    
+
     // Try to parse using our specialized parser
     const puzzleData = parseNYTGameData(html);
-    
+
     if (!puzzleData) {
       // Fall back to direct extraction from html if provided in the example format
       const hardcodedMatch = html.match(/<script type="text\/javascript">window\.gameData = (\{"today":.*?\})<\/script>/s);
@@ -130,10 +130,10 @@ async function scrapeNYTSpellingBee(env) {
           console.error("Failed to parse hardcoded match:", error);
         }
       }
-      
+
       throw new Error('Failed to extract puzzle data from NYT page');
     }
-    
+
     return puzzleData;
   } catch (error) {
     console.error('Error scraping NYT Spelling Bee:', error);
@@ -148,13 +148,13 @@ async function storePuzzleData(env, puzzleData) {
     const getLastPuzzleStmt = env.DB.prepare(`
       SELECT MAX(puzzle_id) as last_id FROM puzzles
     `);
-    
+
     const lastPuzzleResult = await getLastPuzzleStmt.first();
     const nextPuzzleId = lastPuzzleResult && lastPuzzleResult.last_id ? lastPuzzleResult.last_id + 1 : 2567;
-    
+
     // Format the date to be consistent with existing data
     let date = puzzleData.printDate;
-    
+
     // Check if date is in ISO format (YYYY-MM-DD)
     if (/^\d{4}-\d{2}-\d{2}$/.test(date)) {
       // Convert from ISO format to Month Day, Year format
@@ -162,31 +162,31 @@ async function storePuzzleData(env, puzzleData) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' };
       date = dateObj.toLocaleDateString('en-US', options);
     }
-    
+
     // Override with current date for new puzzles - this ensures today's puzzle always has today's date
     const currentDate = new Date();
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
     const todayFormatted = currentDate.toLocaleDateString('en-US', options);
-    
+
     // Check if a puzzle for this date already exists
     const checkDateStmt = env.DB.prepare(`
       SELECT puzzle_id FROM puzzles WHERE date = ?
     `).bind(todayFormatted);
-    
+
     const existingPuzzleDate = await checkDateStmt.first();
     if (existingPuzzleDate) {
-      return { 
-        success: false, 
-        message: `A puzzle for today (${todayFormatted}) already exists with ID #${existingPuzzleDate.puzzle_id}` 
+      return {
+        success: false,
+        message: `A puzzle for today (${todayFormatted}) already exists with ID #${existingPuzzleDate.puzzle_id}`
       };
     }
-    
+
     // Use today's date instead of the puzzleData date
     date = todayFormatted;
-    
+
     // Prepare other data
     const centerLetter = puzzleData.centerLetter.toUpperCase();
-    
+
     // Make sure outerLetters is an array before joining
     let outerLetters = "";
     if (Array.isArray(puzzleData.outerLetters)) {
@@ -194,7 +194,7 @@ async function storePuzzleData(env, puzzleData) {
     } else if (typeof puzzleData.outerLetters === 'string') {
       outerLetters = puzzleData.outerLetters.toUpperCase();
     }
-    
+
     // Make sure validLetters is an array before joining
     let allLetters = "";
     if (Array.isArray(puzzleData.validLetters)) {
@@ -202,10 +202,10 @@ async function storePuzzleData(env, puzzleData) {
     } else if (typeof puzzleData.validLetters === 'string') {
       allLetters = puzzleData.validLetters.toUpperCase();
     }
-    
+
     const wordCount = puzzleData.answers ? puzzleData.answers.length : 0;
     const pangramsCount = puzzleData.pangrams ? puzzleData.pangrams.length : 0;
-    
+
     // Insert puzzle data - Fix schema to match the database (removed outer_letters column)
     const insertPuzzleStmt = env.DB.prepare(`
       INSERT INTO puzzles (puzzle_id, date, letters, all_letters, word_count, pangrams_count)
@@ -218,18 +218,18 @@ async function storePuzzleData(env, puzzleData) {
       wordCount,
       pangramsCount
     );
-    
+
     await insertPuzzleStmt.run();
-    
+
     // Insert words
     const insertedWords = [];
-    
+
     if (Array.isArray(puzzleData.answers)) {
       for (const word of puzzleData.answers) {
         // Check if the word is a pangram
         const isPangram = Array.isArray(puzzleData.pangrams) && puzzleData.pangrams.includes(word) ? 1 : 0;
         const length = word.length;
-        
+
         const insertWordStmt = env.DB.prepare(`
           INSERT INTO words (puzzle_id, word, is_pangram, length)
           VALUES (?, ?, ?, ?)
@@ -239,12 +239,12 @@ async function storePuzzleData(env, puzzleData) {
           isPangram,
           length
         );
-        
+
         await insertWordStmt.run();
         insertedWords.push(word);
       }
     }
-    
+
     return {
       success: true,
       puzzleId: nextPuzzleId,
@@ -294,6 +294,99 @@ function calculatePuzzleEnrichments(words) {
   };
 }
 
+// Helper function to get today's puzzle data from the database
+async function getTodayPuzzleData(env) {
+  // Get the puzzle with the highest puzzle_id (most recent)
+  const puzzleStmt = env.DB.prepare(`
+    SELECT * FROM puzzles 
+    ORDER BY puzzle_id DESC
+    LIMIT 1
+  `);
+
+  const puzzleResult = await puzzleStmt.first();
+
+  if (!puzzleResult) {
+    return null;
+  }
+
+  // Get words for this puzzle
+  const wordsStmt = env.DB.prepare(`
+    SELECT word, is_pangram, length FROM words 
+    WHERE puzzle_id = ?
+    ORDER BY is_pangram DESC, length DESC, word
+  `).bind(puzzleResult.puzzle_id);
+
+  const wordsResult = await wordsStmt.all();
+  const words = wordsResult.results || [];
+
+  const enrichments = calculatePuzzleEnrichments(words);
+
+  return {
+    puzzle: puzzleResult,
+    words: words,
+    totalPoints: enrichments.totalPoints,
+    hasPerfectPangram: enrichments.hasPerfectPangram,
+    perfectPangrams: enrichments.perfectPangrams,
+  };
+}
+
+// Helper function to commit today's puzzle data to GitHub
+async function commitToGithub(env, puzzleData) {
+  try {
+    const owner = '0xSatwik';
+    const repo = 'spellingbee-solver';
+    const path = 'public/today.json';
+    const token = env.GITHUB_TOKEN;
+
+    if (!token) {
+      console.error('GITHUB_TOKEN not found in environment');
+      return;
+    }
+
+    // Prepare the content
+    const content = btoa(JSON.stringify(puzzleData, null, 2));
+
+    // Get the SHA of the existing file (if it exists)
+    let sha;
+    const getFileResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
+      headers: {
+        'Authorization': `token ${token}`,
+        'User-Agent': 'Cloudflare-Worker'
+      }
+    });
+
+    if (getFileResponse.ok) {
+      const fileData = await getFileResponse.json();
+      sha = fileData.sha;
+    }
+
+    // Commit the file
+    const commitResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
+      method: 'PUT',
+      headers: {
+        'Authorization': `token ${token}`,
+        'User-Agent': 'Cloudflare-Worker',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        message: `Sync today's puzzle: ${puzzleData.puzzle.date}`,
+        content: content,
+        sha: sha
+      })
+    });
+
+    if (!commitResponse.ok) {
+      const errorData = await commitResponse.json();
+      console.error('GitHub Commit Error:', errorData);
+      throw new Error(`GitHub commit failed: ${commitResponse.statusText}`);
+    }
+
+    console.log('Successfully committed today.json to GitHub');
+  } catch (error) {
+    console.error('Error committing to GitHub:', error);
+  }
+}
+
 // Create the router instance
 const router = new Router();
 
@@ -329,16 +422,16 @@ router.get('/api/puzzles', async (request, env) => {
   const url = new URL(request.url);
   const limit = parseInt(url.searchParams.get('limit') || '50');
   const offset = parseInt(url.searchParams.get('offset') || '0');
-  
+
   const stmt = env.DB.prepare(`
     SELECT puzzle_id, date, letters, all_letters, word_count, pangrams_count 
     FROM puzzles 
     ORDER BY puzzle_id DESC
     LIMIT ? OFFSET ?
   `).bind(limit, offset);
-  
+
   const result = await stmt.all();
-  
+
   return jsonResponse({
     puzzles: result.results,
     pagination: {
@@ -351,30 +444,30 @@ router.get('/api/puzzles', async (request, env) => {
 // Get puzzle by ID with words
 router.get('/api/puzzle/([0-9]+)', async (request, env, params) => {
   const puzzleId = parseInt(params[0]);
-  
+
   // Get puzzle details
   const puzzleStmt = env.DB.prepare(`
     SELECT * FROM puzzles WHERE puzzle_id = ?
   `).bind(puzzleId);
-  
+
   const puzzleResult = await puzzleStmt.first();
-  
+
   if (!puzzleResult) {
     return jsonResponse({ error: `Puzzle #${puzzleId} not found` }, 404);
   }
-  
+
   // Get words for this puzzle
   const wordsStmt = env.DB.prepare(`
     SELECT word, is_pangram, length FROM words 
     WHERE puzzle_id = ?
     ORDER BY is_pangram DESC, length DESC, word
   `).bind(puzzleId);
-  
+
   const wordsResult = await wordsStmt.all();
   const words = wordsResult.results || [];
 
   const enrichments = calculatePuzzleEnrichments(words);
-  
+
   return jsonResponse({
     puzzle: puzzleResult,
     words: words,
@@ -393,9 +486,9 @@ router.get('/api/mostCommonCenterLetters', async (request, env) => {
     ORDER BY count DESC
     LIMIT 26
   `);
-  
+
   const result = await stmt.all();
-  
+
   return jsonResponse({
     centerLetterFrequency: result.results,
   });
@@ -404,16 +497,16 @@ router.get('/api/mostCommonCenterLetters', async (request, env) => {
 // Puzzles with Most Words
 router.get('/api/puzzlesWithMostWords', async (request, env) => {
   const limit = 10;
-  
+
   const stmt = env.DB.prepare(`
     SELECT puzzle_id, date, word_count
     FROM puzzles
     ORDER BY word_count DESC
     LIMIT ?
   `).bind(limit);
-  
+
   const result = await stmt.all();
-  
+
   return jsonResponse({
     puzzlesWithMostWords: result.results,
   });
@@ -422,16 +515,16 @@ router.get('/api/puzzlesWithMostWords', async (request, env) => {
 // Puzzles with Most Pangrams
 router.get('/api/puzzlesWithMostPangrams', async (request, env) => {
   const limit = 10;
-  
+
   const stmt = env.DB.prepare(`
     SELECT puzzle_id, date, pangrams_count
     FROM puzzles
     ORDER BY pangrams_count DESC
     LIMIT ?
   `).bind(limit);
-  
+
   const result = await stmt.all();
-  
+
   return jsonResponse({
     puzzlesWithMostPangrams: result.results,
   });
@@ -443,13 +536,13 @@ router.get('/api/allLettersFrequency', async (request, env) => {
   const stmt = env.DB.prepare(`
     SELECT all_letters FROM puzzles
   `);
-  
+
   const result = await stmt.all();
   const puzzles = result.results;
-  
+
   // Process the letters in JavaScript instead of using WITH clause
   const letterCounts = {};
-  
+
   // Count each letter's frequency
   for (const puzzle of puzzles) {
     if (puzzle.all_letters) {
@@ -459,13 +552,13 @@ router.get('/api/allLettersFrequency', async (request, env) => {
       }
     }
   }
-  
+
   // Convert to array and sort
   const letterFrequency = Object.keys(letterCounts).map(letter => ({
     letter: letter,
     count: letterCounts[letter]
   })).sort((a, b) => b.count - a.count);
-  
+
   return jsonResponse({
     allLettersFrequency: letterFrequency,
   });
@@ -474,7 +567,7 @@ router.get('/api/allLettersFrequency', async (request, env) => {
 // Longest Pangrams
 router.get('/api/longestPangrams', async (request, env) => {
   const limit = 10;
-  
+
   const stmt = env.DB.prepare(`
     SELECT w.word, p.puzzle_id, p.date, LENGTH(w.word) as len
     FROM words w
@@ -483,9 +576,9 @@ router.get('/api/longestPangrams', async (request, env) => {
     ORDER BY len DESC
     LIMIT ?
   `).bind(limit);
-  
+
   const result = await stmt.all();
-  
+
   return jsonResponse({
     longestPangrams: result.results,
   });
@@ -494,11 +587,11 @@ router.get('/api/longestPangrams', async (request, env) => {
 // Search by Date
 router.get('/api/search/date/([^/]+)', async (request, env, params) => {
   const dateQuery = params[0];
-  
+
   // Handle different date formats for searching
   let formattedQuery = dateQuery;
   let dateObj;
-  
+
   // Try to parse the date query
   if (/^\d{4}-\d{2}-\d{2}$/.test(dateQuery)) {
     // If ISO format (YYYY-MM-DD), convert to a Date object
@@ -522,7 +615,7 @@ router.get('/api/search/date/([^/]+)', async (request, env, params) => {
     // If just year, search for that year
     formattedQuery = `%, ${dateQuery}`;
   }
-  
+
   // Use multiple LIKE clauses to increase chance of matches
   const stmt = env.DB.prepare(`
     SELECT puzzle_id, date, letters, all_letters, word_count, pangrams_count 
@@ -530,13 +623,13 @@ router.get('/api/search/date/([^/]+)', async (request, env, params) => {
     WHERE date LIKE ? OR date LIKE ? OR date LIKE ?
     ORDER BY puzzle_id DESC
   `).bind(`%${dateQuery}%`, `%${formattedQuery}%`, `%${dateQuery.replace(/-/g, ' ')}%`);
-  
+
   const result = await stmt.all();
   const puzzles = result.results;
-  
+
   // Get words for each puzzle
   const puzzlesWithWords = [];
-  
+
   for (const puzzle of puzzles) {
     const wordsStmt = env.DB.prepare(`
       SELECT word, is_pangram, length 
@@ -544,11 +637,11 @@ router.get('/api/search/date/([^/]+)', async (request, env, params) => {
       WHERE puzzle_id = ?
       ORDER BY is_pangram DESC, length DESC, word
     `).bind(puzzle.puzzle_id);
-    
+
     const wordsResult = await wordsStmt.all();
     const words = wordsResult.results || [];
     const enrichments = calculatePuzzleEnrichments(words);
-    
+
     puzzlesWithWords.push({
       puzzle: puzzle,
       words: words,
@@ -557,7 +650,7 @@ router.get('/api/search/date/([^/]+)', async (request, env, params) => {
       perfectPangrams: enrichments.perfectPangrams,
     });
   }
-  
+
   return jsonResponse({
     query: dateQuery,
     formattedQuery,
@@ -570,9 +663,9 @@ router.get('/api/search/letter/([A-Za-z])', async (request, env, params) => {
   const letter = params[0].toUpperCase();
   const url = new URL(request.url);
   const centerOnly = url.searchParams.get('centerOnly') === 'true';
-  
+
   let stmt;
-  
+
   if (centerOnly) {
     stmt = env.DB.prepare(`
       SELECT puzzle_id, date, letters, all_letters, word_count 
@@ -588,9 +681,9 @@ router.get('/api/search/letter/([A-Za-z])', async (request, env, params) => {
       ORDER BY puzzle_id DESC
     `).bind(`%${letter}%`);
   }
-  
+
   const result = await stmt.all();
-  
+
   return jsonResponse({
     letter,
     centerOnly,
@@ -603,19 +696,19 @@ router.get('/api/search/letter/([A-Za-z])', async (request, env, params) => {
 // Search by ID
 router.get('/api/search/id/([0-9]+)', async (request, env, params) => {
   const puzzleId = parseInt(params[0]);
-  
+
   const stmt = env.DB.prepare(`
     SELECT puzzle_id, date, letters, all_letters, word_count, pangrams_count 
     FROM puzzles 
     WHERE puzzle_id = ? 
   `).bind(puzzleId);
-  
+
   const result = await stmt.first();
-  
+
   if (!result) {
     return jsonResponse({ error: `Puzzle #${puzzleId} not found` }, 404);
   }
-  
+
   return jsonResponse({
     result
   });
@@ -624,7 +717,7 @@ router.get('/api/search/id/([0-9]+)', async (request, env, params) => {
 // Search Wordle using Spelling Bee puzzle center letter
 router.get('/api/searchWordle/([A-Za-z])', async (request, env, params) => {
   const centerLetter = params[0].toUpperCase();
-  
+
   // Find words that could be wordle answers containing the center letter
   const stmt = env.DB.prepare(`
     SELECT DISTINCT w.word
@@ -635,9 +728,9 @@ router.get('/api/searchWordle/([A-Za-z])', async (request, env, params) => {
     AND NOT w.is_pangram 
     ORDER BY w.word
   `).bind(`%${centerLetter}%`);
-  
+
   const result = await stmt.all();
-  
+
   return jsonResponse({
     centerLetter,
     possibleWordleWords: result.results,
@@ -649,23 +742,23 @@ router.get('/api/statistics', async (request, env) => {
   // Get total puzzles count
   const puzzleCountStmt = env.DB.prepare(`SELECT COUNT(*) as total FROM puzzles`);
   const puzzleCount = await puzzleCountStmt.first();
-  
+
   // Get total words count
   const wordCountStmt = env.DB.prepare(`SELECT COUNT(*) as total FROM words`);
   const wordCount = await wordCountStmt.first();
-  
+
   // Get total pangrams count
   const pangramCountStmt = env.DB.prepare(`SELECT COUNT(*) as total FROM words WHERE is_pangram = 1`);
   const pangramCount = await pangramCountStmt.first();
-  
+
   // Get average words per puzzle
   const avgWordsStmt = env.DB.prepare(`SELECT AVG(word_count) as avg FROM puzzles`);
   const avgWords = await avgWordsStmt.first();
-  
+
   // Get average pangrams per puzzle
   const avgPangramsStmt = env.DB.prepare(`SELECT AVG(pangrams_count) as avg FROM puzzles`);
   const avgPangrams = await avgPangramsStmt.first();
-  
+
   // Get highest word count
   const maxWordsStmt = env.DB.prepare(`
     SELECT puzzle_id, date, word_count 
@@ -674,7 +767,7 @@ router.get('/api/statistics', async (request, env) => {
     LIMIT 1
   `);
   const maxWords = await maxWordsStmt.first();
-  
+
   // Get lowest word count
   const minWordsStmt = env.DB.prepare(`
     SELECT puzzle_id, date, word_count 
@@ -683,7 +776,7 @@ router.get('/api/statistics', async (request, env) => {
     LIMIT 1
   `);
   const minWords = await minWordsStmt.first();
-  
+
   return jsonResponse({
     totalPuzzles: puzzleCount?.total || 0,
     totalWords: wordCount?.total || 0,
@@ -698,14 +791,14 @@ router.get('/api/statistics', async (request, env) => {
 // Get last N puzzles with details
 router.get('/api/last/([0-9]+)', async (request, env, params) => {
   const count = parseInt(params[0]);
-  
+
   // Validate count
   if (count <= 0 || count > 100) {
-    return jsonResponse({ 
-      error: "Count must be between 1 and 100" 
+    return jsonResponse({
+      error: "Count must be between 1 and 100"
     }, 400);
   }
-  
+
   // Get the last N puzzles
   const puzzlesStmt = env.DB.prepare(`
     SELECT puzzle_id, date, letters, all_letters, word_count, pangrams_count 
@@ -713,13 +806,13 @@ router.get('/api/last/([0-9]+)', async (request, env, params) => {
     ORDER BY puzzle_id DESC
     LIMIT ?
   `).bind(count);
-  
+
   const puzzlesResult = await puzzlesStmt.all();
   const puzzles = puzzlesResult.results;
-  
+
   // Get words for each puzzle
   const puzzlesWithWords = [];
-  
+
   for (const puzzle of puzzles) {
     const wordsStmt = env.DB.prepare(`
       SELECT word, is_pangram, length 
@@ -727,11 +820,11 @@ router.get('/api/last/([0-9]+)', async (request, env, params) => {
       WHERE puzzle_id = ?
       ORDER BY is_pangram DESC, length DESC, word
     `).bind(puzzle.puzzle_id);
-    
+
     const wordsResult = await wordsStmt.all();
     const words = wordsResult.results || [];
     const enrichments = calculatePuzzleEnrichments(words);
-    
+
     puzzlesWithWords.push({
       ...puzzle,
       words: words,
@@ -740,7 +833,7 @@ router.get('/api/last/([0-9]+)', async (request, env, params) => {
       perfectPangrams: enrichments.perfectPangrams,
     });
   }
-  
+
   return jsonResponse({
     count,
     puzzles: puzzlesWithWords
@@ -748,7 +841,7 @@ router.get('/api/last/([0-9]+)', async (request, env, params) => {
 });
 
 // Manual update endpoint - trigger scraping manually with authentication
-router.get('/api/update/nyt', async (request, env) => {
+router.get('/api/update/nyt', async (request, env, params, ctx) => {
   // Check authentication
   if (!isAuthenticated(request, env)) {
     return jsonResponse({
@@ -756,19 +849,25 @@ router.get('/api/update/nyt', async (request, env) => {
       error: 'Unauthorized access. Valid API key is required.'
     }, 401);
   }
-  
+
   try {
     const puzzleData = await scrapeNYTSpellingBee(env);
-    
+
     // Override date with current date to avoid future date issues
     const currentDate = new Date();
     const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' };
     const todayFormatted = currentDate.toLocaleDateString('en-US', dateOptions);
     console.log(`Using current date for puzzle: ${todayFormatted}`);
     puzzleData.printDate = todayFormatted;
-    
+
     const result = await storePuzzleData(env, puzzleData);
-    
+
+    // After storing, sync to GitHub for high traffic support
+    const todayData = await getTodayPuzzleData(env);
+    if (todayData) {
+      ctx.waitUntil(commitToGithub(env, todayData));
+    }
+
     return jsonResponse(result);
   } catch (error) {
     return jsonResponse({
@@ -787,37 +886,37 @@ router.get('/api/delete/([0-9]+)', async (request, env, params) => {
       error: 'Unauthorized access. Valid API key is required.'
     }, 401);
   }
-  
+
   try {
     const puzzleId = parseInt(params[0]);
-    
+
     // First check if the puzzle exists
     const checkStmt = env.DB.prepare(`
       SELECT puzzle_id FROM puzzles WHERE puzzle_id = ?
     `).bind(puzzleId);
-    
+
     const existingPuzzle = await checkStmt.first();
     if (!existingPuzzle) {
-      return jsonResponse({ 
-        success: false, 
-        message: `Puzzle #${puzzleId} does not exist` 
+      return jsonResponse({
+        success: false,
+        message: `Puzzle #${puzzleId} does not exist`
       }, 404);
     }
-    
+
     // Delete associated words first (foreign key constraint)
     const deleteWordsStmt = env.DB.prepare(`
       DELETE FROM words WHERE puzzle_id = ?
     `).bind(puzzleId);
-    
+
     await deleteWordsStmt.run();
-    
+
     // Then delete the puzzle
     const deletePuzzleStmt = env.DB.prepare(`
       DELETE FROM puzzles WHERE puzzle_id = ?
     `).bind(puzzleId);
-    
+
     await deletePuzzleStmt.run();
-    
+
     return jsonResponse({
       success: true,
       message: `Puzzle #${puzzleId} and all its words have been deleted`,
@@ -835,38 +934,13 @@ router.get('/api/delete/([0-9]+)', async (request, env, params) => {
 // Get today's puzzle
 router.get('/today', async (request, env) => {
   try {
-    // Get the puzzle with the highest puzzle_id (most recent)
-    const puzzleStmt = env.DB.prepare(`
-      SELECT * FROM puzzles 
-      ORDER BY puzzle_id DESC
-      LIMIT 1
-    `);
-    
-    const puzzleResult = await puzzleStmt.first();
-    
-    if (!puzzleResult) {
+    const todayData = await getTodayPuzzleData(env);
+
+    if (!todayData) {
       return jsonResponse({ error: 'No puzzles found' }, 404);
     }
-    
-    // Get words for this puzzle
-    const wordsStmt = env.DB.prepare(`
-      SELECT word, is_pangram, length FROM words 
-      WHERE puzzle_id = ?
-      ORDER BY is_pangram DESC, length DESC, word
-    `).bind(puzzleResult.puzzle_id);
-    
-    const wordsResult = await wordsStmt.all();
-    const words = wordsResult.results || [];
 
-    const enrichments = calculatePuzzleEnrichments(words);
-    
-    return jsonResponse({
-      puzzle: puzzleResult,
-      words: words,
-      totalPoints: enrichments.totalPoints,
-      hasPerfectPangram: enrichments.hasPerfectPangram,
-      perfectPangrams: enrichments.perfectPangrams,
-    });
+    return jsonResponse(todayData);
   } catch (error) {
     console.error('Error fetching today\'s puzzle:', error);
     return jsonResponse({
@@ -886,25 +960,25 @@ router.get('/yesterday', async (request, env) => {
       ORDER BY puzzle_id DESC
       LIMIT 1 OFFSET 1
     `);
-    
+
     const puzzleResult = await puzzleStmt.first();
-    
+
     if (!puzzleResult) {
       return jsonResponse({ error: 'Yesterday\'s puzzle not found' }, 404);
     }
-    
+
     // Get words for this puzzle
     const wordsStmt = env.DB.prepare(`
       SELECT word, is_pangram, length FROM words 
       WHERE puzzle_id = ?
       ORDER BY is_pangram DESC, length DESC, word
     `).bind(puzzleResult.puzzle_id);
-    
+
     const wordsResult = await wordsStmt.all();
     const words = wordsResult.results || [];
 
     const enrichments = calculatePuzzleEnrichments(words);
-    
+
     return jsonResponse({
       puzzle: puzzleResult,
       words: words,
@@ -925,37 +999,42 @@ router.get('/yesterday', async (request, env) => {
 export default {
   // Handle HTTP requests
   async fetch(request, env, ctx) {
-    return router.handle(request, env);
+    return router.handle(request, env, ctx);
   },
-  
+
   // Scheduled task - runs at 07:01 UTC (12:31 IST) every day
   async scheduled(event, env, ctx) {
     try {
       console.log('Running scheduled NYT Spelling Bee update');
-      
+
       // Scrape the latest puzzle
       const puzzleData = await scrapeNYTSpellingBee(env);
-      
+
       // Validate puzzle data has required fields
       if (!puzzleData || !puzzleData.printDate) {
         throw new Error('Invalid puzzle data: Missing date information');
       }
-      
+
       // Check date format and log it
       console.log(`Raw date from NYT: ${puzzleData.printDate}`);
-      
+
       // Always override date with current date to avoid future date issues
       const currentDate = new Date();
       const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' };
       const todayFormatted = currentDate.toLocaleDateString('en-US', dateOptions);
       console.log(`Using current date for puzzle: ${todayFormatted}`);
       puzzleData.printDate = todayFormatted;
-      
-      // Store the puzzle data
+
       const result = await storePuzzleData(env, puzzleData);
-      
+
+      // After storing, sync to GitHub
+      const todayData = await getTodayPuzzleData(env);
+      if (todayData) {
+        ctx.waitUntil(commitToGithub(env, todayData));
+      }
+
       console.log('Scheduled update result:', result);
-      
+
       return result;
     } catch (error) {
       console.error('Error in scheduled task:', error);

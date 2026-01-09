@@ -39,7 +39,7 @@ export default function TodayPage() {
     const fetchDailyPuzzle = async () => {
       try {
         setLoading(true);
-        const response = await axios.get('https://spelling-bee-api.sbsolver.workers.dev/today');
+        const response = await axios.get('/today.json');
         const data = response.data;
 
         setPuzzleData({
