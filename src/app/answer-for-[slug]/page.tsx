@@ -96,7 +96,7 @@ export default function AnswerPage({ params }: { params: Promise<{ slug: string 
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
 
-    const API_BASE = 'https://spelling-bee-api.ronysamanta710.workers.dev';
+    const API_BASE = 'https://spelling-bee-api.sbsolver.workers.dev';
 
     useEffect(() => {
         // Parse the date from slug

@@ -93,7 +93,7 @@ export default function AnswerPage({ params }: { params: Promise<{ slug: string 
     const [error, setError] = useState<string | null>(null);
     const [isValidRoute, setIsValidRoute] = useState(true);
 
-    const API_BASE = 'https://spelling-bee-api.ronysamanta710.workers.dev';
+    const API_BASE = 'https://spelling-bee-api.sbsolver.workers.dev';
 
     useEffect(() => {
         if (!slug.startsWith('answer-for-')) {

@@ -35,7 +35,7 @@ export default function YesterdayPage() {
   useEffect(() => {
     const fetchYesterdayPuzzle = async () => {
       try {
-        const response = await fetch('https://spelling-bee-api.ronysamanta710.workers.dev/yesterday');
+        const response = await fetch('https://spelling-bee-api.sbsolver.workers.dev/yesterday');
         if (!response.ok) {
           throw new Error('Failed to fetch yesterday\'s puzzle');
         }

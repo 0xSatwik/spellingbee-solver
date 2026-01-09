@@ -60,7 +60,7 @@ function ArchiveContent() {
   const [error, setError] = useState<string | null>(null);
   const [activeTab, setActiveTab] = useState('search'); // 'search', 'puzzle', 'results'
 
-  const API_BASE = 'https://spelling-bee-api.ronysamanta710.workers.dev';
+  const API_BASE = 'https://spelling-bee-api.sbsolver.workers.dev';
 
   // Define the earliest date for the calendar (May 9, 2018)
   const minDate = new Date('2018-05-09');

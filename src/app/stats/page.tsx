@@ -57,7 +57,7 @@ export default function StatsPage() {
   useEffect(() => {
     const fetchAllStats = async () => {
       try {
-        const API_BASE = 'https://spelling-bee-api.ronysamanta710.workers.dev';
+        const API_BASE = 'https://spelling-bee-api.sbsolver.workers.dev';
 
         // Fetch all data concurrently
         const [

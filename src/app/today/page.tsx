@@ -39,7 +39,7 @@ export default function TodayPage() {
     const fetchDailyPuzzle = async () => {
       try {
         setLoading(true);
-        const response = await axios.get('https://spelling-bee-api.ronysamanta710.workers.dev/today');
+        const response = await axios.get('https://spelling-bee-api.sbsolver.workers.dev/today');
         const data = response.data;
 
         setPuzzleData({
@@ -237,8 +237,8 @@ export default function TodayPage() {
                   <div
                     key={index}
                     className={`px-5 py-3 rounded-xl font-semibold text-lg transform hover:scale-105 transition-all duration-200 shadow-md ${puzzleData.perfectPangrams.includes(word)
-                        ? 'bg-gradient-to-r from-green-400 to-emerald-500 text-white'
-                        : 'bg-gradient-to-r from-yellow-300 to-amber-400 text-amber-900'
+                      ? 'bg-gradient-to-r from-green-400 to-emerald-500 text-white'
+                      : 'bg-gradient-to-r from-yellow-300 to-amber-400 text-amber-900'
                       }`}
                   >
                     {word}
@@ -271,8 +271,8 @@ export default function TodayPage() {
                         <span
                           key={index}
                           className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 hover:shadow-md ${puzzleData.pangrams.includes(word)
-                              ? 'bg-gradient-to-r from-yellow-200 to-amber-300 text-amber-900'
-                              : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
+                            ? 'bg-gradient-to-r from-yellow-200 to-amber-300 text-amber-900'
+                            : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
                             }`}
                         >
                           {word}
