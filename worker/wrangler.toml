@@ -10,6 +10,6 @@ database_id = "07d50185-619d-40f9-bcd9-bb46ae5bd142"
 
 
 
-# Scheduled Trigger - Runs at 7:01 UTC and fallback at 7:05 UTC every day
+# Scheduled Trigger - Runs at 7:01, 7:05, and 7:30 UTC every day
 [triggers]
-crons = ["1 7 * * *", "5 7 * * *"] 
+crons = ["1 7 * * *", "5 7 * * *", "30 7 * * *"] 

@@ -108,8 +108,17 @@ function parseNYTGameData(html) {
 // Scraper functions for NYT Spelling Bee
 async function scrapeNYTSpellingBee(env) {
   try {
-    // Fetch the NYT Spelling Bee page
-    const response = await fetch('https://www.nytimes.com/puzzles/spelling-bee');
+    // Fetch the NYT Spelling Bee page with cache-busting headers
+    // Adding a timestamp to the URL and relevant headers to prevent caching
+    const timestamp = Date.now();
+    const response = await fetch(`https://www.nytimes.com/puzzles/spelling-bee?t=${timestamp}`, {
+      headers: {
+        'Cache-Control': 'no-cache, no-store, must-revalidate',
+        'Pragma': 'no-cache',
+        'Expires': '0',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+      }
+    });
     if (!response.ok) {
       throw new Error(`Failed to fetch NYT page: ${response.status}`);
     }
@@ -407,25 +416,37 @@ function calculatePuzzleEnrichments(words) {
 
 // Helper function to get today's puzzle data from the database
 async function getTodayPuzzleData(env) {
-  // Get the puzzle with the highest puzzle_id (most recent)
-  const puzzleStmt = env.DB.prepare(`
-    SELECT * FROM puzzles 
-    ORDER BY puzzle_id DESC
-    LIMIT 1
+  // Fetch ALL puzzles (just metadata needed for sorting) to ensure we find the true latest date
+  // Ordering by ID is unreliable as shown by user data (ID 2684 is newer than ID 2756)
+  const puzzleIdsStmt = env.DB.prepare(`
+    SELECT puzzle_id, date FROM puzzles
   `);
 
-  const puzzleResult = await puzzleStmt.first();
+  const idResult = await puzzleIdsStmt.all();
+  const allPuzzles = idResult.results || [];
 
-  if (!puzzleResult) {
+  if (allPuzzles.length === 0) {
     return null;
   }
+
+  // Sort by date descending
+  allPuzzles.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  // The latest puzzle by date
+  const latestId = allPuzzles[0].puzzle_id;
+
+  // Get full puzzle details for the target ID
+  const puzzleStmt = env.DB.prepare(`
+    SELECT * FROM puzzles WHERE puzzle_id = ?
+  `).bind(latestId);
+  const puzzleResult = await puzzleStmt.first();
 
   // Get words for this puzzle
   const wordsStmt = env.DB.prepare(`
     SELECT word, is_pangram, length FROM words 
     WHERE puzzle_id = ?
     ORDER BY is_pangram DESC, length DESC, word
-  `).bind(puzzleResult.puzzle_id);
+  `).bind(latestId);
 
   const wordsResult = await wordsStmt.all();
   const words = wordsResult.results || [];
@@ -548,6 +569,45 @@ router.get('/api/puzzles', async (request, env) => {
     pagination: {
       limit,
       offset,
+    }
+  });
+});
+
+// Get chronological list of puzzles (latest to oldest) with strict pagination
+router.get('/api/puzzles/list', async (request, env) => {
+  const url = new URL(request.url);
+  let limit = parseInt(url.searchParams.get('limit') || '20');
+  const page = parseInt(url.searchParams.get('page') || '1');
+
+  // Enforce max limit of 20
+  if (limit > 20) limit = 20;
+  if (limit < 1) limit = 20; // Default if invalid
+
+  // Calculate offset
+  const offset = (page - 1) * limit;
+
+  // Fetch ALL puzzles metadata
+  const stmt = env.DB.prepare(`
+    SELECT puzzle_id, date, letters, all_letters, word_count, pangrams_count 
+    FROM puzzles
+  `);
+
+  const result = await stmt.all();
+  const allPuzzles = result.results || [];
+
+  // Sort by date descending (Latest to Oldest)
+  allPuzzles.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  // Slice for pagination
+  const paginatedPuzzles = allPuzzles.slice(offset, offset + limit);
+
+  return jsonResponse({
+    puzzles: paginatedPuzzles,
+    pagination: {
+      page: page,
+      limit: limit,
+      total_items: allPuzzles.length,
+      total_pages: Math.ceil(allPuzzles.length / limit)
     }
   });
 });
@@ -1173,14 +1233,29 @@ router.get('/today', async (request, env) => {
 // Get yesterday's puzzle
 router.get('/yesterday', async (request, env) => {
   try {
-    // Get the puzzle with the second highest puzzle_id
-    // This ensures we get the second most recent one regardless of date format
-    const puzzleStmt = env.DB.prepare(`
-      SELECT * FROM puzzles 
-      ORDER BY puzzle_id DESC
-      LIMIT 1 OFFSET 1
+    // Fetch ALL puzzles (just metadata needed for sorting) to ensure we find the true yesterday date
+    // Ordering by ID is unreliable
+    const puzzleIdsStmt = env.DB.prepare(`
+      SELECT puzzle_id, date FROM puzzles
     `);
 
+    const idResult = await puzzleIdsStmt.all();
+    const allPuzzles = idResult.results || [];
+
+    if (allPuzzles.length < 2) {
+      return jsonResponse({ error: 'Yesterday\'s puzzle not found' }, 404);
+    }
+
+    // Sort by date descending
+    allPuzzles.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    // The second latest puzzle by date is "yesterday"
+    const yesterdayId = allPuzzles[1].puzzle_id;
+
+    // Get full puzzle details for the target ID
+    const puzzleStmt = env.DB.prepare(`
+      SELECT * FROM puzzles WHERE puzzle_id = ?
+    `).bind(yesterdayId);
     const puzzleResult = await puzzleStmt.first();
 
     if (!puzzleResult) {
@@ -1192,7 +1267,7 @@ router.get('/yesterday', async (request, env) => {
       SELECT word, is_pangram, length FROM words 
       WHERE puzzle_id = ?
       ORDER BY is_pangram DESC, length DESC, word
-    `).bind(puzzleResult.puzzle_id);
+    `).bind(yesterdayId);
 
     const wordsResult = await wordsStmt.all();
     const words = wordsResult.results || [];
