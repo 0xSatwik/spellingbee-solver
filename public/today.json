@@ -1,200 +1,300 @@
 {
-    "puzzle": {
-        "puzzle_id": 2803,
-        "date": "January 9, 2026",
-        "letters": "H",
-        "all_letters": "HACDEIP",
-        "word_count": 37,
-        "pangrams_count": 1
+  "puzzle": {
+    "puzzle_id": 2803,
+    "date": "January 10, 2026",
+    "letters": "R",
+    "all_letters": "RGIMNOU",
+    "word_count": 57,
+    "pangrams_count": 3
+  },
+  "words": [
+    {
+      "word": "unmooring",
+      "is_pangram": 1,
+      "length": 9
     },
-    "words": [
-        {
-            "word": "headpiece",
-            "is_pangram": 1,
-            "length": 9
-        },
-        {
-            "word": "deadheaded",
-            "is_pangram": 0,
-            "length": 10
-        },
-        {
-            "word": "deadhead",
-            "is_pangram": 0,
-            "length": 8
-        },
-        {
-            "word": "headache",
-            "is_pangram": 0,
-            "length": 8
-        },
-        {
-            "word": "chapped",
-            "is_pangram": 0,
-            "length": 7
-        },
-        {
-            "word": "cheapie",
-            "is_pangram": 0,
-            "length": 7
-        },
-        {
-            "word": "cheeped",
-            "is_pangram": 0,
-            "length": 7
-        },
-        {
-            "word": "chipped",
-            "is_pangram": 0,
-            "length": 7
-        },
-        {
-            "word": "cached",
-            "is_pangram": 0,
-            "length": 6
-        },
-        {
-            "word": "chichi",
-            "is_pangram": 0,
-            "length": 6
-        },
-        {
-            "word": "chided",
-            "is_pangram": 0,
-            "length": 6
-        },
-        {
-            "word": "headed",
-            "is_pangram": 0,
-            "length": 6
-        },
-        {
-            "word": "heaped",
-            "is_pangram": 0,
-            "length": 6
-        },
-        {
-            "word": "heeded",
-            "is_pangram": 0,
-            "length": 6
-        },
-        {
-            "word": "hippie",
-            "is_pangram": 0,
-            "length": 6
-        },
-        {
-            "word": "ached",
-            "is_pangram": 0,
-            "length": 5
-        },
-        {
-            "word": "ahead",
-            "is_pangram": 0,
-            "length": 5
-        },
-        {
-            "word": "aphid",
-            "is_pangram": 0,
-            "length": 5
-        },
-        {
-            "word": "cache",
-            "is_pangram": 0,
-            "length": 5
-        },
-        {
-            "word": "cheap",
-            "is_pangram": 0,
-            "length": 5
-        },
-        {
-            "word": "cheep",
-            "is_pangram": 0,
-            "length": 5
-        },
-        {
-            "word": "chica",
-            "is_pangram": 0,
-            "length": 5
-        },
-        {
-            "word": "chide",
-            "is_pangram": 0,
-            "length": 5
-        },
-        {
-            "word": "dacha",
-            "is_pangram": 0,
-            "length": 5
-        },
-        {
-            "word": "peach",
-            "is_pangram": 0,
-            "length": 5
-        },
-        {
-            "word": "ache",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "chad",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "chai",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "chap",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "chia",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "chic",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "chip",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "each",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "head",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "heap",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "heed",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "hide",
-            "is_pangram": 0,
-            "length": 4
-        }
-    ],
-    "totalPoints": 174,
-    "hasPerfectPangram": false,
-    "perfectPangrams": []
+    {
+      "word": "mourning",
+      "is_pangram": 1,
+      "length": 8
+    },
+    {
+      "word": "rumoring",
+      "is_pangram": 1,
+      "length": 8
+    },
+    {
+      "word": "mirroring",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "murmuring",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "unrigging",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "grinning",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "grooming",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "ignoring",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "inurning",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "minoring",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "gorging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "inuring",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "ironing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "mooring",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "morning",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "rigging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "rimming",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "ringing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "rooming",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "rouging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "ruining",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "running",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "gorgon",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "goring",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "miring",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "mirror",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "murmur",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "nigiri",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "origin",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "unmoor",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "urging",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "groin",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "groom",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "inurn",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "minor",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mirin",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "moron",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mourn",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "rigor",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ruing",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "rumor",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "unrig",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "grim",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "grin",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "grog",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "guru",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "iron",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "moor",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "morn",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "noir",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "nori",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "norm",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "ring",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "room",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "ruin",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "rung",
+      "is_pangram": 0,
+      "length": 4
+    }
+  ],
+  "totalPoints": 320,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
