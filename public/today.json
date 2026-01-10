@@ -1,200 +1,215 @@
 {
-    "puzzle": {
-        "puzzle_id": 2803,
-        "date": "January 9, 2026",
-        "letters": "H",
-        "all_letters": "HACDEIP",
-        "word_count": 37,
-        "pangrams_count": 1
+  "puzzle": {
+    "puzzle_id": 2802,
+    "date": "September 2, 2025",
+    "letters": "B",
+    "all_letters": "BCHKLOS",
+    "word_count": 40,
+    "pangrams_count": 2
+  },
+  "words": [
+    {
+      "word": "schoolbooks",
+      "is_pangram": 1,
+      "length": 11
     },
-    "words": [
-        {
-            "word": "headpiece",
-            "is_pangram": 1,
-            "length": 9
-        },
-        {
-            "word": "deadheaded",
-            "is_pangram": 0,
-            "length": 10
-        },
-        {
-            "word": "deadhead",
-            "is_pangram": 0,
-            "length": 8
-        },
-        {
-            "word": "headache",
-            "is_pangram": 0,
-            "length": 8
-        },
-        {
-            "word": "chapped",
-            "is_pangram": 0,
-            "length": 7
-        },
-        {
-            "word": "cheapie",
-            "is_pangram": 0,
-            "length": 7
-        },
-        {
-            "word": "cheeped",
-            "is_pangram": 0,
-            "length": 7
-        },
-        {
-            "word": "chipped",
-            "is_pangram": 0,
-            "length": 7
-        },
-        {
-            "word": "cached",
-            "is_pangram": 0,
-            "length": 6
-        },
-        {
-            "word": "chichi",
-            "is_pangram": 0,
-            "length": 6
-        },
-        {
-            "word": "chided",
-            "is_pangram": 0,
-            "length": 6
-        },
-        {
-            "word": "headed",
-            "is_pangram": 0,
-            "length": 6
-        },
-        {
-            "word": "heaped",
-            "is_pangram": 0,
-            "length": 6
-        },
-        {
-            "word": "heeded",
-            "is_pangram": 0,
-            "length": 6
-        },
-        {
-            "word": "hippie",
-            "is_pangram": 0,
-            "length": 6
-        },
-        {
-            "word": "ached",
-            "is_pangram": 0,
-            "length": 5
-        },
-        {
-            "word": "ahead",
-            "is_pangram": 0,
-            "length": 5
-        },
-        {
-            "word": "aphid",
-            "is_pangram": 0,
-            "length": 5
-        },
-        {
-            "word": "cache",
-            "is_pangram": 0,
-            "length": 5
-        },
-        {
-            "word": "cheap",
-            "is_pangram": 0,
-            "length": 5
-        },
-        {
-            "word": "cheep",
-            "is_pangram": 0,
-            "length": 5
-        },
-        {
-            "word": "chica",
-            "is_pangram": 0,
-            "length": 5
-        },
-        {
-            "word": "chide",
-            "is_pangram": 0,
-            "length": 5
-        },
-        {
-            "word": "dacha",
-            "is_pangram": 0,
-            "length": 5
-        },
-        {
-            "word": "peach",
-            "is_pangram": 0,
-            "length": 5
-        },
-        {
-            "word": "ache",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "chad",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "chai",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "chap",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "chia",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "chic",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "chip",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "each",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "head",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "heap",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "heed",
-            "is_pangram": 0,
-            "length": 4
-        },
-        {
-            "word": "hide",
-            "is_pangram": 0,
-            "length": 4
-        }
-    ],
-    "totalPoints": 174,
-    "hasPerfectPangram": false,
-    "perfectPangrams": []
+    {
+      "word": "schoolbook",
+      "is_pangram": 1,
+      "length": 10
+    },
+    {
+      "word": "cookbooks",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "lookbooks",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "cookbook",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "lookbook",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "booboos",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "boohoos",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "blocks",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "booboo",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "boohoo",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "blobs",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "block",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "blocs",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "bocks",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "bolls",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "bolos",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "boobs",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "books",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "hobos",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "lobos",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "slobs",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "blob",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "bloc",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "bobs",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "bock",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "boho",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "boll",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "bolo",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "boob",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "book",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "boos",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "bosh",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "boss",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "cobs",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "hobo",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lobo",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lobs",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "slob",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "sobs",
+      "is_pangram": 0,
+      "length": 4
+    }
+  ],
+  "totalPoints": 174,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
