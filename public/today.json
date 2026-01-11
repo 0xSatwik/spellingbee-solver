@@ -1,300 +1,170 @@
 {
   "puzzle": {
-    "puzzle_id": 2803,
-    "date": "January 10, 2026",
-    "letters": "R",
-    "all_letters": "RGIMNOU",
-    "word_count": 57,
-    "pangrams_count": 3
+    "puzzle_id": 2804,
+    "date": "January 11, 2026",
+    "letters": "P",
+    "all_letters": "PACIMNO",
+    "word_count": 31,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "unmooring",
+      "word": "companion",
       "is_pangram": 1,
       "length": 9
     },
     {
-      "word": "mourning",
-      "is_pangram": 1,
-      "length": 8
+      "word": "nincompoop",
+      "is_pangram": 0,
+      "length": 10
     },
     {
-      "word": "rumoring",
-      "is_pangram": 1,
-      "length": 8
-    },
-    {
-      "word": "mirroring",
+      "word": "poinciana",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "murmuring",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "unrigging",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "grinning",
+      "word": "cioppino",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "grooming",
+      "word": "minicamp",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "ignoring",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "inurning",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "minoring",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "gorging",
+      "word": "canopic",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "inuring",
+      "word": "opinion",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "ironing",
+      "word": "pompano",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "mooring",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "morning",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "rigging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "rimming",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "ringing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "rooming",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "rouging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "ruining",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "running",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "gorgon",
+      "word": "panama",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "goring",
+      "word": "panini",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "miring",
+      "word": "picnic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mirror",
+      "word": "pinion",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "murmur",
+      "word": "pippin",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nigiri",
+      "word": "pompom",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "origin",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "unmoor",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "urging",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "groin",
+      "word": "apian",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "groom",
+      "word": "campo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "inurn",
+      "word": "capon",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "minor",
+      "word": "pampa",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mirin",
+      "word": "panic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "moron",
+      "word": "piano",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mourn",
+      "word": "poppa",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "rigor",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "ruing",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "rumor",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "unrig",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "grim",
+      "word": "camp",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "grin",
+      "word": "capo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "grog",
+      "word": "comp",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "guru",
+      "word": "coop",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "iron",
+      "word": "pain",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "moor",
+      "word": "papa",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "morn",
+      "word": "pica",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "noir",
+      "word": "pimp",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nori",
+      "word": "pomp",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "norm",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "ring",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "room",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "ruin",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "rung",
+      "word": "poop",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 320,
+  "totalPoints": 153,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
