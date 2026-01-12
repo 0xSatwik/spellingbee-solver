@@ -1,170 +1,245 @@
 {
   "puzzle": {
-    "puzzle_id": 2804,
-    "date": "January 11, 2026",
-    "letters": "P",
-    "all_letters": "PACIMNO",
-    "word_count": 31,
+    "puzzle_id": 2805,
+    "date": "January 12, 2026",
+    "letters": "I",
+    "all_letters": "IACELTZ",
+    "word_count": 46,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "companion",
+      "word": "italicize",
       "is_pangram": 1,
       "length": 9
     },
     {
-      "word": "nincompoop",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "poinciana",
+      "word": "titillate",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "cioppino",
+      "word": "eclectic",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "minicamp",
+      "word": "tactical",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "canopic",
+      "word": "calcite",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "opinion",
+      "word": "cattail",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "pompano",
+      "word": "illicit",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "panama",
+      "word": "laicize",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lattice",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "tactile",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "acacia",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "panini",
+      "word": "acetic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "picnic",
+      "word": "celiac",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "pinion",
+      "word": "elicit",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "pippin",
+      "word": "icicle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "pompom",
+      "word": "italic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "apian",
+      "word": "lactic",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "laical",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "little",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tactic",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tallit",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tittle",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "atilt",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "campo",
+      "word": "attic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "capon",
+      "word": "cacti",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "pampa",
+      "word": "celli",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "panic",
+      "word": "cilia",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "piano",
+      "word": "elite",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "poppa",
+      "word": "iliac",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "camp",
+      "word": "licit",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "lilac",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tacit",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "title",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "acai",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "capo",
+      "word": "alit",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "comp",
+      "word": "cite",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coop",
+      "word": "laic",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pain",
+      "word": "lice",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "papa",
+      "word": "lilt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pica",
+      "word": "lite",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pimp",
+      "word": "tail",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pomp",
+      "word": "tali",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "poop",
+      "word": "tile",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "till",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tilt",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "ziti",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 153,
+  "totalPoints": 223,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
