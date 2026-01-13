@@ -1,245 +1,225 @@
 {
   "puzzle": {
-    "puzzle_id": 2805,
-    "date": "January 12, 2026",
-    "letters": "I",
-    "all_letters": "IACELTZ",
-    "word_count": 46,
-    "pangrams_count": 1
+    "puzzle_id": 2806,
+    "date": "January 13, 2026",
+    "letters": "M",
+    "all_letters": "MEILNTY",
+    "word_count": 42,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "italicize",
+      "word": "imminently",
+      "is_pangram": 1,
+      "length": 10
+    },
+    {
+      "word": "eminently",
       "is_pangram": 1,
       "length": 9
     },
     {
-      "word": "titillate",
+      "word": "entitlement",
       "is_pangram": 0,
-      "length": 9
+      "length": 11
     },
     {
-      "word": "eclectic",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "tactical",
+      "word": "imminent",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "calcite",
+      "word": "liniment",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "tenement",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "timeline",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "element",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "cattail",
+      "word": "eminent",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "illicit",
+      "word": "linemen",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "laicize",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "lattice",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "tactile",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "acacia",
+      "word": "enmity",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "acetic",
+      "word": "mentee",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "celiac",
+      "word": "mettle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "elicit",
+      "word": "millet",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "icicle",
+      "word": "mitten",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "italic",
+      "word": "myelin",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lactic",
+      "word": "timely",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "laical",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "little",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tactic",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tallit",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tittle",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "atilt",
+      "word": "enemy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "attic",
+      "word": "limit",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cacti",
+      "word": "melee",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "celli",
+      "word": "melty",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cilia",
+      "word": "minim",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "elite",
+      "word": "minty",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "iliac",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "licit",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "lilac",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tacit",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "title",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "acai",
+      "word": "emit",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "alit",
+      "word": "item",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cite",
+      "word": "lime",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "laic",
+      "word": "limn",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lice",
+      "word": "meet",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lilt",
+      "word": "melt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lite",
+      "word": "meme",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tail",
+      "word": "mete",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tali",
+      "word": "mien",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tile",
+      "word": "mile",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "till",
+      "word": "mill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tilt",
+      "word": "mime",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ziti",
+      "word": "mine",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mini",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mint",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mite",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mitt",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "teem",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "time",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 223,
+  "totalPoints": 188,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
