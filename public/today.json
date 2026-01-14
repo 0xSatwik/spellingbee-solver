@@ -1,225 +1,297 @@
 {
   "puzzle": {
-    "puzzle_id": 2806,
-    "date": "January 13, 2026",
-    "letters": "M",
-    "all_letters": "MEILNTY",
-    "word_count": 42,
-    "pangrams_count": 2
+    "puzzle_id": 2807,
+    "date": "January 14, 2026",
+    "letters": "O",
+    "all_letters": "OABCELP",
+    "word_count": 56,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "imminently",
+      "word": "placebo",
       "is_pangram": 1,
-      "length": 10
+      "length": 7
     },
     {
-      "word": "eminently",
-      "is_pangram": 1,
+      "word": "allocable",
+      "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "entitlement",
-      "is_pangram": 0,
-      "length": 11
-    },
-    {
-      "word": "imminent",
+      "word": "callaloo",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "liniment",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "tenement",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "timeline",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "element",
+      "word": "alcopop",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "eminent",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "linemen",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "enmity",
+      "word": "baobab",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mentee",
+      "word": "bobble",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mettle",
+      "word": "booboo",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "millet",
+      "word": "cloaca",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mitten",
+      "word": "cobble",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "myelin",
+      "word": "collab",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "timely",
+      "word": "locale",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "enemy",
+      "word": "lollop",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "people",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "bebop",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "limit",
+      "word": "bloop",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "melee",
+      "word": "bocce",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "melty",
+      "word": "cacao",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "minim",
+      "word": "cello",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "minty",
+      "word": "cocoa",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "emit",
+      "word": "elope",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "local",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "paleo",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "poppa",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "aloe",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "item",
+      "word": "blob",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lime",
+      "word": "bloc",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "limn",
+      "word": "boba",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "meet",
+      "word": "bola",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "melt",
+      "word": "boll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "meme",
+      "word": "bolo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mete",
+      "word": "boob",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mien",
+      "word": "boop",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mile",
+      "word": "capo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mill",
+      "word": "clop",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mime",
+      "word": "coal",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mine",
+      "word": "coca",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mini",
+      "word": "cola",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mint",
+      "word": "cool",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mite",
+      "word": "coop",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mitt",
+      "word": "cope",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "teem",
+      "word": "lobe",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "time",
+      "word": "lobo",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "loco",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "loll",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "loop",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lope",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "oboe",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "oleo",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "opal",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "plop",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pole",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "poll",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "polo",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pool",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "poop",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pope",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 188,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 175,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "placebo"
+  ]
 }
