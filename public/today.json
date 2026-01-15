@@ -1,297 +1,200 @@
 {
   "puzzle": {
-    "puzzle_id": 2807,
-    "date": "January 14, 2026",
-    "letters": "O",
-    "all_letters": "OABCELP",
-    "word_count": 56,
+    "puzzle_id": 2808,
+    "date": "January 15, 2026",
+    "letters": "I",
+    "all_letters": "IDEGHTW",
+    "word_count": 37,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "placebo",
+      "word": "weighted",
       "is_pangram": 1,
-      "length": 7
+      "length": 8
     },
     {
-      "word": "allocable",
+      "word": "eightieth",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "callaloo",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "alcopop",
+      "word": "weighed",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "baobab",
+      "word": "dieted",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bobble",
+      "word": "eddied",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "booboo",
+      "word": "edited",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cloaca",
+      "word": "eighth",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cobble",
+      "word": "gigged",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "collab",
+      "word": "height",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "locale",
+      "word": "tidied",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lollop",
+      "word": "tithed",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "people",
+      "word": "wedgie",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bebop",
+      "word": "weight",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "widget",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "wigged",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "digit",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bloop",
+      "word": "eight",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bocce",
+      "word": "thigh",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cacao",
+      "word": "tided",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cello",
+      "word": "tight",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cocoa",
+      "word": "tithe",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "elope",
+      "word": "weigh",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "local",
+      "word": "white",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "paleo",
+      "word": "width",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "poppa",
+      "word": "wight",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "aloe",
+      "word": "died",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "blob",
+      "word": "diet",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bloc",
+      "word": "edit",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boba",
+      "word": "hide",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bola",
+      "word": "high",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boll",
+      "word": "tide",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bolo",
+      "word": "tied",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boob",
+      "word": "twig",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boop",
+      "word": "twit",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "capo",
+      "word": "whit",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "clop",
+      "word": "wide",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coal",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "coca",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "cola",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "cool",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "coop",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "cope",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lobe",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lobo",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loco",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loll",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loop",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lope",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "oboe",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "oleo",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "opal",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "plop",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pole",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "poll",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "polo",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pool",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "poop",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pope",
+      "word": "with",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 175,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "placebo"
-  ]
+  "totalPoints": 165,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
