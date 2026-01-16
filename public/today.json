@@ -1,200 +1,242 @@
 {
   "puzzle": {
-    "puzzle_id": 2808,
-    "date": "January 15, 2026",
-    "letters": "I",
-    "all_letters": "IDEGHTW",
-    "word_count": 37,
+    "puzzle_id": 2809,
+    "date": "January 16, 2026",
+    "letters": "C",
+    "all_letters": "CAEFILM",
+    "word_count": 45,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "weighted",
+      "word": "malefic",
       "is_pangram": 1,
+      "length": 7
+    },
+    {
+      "word": "camellia",
+      "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "eightieth",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "weighed",
+      "word": "acclaim",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "dieted",
+      "word": "icefall",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "acacia",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "eddied",
+      "word": "celiac",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "edited",
+      "word": "efface",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "eighth",
+      "word": "facial",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gigged",
+      "word": "facile",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "height",
+      "word": "fleece",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tidied",
+      "word": "icicle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tithed",
+      "word": "laical",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "wedgie",
+      "word": "malice",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "weight",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "widget",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "wigged",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "digit",
+      "word": "calla",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "eight",
+      "word": "camel",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "thigh",
+      "word": "celli",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tided",
+      "word": "cilia",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tight",
+      "word": "claim",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tithe",
+      "word": "cliff",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "weigh",
+      "word": "clime",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "white",
+      "word": "emcee",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "width",
+      "word": "fecal",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "wight",
+      "word": "iliac",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "died",
+      "word": "lilac",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "malic",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mecca",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mimic",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "acai",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "diet",
+      "word": "acme",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "edit",
+      "word": "cafe",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hide",
+      "word": "calf",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "high",
+      "word": "call",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tide",
+      "word": "calm",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tied",
+      "word": "came",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "twig",
+      "word": "cami",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "twit",
+      "word": "cell",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "whit",
+      "word": "clam",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "wide",
+      "word": "clef",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "with",
+      "word": "face",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lace",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "laic",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lice",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mace",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mica",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mice",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 165,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 178,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "malefic"
+  ]
 }
