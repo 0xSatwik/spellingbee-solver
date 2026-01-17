@@ -1,242 +1,310 @@
 {
   "puzzle": {
-    "puzzle_id": 2809,
-    "date": "January 16, 2026",
-    "letters": "C",
-    "all_letters": "CAEFILM",
-    "word_count": 45,
+    "puzzle_id": 2810,
+    "date": "January 17, 2026",
+    "letters": "Y",
+    "all_letters": "YALOPRT",
+    "word_count": 59,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "malefic",
+      "word": "portrayal",
       "is_pangram": 1,
-      "length": 7
+      "length": 9
     },
     {
-      "word": "camellia",
+      "word": "rotatory",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "acclaim",
+      "word": "loyally",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "icefall",
+      "word": "loyalty",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "acacia",
+      "word": "oratory",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "papally",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "payroll",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "portray",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "royally",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "royalty",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "totally",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "arroyo",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "celiac",
+      "word": "orally",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "efface",
+      "word": "paltry",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "facial",
+      "word": "papaya",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "facile",
+      "word": "parlay",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "fleece",
+      "word": "partly",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "icicle",
+      "word": "payola",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "laical",
+      "word": "poorly",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "malice",
+      "word": "portly",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "calla",
+      "word": "raptly",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "rattly",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "rotary",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tartly",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "allay",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "camel",
+      "word": "alloy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "celli",
+      "word": "apply",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cilia",
+      "word": "aptly",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "claim",
+      "word": "array",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cliff",
+      "word": "loopy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "clime",
+      "word": "lorry",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "emcee",
+      "word": "loyal",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "fecal",
+      "word": "pappy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "iliac",
+      "word": "parry",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "lilac",
+      "word": "party",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "malic",
+      "word": "patly",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mecca",
+      "word": "patty",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mimic",
+      "word": "polyp",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "acai",
+      "word": "poppy",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "potty",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "rally",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ratty",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "royal",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tally",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tarry",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tatty",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "yappy",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ally",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "acme",
+      "word": "arty",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cafe",
+      "word": "oaty",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "calf",
+      "word": "play",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "call",
+      "word": "ploy",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "calm",
+      "word": "pray",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "came",
+      "word": "pyro",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cami",
+      "word": "ropy",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cell",
+      "word": "tray",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "clam",
+      "word": "troy",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "clef",
+      "word": "typo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "face",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lace",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "laic",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lice",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mace",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mica",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mice",
+      "word": "tyro",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 178,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "malefic"
-  ]
+  "totalPoints": 292,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
