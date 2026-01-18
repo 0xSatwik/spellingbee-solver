@@ -1,300 +1,265 @@
 {
   "puzzle": {
-    "puzzle_id": 2803,
-    "date": "January 10, 2026",
-    "letters": "R",
-    "all_letters": "RGIMNOU",
-    "word_count": 57,
+    "puzzle_id": 2811,
+    "date": "January 18, 2026",
+    "letters": "C",
+    "all_letters": "CADGINT",
+    "word_count": 50,
     "pangrams_count": 3
   },
   "words": [
     {
-      "word": "unmooring",
+      "word": "indicating",
+      "is_pangram": 1,
+      "length": 10
+    },
+    {
+      "word": "addicting",
       "is_pangram": 1,
       "length": 9
     },
     {
-      "word": "mourning",
+      "word": "dictating",
       "is_pangram": 1,
-      "length": 8
+      "length": 9
     },
     {
-      "word": "rumoring",
-      "is_pangram": 1,
-      "length": 8
-    },
-    {
-      "word": "mirroring",
+      "word": "incanting",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "murmuring",
+      "word": "indicting",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "unrigging",
+      "word": "tactician",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "grinning",
+      "word": "didactic",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "grooming",
+      "word": "gigantic",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "ignoring",
+      "word": "inciting",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "inurning",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "minoring",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "gorging",
+      "word": "antacid",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "inuring",
+      "word": "cadging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "ironing",
+      "word": "canning",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "mooring",
+      "word": "cantata",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "morning",
+      "word": "cantina",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "rigging",
+      "word": "dancing",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "rimming",
+      "word": "indicia",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "ringing",
+      "word": "titanic",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "rooming",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "rouging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "ruining",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "running",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "gorgon",
+      "word": "acacia",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "goring",
+      "word": "acidic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "miring",
+      "word": "acting",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mirror",
+      "word": "addict",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "murmur",
+      "word": "caging",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nigiri",
+      "word": "cancan",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "origin",
+      "word": "candid",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "unmoor",
+      "word": "caning",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "urging",
+      "word": "cicada",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "groin",
+      "word": "citing",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "dicing",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "didact",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "incant",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "indica",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "indict",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "intact",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "niacin",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tactic",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tannic",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "acing",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "groom",
+      "word": "antic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "inurn",
+      "word": "attic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "minor",
+      "word": "cacti",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mirin",
+      "word": "canid",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "moron",
+      "word": "canna",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mourn",
+      "word": "dicta",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "rigor",
+      "word": "icing",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ruing",
+      "word": "tacit",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "rumor",
+      "word": "tinct",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "unrig",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "grim",
+      "word": "acai",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "grin",
+      "word": "acid",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "grog",
+      "word": "cant",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "guru",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "iron",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "moor",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "morn",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "noir",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "nori",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "norm",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "ring",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "room",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "ruin",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "rung",
+      "word": "tact",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 320,
+  "totalPoints": 324,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
