@@ -1,310 +1,265 @@
 {
   "puzzle": {
-    "puzzle_id": 2810,
-    "date": "January 17, 2026",
-    "letters": "Y",
-    "all_letters": "YALOPRT",
-    "word_count": 59,
-    "pangrams_count": 1
+    "puzzle_id": 2811,
+    "date": "January 18, 2026",
+    "letters": "C",
+    "all_letters": "CADGINT",
+    "word_count": 50,
+    "pangrams_count": 3
   },
   "words": [
     {
-      "word": "portrayal",
+      "word": "indicating",
+      "is_pangram": 1,
+      "length": 10
+    },
+    {
+      "word": "addicting",
       "is_pangram": 1,
       "length": 9
     },
     {
-      "word": "rotatory",
+      "word": "dictating",
+      "is_pangram": 1,
+      "length": 9
+    },
+    {
+      "word": "incanting",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "indicting",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "tactician",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "didactic",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "loyally",
+      "word": "gigantic",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "inciting",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "antacid",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "loyalty",
+      "word": "cadging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "oratory",
+      "word": "canning",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "papally",
+      "word": "cantata",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "payroll",
+      "word": "cantina",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "portray",
+      "word": "dancing",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "royally",
+      "word": "indicia",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "royalty",
+      "word": "titanic",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "totally",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "arroyo",
+      "word": "acacia",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "orally",
+      "word": "acidic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "paltry",
+      "word": "acting",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "papaya",
+      "word": "addict",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "parlay",
+      "word": "caging",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "partly",
+      "word": "cancan",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "payola",
+      "word": "candid",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "poorly",
+      "word": "caning",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "portly",
+      "word": "cicada",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "raptly",
+      "word": "citing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "rattly",
+      "word": "dicing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "rotary",
+      "word": "didact",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tartly",
+      "word": "incant",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "allay",
+      "word": "indica",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "indict",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "intact",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "niacin",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tactic",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tannic",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "acing",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "alloy",
+      "word": "antic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "apply",
+      "word": "attic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "aptly",
+      "word": "cacti",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "array",
+      "word": "canid",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "loopy",
+      "word": "canna",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "lorry",
+      "word": "dicta",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "loyal",
+      "word": "icing",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "pappy",
+      "word": "tacit",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "parry",
+      "word": "tinct",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "party",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "patly",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "patty",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "polyp",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "poppy",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "potty",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "rally",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "ratty",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "royal",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tally",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tarry",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tatty",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "yappy",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "ally",
+      "word": "acai",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "arty",
+      "word": "acid",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "oaty",
+      "word": "cant",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "play",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "ploy",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pray",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pyro",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "ropy",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tray",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "troy",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "typo",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tyro",
+      "word": "tact",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 292,
+  "totalPoints": 324,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
