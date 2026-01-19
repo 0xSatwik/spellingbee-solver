@@ -1,265 +1,170 @@
 {
   "puzzle": {
-    "puzzle_id": 2811,
-    "date": "January 18, 2026",
-    "letters": "C",
-    "all_letters": "CADGINT",
-    "word_count": 50,
-    "pangrams_count": 3
+    "puzzle_id": 2812,
+    "date": "January 19, 2026",
+    "letters": "D",
+    "all_letters": "DAKLORW",
+    "word_count": 31,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "indicating",
+      "word": "workload",
       "is_pangram": 1,
-      "length": 10
+      "length": 8
     },
     {
-      "word": "addicting",
-      "is_pangram": 1,
-      "length": 9
-    },
-    {
-      "word": "dictating",
-      "is_pangram": 1,
-      "length": 9
-    },
-    {
-      "word": "incanting",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "indicting",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "tactician",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "didactic",
+      "word": "roadwork",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "gigantic",
+      "word": "woodwork",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "inciting",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "antacid",
+      "word": "awkward",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "cadging",
+      "word": "warlord",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "canning",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "cantata",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "cantina",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "dancing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "indicia",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "titanic",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "acacia",
+      "word": "dollar",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "acidic",
+      "word": "doodad",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "acting",
+      "word": "dorado",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "addict",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "caging",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "cancan",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "candid",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "caning",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "cicada",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "citing",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "dicing",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "didact",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "incant",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "indica",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "indict",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "intact",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "niacin",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tactic",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tannic",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "acing",
+      "word": "ardor",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "antic",
+      "word": "award",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "attic",
+      "word": "dolor",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cacti",
+      "word": "drawl",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "canid",
+      "word": "droll",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "canna",
+      "word": "drool",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dicta",
+      "word": "radar",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "icing",
+      "word": "world",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tacit",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tinct",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "acai",
+      "word": "dark",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "acid",
+      "word": "dodo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cant",
+      "word": "doll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tact",
+      "word": "door",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "dork",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "draw",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lard",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "load",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lord",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "odor",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "road",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "rood",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "ward",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "wood",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "word",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 324,
+  "totalPoints": 118,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
