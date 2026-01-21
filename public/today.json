@@ -1,357 +1,270 @@
 {
   "puzzle": {
-    "puzzle_id": 2813,
-    "date": "January 20, 2026",
-    "letters": "A",
-    "all_letters": "AFILNTY",
-    "word_count": 68,
-    "pangrams_count": 3
+    "puzzle_id": 2814,
+    "date": "January 21, 2026",
+    "letters": "O",
+    "all_letters": "OACELNW",
+    "word_count": 51,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "infantility",
+      "word": "allowance",
       "is_pangram": 1,
-      "length": 11
+      "length": 9
     },
     {
-      "word": "finality",
-      "is_pangram": 1,
-      "length": 8
-    },
-    {
-      "word": "faintly",
-      "is_pangram": 1,
-      "length": 7
-    },
-    {
-      "word": "initially",
+      "word": "colcannon",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "affinity",
+      "word": "callaloo",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "fatality",
+      "word": "nonlocal",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "filially",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "natality",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "affiant",
+      "word": "colleen",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "alfalfa",
+      "word": "colonel",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "fantail",
+      "word": "conceal",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "fatally",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "finally",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "inanity",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "initial",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "lantana",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "nattily",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "tiffany",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "anally",
+      "word": "callow",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "antifa",
+      "word": "cannon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "attain",
+      "word": "canola",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "filial",
+      "word": "cloaca",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "finial",
+      "word": "cocoon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "flatly",
+      "word": "locale",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "infant",
+      "word": "neocon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "litany",
+      "word": "wallow",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "natant",
+      "word": "woolen",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tallit",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tannin",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "allay",
+      "word": "allow",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "annal",
+      "word": "alone",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "atilt",
+      "word": "cacao",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "faint",
+      "word": "canoe",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "fanny",
+      "word": "canon",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "fatal",
+      "word": "cello",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "fatly",
+      "word": "clone",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "fatty",
+      "word": "clown",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "final",
+      "word": "cocoa",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "flail",
+      "word": "colon",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "inlay",
+      "word": "llano",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "laity",
+      "word": "local",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "lanai",
+      "word": "nonce",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "nanny",
+      "word": "ocean",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "natal",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "natty",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "taffy",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "taint",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tally",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tatty",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "titan",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "alit",
+      "word": "aeon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ally",
+      "word": "aloe",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "anal",
+      "word": "anon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "anti",
+      "word": "coal",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fail",
+      "word": "coca",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fall",
+      "word": "cola",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fiat",
+      "word": "cone",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "flan",
+      "word": "cool",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "flat",
+      "word": "cowl",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "flay",
+      "word": "loan",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lain",
+      "word": "loco",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "naan",
+      "word": "loll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "naif",
+      "word": "lone",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nail",
+      "word": "loon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nana",
+      "word": "neon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tail",
+      "word": "noel",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tali",
+      "word": "none",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tall",
+      "word": "noon",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "oleo",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "once",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "wool",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 347,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "faintly"
-  ]
+  "totalPoints": 207,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
