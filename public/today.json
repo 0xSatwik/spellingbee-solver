@@ -1,270 +1,243 @@
 {
   "puzzle": {
-    "puzzle_id": 2814,
-    "date": "January 21, 2026",
-    "letters": "O",
-    "all_letters": "OACELNW",
-    "word_count": 51,
-    "pangrams_count": 1
+    "puzzle_id": 2815,
+    "date": "January 22, 2026",
+    "letters": "G",
+    "all_letters": "GAEMNTU",
+    "word_count": 45,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "allowance",
+      "word": "augment",
       "is_pangram": 1,
-      "length": 9
+      "length": 7
     },
     {
-      "word": "colcannon",
+      "word": "mutagen",
+      "is_pangram": 1,
+      "length": 7
+    },
+    {
+      "word": "engagement",
       "is_pangram": 0,
-      "length": 9
+      "length": 10
     },
     {
-      "word": "callaloo",
+      "word": "management",
       "is_pangram": 0,
-      "length": 8
+      "length": 10
     },
     {
-      "word": "nonlocal",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "colleen",
+      "word": "magenta",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "colonel",
+      "word": "magnate",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "conceal",
+      "word": "nametag",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "callow",
+      "word": "tangent",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "teenage",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "unguent",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "engage",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cannon",
+      "word": "gamete",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "canola",
+      "word": "gannet",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cloaca",
+      "word": "gateau",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cocoon",
+      "word": "gunman",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "locale",
+      "word": "gunmen",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "neocon",
+      "word": "magnet",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "wallow",
+      "word": "magnum",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "woolen",
+      "word": "manage",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "allow",
+      "word": "negate",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "nugget",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "nutmeg",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "agate",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "alone",
+      "word": "agent",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cacao",
+      "word": "gamma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "canoe",
+      "word": "gamut",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "canon",
+      "word": "gauge",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cello",
+      "word": "gaunt",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "clone",
+      "word": "magma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "clown",
+      "word": "manga",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cocoa",
+      "word": "mange",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "colon",
+      "word": "untag",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "llano",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "local",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "nonce",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "ocean",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "aeon",
+      "word": "ague",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "aloe",
+      "word": "gaga",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "anon",
+      "word": "gage",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coal",
+      "word": "game",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coca",
+      "word": "gang",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cola",
+      "word": "gate",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cone",
+      "word": "gene",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cool",
+      "word": "gent",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cowl",
+      "word": "gnat",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loan",
+      "word": "mage",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loco",
+      "word": "mega",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loll",
+      "word": "mung",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lone",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "neon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "noel",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "none",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "noon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "oleo",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "once",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "wool",
+      "word": "tang",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 207,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 225,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "augment",
+    "mutagen"
+  ]
 }
