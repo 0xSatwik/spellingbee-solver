@@ -1,243 +1,207 @@
 {
   "puzzle": {
-    "puzzle_id": 2815,
-    "date": "January 22, 2026",
-    "letters": "G",
-    "all_letters": "GAEMNTU",
-    "word_count": 45,
-    "pangrams_count": 2
+    "puzzle_id": 2816,
+    "date": "January 23, 2026",
+    "letters": "K",
+    "all_letters": "KBCDELO",
+    "word_count": 38,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "augment",
+      "word": "blocked",
       "is_pangram": 1,
       "length": 7
     },
     {
-      "word": "mutagen",
-      "is_pangram": 1,
-      "length": 7
-    },
-    {
-      "word": "engagement",
+      "word": "coldcocked",
       "is_pangram": 0,
       "length": 10
     },
     {
-      "word": "management",
+      "word": "cellblock",
       "is_pangram": 0,
-      "length": 10
+      "length": 9
     },
     {
-      "word": "magenta",
+      "word": "bedecked",
       "is_pangram": 0,
-      "length": 7
+      "length": 8
     },
     {
-      "word": "magnate",
+      "word": "coldcock",
       "is_pangram": 0,
-      "length": 7
+      "length": 8
     },
     {
-      "word": "nametag",
+      "word": "cookbook",
       "is_pangram": 0,
-      "length": 7
+      "length": 8
     },
     {
-      "word": "tangent",
+      "word": "lookbook",
       "is_pangram": 0,
-      "length": 7
+      "length": 8
     },
     {
-      "word": "teenage",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "unguent",
+      "word": "clocked",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "engage",
+      "word": "bedeck",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gamete",
+      "word": "booked",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gannet",
+      "word": "cocked",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gateau",
+      "word": "cockle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gunman",
+      "word": "cooked",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gunmen",
+      "word": "decked",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "magnet",
+      "word": "deckle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "magnum",
+      "word": "docked",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "manage",
+      "word": "keeled",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "negate",
+      "word": "locked",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nugget",
+      "word": "looked",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nutmeg",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "agate",
+      "word": "block",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "agent",
+      "word": "bloke",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gamma",
+      "word": "clock",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gamut",
+      "word": "deked",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gauge",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "gaunt",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "magma",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "manga",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "mange",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "untag",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "ague",
+      "word": "beck",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gaga",
+      "word": "bock",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gage",
+      "word": "book",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "game",
+      "word": "cock",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gang",
+      "word": "coke",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gate",
+      "word": "cook",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gene",
+      "word": "deck",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gent",
+      "word": "deke",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gnat",
+      "word": "dock",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mage",
+      "word": "eked",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mega",
+      "word": "keel",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mung",
+      "word": "kook",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tang",
+      "word": "leek",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lock",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "look",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 225,
+  "totalPoints": 173,
   "hasPerfectPangram": true,
   "perfectPangrams": [
-    "augment",
-    "mutagen"
+    "blocked"
   ]
 }
