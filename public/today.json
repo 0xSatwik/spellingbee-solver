@@ -1,207 +1,230 @@
 {
   "puzzle": {
-    "puzzle_id": 2816,
-    "date": "January 23, 2026",
-    "letters": "K",
-    "all_letters": "KBCDELO",
-    "word_count": 38,
+    "puzzle_id": 2817,
+    "date": "January 24, 2026",
+    "letters": "E",
+    "all_letters": "ECFINTU",
+    "word_count": 43,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "blocked",
+      "word": "fettuccine",
       "is_pangram": 1,
-      "length": 7
-    },
-    {
-      "word": "coldcocked",
-      "is_pangram": 0,
       "length": 10
     },
     {
-      "word": "cellblock",
+      "word": "inefficient",
+      "is_pangram": 0,
+      "length": 11
+    },
+    {
+      "word": "efficient",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "bedecked",
+      "word": "infinite",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "coldcock",
+      "word": "nineteen",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "cookbook",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "lookbook",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "clocked",
+      "word": "entente",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "bedeck",
+      "word": "fifteen",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "effect",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "booked",
+      "word": "effete",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cocked",
+      "word": "entice",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cockle",
+      "word": "finite",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cooked",
+      "word": "incite",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "decked",
+      "word": "infect",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "deckle",
+      "word": "intent",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "docked",
+      "word": "tuffet",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "keeled",
+      "word": "untune",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "locked",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "looked",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "block",
+      "word": "cutie",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bloke",
+      "word": "ennui",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "clock",
+      "word": "feint",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "deked",
+      "word": "fence",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "beck",
+      "word": "innie",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "niece",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tenet",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tutee",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "unite",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "untie",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "cent",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bock",
+      "word": "cite",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "book",
+      "word": "cute",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cock",
+      "word": "feet",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coke",
+      "word": "fete",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cook",
+      "word": "fief",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "deck",
+      "word": "fife",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "deke",
+      "word": "fine",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dock",
+      "word": "nene",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "eked",
+      "word": "nice",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "keel",
+      "word": "nine",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "kook",
+      "word": "nite",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "leek",
+      "word": "teen",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lock",
+      "word": "teff",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "look",
+      "word": "tent",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tine",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tune",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 173,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "blocked"
-  ]
+  "totalPoints": 188,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
