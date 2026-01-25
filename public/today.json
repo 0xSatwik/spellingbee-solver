@@ -1,230 +1,362 @@
 {
   "puzzle": {
-    "puzzle_id": 2817,
-    "date": "January 24, 2026",
-    "letters": "E",
-    "all_letters": "ECFINTU",
-    "word_count": 43,
-    "pangrams_count": 1
+    "puzzle_id": 2818,
+    "date": "January 25, 2026",
+    "letters": "P",
+    "all_letters": "PACIORT",
+    "word_count": 69,
+    "pangrams_count": 3
   },
   "words": [
     {
-      "word": "fettuccine",
+      "word": "capacitor",
       "is_pangram": 1,
+      "length": 9
+    },
+    {
+      "word": "patriotic",
+      "is_pangram": 1,
+      "length": 9
+    },
+    {
+      "word": "apricot",
+      "is_pangram": 1,
+      "length": 7
+    },
+    {
+      "word": "protractor",
+      "is_pangram": 0,
       "length": 10
     },
     {
-      "word": "inefficient",
-      "is_pangram": 0,
-      "length": 11
-    },
-    {
-      "word": "efficient",
+      "word": "carpaccio",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "infinite",
+      "word": "paratroop",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "portrait",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "nineteen",
+      "word": "protract",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "entente",
+      "word": "airport",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "fifteen",
+      "word": "apparat",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "effect",
+      "word": "carport",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "corpora",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "partita",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "patriot",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "piccata",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "piratic",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "pitapat",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "portico",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "priapic",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "proctor",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "rapport",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "rattrap",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "tapioca",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "taproot",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "topcoat",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "captor",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "effete",
+      "word": "octopi",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "entice",
+      "word": "parrot",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "finite",
+      "word": "potato",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "incite",
+      "word": "raptor",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "infect",
+      "word": "tiptop",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "intent",
+      "word": "torpor",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tuffet",
+      "word": "tropic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "untune",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "cutie",
+      "word": "apart",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ennui",
+      "word": "capri",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "feint",
+      "word": "carpi",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "fence",
+      "word": "coopt",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "innie",
+      "word": "optic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "niece",
+      "word": "patio",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tenet",
+      "word": "picot",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tutee",
+      "word": "pipit",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "unite",
+      "word": "poppa",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "untie",
+      "word": "prior",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cent",
+      "word": "tapir",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "topic",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "troop",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "atop",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cite",
+      "word": "capo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cute",
+      "word": "carp",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "feet",
+      "word": "coop",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fete",
+      "word": "crap",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fief",
+      "word": "crop",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fife",
+      "word": "pact",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fine",
+      "word": "pair",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nene",
+      "word": "papa",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nice",
+      "word": "part",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nine",
+      "word": "pica",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nite",
+      "word": "pita",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "teen",
+      "word": "poop",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "teff",
+      "word": "poor",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tent",
+      "word": "port",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tine",
+      "word": "prat",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tune",
+      "word": "prop",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "rapt",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tapa",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tarp",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tipi",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "trap",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "trip",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 188,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 345,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "apricot"
+  ]
 }
