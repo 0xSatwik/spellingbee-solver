@@ -1,362 +1,230 @@
 {
   "puzzle": {
-    "puzzle_id": 2818,
-    "date": "January 25, 2026",
-    "letters": "P",
-    "all_letters": "PACIORT",
-    "word_count": 69,
-    "pangrams_count": 3
+    "puzzle_id": 2819,
+    "date": "January 26, 2026",
+    "letters": "D",
+    "all_letters": "DBCEOTY",
+    "word_count": 43,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "capacitor",
+      "word": "boycotted",
       "is_pangram": 1,
       "length": 9
     },
     {
-      "word": "patriotic",
-      "is_pangram": 1,
-      "length": 9
-    },
-    {
-      "word": "apricot",
-      "is_pangram": 1,
-      "length": 7
-    },
-    {
-      "word": "protractor",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "carpaccio",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "paratroop",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "portrait",
+      "word": "decocted",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "protract",
+      "word": "detected",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "airport",
+      "word": "decoded",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "apparat",
+      "word": "decoyed",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "carport",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "corpora",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "partita",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "patriot",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "piccata",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "piratic",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "pitapat",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "portico",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "priapic",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "proctor",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "rapport",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "rattrap",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "tapioca",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "taproot",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "topcoat",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "captor",
+      "word": "bedded",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "octopi",
+      "word": "bobbed",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "parrot",
+      "word": "booted",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "potato",
+      "word": "decoct",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "raptor",
+      "word": "decode",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tiptop",
+      "word": "deeded",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "torpor",
+      "word": "detect",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tropic",
+      "word": "dotted",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "apart",
+      "word": "obeyed",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tooted",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "boded",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "capri",
+      "word": "booed",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "carpi",
+      "word": "ceded",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "coopt",
+      "word": "coded",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "optic",
+      "word": "cooed",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "patio",
+      "word": "decoy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "picot",
+      "word": "doted",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "pipit",
+      "word": "dotty",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "poppa",
+      "word": "ebbed",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "prior",
+      "word": "teddy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tapir",
+      "word": "toddy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "topic",
+      "word": "toted",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "troop",
+      "word": "toyed",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "atop",
+      "word": "bode",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "capo",
+      "word": "body",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "carp",
+      "word": "cede",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coop",
+      "word": "code",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "crap",
+      "word": "coed",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "crop",
+      "word": "debt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pact",
+      "word": "deco",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pair",
+      "word": "deed",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "papa",
+      "word": "dodo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "part",
+      "word": "dote",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pica",
+      "word": "dyed",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pita",
+      "word": "eddy",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "poop",
+      "word": "eyed",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "poor",
+      "word": "teed",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "port",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "prat",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "prop",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "rapt",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tapa",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tarp",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tipi",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "trap",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "trip",
+      "word": "toed",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 345,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "apricot"
-  ]
+  "totalPoints": 186,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
