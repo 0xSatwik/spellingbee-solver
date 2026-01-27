@@ -1,265 +1,317 @@
 {
   "puzzle": {
-    "puzzle_id": 2811,
-    "date": "January 18, 2026",
-    "letters": "C",
-    "all_letters": "CADGINT",
-    "word_count": 50,
-    "pangrams_count": 3
+    "puzzle_id": 2820,
+    "date": "January 27, 2026",
+    "letters": "I",
+    "all_letters": "IAGHLNU",
+    "word_count": 60,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "indicating",
+      "word": "laughing",
       "is_pangram": 1,
+      "length": 8
+    },
+    {
+      "word": "hauling",
+      "is_pangram": 1,
+      "length": 7
+    },
+    {
+      "word": "unilingual",
+      "is_pangram": 0,
       "length": 10
     },
     {
-      "word": "addicting",
-      "is_pangram": 1,
-      "length": 9
-    },
-    {
-      "word": "dictating",
-      "is_pangram": 1,
-      "length": 9
-    },
-    {
-      "word": "incanting",
+      "word": "annulling",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "indicting",
+      "word": "unhanging",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "tactician",
+      "word": "unhinging",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "didactic",
+      "word": "aligning",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "gigantic",
+      "word": "gangling",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "inciting",
+      "word": "giggling",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "antacid",
+      "word": "glugging",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "haggling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "hangnail",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "inhaling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "linguini",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "niggling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "angling",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "cadging",
+      "word": "gagging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "canning",
+      "word": "gaining",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "cantata",
+      "word": "galling",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "cantina",
+      "word": "ganging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "dancing",
+      "word": "ganglia",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "indicia",
+      "word": "gauging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "titanic",
+      "word": "gigging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "acacia",
+      "word": "gilling",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "ginning",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "gulling",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "gunning",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "hailing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "hanging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "hilling",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "hinging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "hugging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "hulling",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lagging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lugging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lulling",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lunging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "nagging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "nailing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "ailing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "acidic",
+      "word": "angina",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "acting",
+      "word": "annuli",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "addict",
+      "word": "gluing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "caging",
+      "word": "iguana",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cancan",
+      "word": "inning",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "candid",
+      "word": "lining",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "caning",
+      "word": "luging",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cicada",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "citing",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "dicing",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "didact",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "incant",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "indica",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "indict",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "intact",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "niacin",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tactic",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tannic",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "acing",
+      "word": "again",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "antic",
+      "word": "aging",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "attic",
+      "word": "align",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cacti",
+      "word": "lanai",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "canid",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "canna",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "dicta",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "icing",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tacit",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tinct",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "acai",
+      "word": "gain",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "acid",
+      "word": "gill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cant",
+      "word": "glia",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tact",
+      "word": "hail",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "high",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "hill",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lain",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "nail",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "nigh",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 324,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 383,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "hauling"
+  ]
 }
