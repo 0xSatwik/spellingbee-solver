@@ -16,6 +16,11 @@ export const metadata: Metadata = {
     default: "Spelling Bee Solver | NYT Answers, Tools & Resources",
     template: "%s | Spelling Bee Solver"
   },
+  icons: {
+    icon: "/spelling-bee-solver.webp",
+    shortcut: "/spelling-bee-solver.webp",
+    apple: "/spelling-bee-solver.webp",
+  },
   description: "The ultimate free resource for NYT Spelling Bee enthusiasts. Get today's answers, use our powerful solver, access historical puzzles, and improve your skills with practice mode.",
   keywords: [
     "spelling bee",
@@ -49,7 +54,7 @@ export const metadata: Metadata = {
     description: "The ultimate free resource for NYT Spelling Bee enthusiasts. Get today's answers, use our powerful solver, and improve your skills.",
     images: [
       {
-        url: "/og-image.png", // You can create this image later
+        url: "/sbsolver.webp",
         width: 1200,
         height: 630,
         alt: "Spelling Bee Solver - NYT Solutions"
@@ -60,7 +65,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Spelling Bee Solver | NYT Answers & Tools",
     description: "The ultimate free resource for NYT Spelling Bee enthusiasts. Get today's answers, use our powerful solver, and improve your skills.",
-    images: ["/og-image.png"], // Same image as Open Graph
+    images: ["/sbsolver.webp"], // Same image as Open Graph
     creator: "@sbanswer", // Update with actual Twitter handle if available
   },
   robots: {
@@ -90,7 +95,7 @@ export default function RootLayout({
     "@type": "Organization",
     "name": "Spelling Bee Solver",
     "url": "https://sbsolver.online",
-    "logo": "https://sbsolver.online/logo.png",
+    "logo": "https://sbsolver.online/spelling-bee-solver.webp",
     "description": "The ultimate resource for NYT Spelling Bee solutions, tools, and practice puzzles.",
     "sameAs": [
       // Add your social media URLs here when available

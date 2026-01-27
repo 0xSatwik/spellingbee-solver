@@ -2,11 +2,9 @@
 User-agent: *
 Allow: /
 
+# Disallow Next.js internal files
+Disallow: /_next/
+Disallow: /api/
+
 # Sitemap location
 Sitemap: https://sbsolver.online/sitemap.xml
-
-# Crawl delay (optional, remove if not needed)
-# Crawl-delay: 1
-
-# Disallow crawling of API routes (if any)
-Disallow: /api/

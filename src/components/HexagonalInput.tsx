@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 interface HexagonalInputProps {
   onLettersChange: (centerLetter: string, outerLetters: string) => void;
@@ -12,14 +12,13 @@ export default function HexagonalInput({ onLettersChange, centerLetter = '', out
   const [letters, setLetters] = useState<string[]>(Array(7).fill(''));
   const [activeCell, setActiveCell] = useState<number>(0);
   const [keyboardActive, setKeyboardActive] = useState(true);
+  const lastProps = useRef({ center: centerLetter, outer: outerLetters });
 
-  // Sync internal state with props when they change (e.g. from autofill)
+  // Sync internal state with props when they change externally (e.g. from autofill)
   useEffect(() => {
-    const currentCenter = letters[0];
-    const currentOuter = letters.slice(1).join('');
+    if (centerLetter.toLowerCase() !== lastProps.current.center.toLowerCase() ||
+      outerLetters.toLowerCase() !== lastProps.current.outer.toLowerCase()) {
 
-    // Only update if props are different from current state to avoid loops
-    if (centerLetter !== currentCenter || outerLetters !== currentOuter) {
       const newLetters = Array(7).fill('');
       newLetters[0] = centerLetter.toUpperCase();
       const outerArray = outerLetters.toUpperCase().split('');
@@ -27,18 +26,23 @@ export default function HexagonalInput({ onLettersChange, centerLetter = '', out
         newLetters[i + 1] = outerArray[i] || '';
       }
       setLetters(newLetters);
+      lastProps.current = { center: centerLetter, outer: outerLetters };
     }
   }, [centerLetter, outerLetters]);
 
-  // Handle letter updates and callback to parent
+  // Handle callback to parent ONLY when internal letters state changes from user input
   useEffect(() => {
-    const currentCenter = letters[0];
-    const currentOuter = letters.slice(1).join('');
+    const currentCenter = letters[0].toLowerCase();
+    const currentOuter = letters.slice(1).join('').toLowerCase();
 
-    // Prevent infinite loop by not calling onChange if values match props
-    // But we need to call it if the user typed it
-    // The parent should handle the loop or we trust React's batching
-    onLettersChange(currentCenter, currentOuter);
+    // Only notify parent if the internal state is different from the last props we acknowledged
+    if (currentCenter !== lastProps.current.center.toLowerCase() ||
+      currentOuter !== lastProps.current.outer.toLowerCase()) {
+
+      // Update lastcknowledged props before calling parent to suppress the sync effect on next render
+      lastProps.current = { center: currentCenter, outer: currentOuter };
+      onLettersChange(currentCenter, currentOuter);
+    }
   }, [letters, onLettersChange]);
 
   const handleCellClick = (index: number) => {
