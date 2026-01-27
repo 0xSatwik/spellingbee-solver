@@ -27,8 +27,8 @@ export default function ContactClient() {
             <div className="text-3xl mb-3">💡</div>
             <h3 className="text-xl font-bold mb-2 text-gray-900">Feedback</h3>
             <p className="text-gray-700 mb-2">Help us improve SbSolver</p>
-            <a href="mailto:feedback@sbsolver.online" className="text-blue-600 hover:text-blue-700 font-semibold">
-              feedback@sbsolver.online
+            <a href="mailto:contact@sbsolver.online" className="text-blue-600 hover:text-blue-700 font-semibold">
+              contact@sbsolver.online
             </a>
           </div>
         </div>
@@ -38,8 +38,8 @@ export default function ContactClient() {
           <p className="text-gray-700 mb-4">
             Interested in collaboration, advertising, or partnership opportunities? We're always open to discussing ways we can work together.
           </p>
-          <a href="mailto:partnerships@sbsolver.online" className="text-purple-600 hover:text-purple-700 font-semibold text-lg">
-            partnerships@sbsolver.online →
+          <a href="mailto:contact@sbsolver.online" className="text-purple-600 hover:text-purple-700 font-semibold text-lg">
+            contact@sbsolver.online →
           </a>
         </div>
 
