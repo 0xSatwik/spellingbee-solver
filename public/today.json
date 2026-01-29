@@ -1,220 +1,160 @@
 {
   "puzzle": {
-    "puzzle_id": 2821,
-    "date": "January 28, 2026",
-    "letters": "L",
-    "all_letters": "LAFORUV",
-    "word_count": 41,
+    "puzzle_id": 2822,
+    "date": "January 29, 2026",
+    "letters": "T",
+    "all_letters": "TEGHLOY",
+    "word_count": 29,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "flavorful",
+      "word": "theology",
       "is_pangram": 1,
+      "length": 8
+    },
+    {
+      "word": "teleology",
+      "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "alfalfa",
+      "word": "eyeteeth",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "eyetooth",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "otology",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "auroral",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "falloff",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "flavor",
+      "word": "eyelet",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "floral",
+      "word": "ghetto",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "larval",
+      "word": "teethe",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "ovular",
+      "word": "toggle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "uvular",
+      "word": "toothy",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "vulval",
+      "word": "tootle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "vulvar",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "afoul",
+      "word": "ethyl",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "aloof",
+      "word": "hotel",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "aural",
+      "word": "hotly",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "floor",
+      "word": "lotto",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "flora",
+      "word": "teeth",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "flour",
+      "word": "tooth",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "fluff",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "larva",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "loofa",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "offal",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "rural",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "uvula",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "valor",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "vulva",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "fall",
+      "word": "gelt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "foal",
+      "word": "goth",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fool",
+      "word": "holt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "foul",
+      "word": "hoot",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "full",
+      "word": "loot",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "furl",
+      "word": "tell",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lava",
+      "word": "thee",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loaf",
+      "word": "they",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loll",
+      "word": "toll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "luau",
+      "word": "tool",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "luff",
+      "word": "toot",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lull",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lulu",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "oral",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "oval",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "roll",
+      "word": "tote",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 165,
+  "totalPoints": 125,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
