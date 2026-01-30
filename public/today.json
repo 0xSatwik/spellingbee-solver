@@ -1,160 +1,115 @@
 {
   "puzzle": {
-    "puzzle_id": 2822,
-    "date": "January 29, 2026",
-    "letters": "T",
-    "all_letters": "TEGHLOY",
-    "word_count": 29,
+    "puzzle_id": 2823,
+    "date": "January 30, 2026",
+    "letters": "L",
+    "all_letters": "LGHNORU",
+    "word_count": 20,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "theology",
+      "word": "hourlong",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "teleology",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "eyeteeth",
+      "word": "longhorn",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "eyetooth",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "otology",
+      "word": "logroll",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "eyelet",
+      "word": "googol",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "ghetto",
+      "word": "oolong",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "teethe",
+      "word": "unroll",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "toggle",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "toothy",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tootle",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "ethyl",
+      "word": "ghoul",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "hotel",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "hotly",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "lotto",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "teeth",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tooth",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "gelt",
+      "word": "glug",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "goth",
+      "word": "gull",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "holt",
+      "word": "hull",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hoot",
+      "word": "hurl",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loot",
+      "word": "logo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tell",
+      "word": "loll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "thee",
+      "word": "long",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "they",
+      "word": "loon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "toll",
+      "word": "lull",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tool",
+      "word": "lulu",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "toot",
+      "word": "lung",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tote",
+      "word": "null",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "roll",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 125,
+  "totalPoints": 66,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
