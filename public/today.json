@@ -1,105 +1,180 @@
 {
   "puzzle": {
-    "puzzle_id": 2823,
-    "date": "January 30, 2026",
-    "letters": "L",
-    "all_letters": "LGHNORU",
-    "word_count": 20,
+    "puzzle_id": 2824,
+    "date": "January 31, 2026",
+    "letters": "R",
+    "all_letters": "RAFILOW",
+    "word_count": 36,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "hourlong",
+      "word": "airflow",
       "is_pangram": 1,
-      "length": 8
+      "length": 7
     },
     {
-      "word": "longhorn",
+      "word": "foofaraw",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "logroll",
+      "word": "riffraff",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "wallaroo",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "airfoil",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "googol",
+      "word": "warrior",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "affair",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "oolong",
+      "word": "farrow",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "unroll",
+      "word": "floral",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "ghoul",
+      "word": "raffia",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "arrow",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "glug",
+      "word": "farro",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "flair",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "floor",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "flora",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "frail",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "friar",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "frill",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "afar",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gull",
+      "word": "afro",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hull",
+      "word": "aria",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hurl",
+      "word": "aril",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "logo",
+      "word": "fair",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loll",
+      "word": "fora",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "long",
+      "word": "lair",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loon",
+      "word": "liar",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lull",
+      "word": "lira",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lulu",
+      "word": "oral",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lung",
+      "word": "rail",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "null",
+      "word": "rial",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "riff",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "rill",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "roar",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "roil",
       "is_pangram": 0,
       "length": 4
     },
@@ -107,9 +182,16 @@
       "word": "roll",
       "is_pangram": 0,
       "length": 4
+    },
+    {
+      "word": "roof",
+      "is_pangram": 0,
+      "length": 4
     }
   ],
-  "totalPoints": 66,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 134,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "airflow"
+  ]
 }
