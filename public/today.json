@@ -1,197 +1,415 @@
 {
   "puzzle": {
-    "puzzle_id": 2824,
-    "date": "January 31, 2026",
-    "letters": "R",
-    "all_letters": "RAFILOW",
-    "word_count": 36,
-    "pangrams_count": 1
+    "puzzle_id": 2825,
+    "date": "February 1, 2026",
+    "letters": "B",
+    "all_letters": "BAGILNO",
+    "word_count": 80,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "airflow",
+      "word": "ballooning",
       "is_pangram": 1,
-      "length": 7
+      "length": 10
     },
     {
-      "word": "foofaraw",
+      "word": "billabong",
+      "is_pangram": 1,
+      "length": 9
+    },
+    {
+      "word": "babbling",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "riffraff",
+      "word": "bilabial",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "wallaroo",
+      "word": "blabbing",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "airfoil",
+      "word": "blobbing",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "blogging",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "bobbling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "boggling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "boogaloo",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "gabbling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "gobbling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "nibbling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "obliging",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "bagging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "warrior",
+      "word": "bailing",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "affair",
+      "word": "balling",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "balloon",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "banging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "banning",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "billing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "billion",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "binging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "binning",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "bobbing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "bogging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "boiling",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "bologna",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "gabbing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lobbing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "nabbing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "albino",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "farrow",
+      "word": "baaing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "floral",
+      "word": "baboon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "raffia",
+      "word": "baling",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "arrow",
+      "word": "banana",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "baobab",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "bobbin",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "bonbon",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "boning",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "bonobo",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "booboo",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "booing",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "gibbon",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "gibing",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "global",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "goblin",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "labial",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "oblong",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "aboil",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "farro",
+      "word": "alibi",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "flair",
+      "word": "banal",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "floor",
+      "word": "bingo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "flora",
+      "word": "bling",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "frail",
+      "word": "blini",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "friar",
+      "word": "boing",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "frill",
+      "word": "bongo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "afar",
+      "word": "labia",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "nabob",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "baba",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "afro",
+      "word": "bail",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "aria",
+      "word": "ball",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "aril",
+      "word": "bang",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fair",
+      "word": "bill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fora",
+      "word": "blab",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lair",
+      "word": "blin",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "liar",
+      "word": "blob",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lira",
+      "word": "blog",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "oral",
+      "word": "boba",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "rail",
+      "word": "boil",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "rial",
+      "word": "bola",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "riff",
+      "word": "boll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "rill",
+      "word": "bolo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "roar",
+      "word": "bong",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "roil",
+      "word": "boob",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "roll",
+      "word": "boon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "roof",
+      "word": "glib",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "glob",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lobo",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "noob",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 134,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "airflow"
-  ]
+  "totalPoints": 427,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
