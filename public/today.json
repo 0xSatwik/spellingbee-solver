@@ -1,415 +1,205 @@
 {
   "puzzle": {
-    "puzzle_id": 2825,
-    "date": "February 1, 2026",
-    "letters": "B",
-    "all_letters": "BAGILNO",
-    "word_count": 80,
-    "pangrams_count": 2
+    "puzzle_id": 2826,
+    "date": "February 2, 2026",
+    "letters": "P",
+    "all_letters": "PYAEHIN",
+    "word_count": 38,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "ballooning",
+      "word": "epiphany",
       "is_pangram": 1,
-      "length": 10
-    },
-    {
-      "word": "billabong",
-      "is_pangram": 1,
-      "length": 9
-    },
-    {
-      "word": "babbling",
-      "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "bilabial",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "blabbing",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "blobbing",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "blogging",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "bobbling",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "boggling",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "boogaloo",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "gabbling",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "gobbling",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "nibbling",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "obliging",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "bagging",
+      "word": "ninepin",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "bailing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "balling",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "balloon",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "banging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "banning",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "billing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "billion",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "binging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "binning",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "bobbing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "bogging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "boiling",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "bologna",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "gabbing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "lobbing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "nabbing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "albino",
+      "word": "happen",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "baaing",
+      "word": "hippie",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "baboon",
+      "word": "hyphen",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "baling",
+      "word": "panini",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "banana",
+      "word": "papaya",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "baobab",
+      "word": "peahen",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bobbin",
+      "word": "pippin",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bonbon",
+      "word": "yippee",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "boning",
+      "word": "yippie",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bonobo",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "booboo",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "booing",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "gibbon",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "gibing",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "global",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "goblin",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "labial",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "oblong",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "aboil",
+      "word": "apian",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "alibi",
+      "word": "apnea",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "banal",
+      "word": "happy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bingo",
+      "word": "hippy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bling",
+      "word": "nippy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "blini",
+      "word": "paean",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "boing",
+      "word": "pappy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bongo",
+      "word": "payee",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "labia",
+      "word": "penne",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "nabob",
+      "word": "penny",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "baba",
+      "word": "peppy",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "piney",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "pinny",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "yappy",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "epee",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bail",
+      "word": "heap",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ball",
+      "word": "hype",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bang",
+      "word": "nape",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bill",
+      "word": "neap",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "blab",
+      "word": "pain",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "blin",
+      "word": "pane",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "blob",
+      "word": "papa",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "blog",
+      "word": "peen",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boba",
+      "word": "peep",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boil",
+      "word": "pine",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bola",
+      "word": "pipe",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boll",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "bolo",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "bong",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "boob",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "boon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "glib",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "glob",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lobo",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "noob",
+      "word": "yipe",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 427,
+  "totalPoints": 159,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
