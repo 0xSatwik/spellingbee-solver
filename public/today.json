@@ -1,205 +1,255 @@
 {
   "puzzle": {
-    "puzzle_id": 2826,
-    "date": "February 2, 2026",
-    "letters": "P",
-    "all_letters": "PYAEHIN",
-    "word_count": 38,
+    "puzzle_id": 2827,
+    "date": "February 3, 2026",
+    "letters": "R",
+    "all_letters": "RACDIMT",
+    "word_count": 48,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "epiphany",
+      "word": "dramatic",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "ninepin",
+      "word": "tarmacadam",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "diacritic",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "cataract",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "arcadia",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "happen",
+      "word": "attract",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "cardiac",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "ratatat",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "tramcar",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "arctic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "hippie",
+      "word": "armada",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "hyphen",
+      "word": "citric",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "panini",
+      "word": "critic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "papaya",
+      "word": "maraca",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "peahen",
+      "word": "midair",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "pippin",
+      "word": "ramada",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "yippee",
+      "word": "tamari",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "yippie",
+      "word": "tarmac",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "apian",
+      "word": "tartar",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "acrid",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "apnea",
+      "word": "atria",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "happy",
+      "word": "attar",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "hippy",
+      "word": "carat",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "nippy",
+      "word": "circa",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "paean",
+      "word": "cirri",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "pappy",
+      "word": "drama",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "payee",
+      "word": "radar",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "penne",
+      "word": "radii",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "penny",
+      "word": "raita",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "peppy",
+      "word": "tiara",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "piney",
+      "word": "tract",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "pinny",
+      "word": "trait",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "yappy",
+      "word": "triad",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "epee",
+      "word": "aria",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "heap",
+      "word": "arid",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hype",
+      "word": "card",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nape",
+      "word": "cart",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "neap",
+      "word": "cram",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pain",
+      "word": "dart",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pane",
+      "word": "dirt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "papa",
+      "word": "dram",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "peen",
+      "word": "drat",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "peep",
+      "word": "marm",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pine",
+      "word": "mart",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pipe",
+      "word": "raid",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "yipe",
+      "word": "tart",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tram",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "trim",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 159,
+  "totalPoints": 222,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
