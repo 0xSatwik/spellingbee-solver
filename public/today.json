@@ -1,255 +1,300 @@
 {
   "puzzle": {
-    "puzzle_id": 2827,
-    "date": "February 3, 2026",
-    "letters": "R",
-    "all_letters": "RACDIMT",
-    "word_count": 48,
+    "puzzle_id": 2828,
+    "date": "February 4, 2026",
+    "letters": "V",
+    "all_letters": "VDEILNY",
+    "word_count": 57,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "dramatic",
+      "word": "divinely",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "tarmacadam",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "diacritic",
+      "word": "enlivened",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "cataract",
+      "word": "deveined",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "arcadia",
+      "word": "dividend",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "deviled",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "attract",
+      "word": "divided",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "cardiac",
+      "word": "divined",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "ratatat",
+      "word": "divvied",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "tramcar",
+      "word": "enliven",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "arctic",
+      "word": "leveled",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "levelly",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "livened",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lividly",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "vividly",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "delved",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "armada",
+      "word": "devein",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "citric",
+      "word": "divide",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "critic",
+      "word": "divine",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "maraca",
+      "word": "eleven",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "midair",
+      "word": "endive",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "ramada",
+      "word": "envied",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tamari",
+      "word": "evened",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tarmac",
+      "word": "evenly",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tartar",
+      "word": "evilly",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "acrid",
+      "word": "levied",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "lively",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "veiled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "veined",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "vended",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "vilely",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "delve",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "atria",
+      "word": "devil",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "attar",
+      "word": "dived",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "carat",
+      "word": "divvy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "circa",
+      "word": "ivied",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cirri",
+      "word": "levee",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "drama",
+      "word": "level",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "radar",
+      "word": "lived",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "radii",
+      "word": "liven",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "raita",
+      "word": "livid",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tiara",
+      "word": "veiny",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tract",
+      "word": "vinyl",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "trait",
+      "word": "vivid",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "triad",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "aria",
+      "word": "dive",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "arid",
+      "word": "envy",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "card",
+      "word": "even",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cart",
+      "word": "evil",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cram",
+      "word": "levy",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dart",
+      "word": "live",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dirt",
+      "word": "veil",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dram",
+      "word": "vein",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "drat",
+      "word": "veld",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "marm",
+      "word": "vend",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mart",
+      "word": "vied",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "raid",
+      "word": "vile",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tart",
+      "word": "vine",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tram",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "trim",
+      "word": "viny",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 222,
+  "totalPoints": 285,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
