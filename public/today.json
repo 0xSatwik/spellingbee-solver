@@ -1,300 +1,195 @@
 {
   "puzzle": {
-    "puzzle_id": 2828,
-    "date": "February 4, 2026",
-    "letters": "V",
-    "all_letters": "VDEILNY",
-    "word_count": 57,
+    "puzzle_id": 2829,
+    "date": "February 5, 2026",
+    "letters": "O",
+    "all_letters": "ODHIMNT",
+    "word_count": 36,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "divinely",
+      "word": "midmonth",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "enlivened",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "deveined",
+      "word": "dominion",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "dividend",
+      "word": "hominoid",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "deviled",
+      "word": "hominid",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "divided",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "divined",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "divvied",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "enliven",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "leveled",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "levelly",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "livened",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "lividly",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "vividly",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "delved",
+      "word": "domino",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "devein",
+      "word": "hoodoo",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "divide",
+      "word": "minion",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "divine",
+      "word": "motion",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "eleven",
+      "word": "notion",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "endive",
+      "word": "tomtit",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "envied",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "evened",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "evenly",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "evilly",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "levied",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "lively",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "veiled",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "veined",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "vended",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "vilely",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "delve",
+      "word": "dhoti",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "devil",
+      "word": "ditto",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dived",
+      "word": "idiom",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "divvy",
+      "word": "idiot",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ivied",
+      "word": "mondo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "levee",
+      "word": "month",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "level",
+      "word": "motto",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "lived",
+      "word": "onion",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "liven",
+      "word": "tooth",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "livid",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "veiny",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "vinyl",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "vivid",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "dive",
+      "word": "dino",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "envy",
+      "word": "dodo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "even",
+      "word": "doom",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "evil",
+      "word": "doth",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "levy",
+      "word": "hood",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "live",
+      "word": "hoot",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "veil",
+      "word": "into",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "vein",
+      "word": "mono",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "veld",
+      "word": "mood",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "vend",
+      "word": "moon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "vied",
+      "word": "moot",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "vile",
+      "word": "moth",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "vine",
+      "word": "noon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "viny",
+      "word": "omit",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "onto",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "toon",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "toot",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 285,
+  "totalPoints": 136,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
