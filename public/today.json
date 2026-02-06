@@ -1,195 +1,320 @@
 {
   "puzzle": {
-    "puzzle_id": 2829,
-    "date": "February 5, 2026",
-    "letters": "O",
-    "all_letters": "ODHIMNT",
-    "word_count": 36,
+    "puzzle_id": 2830,
+    "date": "February 6, 2026",
+    "letters": "E",
+    "all_letters": "EACGIMN",
+    "word_count": 61,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "midmonth",
+      "word": "menacing",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "dominion",
+      "word": "imminence",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "emceeing",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "hominoid",
+      "word": "eminence",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "hominid",
+      "word": "encaging",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "engaging",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "imagine",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "domino",
+      "word": "meaning",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "ageing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "hoodoo",
+      "word": "anemia",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "minion",
+      "word": "anemic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "motion",
+      "word": "canine",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "notion",
+      "word": "cinema",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tomtit",
+      "word": "egging",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dhoti",
+      "word": "encage",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "engage",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "engine",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "enigma",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "gamine",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "iceman",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "icemen",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "manage",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "meanie",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "meming",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "menace",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "anime",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ditto",
+      "word": "emcee",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "idiom",
+      "word": "enema",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "idiot",
+      "word": "genie",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mondo",
+      "word": "genii",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "month",
+      "word": "gimme",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "motto",
+      "word": "image",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "onion",
+      "word": "inane",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tooth",
+      "word": "innie",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dino",
+      "word": "mange",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mecca",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mince",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "niece",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "acme",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dodo",
+      "word": "acne",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "doom",
+      "word": "amen",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "doth",
+      "word": "cage",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hood",
+      "word": "came",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hoot",
+      "word": "cane",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "into",
+      "word": "gage",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mono",
+      "word": "game",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mood",
+      "word": "gene",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "moon",
+      "word": "mace",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "moot",
+      "word": "mage",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "moth",
+      "word": "mane",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "noon",
+      "word": "mean",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "omit",
+      "word": "mega",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "onto",
+      "word": "meme",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "toon",
+      "word": "mice",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "toot",
+      "word": "mien",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mime",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mine",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "name",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "nene",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "nice",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "nine",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 136,
+  "totalPoints": 260,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
