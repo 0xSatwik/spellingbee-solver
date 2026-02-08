@@ -1,212 +1,315 @@
 {
   "puzzle": {
-    "puzzle_id": 2831,
-    "date": "February 7, 2026",
-    "letters": "Y",
-    "all_letters": "YAIOPRT",
-    "word_count": 39,
+    "puzzle_id": 2832,
+    "date": "February 8, 2026",
+    "letters": "I",
+    "all_letters": "IBELNTU",
+    "word_count": 60,
     "pangrams_count": 2
   },
   "words": [
     {
-      "word": "propitiatory",
+      "word": "ebullient",
       "is_pangram": 1,
-      "length": 12
+      "length": 9
     },
     {
-      "word": "topiary",
+      "word": "bulletin",
       "is_pangram": 1,
-      "length": 7
+      "length": 8
     },
     {
-      "word": "priority",
+      "word": "belittle",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "rotatory",
+      "word": "beltline",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "oratory",
+      "word": "nineteen",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "beeline",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "portray",
+      "word": "entitle",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "apiary",
+      "word": "inbuilt",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "inutile",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lenient",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "libelee",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "unbuilt",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "billet",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "arroyo",
+      "word": "bitten",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "papaya",
+      "word": "intent",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "papyri",
+      "word": "intuit",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "parity",
+      "word": "lentil",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "priory",
+      "word": "linnet",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "rarity",
+      "word": "lintel",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "rotary",
+      "word": "little",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "trippy",
+      "word": "nibble",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "array",
+      "word": "nubbin",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "nubile",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tittle",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "belie",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "pappy",
+      "word": "bible",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "parry",
+      "word": "blini",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "party",
+      "word": "built",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "patty",
+      "word": "elite",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "poppy",
+      "word": "ennui",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "potty",
+      "word": "inlet",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ratty",
+      "word": "innie",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tarry",
+      "word": "intel",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tatty",
+      "word": "libel",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tippy",
+      "word": "linen",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "yappy",
+      "word": "title",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "airy",
+      "word": "tutti",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "unite",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "unlit",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "untie",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "until",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "utile",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "bile",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "arty",
+      "word": "bill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "itty",
+      "word": "bite",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "oaty",
+      "word": "blin",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pity",
+      "word": "lien",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pray",
+      "word": "lieu",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pyro",
+      "word": "lilt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ropy",
+      "word": "line",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tray",
+      "word": "lint",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "troy",
+      "word": "lite",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "typo",
+      "word": "nine",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tyro",
+      "word": "nite",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tile",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "till",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tilt",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tine",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tint",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "unit",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 189,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "topiary"
-  ]
+  "totalPoints": 284,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
