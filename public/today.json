@@ -1,250 +1,200 @@
 {
   "puzzle": {
-    "puzzle_id": 2832,
-    "date": "February 8, 2026",
-    "letters": "I",
-    "all_letters": "IBELNTU",
-    "word_count": 60,
-    "pangrams_count": 2
+    "puzzle_id": 2833,
+    "date": "February 9, 2026",
+    "letters": "T",
+    "all_letters": "TACIKLO",
+    "word_count": 58,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "ebullient",
-      "is_pangram": 1,
-      "length": 9
-    },
-    {
-      "word": "bulletin",
+      "word": "cocktail",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "belittle",
+      "word": "coattail",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "beltline",
+      "word": "cockatoo",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "nineteen",
+      "word": "tactical",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "beeline",
+      "word": "tailcoat",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "ticktock",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "catcall",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "entitle",
+      "word": "cattail",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "inbuilt",
+      "word": "illicit",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "inutile",
+      "word": "toccata",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "lenient",
+      "word": "toolkit",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "libelee",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "unbuilt",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "billet",
+      "word": "attack",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bitten",
+      "word": "coital",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "intent",
+      "word": "italic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "intuit",
+      "word": "lactic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lentil",
+      "word": "tactic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "linnet",
+      "word": "tallit",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lintel",
+      "word": "tattoo",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "little",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "nibble",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "nubbin",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "nubile",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tittle",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "belie",
+      "word": "allot",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bible",
+      "word": "atilt",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "blini",
+      "word": "atoll",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "built",
+      "word": "attic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "elite",
+      "word": "cacti",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ennui",
+      "word": "coati",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "inlet",
+      "word": "licit",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "innie",
+      "word": "lotto",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "intel",
+      "word": "octal",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "libel",
+      "word": "tacit",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "linen",
+      "word": "tikka",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "title",
+      "word": "total",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tutti",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "unite",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "unlit",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "untie",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "until",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "utile",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "bile",
+      "word": "alit",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bill",
+      "word": "alto",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bite",
+      "word": "clot",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "blin",
+      "word": "coat",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lien",
+      "word": "colt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lieu",
+      "word": "coot",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "iota",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "kilt",
       "is_pangram": 0,
       "length": 4
     },
@@ -254,32 +204,57 @@
       "length": 4
     },
     {
-      "word": "line",
+      "word": "loot",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lint",
+      "word": "tack",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lite",
+      "word": "taco",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nine",
+      "word": "tact",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nite",
+      "word": "tail",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tile",
+      "word": "talc",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tali",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "talk",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tall",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tick",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tiki",
       "is_pangram": 0,
       "length": 4
     },
@@ -294,22 +269,37 @@
       "length": 4
     },
     {
-      "word": "tine",
+      "word": "tock",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tint",
+      "word": "toil",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "unit",
+      "word": "toll",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "took",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tool",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "toot",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 284,
+  "totalPoints": 220,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
