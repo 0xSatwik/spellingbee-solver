@@ -1,305 +1,145 @@
 {
   "puzzle": {
-    "puzzle_id": 2833,
-    "date": "February 9, 2026",
-    "letters": "T",
-    "all_letters": "TACIKLO",
-    "word_count": 58,
+    "puzzle_id": 2834,
+    "date": "February 10, 2026",
+    "letters": "H",
+    "all_letters": "HBINORT",
+    "word_count": 26,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "cocktail",
+      "word": "inhibitor",
       "is_pangram": 1,
-      "length": 8
+      "length": 9
     },
     {
-      "word": "coattail",
+      "word": "inhibition",
       "is_pangram": 0,
-      "length": 8
+      "length": 10
     },
     {
-      "word": "cockatoo",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "tactical",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "tailcoat",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "ticktock",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "catcall",
+      "word": "inhibit",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "cattail",
+      "word": "tinhorn",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "illicit",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "toccata",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "toolkit",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "attack",
+      "word": "boohoo",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "coital",
+      "word": "hobbit",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "italic",
+      "word": "hobnob",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lactic",
+      "word": "horror",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tactic",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tallit",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tattoo",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "allot",
+      "word": "birth",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "atilt",
+      "word": "booth",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "atoll",
+      "word": "broth",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "attic",
+      "word": "honor",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cacti",
+      "word": "ninth",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "coati",
+      "word": "north",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "licit",
+      "word": "rhino",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "lotto",
+      "word": "thorn",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "octal",
+      "word": "throb",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tacit",
+      "word": "tooth",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tikka",
+      "word": "troth",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "total",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "alit",
+      "word": "boho",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "alto",
+      "word": "both",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "clot",
+      "word": "hint",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coat",
+      "word": "hobo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "colt",
+      "word": "hoot",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coot",
+      "word": "horn",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "iota",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "kilt",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lilt",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loot",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tack",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "taco",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tact",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tail",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "talc",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tali",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "talk",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tall",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tick",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tiki",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "till",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tilt",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tock",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "toil",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "toll",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "took",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tool",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "toot",
+      "word": "thin",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 220,
+  "totalPoints": 126,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
