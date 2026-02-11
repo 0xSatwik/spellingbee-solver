@@ -1,145 +1,150 @@
 {
   "puzzle": {
-    "puzzle_id": 2834,
-    "date": "February 10, 2026",
-    "letters": "H",
-    "all_letters": "HBINORT",
-    "word_count": 26,
+    "puzzle_id": 2835,
+    "date": "February 11, 2026",
+    "letters": "M",
+    "all_letters": "MEFINTY",
+    "word_count": 27,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "inhibitor",
+      "word": "femininity",
       "is_pangram": 1,
-      "length": 9
-    },
-    {
-      "word": "inhibition",
-      "is_pangram": 0,
       "length": 10
     },
     {
-      "word": "inhibit",
+      "word": "feminine",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "imminent",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "tenement",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "eminent",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "tinhorn",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "boohoo",
+      "word": "enmity",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "hobbit",
+      "word": "mentee",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "hobnob",
+      "word": "mitten",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "horror",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "birth",
+      "word": "enemy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "booth",
+      "word": "femme",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "broth",
+      "word": "minim",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "honor",
+      "word": "minty",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ninth",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "north",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "rhino",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "thorn",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "throb",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tooth",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "troth",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "boho",
+      "word": "emit",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "both",
+      "word": "item",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hint",
+      "word": "meet",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hobo",
+      "word": "meme",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hoot",
+      "word": "mete",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "horn",
+      "word": "mien",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "thin",
+      "word": "miff",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mime",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mine",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mini",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mint",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mite",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mitt",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "teem",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "time",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 126,
+  "totalPoints": 101,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
