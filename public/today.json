@@ -1,150 +1,220 @@
 {
   "puzzle": {
-    "puzzle_id": 2835,
-    "date": "February 11, 2026",
-    "letters": "M",
-    "all_letters": "MEFINTY",
-    "word_count": 27,
+    "puzzle_id": 2836,
+    "date": "February 12, 2026",
+    "letters": "N",
+    "all_letters": "NAFMORT",
+    "word_count": 41,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "femininity",
+      "word": "frontman",
       "is_pangram": 1,
-      "length": 10
+      "length": 8
     },
     {
-      "word": "feminine",
+      "word": "annotator",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "moonroof",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "imminent",
+      "word": "narrator",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "tenement",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "eminent",
+      "word": "affront",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "enmity",
+      "word": "annatto",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "footman",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "notator",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "ottoman",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "tantara",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "arrant",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mentee",
+      "word": "mammon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mitten",
+      "word": "mantra",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "enemy",
+      "word": "maroon",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "matron",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "natant",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "nonart",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "nonfat",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "rattan",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tantra",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tartan",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "front",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "femme",
+      "word": "manna",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "minim",
+      "word": "manor",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "minty",
+      "word": "manta",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "emit",
+      "word": "moron",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "anon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "item",
+      "word": "font",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "meet",
+      "word": "moan",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "meme",
+      "word": "mono",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mete",
+      "word": "moon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mien",
+      "word": "morn",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "miff",
+      "word": "naan",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mime",
+      "word": "nana",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mine",
+      "word": "noon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mini",
+      "word": "norm",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mint",
+      "word": "onto",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mite",
+      "word": "rant",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mitt",
+      "word": "roan",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "teem",
+      "word": "toon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "time",
+      "word": "torn",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 101,
+  "totalPoints": 188,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
