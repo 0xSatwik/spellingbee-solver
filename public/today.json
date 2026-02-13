@@ -1,220 +1,312 @@
 {
   "puzzle": {
-    "puzzle_id": 2836,
-    "date": "February 12, 2026",
-    "letters": "N",
-    "all_letters": "NAFMORT",
-    "word_count": 41,
-    "pangrams_count": 1
+    "puzzle_id": 2837,
+    "date": "February 13, 2026",
+    "letters": "L",
+    "all_letters": "LDENOUV",
+    "word_count": 59,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "frontman",
+      "word": "unevolved",
       "is_pangram": 1,
-      "length": 8
-    },
-    {
-      "word": "annotator",
-      "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "moonroof",
+      "word": "unloved",
+      "is_pangram": 1,
+      "length": 7
+    },
+    {
+      "word": "devolved",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "narrator",
+      "word": "loudened",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "affront",
+      "word": "nouvelle",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "deluded",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "annatto",
+      "word": "devolve",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "footman",
+      "word": "doodled",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "notator",
+      "word": "evolved",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "ottoman",
+      "word": "leveled",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "tantara",
+      "word": "needled",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "arrant",
+      "word": "noodled",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "unlevel",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "delude",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mammon",
+      "word": "delved",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mantra",
+      "word": "dolled",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "maroon",
+      "word": "doodle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "matron",
+      "word": "dueled",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "natant",
+      "word": "dulled",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nonart",
+      "word": "eleven",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nonfat",
+      "word": "eluded",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "rattan",
+      "word": "evolve",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tantra",
+      "word": "lolled",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tartan",
+      "word": "louden",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "front",
+      "word": "lulled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "needle",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "nodule",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "noodle",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "venule",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "delve",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "manna",
+      "word": "doled",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "manor",
+      "word": "elude",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "manta",
+      "word": "levee",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "moron",
+      "word": "level",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "anon",
+      "word": "loved",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "novel",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "olden",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ovule",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "dell",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "font",
+      "word": "dole",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "moan",
+      "word": "doll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mono",
+      "word": "duel",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "moon",
+      "word": "dull",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "morn",
+      "word": "lede",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "naan",
+      "word": "lend",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nana",
+      "word": "lode",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "noon",
+      "word": "loll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "norm",
+      "word": "lone",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "onto",
+      "word": "loon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "rant",
+      "word": "loud",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "roan",
+      "word": "love",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "toon",
+      "word": "lull",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "torn",
+      "word": "lulu",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lune",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "noel",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "null",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "oleo",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "veld",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "vole",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 188,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 272,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "unloved"
+  ]
 }
