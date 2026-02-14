@@ -1,312 +1,337 @@
 {
   "puzzle": {
-    "puzzle_id": 2837,
-    "date": "February 13, 2026",
-    "letters": "L",
-    "all_letters": "LDENOUV",
-    "word_count": 59,
-    "pangrams_count": 2
+    "puzzle_id": 2838,
+    "date": "February 14, 2026",
+    "letters": "M",
+    "all_letters": "MABEGIN",
+    "word_count": 64,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "unevolved",
+      "word": "beaming",
       "is_pangram": 1,
+      "length": 7
+    },
+    {
+      "word": "begemming",
+      "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "unloved",
-      "is_pangram": 1,
-      "length": 7
+      "word": "imagining",
+      "is_pangram": 0,
+      "length": 9
     },
     {
-      "word": "devolved",
+      "word": "imbibing",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "loudened",
+      "word": "managing",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "nouvelle",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "deluded",
+      "word": "imagine",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "devolve",
+      "word": "imaging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "doodled",
+      "word": "maiming",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "evolved",
+      "word": "manning",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "leveled",
+      "word": "meaning",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "needled",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "noodled",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "unlevel",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "delude",
+      "word": "aiming",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "delved",
+      "word": "amebae",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dolled",
+      "word": "anemia",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "doodle",
+      "word": "bagman",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dueled",
+      "word": "bagmen",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dulled",
+      "word": "enigma",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "eleven",
+      "word": "gamine",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "eluded",
+      "word": "gaming",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "evolve",
+      "word": "imbibe",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lolled",
+      "word": "manage",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "louden",
+      "word": "meanie",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lulled",
+      "word": "meming",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "needle",
+      "word": "miming",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nodule",
+      "word": "minima",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "noodle",
+      "word": "mining",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "venule",
+      "word": "naming",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "delve",
+      "word": "ameba",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "doled",
+      "word": "anima",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "elude",
+      "word": "anime",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "levee",
+      "word": "begem",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "level",
+      "word": "enema",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "loved",
+      "word": "gamin",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "novel",
+      "word": "gamma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "olden",
+      "word": "gimme",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ovule",
+      "word": "iambi",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dell",
+      "word": "image",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "magma",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mamba",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mamma",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "manga",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mange",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mania",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "manna",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "minim",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "nimbi",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "amen",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dole",
+      "word": "beam",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "doll",
+      "word": "game",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "duel",
+      "word": "iamb",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dull",
+      "word": "imam",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lede",
+      "word": "mage",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lend",
+      "word": "magi",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lode",
+      "word": "maim",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loll",
+      "word": "main",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lone",
+      "word": "mama",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loon",
+      "word": "mane",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loud",
+      "word": "mean",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "love",
+      "word": "mega",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lull",
+      "word": "meme",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lulu",
+      "word": "mien",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lune",
+      "word": "mime",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "noel",
+      "word": "mine",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "null",
+      "word": "mini",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "oleo",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "veld",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "vole",
+      "word": "name",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 272,
+  "totalPoints": 293,
   "hasPerfectPangram": true,
   "perfectPangrams": [
-    "unloved"
+    "beaming"
   ]
 }
