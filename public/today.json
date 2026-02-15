@@ -1,337 +1,255 @@
 {
   "puzzle": {
-    "puzzle_id": 2838,
-    "date": "February 14, 2026",
-    "letters": "M",
-    "all_letters": "MABEGIN",
-    "word_count": 64,
+    "puzzle_id": 2839,
+    "date": "February 15, 2026",
+    "letters": "A",
+    "all_letters": "AGHIPRT",
+    "word_count": 48,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "beaming",
+      "word": "trigraph",
       "is_pangram": 1,
-      "length": 7
+      "length": 8
     },
     {
-      "word": "begemming",
+      "word": "paragraph",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "imagining",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "imbibing",
+      "word": "airtight",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "managing",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "imagine",
+      "word": "apparat",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "imaging",
+      "word": "paratha",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "maiming",
+      "word": "partita",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "manning",
+      "word": "pitapat",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "meaning",
+      "word": "ratatat",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "aiming",
+      "word": "rattrap",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "grappa",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "amebae",
+      "word": "pariah",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "anemia",
+      "word": "ragtag",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bagman",
+      "word": "tartar",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bagmen",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "enigma",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "gamine",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "gaming",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "imbibe",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "manage",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "meanie",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "meming",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "miming",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "minima",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "mining",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "naming",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "ameba",
+      "word": "aargh",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "anima",
+      "word": "agita",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "anime",
+      "word": "apart",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "begem",
+      "word": "arhat",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "enema",
+      "word": "atria",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gamin",
+      "word": "attar",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gamma",
+      "word": "graph",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gimme",
+      "word": "hatha",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "iambi",
+      "word": "raita",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "image",
+      "word": "taiga",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "magma",
+      "word": "tapir",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mamba",
+      "word": "tiara",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mamma",
+      "word": "trait",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "manga",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "mange",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "mania",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "manna",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "minim",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "nimbi",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "amen",
+      "word": "agar",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "beam",
+      "word": "aria",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "game",
+      "word": "gaga",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "iamb",
+      "word": "gait",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "imam",
+      "word": "hair",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mage",
+      "word": "harp",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "magi",
+      "word": "hart",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "maim",
+      "word": "hath",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "main",
+      "word": "pair",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mama",
+      "word": "papa",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mane",
+      "word": "part",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mean",
+      "word": "path",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mega",
+      "word": "phat",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "meme",
+      "word": "pita",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mien",
+      "word": "prat",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mime",
+      "word": "raga",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mine",
+      "word": "rapt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mini",
+      "word": "tapa",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "name",
+      "word": "tarp",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tart",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "that",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "trap",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 293,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "beaming"
-  ]
+  "totalPoints": 185,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
