@@ -1,255 +1,300 @@
 {
   "puzzle": {
-    "puzzle_id": 2839,
-    "date": "February 15, 2026",
+    "puzzle_id": 2840,
+    "date": "February 16, 2026",
     "letters": "A",
-    "all_letters": "AGHIPRT",
-    "word_count": 48,
+    "all_letters": "ABCKMOR",
+    "word_count": 57,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "trigraph",
+      "word": "backroom",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "paragraph",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "airtight",
+      "word": "backcomb",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "apparat",
+      "word": "barbacoa",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "bookmark",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "bookrack",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "barback",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "paratha",
+      "word": "barrack",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "partita",
+      "word": "barroom",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "pitapat",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "ratatat",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "rattrap",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "grappa",
+      "word": "bamboo",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "pariah",
+      "word": "baobab",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "ragtag",
+      "word": "kaboom",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tartar",
+      "word": "maraca",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "aargh",
+      "word": "aback",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "agita",
+      "word": "arbor",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "apart",
+      "word": "armor",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "arhat",
+      "word": "aroma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "atria",
+      "word": "babka",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "attar",
+      "word": "cacao",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "graph",
+      "word": "carob",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "hatha",
+      "word": "carom",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "raita",
+      "word": "cobra",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "taiga",
+      "word": "cocoa",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tapir",
+      "word": "comma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tiara",
+      "word": "crack",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "trait",
+      "word": "croak",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "agar",
+      "word": "kabob",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "karma",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "korma",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "macro",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mamba",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mambo",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mamma",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "momma",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ammo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "aria",
+      "word": "amok",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gaga",
+      "word": "arco",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gait",
+      "word": "baba",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hair",
+      "word": "back",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "harp",
+      "word": "barb",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hart",
+      "word": "bark",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hath",
+      "word": "boar",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pair",
+      "word": "boba",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "papa",
+      "word": "camo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "part",
+      "word": "carb",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "path",
+      "word": "coca",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "phat",
+      "word": "coma",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pita",
+      "word": "crab",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "prat",
+      "word": "cram",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "raga",
+      "word": "mako",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "rapt",
+      "word": "mama",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tapa",
+      "word": "mark",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tarp",
+      "word": "marm",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tart",
+      "word": "okra",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "that",
+      "word": "orca",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "trap",
+      "word": "rack",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "roam",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "roar",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 185,
+  "totalPoints": 221,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
