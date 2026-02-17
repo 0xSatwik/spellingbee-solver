@@ -1,300 +1,277 @@
 {
   "puzzle": {
-    "puzzle_id": 2840,
-    "date": "February 16, 2026",
-    "letters": "A",
-    "all_letters": "ABCKMOR",
-    "word_count": 57,
-    "pangrams_count": 1
+    "puzzle_id": 2841,
+    "date": "February 17, 2026",
+    "letters": "P",
+    "all_letters": "PGILNOW",
+    "word_count": 52,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "backroom",
+      "word": "pillowing",
       "is_pangram": 1,
-      "length": 8
+      "length": 9
     },
     {
-      "word": "backcomb",
+      "word": "plowing",
+      "is_pangram": 1,
+      "length": 7
+    },
+    {
+      "word": "lolloping",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "pinioning",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "glopping",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "barbacoa",
+      "word": "lollipop",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "bookmark",
+      "word": "plopping",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "bookrack",
+      "word": "polliwog",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "barback",
+      "word": "lipping",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "barrack",
+      "word": "looping",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "barroom",
+      "word": "lopping",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "bamboo",
+      "word": "nipping",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "opining",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "opinion",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "pigging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "pilling",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "pillion",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "pinging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "pinning",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "pogoing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "polling",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "pooling",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "pooping",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "popping",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lollop",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "baobab",
+      "word": "loping",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "kaboom",
+      "word": "piling",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "maraca",
+      "word": "pillow",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "aback",
+      "word": "pining",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "pinion",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "piping",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "pippin",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "poling",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "poplin",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "powwow",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "wiping",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "gloop",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "arbor",
+      "word": "polio",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "armor",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "aroma",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "babka",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "cacao",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "carob",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "carom",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "cobra",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "cocoa",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "comma",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "crack",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "croak",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "kabob",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "karma",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "korma",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "macro",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "mamba",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "mambo",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "mamma",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "momma",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "ammo",
+      "word": "glop",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "amok",
+      "word": "goop",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "arco",
+      "word": "lipo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "baba",
+      "word": "loop",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "back",
+      "word": "pill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "barb",
+      "word": "ping",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bark",
+      "word": "plop",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boar",
+      "word": "plow",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boba",
+      "word": "pogo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "camo",
+      "word": "poll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "carb",
+      "word": "polo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coca",
+      "word": "pong",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coma",
+      "word": "pool",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "crab",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "cram",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mako",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mama",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mark",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "marm",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "okra",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "orca",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "rack",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "roam",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "roar",
+      "word": "poop",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 221,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 288,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "plowing"
+  ]
 }
