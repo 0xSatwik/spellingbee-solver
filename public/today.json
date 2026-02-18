@@ -1,277 +1,210 @@
 {
   "puzzle": {
-    "puzzle_id": 2841,
-    "date": "February 17, 2026",
-    "letters": "P",
-    "all_letters": "PGILNOW",
-    "word_count": 52,
-    "pangrams_count": 2
+    "puzzle_id": 2842,
+    "date": "February 18, 2026",
+    "letters": "N",
+    "all_letters": "NACDORV",
+    "word_count": 39,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "pillowing",
+      "word": "cordovan",
       "is_pangram": 1,
-      "length": 9
+      "length": 8
     },
     {
-      "word": "plowing",
-      "is_pangram": 1,
-      "length": 7
-    },
-    {
-      "word": "lolloping",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "pinioning",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "glopping",
+      "word": "anaconda",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "lollipop",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "plopping",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "polliwog",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "lipping",
+      "word": "caravan",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "looping",
+      "word": "concord",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "lopping",
+      "word": "raccoon",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "nipping",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "opining",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "opinion",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "pigging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "pilling",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "pillion",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "pinging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "pinning",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "pogoing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "polling",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "pooling",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "pooping",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "popping",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "lollop",
+      "word": "arcana",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "loping",
+      "word": "canard",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "piling",
+      "word": "cancan",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "pillow",
+      "word": "candor",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "pining",
+      "word": "cannon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "pinion",
+      "word": "cocoon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "piping",
+      "word": "condor",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "pippin",
+      "word": "cordon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "poling",
+      "word": "corona",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "poplin",
+      "word": "rancor",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "powwow",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "wiping",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "gloop",
+      "word": "acorn",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "polio",
+      "word": "adorn",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "glop",
+      "word": "canna",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "canon",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "codon",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "condo",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "convo",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "croon",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "donor",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "narco",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "radon",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "rando",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "rondo",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "anon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "goop",
+      "word": "corn",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lipo",
+      "word": "darn",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loop",
+      "word": "naan",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pill",
+      "word": "nada",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ping",
+      "word": "nana",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "plop",
+      "word": "narc",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "plow",
+      "word": "noon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pogo",
+      "word": "nova",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "poll",
+      "word": "rand",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "polo",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pong",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pool",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "poop",
+      "word": "roan",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 288,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "plowing"
-  ]
+  "totalPoints": 180,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
