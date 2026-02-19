@@ -1,210 +1,290 @@
 {
   "puzzle": {
-    "puzzle_id": 2842,
-    "date": "February 18, 2026",
-    "letters": "N",
-    "all_letters": "NACDORV",
-    "word_count": 39,
-    "pangrams_count": 1
+    "puzzle_id": 2843,
+    "date": "February 19, 2026",
+    "letters": "M",
+    "all_letters": "MACEHIT",
+    "word_count": 55,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "cordovan",
+      "word": "mathematic",
+      "is_pangram": 1,
+      "length": 10
+    },
+    {
+      "word": "thematic",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "anaconda",
+      "word": "emaciate",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "caravan",
+      "word": "hematite",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "mahimahi",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "teammate",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "hamachi",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "concord",
+      "word": "imitate",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "raccoon",
+      "word": "machete",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "arcana",
+      "word": "mahatma",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "memetic",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "mimetic",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "teatime",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "titmice",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "emetic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "canard",
+      "word": "hamate",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cancan",
+      "word": "matcha",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "candor",
+      "word": "tatami",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cannon",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "cocoon",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "condor",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "cordon",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "corona",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "rancor",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "acorn",
+      "word": "chime",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "adorn",
+      "word": "emcee",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "canna",
+      "word": "mamma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "canon",
+      "word": "match",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "codon",
+      "word": "matte",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "condo",
+      "word": "mecca",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "convo",
+      "word": "mimic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "croon",
+      "word": "theme",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "donor",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "narco",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "radon",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "rando",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "rondo",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "anon",
+      "word": "acme",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "corn",
+      "word": "ahem",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "darn",
+      "word": "came",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "naan",
+      "word": "cami",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nada",
+      "word": "emit",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nana",
+      "word": "heme",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "narc",
+      "word": "imam",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "noon",
+      "word": "item",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nova",
+      "word": "mace",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "rand",
+      "word": "maim",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "roan",
+      "word": "mama",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mate",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "math",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "meat",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "meet",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "meme",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "meta",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mete",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "meth",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mica",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mice",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mime",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mite",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mitt",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tame",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "team",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "teem",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "them",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "time",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 180,
+  "totalPoints": 213,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
