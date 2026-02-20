@@ -1,290 +1,157 @@
 {
   "puzzle": {
-    "puzzle_id": 2843,
-    "date": "February 19, 2026",
-    "letters": "M",
-    "all_letters": "MACEHIT",
-    "word_count": 55,
-    "pangrams_count": 2
+    "puzzle_id": 2844,
+    "date": "February 20, 2026",
+    "letters": "U",
+    "all_letters": "UABDGLY",
+    "word_count": 28,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "mathematic",
+      "word": "ladybug",
       "is_pangram": 1,
-      "length": 10
+      "length": 7
     },
     {
-      "word": "thematic",
-      "is_pangram": 1,
-      "length": 8
-    },
-    {
-      "word": "emaciate",
+      "word": "laudably",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "hematite",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "mahimahi",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "teammate",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "hamachi",
+      "word": "lullaby",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "imitate",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "machete",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "mahatma",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "memetic",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "mimetic",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "teatime",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "titmice",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "emetic",
+      "word": "bubbly",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "hamate",
+      "word": "dually",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "matcha",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tatami",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "chime",
+      "word": "bubba",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "emcee",
+      "word": "buddy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mamma",
+      "word": "buggy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "match",
+      "word": "bulgy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "matte",
+      "word": "bully",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mecca",
+      "word": "dully",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mimic",
+      "word": "gaudy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "theme",
+      "word": "gulag",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "acme",
+      "word": "gully",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "baud",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ahem",
+      "word": "bulb",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "came",
+      "word": "bull",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cami",
+      "word": "daub",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "emit",
+      "word": "dual",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "heme",
+      "word": "dull",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "imam",
+      "word": "duly",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "item",
+      "word": "glug",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mace",
+      "word": "gull",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "maim",
+      "word": "laud",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mama",
+      "word": "luau",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mate",
+      "word": "lull",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "math",
+      "word": "lulu",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "meat",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "meet",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "meme",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "meta",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mete",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "meth",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mica",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mice",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mime",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mite",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mitt",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tame",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "team",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "teem",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "them",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "time",
+      "word": "ugly",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 213,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 100,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "ladybug"
+  ]
 }
