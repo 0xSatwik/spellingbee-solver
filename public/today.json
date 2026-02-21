@@ -1,157 +1,345 @@
 {
   "puzzle": {
-    "puzzle_id": 2844,
-    "date": "February 20, 2026",
-    "letters": "U",
-    "all_letters": "UABDGLY",
-    "word_count": 28,
-    "pangrams_count": 1
+    "puzzle_id": 2845,
+    "date": "February 21, 2026",
+    "letters": "M",
+    "all_letters": "MACINOT",
+    "word_count": 66,
+    "pangrams_count": 6
   },
   "words": [
     {
-      "word": "ladybug",
+      "word": "contamination",
       "is_pangram": 1,
-      "length": 7
+      "length": 13
     },
     {
-      "word": "laudably",
+      "word": "contaminant",
+      "is_pangram": 1,
+      "length": 11
+    },
+    {
+      "word": "manicotti",
+      "is_pangram": 1,
+      "length": 9
+    },
+    {
+      "word": "monatomic",
+      "is_pangram": 1,
+      "length": 9
+    },
+    {
+      "word": "amniotic",
+      "is_pangram": 1,
+      "length": 8
+    },
+    {
+      "word": "anatomic",
+      "is_pangram": 1,
+      "length": 8
+    },
+    {
+      "word": "intimation",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "monomaniac",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "nomination",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "animation",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "commotion",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "imitation",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "monomania",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "cinnamon",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "lullaby",
+      "word": "maintain",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "ammonia",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "bubbly",
+      "word": "catmint",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "minicam",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "ottoman",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "atomic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dually",
+      "word": "caiman",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bubba",
+      "word": "commit",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "common",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "mammon",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "maniac",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "minima",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "minion",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "motion",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "noncom",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tatami",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tomato",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tomcat",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tomtit",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "amino",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "buddy",
+      "word": "amnio",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "buggy",
+      "word": "anima",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bulgy",
+      "word": "comic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bully",
+      "word": "comma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dully",
+      "word": "mamma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gaudy",
+      "word": "mania",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gulag",
+      "word": "manic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gully",
+      "word": "manna",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "baud",
+      "word": "manta",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mimic",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "minim",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "momma",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "motto",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ammo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bulb",
+      "word": "atom",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bull",
+      "word": "cami",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "daub",
+      "word": "camo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dual",
+      "word": "coma",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dull",
+      "word": "imam",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "duly",
+      "word": "maim",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "glug",
+      "word": "main",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gull",
+      "word": "mama",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "laud",
+      "word": "mica",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "luau",
+      "word": "mini",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lull",
+      "word": "mint",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lulu",
+      "word": "mitt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ugly",
+      "word": "moan",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "moat",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mono",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "moon",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "moot",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "omit",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 100,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "ladybug"
-  ]
+  "totalPoints": 383,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
