@@ -1,345 +1,227 @@
 {
   "puzzle": {
-    "puzzle_id": 2845,
-    "date": "February 21, 2026",
-    "letters": "M",
-    "all_letters": "MACINOT",
-    "word_count": 66,
-    "pangrams_count": 6
+    "puzzle_id": 2846,
+    "date": "February 22, 2026",
+    "letters": "L",
+    "all_letters": "LGIKNRU",
+    "word_count": 42,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "contamination",
+      "word": "lurking",
       "is_pangram": 1,
-      "length": 13
+      "length": 7
     },
     {
-      "word": "contaminant",
-      "is_pangram": 1,
-      "length": 11
-    },
-    {
-      "word": "manicotti",
-      "is_pangram": 1,
-      "length": 9
-    },
-    {
-      "word": "monatomic",
-      "is_pangram": 1,
-      "length": 9
-    },
-    {
-      "word": "amniotic",
-      "is_pangram": 1,
-      "length": 8
-    },
-    {
-      "word": "anatomic",
-      "is_pangram": 1,
-      "length": 8
-    },
-    {
-      "word": "intimation",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "monomaniac",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "nomination",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "animation",
+      "word": "unlinking",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "commotion",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "imitation",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "monomania",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "cinnamon",
+      "word": "giggling",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "maintain",
+      "word": "glugging",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "ammonia",
+      "word": "grilling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "gurgling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "linguini",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "niggling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "unliking",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "gilling",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "catmint",
+      "word": "gulling",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "minicam",
+      "word": "inkling",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "ottoman",
+      "word": "killing",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "atomic",
+      "word": "linking",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lugging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lulling",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lunging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "gluing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "caiman",
+      "word": "liking",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "commit",
+      "word": "lining",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "common",
+      "word": "luging",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mammon",
+      "word": "luring",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "maniac",
+      "word": "riling",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "minima",
+      "word": "ruling",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "minion",
+      "word": "unlink",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "motion",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "noncom",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tatami",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tomato",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tomcat",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tomtit",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "amino",
+      "word": "grill",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "amnio",
+      "word": "knurl",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "anima",
+      "word": "krill",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "comic",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "comma",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "mamma",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "mania",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "manic",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "manna",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "manta",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "mimic",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "minim",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "momma",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "motto",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "ammo",
+      "word": "gill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "atom",
+      "word": "girl",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cami",
+      "word": "glug",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "camo",
+      "word": "gull",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coma",
+      "word": "kill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "imam",
+      "word": "kiln",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "maim",
+      "word": "link",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "main",
+      "word": "lull",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mama",
+      "word": "lulu",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mica",
+      "word": "lung",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mini",
+      "word": "lunk",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mint",
+      "word": "lurk",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mitt",
+      "word": "null",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "moan",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "moat",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mono",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "moon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "moot",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "omit",
+      "word": "rill",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 383,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 212,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "lurking"
+  ]
 }
