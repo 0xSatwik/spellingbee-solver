@@ -1,227 +1,132 @@
 {
   "puzzle": {
-    "puzzle_id": 2846,
-    "date": "February 22, 2026",
-    "letters": "L",
-    "all_letters": "LGIKNRU",
-    "word_count": 42,
+    "puzzle_id": 2847,
+    "date": "February 23, 2026",
+    "letters": "H",
+    "all_letters": "HIPRACG",
+    "word_count": 23,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "lurking",
+      "word": "graphic",
       "is_pangram": 1,
       "length": 7
     },
     {
-      "word": "unlinking",
+      "word": "highchair",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "giggling",
+      "word": "paragraph",
       "is_pangram": 0,
-      "length": 8
+      "length": 9
     },
     {
-      "word": "glugging",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "grilling",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "gurgling",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "linguini",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "niggling",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "unliking",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "gilling",
+      "word": "archaic",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gulling",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "inkling",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "killing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "linking",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "lugging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "lulling",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "lunging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "gluing",
+      "word": "chichi",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "liking",
+      "word": "pariah",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lining",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "luging",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "luring",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "riling",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "ruling",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "unlink",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "grill",
+      "word": "aargh",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "knurl",
+      "word": "chair",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "krill",
+      "word": "chica",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gill",
+      "word": "chirp",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "graph",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "parch",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "arch",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "girl",
+      "word": "chai",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "glug",
+      "word": "chap",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gull",
+      "word": "char",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "kill",
+      "word": "chia",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "kiln",
+      "word": "chic",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "link",
+      "word": "chip",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lull",
+      "word": "hair",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lulu",
+      "word": "harp",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lung",
+      "word": "high",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lunk",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lurk",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "null",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "rill",
+      "word": "rich",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 212,
+  "totalPoints": 92,
   "hasPerfectPangram": true,
   "perfectPangrams": [
-    "lurking"
+    "graphic"
   ]
 }
