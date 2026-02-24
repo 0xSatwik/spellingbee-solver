@@ -1,132 +1,320 @@
 {
   "puzzle": {
-    "puzzle_id": 2847,
-    "date": "February 23, 2026",
-    "letters": "H",
-    "all_letters": "HIPRACG",
-    "word_count": 23,
-    "pangrams_count": 1
+    "puzzle_id": 2848,
+    "date": "February 24, 2026",
+    "letters": "O",
+    "all_letters": "OCFILNT",
+    "word_count": 61,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "graphic",
+      "word": "infliction",
       "is_pangram": 1,
-      "length": 7
+      "length": 10
     },
     {
-      "word": "highchair",
+      "word": "conflict",
+      "is_pangram": 1,
+      "length": 8
+    },
+    {
+      "word": "concoction",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "nonfiction",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "cotillion",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "paragraph",
+      "word": "nonillion",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "archaic",
+      "word": "octillion",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "colonic",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "chichi",
+      "word": "concoct",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "fiction",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "liftoff",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "tinfoil",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "cocoon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "pariah",
+      "word": "coffin",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "aargh",
+      "word": "confit",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "cotton",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "finito",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "iconic",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "lotion",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "notion",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "cocci",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "chair",
+      "word": "colic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "chica",
+      "word": "colon",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "chirp",
+      "word": "conic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "graph",
+      "word": "folic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "parch",
+      "word": "folio",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "arch",
+      "word": "ionic",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "lotto",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "onion",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tonic",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "clot",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "chai",
+      "word": "coif",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "chap",
+      "word": "coil",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "char",
+      "word": "coin",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "chia",
+      "word": "colt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "chic",
+      "word": "cool",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "chip",
+      "word": "coot",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hair",
+      "word": "foci",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "harp",
+      "word": "foil",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "high",
+      "word": "font",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "rich",
+      "word": "fool",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "foot",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "icon",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "info",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "into",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lion",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "loci",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "loco",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "loft",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "loin",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "loll",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "loon",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "loot",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "noon",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "olio",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "onto",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "toil",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "toll",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tool",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "toon",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "toot",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 92,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "graphic"
-  ]
+  "totalPoints": 243,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
