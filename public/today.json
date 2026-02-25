@@ -1,320 +1,153 @@
 {
   "puzzle": {
-    "puzzle_id": 2848,
-    "date": "February 24, 2026",
-    "letters": "O",
-    "all_letters": "OCFILNT",
-    "word_count": 61,
-    "pangrams_count": 2
+    "puzzle_id": 2849,
+    "date": "February 25, 2026",
+    "letters": "W",
+    "all_letters": "WADKORY",
+    "word_count": 27,
+    "pangrams_count": 4
   },
   "words": [
     {
-      "word": "infliction",
-      "is_pangram": 1,
-      "length": 10
-    },
-    {
-      "word": "conflict",
+      "word": "workaday",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "concoction",
-      "is_pangram": 0,
-      "length": 10
+      "word": "yardwork",
+      "is_pangram": 1,
+      "length": 8
     },
     {
-      "word": "nonfiction",
-      "is_pangram": 0,
-      "length": 10
+      "word": "daywork",
+      "is_pangram": 1,
+      "length": 7
     },
     {
-      "word": "cotillion",
-      "is_pangram": 0,
-      "length": 9
+      "word": "workday",
+      "is_pangram": 1,
+      "length": 7
     },
     {
-      "word": "nonillion",
+      "word": "roadwork",
       "is_pangram": 0,
-      "length": 9
+      "length": 8
     },
     {
-      "word": "octillion",
+      "word": "woodwork",
       "is_pangram": 0,
-      "length": 9
+      "length": 8
     },
     {
-      "word": "colonic",
+      "word": "awkward",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "concoct",
+      "word": "doorway",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "fiction",
+      "word": "roadway",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "liftoff",
+      "word": "wayward",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "tinfoil",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "cocoon",
+      "word": "yarrow",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "coffin",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "confit",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "cotton",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "finito",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "iconic",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "lotion",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "notion",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "cocci",
+      "word": "arrow",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "colic",
+      "word": "award",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "colon",
+      "word": "dowdy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "conic",
+      "word": "dowry",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "folic",
+      "word": "rowdy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "folio",
+      "word": "woody",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ionic",
+      "word": "wordy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "lotto",
+      "word": "worry",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "onion",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tonic",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "clot",
+      "word": "away",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coif",
+      "word": "awry",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coil",
+      "word": "draw",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coin",
+      "word": "ward",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "colt",
+      "word": "wary",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cool",
+      "word": "wood",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coot",
+      "word": "word",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "foci",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "foil",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "font",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "fool",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "foot",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "icon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "info",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "into",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lion",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loci",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loco",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loft",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loin",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loll",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loot",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "noon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "olio",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "onto",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "toil",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "toll",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tool",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "toon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "toot",
+      "word": "work",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 243,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 156,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "daywork",
+    "workday"
+  ]
 }
