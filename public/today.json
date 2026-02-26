@@ -1,153 +1,270 @@
 {
   "puzzle": {
-    "puzzle_id": 2849,
-    "date": "February 25, 2026",
-    "letters": "W",
-    "all_letters": "WADKORY",
-    "word_count": 27,
-    "pangrams_count": 4
+    "puzzle_id": 2850,
+    "date": "February 26, 2026",
+    "letters": "I",
+    "all_letters": "IACMNTY",
+    "word_count": 51,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "workaday",
+      "word": "intimacy",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "yardwork",
-      "is_pangram": 1,
-      "length": 8
+      "word": "tactician",
+      "is_pangram": 0,
+      "length": 9
     },
     {
-      "word": "daywork",
-      "is_pangram": 1,
-      "length": 7
-    },
-    {
-      "word": "workday",
-      "is_pangram": 1,
-      "length": 7
-    },
-    {
-      "word": "roadwork",
+      "word": "maintain",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "woodwork",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "awkward",
+      "word": "cantina",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "doorway",
+      "word": "catmint",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "roadway",
+      "word": "inanity",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "wayward",
+      "word": "minicam",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "yarrow",
+      "word": "titanic",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "acacia",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "arrow",
+      "word": "attain",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "caiman",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "incant",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "intact",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "maniac",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "minima",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "niacin",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tactic",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tannic",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tannin",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tatami",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "amity",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "award",
+      "word": "anima",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dowdy",
+      "word": "antic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dowry",
+      "word": "attic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "rowdy",
+      "word": "cacti",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "woody",
+      "word": "cynic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "wordy",
+      "word": "mania",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "worry",
+      "word": "manic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "away",
+      "word": "mimic",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "minim",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "minty",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ninny",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tacit",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "taint",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tinct",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tinny",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "titan",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "acai",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "awry",
+      "word": "anti",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "draw",
+      "word": "cami",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ward",
+      "word": "city",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "wary",
+      "word": "imam",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "wood",
+      "word": "itty",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "word",
+      "word": "maim",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "work",
+      "word": "main",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mica",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mini",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mint",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mitt",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tint",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tiny",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 156,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "daywork",
-    "workday"
-  ]
+  "totalPoints": 238,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
