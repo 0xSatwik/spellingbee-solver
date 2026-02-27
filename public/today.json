@@ -1,270 +1,290 @@
 {
   "puzzle": {
-    "puzzle_id": 2850,
-    "date": "February 26, 2026",
-    "letters": "I",
-    "all_letters": "IACMNTY",
-    "word_count": 51,
-    "pangrams_count": 1
+    "puzzle_id": 2851,
+    "date": "February 27, 2026",
+    "letters": "P",
+    "all_letters": "PABCEIL",
+    "word_count": 55,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "intimacy",
+      "word": "applicable",
       "is_pangram": 1,
-      "length": 8
+      "length": 10
     },
     {
-      "word": "tactician",
+      "word": "clippable",
+      "is_pangram": 1,
+      "length": 9
+    },
+    {
+      "word": "appealable",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "peaceable",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "maintain",
+      "word": "appellee",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "cantina",
+      "word": "palpable",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "papillae",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "peelable",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "pellicle",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "capable",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "catmint",
+      "word": "papilla",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "inanity",
+      "word": "pliable",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "minicam",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "titanic",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "acacia",
+      "word": "alpaca",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "attain",
+      "word": "apiece",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "caiman",
+      "word": "appall",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "incant",
+      "word": "appeal",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "intact",
+      "word": "ipecac",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "maniac",
+      "word": "paella",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "minima",
+      "word": "palace",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "niacin",
+      "word": "palapa",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tactic",
+      "word": "pebble",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tannic",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tannin",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tatami",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "amity",
+      "word": "apace",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "anima",
+      "word": "apple",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "antic",
+      "word": "bicep",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "attic",
+      "word": "bleep",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cacti",
+      "word": "lapel",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cynic",
+      "word": "papal",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mania",
+      "word": "peace",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "manic",
+      "word": "piece",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mimic",
+      "word": "place",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "minim",
+      "word": "plebe",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "minty",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "ninny",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tacit",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "taint",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tinct",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tinny",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "titan",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "acai",
+      "word": "beep",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "anti",
+      "word": "blip",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cami",
+      "word": "cape",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "city",
+      "word": "clap",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "imam",
+      "word": "clip",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "itty",
+      "word": "epee",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "maim",
+      "word": "epic",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "main",
+      "word": "leap",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mica",
+      "word": "pace",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mini",
+      "word": "pail",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mint",
+      "word": "pale",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mitt",
+      "word": "pall",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tint",
+      "word": "palp",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tiny",
+      "word": "papa",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "peal",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "peel",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "peep",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pica",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pile",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pill",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pipe",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "plea",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pleb",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "plie",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 238,
+  "totalPoints": 241,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
