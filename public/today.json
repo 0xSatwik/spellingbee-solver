@@ -1,290 +1,205 @@
 {
   "puzzle": {
-    "puzzle_id": 2851,
-    "date": "February 27, 2026",
-    "letters": "P",
-    "all_letters": "PABCEIL",
-    "word_count": 55,
-    "pangrams_count": 2
+    "puzzle_id": 2852,
+    "date": "February 28, 2026",
+    "letters": "I",
+    "all_letters": "IDEHKLO",
+    "word_count": 38,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "applicable",
+      "word": "likelihood",
       "is_pangram": 1,
       "length": 10
     },
     {
-      "word": "clippable",
-      "is_pangram": 1,
-      "length": 9
-    },
-    {
-      "word": "appealable",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "peaceable",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "appellee",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "palpable",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "papillae",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "peelable",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "pellicle",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "capable",
+      "word": "diddled",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "papilla",
+      "word": "dollied",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "pliable",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "alpaca",
+      "word": "diddle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "apiece",
+      "word": "eddied",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "appall",
+      "word": "elided",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "appeal",
+      "word": "hilled",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "ipecac",
+      "word": "hoodie",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "paella",
+      "word": "iodide",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "palace",
+      "word": "keloid",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "palapa",
+      "word": "kidded",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "pebble",
+      "word": "kiddie",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "apace",
+      "word": "killed",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "lidded",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "dildo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "apple",
+      "word": "diode",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bicep",
+      "word": "elide",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bleep",
+      "word": "hiked",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "lapel",
+      "word": "idled",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "papal",
+      "word": "kiddo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "peace",
+      "word": "liked",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "piece",
+      "word": "oiled",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "place",
+      "word": "oldie",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "plebe",
+      "word": "ollie",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "beep",
+      "word": "deli",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "blip",
+      "word": "died",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cape",
+      "word": "dike",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "clap",
+      "word": "dill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "clip",
+      "word": "hide",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "epee",
+      "word": "hike",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "epic",
+      "word": "hill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "leap",
+      "word": "idle",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pace",
+      "word": "idol",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pail",
+      "word": "kill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pale",
+      "word": "kilo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pall",
+      "word": "lied",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "palp",
+      "word": "like",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "papa",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "peal",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "peel",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "peep",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pica",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pile",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pill",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pipe",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "plea",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pleb",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "plie",
+      "word": "olio",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 241,
+  "totalPoints": 161,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
