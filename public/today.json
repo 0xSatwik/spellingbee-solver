@@ -1,205 +1,298 @@
 {
   "puzzle": {
-    "puzzle_id": 2852,
-    "date": "February 28, 2026",
-    "letters": "I",
-    "all_letters": "IDEHKLO",
-    "word_count": 38,
-    "pangrams_count": 1
+    "puzzle_id": 2853,
+    "date": "March 1, 2026",
+    "letters": "M",
+    "all_letters": "MAFGINR",
+    "word_count": 56,
+    "pangrams_count": 3
   },
   "words": [
     {
-      "word": "likelihood",
+      "word": "affirming",
       "is_pangram": 1,
+      "length": 9
+    },
+    {
+      "word": "farming",
+      "is_pangram": 1,
+      "length": 7
+    },
+    {
+      "word": "framing",
+      "is_pangram": 1,
+      "length": 7
+    },
+    {
+      "word": "anagramming",
+      "is_pangram": 0,
+      "length": 11
+    },
+    {
+      "word": "grammarian",
+      "is_pangram": 0,
       "length": 10
     },
     {
-      "word": "diddled",
+      "word": "imagining",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "infirming",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "managing",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "marinara",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "anagram",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "dollied",
+      "word": "firming",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "diddle",
+      "word": "grammar",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "imaging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "maiming",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "manning",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "marring",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "miffing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "ramming",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "rimming",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "affirm",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "eddied",
+      "word": "aiming",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "elided",
+      "word": "airman",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "hilled",
+      "word": "arming",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "hoodie",
+      "word": "gaming",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "iodide",
+      "word": "gramma",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "keloid",
+      "word": "infirm",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "kidded",
+      "word": "margin",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "kiddie",
+      "word": "marina",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "killed",
+      "word": "miming",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lidded",
+      "word": "minima",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dildo",
+      "word": "mining",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "miring",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "naming",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "anima",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "diode",
+      "word": "gamin",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "elide",
+      "word": "gamma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "hiked",
+      "word": "mafia",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "idled",
+      "word": "magma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "kiddo",
+      "word": "mamma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "liked",
+      "word": "manga",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "oiled",
+      "word": "mania",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "oldie",
+      "word": "manna",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ollie",
+      "word": "minim",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "deli",
+      "word": "mirin",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "farm",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "died",
+      "word": "firm",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dike",
+      "word": "gram",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dill",
+      "word": "grim",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hide",
+      "word": "imam",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hike",
+      "word": "magi",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hill",
+      "word": "maim",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "idle",
+      "word": "main",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "idol",
+      "word": "mama",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "kill",
+      "word": "marm",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "kilo",
+      "word": "miff",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lied",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "like",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "olio",
+      "word": "mini",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 161,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 320,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "farming",
+    "framing"
+  ]
 }
