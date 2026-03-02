@@ -1,298 +1,235 @@
 {
   "puzzle": {
-    "puzzle_id": 2853,
-    "date": "March 1, 2026",
-    "letters": "M",
-    "all_letters": "MAFGINR",
-    "word_count": 56,
-    "pangrams_count": 3
+    "puzzle_id": 2854,
+    "date": "March 2, 2026",
+    "letters": "N",
+    "all_letters": "NCIOTUY",
+    "word_count": 44,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "affirming",
+      "word": "continuity",
       "is_pangram": 1,
-      "length": 9
+      "length": 10
     },
     {
-      "word": "farming",
-      "is_pangram": 1,
-      "length": 7
-    },
-    {
-      "word": "framing",
-      "is_pangram": 1,
-      "length": 7
-    },
-    {
-      "word": "anagramming",
-      "is_pangram": 0,
-      "length": 11
-    },
-    {
-      "word": "grammarian",
+      "word": "concoction",
       "is_pangram": 0,
       "length": 10
     },
     {
-      "word": "imagining",
+      "word": "intuition",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "infirming",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "managing",
+      "word": "nonunion",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "marinara",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "anagram",
+      "word": "coconut",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "firming",
+      "word": "concoct",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "grammar",
+      "word": "cottony",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "imaging",
+      "word": "tuition",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "maiming",
+      "word": "unction",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "manning",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "marring",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "miffing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "ramming",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "rimming",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "affirm",
+      "word": "cocoon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "aiming",
+      "word": "cotton",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "airman",
+      "word": "county",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "arming",
+      "word": "iconic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gaming",
+      "word": "intuit",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gramma",
+      "word": "notion",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "infirm",
+      "word": "nuncio",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "margin",
+      "word": "oniony",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "marina",
+      "word": "tycoon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "miming",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "minima",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "mining",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "miring",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "naming",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "anima",
+      "word": "conic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gamin",
+      "word": "count",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gamma",
+      "word": "cynic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mafia",
+      "word": "ionic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "magma",
+      "word": "ninny",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mamma",
+      "word": "nutty",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "manga",
+      "word": "onion",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mania",
+      "word": "tinct",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "manna",
+      "word": "tinny",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "minim",
+      "word": "tonic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mirin",
+      "word": "tunic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "farm",
+      "word": "uncut",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "union",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "unity",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "coin",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "firm",
+      "word": "icon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gram",
+      "word": "into",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "grim",
+      "word": "noon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "imam",
+      "word": "noun",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "magi",
+      "word": "onto",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "maim",
+      "word": "tint",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "main",
+      "word": "tiny",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mama",
+      "word": "tony",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "marm",
+      "word": "toon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "miff",
+      "word": "unit",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mini",
+      "word": "unto",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 320,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "farming",
-    "framing"
-  ]
+  "totalPoints": 215,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
