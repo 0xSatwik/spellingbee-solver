@@ -1,235 +1,315 @@
 {
   "puzzle": {
-    "puzzle_id": 2854,
-    "date": "March 2, 2026",
-    "letters": "N",
-    "all_letters": "NCIOTUY",
-    "word_count": 44,
-    "pangrams_count": 1
+    "puzzle_id": 2855,
+    "date": "March 3, 2026",
+    "letters": "A",
+    "all_letters": "ABCEKLO",
+    "word_count": 60,
+    "pangrams_count": 3
   },
   "words": [
     {
-      "word": "continuity",
+      "word": "blockable",
       "is_pangram": 1,
-      "length": 10
+      "length": 9
     },
     {
-      "word": "concoction",
-      "is_pangram": 0,
-      "length": 10
+      "word": "cookable",
+      "is_pangram": 1,
+      "length": 8
     },
     {
-      "word": "intuition",
+      "word": "lockable",
+      "is_pangram": 1,
+      "length": 8
+    },
+    {
+      "word": "allocable",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "nonunion",
+      "word": "blackball",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "ballcock",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "coconut",
+      "word": "bookable",
       "is_pangram": 0,
-      "length": 7
+      "length": 8
     },
     {
-      "word": "concoct",
+      "word": "callable",
       "is_pangram": 0,
-      "length": 7
+      "length": 8
     },
     {
-      "word": "cottony",
+      "word": "callaloo",
       "is_pangram": 0,
-      "length": 7
+      "length": 8
     },
     {
-      "word": "tuition",
+      "word": "callback",
       "is_pangram": 0,
-      "length": 7
+      "length": 8
     },
     {
-      "word": "unction",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "cocoon",
+      "word": "allele",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cotton",
+      "word": "babble",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "county",
+      "word": "baobab",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "iconic",
+      "word": "cabala",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "intuit",
+      "word": "cackle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "notion",
+      "word": "cloaca",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nuncio",
+      "word": "collab",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "oniony",
+      "word": "locale",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tycoon",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "conic",
+      "word": "aback",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "count",
+      "word": "alack",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cynic",
+      "word": "babel",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ionic",
+      "word": "babka",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ninny",
+      "word": "black",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "nutty",
+      "word": "bleak",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "onion",
+      "word": "cabal",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tinct",
+      "word": "cable",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tinny",
+      "word": "cacao",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tonic",
+      "word": "calla",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tunic",
+      "word": "clack",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "uncut",
+      "word": "cloak",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "union",
+      "word": "cocoa",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "unity",
+      "word": "kabob",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "coin",
+      "word": "kebab",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "koala",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "label",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "local",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "able",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "icon",
+      "word": "aloe",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "into",
+      "word": "baba",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "noon",
+      "word": "babe",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "noun",
+      "word": "back",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "onto",
+      "word": "bake",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tint",
+      "word": "bale",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tiny",
+      "word": "balk",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tony",
+      "word": "ball",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "toon",
+      "word": "beak",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "unit",
+      "word": "blab",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "unto",
+      "word": "boba",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "bola",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "cake",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "call",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "coal",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "coca",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "cola",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "kale",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "kola",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lace",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lack",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lake",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "leak",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 215,
+  "totalPoints": 266,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
