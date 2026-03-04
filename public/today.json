@@ -1,315 +1,200 @@
 {
   "puzzle": {
-    "puzzle_id": 2855,
-    "date": "March 3, 2026",
-    "letters": "A",
-    "all_letters": "ABCEKLO",
-    "word_count": 60,
-    "pangrams_count": 3
+    "puzzle_id": 2856,
+    "date": "March 4, 2026",
+    "letters": "G",
+    "all_letters": "GCEFINT",
+    "word_count": 37,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "blockable",
+      "word": "effecting",
       "is_pangram": 1,
       "length": 9
     },
     {
-      "word": "cookable",
+      "word": "infecting",
       "is_pangram": 1,
-      "length": 8
-    },
-    {
-      "word": "lockable",
-      "is_pangram": 1,
-      "length": 8
-    },
-    {
-      "word": "allocable",
-      "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "blackball",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "ballcock",
+      "word": "enticing",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "bookable",
+      "word": "feigning",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "callable",
+      "word": "feinting",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "callaloo",
+      "word": "igniting",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "callback",
+      "word": "inciting",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "allele",
+      "word": "tingeing",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "fencing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "fitting",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "genetic",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "getting",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "gifting",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "gigging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "ginning",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "netting",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "tenting",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "tinging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "tinning",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "tinting",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "citing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "babble",
+      "word": "egging",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "baobab",
+      "word": "engine",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cabala",
+      "word": "feting",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cackle",
+      "word": "fifing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cloaca",
+      "word": "fining",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "collab",
+      "word": "ignite",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "locale",
+      "word": "inning",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "aback",
+      "word": "teeing",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "feign",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "alack",
+      "word": "genie",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "babel",
+      "word": "genii",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "babka",
+      "word": "icing",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "black",
+      "word": "tinge",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bleak",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "cabal",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "cable",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "cacao",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "calla",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "clack",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "cloak",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "cocoa",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "kabob",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "kebab",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "koala",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "label",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "local",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "able",
+      "word": "gene",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "aloe",
+      "word": "gent",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "baba",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "babe",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "back",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "bake",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "bale",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "balk",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "ball",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "beak",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "blab",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "boba",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "bola",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "cake",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "call",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "coal",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "coca",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "cola",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "kale",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "kola",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lace",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lack",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lake",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "leak",
+      "word": "gift",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 266,
+  "totalPoints": 246,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
