@@ -1,200 +1,177 @@
 {
   "puzzle": {
-    "puzzle_id": 2856,
-    "date": "March 4, 2026",
-    "letters": "G",
-    "all_letters": "GCEFINT",
-    "word_count": 37,
-    "pangrams_count": 2
+    "puzzle_id": 2857,
+    "date": "March 5, 2026",
+    "letters": "O",
+    "all_letters": "OACJLRU",
+    "word_count": 32,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "effecting",
+      "word": "jocular",
       "is_pangram": 1,
-      "length": 9
+      "length": 7
     },
     {
-      "word": "infecting",
-      "is_pangram": 1,
-      "length": 9
-    },
-    {
-      "word": "enticing",
+      "word": "callaloo",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "feigning",
+      "word": "oracular",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "feinting",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "igniting",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "inciting",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "tingeing",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "fencing",
+      "word": "auroral",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "fitting",
+      "word": "corolla",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "genetic",
+      "word": "curacao",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "getting",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "gifting",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "gigging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "ginning",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "netting",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "tenting",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "tinging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "tinning",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "tinting",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "citing",
+      "word": "aurora",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "egging",
+      "word": "cloaca",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "engine",
+      "word": "collar",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "feting",
+      "word": "corral",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "fifing",
+      "word": "ocular",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "fining",
+      "word": "rococo",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "ignite",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "inning",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "teeing",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "feign",
+      "word": "cacao",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "genie",
+      "word": "carol",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "genii",
+      "word": "cocoa",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "icing",
+      "word": "color",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tinge",
+      "word": "coral",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gene",
+      "word": "juror",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "local",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "occur",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "arco",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gent",
+      "word": "coal",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gift",
+      "word": "coca",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "cola",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "cool",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "croc",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "loco",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "loll",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "oral",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "orca",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "roar",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "roll",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 246,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 139,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "jocular"
+  ]
 }
