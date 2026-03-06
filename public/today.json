@@ -1,177 +1,257 @@
 {
   "puzzle": {
-    "puzzle_id": 2857,
-    "date": "March 5, 2026",
-    "letters": "O",
-    "all_letters": "OACJLRU",
-    "word_count": 32,
+    "puzzle_id": 2858,
+    "date": "March 6, 2026",
+    "letters": "U",
+    "all_letters": "UDEFILP",
+    "word_count": 48,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "jocular",
+      "word": "upfield",
       "is_pangram": 1,
       "length": 7
     },
     {
-      "word": "callaloo",
+      "word": "fulfilled",
       "is_pangram": 0,
-      "length": 8
+      "length": 9
     },
     {
-      "word": "oracular",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "auroral",
+      "word": "deluded",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "corolla",
+      "word": "fluffed",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "curacao",
+      "word": "fuddled",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "aurora",
+      "word": "fulfill",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "puddled",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "delude",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cloaca",
+      "word": "dueled",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "collar",
+      "word": "duffel",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "corral",
+      "word": "duffle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "ocular",
+      "word": "dulled",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "rococo",
+      "word": "eluded",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cacao",
+      "word": "feuded",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "fuddle",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "fueled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "lulled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "pileup",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "puddle",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "puffed",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "pulled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "pulped",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "duped",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "carol",
+      "word": "duple",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cocoa",
+      "word": "elude",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "color",
+      "word": "fluff",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "coral",
+      "word": "fluid",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "juror",
+      "word": "puled",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "local",
+      "word": "pupil",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "occur",
+      "word": "upped",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "arco",
+      "word": "dude",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coal",
+      "word": "duel",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coca",
+      "word": "duff",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cola",
+      "word": "dull",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cool",
+      "word": "dupe",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "croc",
+      "word": "feud",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loco",
+      "word": "flue",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loll",
+      "word": "fuel",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "oral",
+      "word": "full",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "orca",
+      "word": "lieu",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "roar",
+      "word": "luff",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "roll",
+      "word": "lull",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lulu",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "puff",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pule",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "puli",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pull",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pulp",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 139,
+  "totalPoints": 206,
   "hasPerfectPangram": true,
   "perfectPangrams": [
-    "jocular"
+    "upfield"
   ]
 }
