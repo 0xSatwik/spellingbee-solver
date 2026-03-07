@@ -1,257 +1,270 @@
 {
   "puzzle": {
-    "puzzle_id": 2858,
-    "date": "March 6, 2026",
-    "letters": "U",
-    "all_letters": "UDEFILP",
-    "word_count": 48,
-    "pangrams_count": 1
+    "puzzle_id": 2859,
+    "date": "March 7, 2026",
+    "letters": "R",
+    "all_letters": "RBGINOW",
+    "word_count": 51,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "upfield",
+      "word": "borrowing",
       "is_pangram": 1,
-      "length": 7
+      "length": 9
     },
     {
-      "word": "fulfilled",
+      "word": "browning",
+      "is_pangram": 1,
+      "length": 8
+    },
+    {
+      "word": "ribboning",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "deluded",
+      "word": "bringing",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "grinning",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "ignoring",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "wringing",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "wronging",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "bribing",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "fluffed",
+      "word": "brining",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "fuddled",
+      "word": "gorging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "fulfill",
+      "word": "growing",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "puddled",
+      "word": "ingrown",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "delude",
+      "word": "ironing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "ribbing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "rigging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "ringing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "robbing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "boring",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dueled",
+      "word": "borrow",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "duffel",
+      "word": "gorgon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "duffle",
+      "word": "goring",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dulled",
+      "word": "inborn",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "eluded",
+      "word": "nigiri",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "feuded",
+      "word": "origin",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "fuddle",
+      "word": "ribbon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "fueled",
+      "word": "robing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lulled",
+      "word": "rowing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "pileup",
+      "word": "wiring",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "puddle",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "puffed",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "pulled",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "pulped",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "duped",
+      "word": "boron",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "duple",
+      "word": "bring",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "elude",
+      "word": "brown",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "fluff",
+      "word": "groin",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "fluid",
+      "word": "grown",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "puled",
+      "word": "rigor",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "pupil",
+      "word": "robin",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "upped",
+      "word": "wring",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dude",
+      "word": "wrong",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "boor",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "duel",
+      "word": "born",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "duff",
+      "word": "brig",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dull",
+      "word": "brio",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dupe",
+      "word": "brow",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "feud",
+      "word": "grin",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "flue",
+      "word": "grog",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fuel",
+      "word": "grow",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "full",
+      "word": "iron",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lieu",
+      "word": "noir",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "luff",
+      "word": "nori",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lull",
+      "word": "ring",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lulu",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "puff",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pule",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "puli",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pull",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pulp",
+      "word": "worn",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 206,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "upfield"
-  ]
+  "totalPoints": 274,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
