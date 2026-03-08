@@ -1,270 +1,330 @@
 {
   "puzzle": {
-    "puzzle_id": 2859,
-    "date": "March 7, 2026",
-    "letters": "R",
-    "all_letters": "RBGINOW",
-    "word_count": 51,
+    "puzzle_id": 2860,
+    "date": "March 8, 2026",
+    "letters": "I",
+    "all_letters": "IACNOTX",
+    "word_count": 63,
     "pangrams_count": 2
   },
   "words": [
     {
-      "word": "borrowing",
+      "word": "intoxication",
       "is_pangram": 1,
+      "length": 12
+    },
+    {
+      "word": "intoxicant",
+      "is_pangram": 1,
+      "length": 10
+    },
+    {
+      "word": "connotation",
+      "is_pangram": 0,
+      "length": 11
+    },
+    {
+      "word": "incantation",
+      "is_pangram": 0,
+      "length": 11
+    },
+    {
+      "word": "annotation",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "concoction",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "initiation",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "intonation",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "antitoxin",
+      "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "browning",
-      "is_pangram": 1,
-      "length": 8
-    },
-    {
-      "word": "ribboning",
+      "word": "catatonia",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "bringing",
+      "word": "catatonic",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "tactician",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "citation",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "grinning",
+      "word": "inaction",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "ignoring",
+      "word": "nontoxic",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "wringing",
+      "word": "notation",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "wronging",
+      "word": "taxation",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "bribing",
+      "word": "canonic",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "brining",
+      "word": "cantina",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gorging",
+      "word": "contain",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "growing",
+      "word": "titanic",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "ingrown",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "ironing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "ribbing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "rigging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "ringing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "robbing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "boring",
+      "word": "acacia",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "borrow",
+      "word": "action",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gorgon",
+      "word": "anoint",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "goring",
+      "word": "anoxia",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "inborn",
+      "word": "anoxic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nigiri",
+      "word": "ataxia",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "origin",
+      "word": "attain",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "ribbon",
+      "word": "cation",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "robing",
+      "word": "iconic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "rowing",
+      "word": "incant",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "wiring",
+      "word": "intact",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "boron",
+      "word": "nation",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "niacin",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "notion",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tactic",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tannic",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tannin",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "anion",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bring",
+      "word": "antic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "brown",
+      "word": "attic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "groin",
+      "word": "cacti",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "grown",
+      "word": "coati",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "rigor",
+      "word": "cocci",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "robin",
+      "word": "conic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "wring",
+      "word": "ionic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "wrong",
+      "word": "onion",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "boor",
+      "word": "tacit",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "taint",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tinct",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "titan",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tonic",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "toxic",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "toxin",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "acai",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "born",
+      "word": "anti",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "brig",
+      "word": "ciao",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "brio",
+      "word": "coin",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "brow",
+      "word": "icon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "grin",
+      "word": "into",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "grog",
+      "word": "iota",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "grow",
+      "word": "taxi",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "iron",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "noir",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "nori",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "ring",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "worn",
+      "word": "tint",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 274,
+  "totalPoints": 393,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
