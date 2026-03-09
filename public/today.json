@@ -1,330 +1,172 @@
 {
   "puzzle": {
-    "puzzle_id": 2860,
-    "date": "March 8, 2026",
-    "letters": "I",
-    "all_letters": "IACNOTX",
-    "word_count": 63,
-    "pangrams_count": 2
+    "puzzle_id": 2861,
+    "date": "March 9, 2026",
+    "letters": "B",
+    "all_letters": "BADILUY",
+    "word_count": 31,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "intoxication",
+      "word": "audibly",
       "is_pangram": 1,
-      "length": 12
+      "length": 7
     },
     {
-      "word": "intoxicant",
-      "is_pangram": 1,
-      "length": 10
-    },
-    {
-      "word": "connotation",
-      "is_pangram": 0,
-      "length": 11
-    },
-    {
-      "word": "incantation",
-      "is_pangram": 0,
-      "length": 11
-    },
-    {
-      "word": "annotation",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "concoction",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "initiation",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "intonation",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "antitoxin",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "catatonia",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "catatonic",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "tactician",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "citation",
+      "word": "bilabial",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "inaction",
+      "word": "laudably",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "nontoxic",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "notation",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "taxation",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "canonic",
+      "word": "lullaby",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "cantina",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "contain",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "titanic",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "acacia",
+      "word": "baldly",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "action",
+      "word": "ballad",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "anoint",
+      "word": "blabby",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "anoxia",
+      "word": "bubbly",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "anoxic",
+      "word": "labial",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "ataxia",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "attain",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "cation",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "iconic",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "incant",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "intact",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "nation",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "niacin",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "notion",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tactic",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tannic",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tannin",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "anion",
+      "word": "alibi",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "antic",
+      "word": "badly",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "attic",
+      "word": "bialy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cacti",
+      "word": "biddy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "coati",
+      "word": "billy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cocci",
+      "word": "bubba",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "conic",
+      "word": "buddy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ionic",
+      "word": "build",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "onion",
+      "word": "bully",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tacit",
+      "word": "labia",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "taint",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tinct",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "titan",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tonic",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "toxic",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "toxin",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "acai",
+      "word": "ably",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "anti",
+      "word": "baba",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ciao",
+      "word": "baby",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coin",
+      "word": "bail",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "icon",
+      "word": "bald",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "into",
+      "word": "ball",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "iota",
+      "word": "baud",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "taxi",
+      "word": "bill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tint",
+      "word": "blab",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "bulb",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "bull",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "daub",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 393,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 129,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "audibly"
+  ]
 }
