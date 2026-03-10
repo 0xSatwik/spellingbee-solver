@@ -1,172 +1,295 @@
 {
   "puzzle": {
-    "puzzle_id": 2861,
-    "date": "March 9, 2026",
-    "letters": "B",
-    "all_letters": "BADILUY",
-    "word_count": 31,
-    "pangrams_count": 1
+    "puzzle_id": 2862,
+    "date": "March 10, 2026",
+    "letters": "M",
+    "all_letters": "MACNORT",
+    "word_count": 56,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "audibly",
+      "word": "cormorant",
       "is_pangram": 1,
-      "length": 7
+      "length": 9
     },
     {
-      "word": "bilabial",
+      "word": "monocrat",
+      "is_pangram": 1,
+      "length": 8
+    },
+    {
+      "word": "catamaran",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "coatroom",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "laudably",
+      "word": "macaroon",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "lullaby",
+      "word": "motorcar",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "macaron",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "baldly",
+      "word": "morocco",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "ottoman",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "tramcar",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "common",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "ballad",
+      "word": "macron",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "blabby",
+      "word": "mammon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bubbly",
+      "word": "mantra",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "labial",
+      "word": "maraca",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "alibi",
+      "word": "marmot",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "maroon",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "matron",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "mortar",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "noncom",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "romcom",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tarmac",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tomato",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tomcat",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "armor",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "badly",
+      "word": "aroma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bialy",
+      "word": "carom",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "biddy",
+      "word": "comma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "billy",
+      "word": "macro",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bubba",
+      "word": "mamma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "buddy",
+      "word": "manna",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "build",
+      "word": "manor",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bully",
+      "word": "manta",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "labia",
+      "word": "momma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ably",
+      "word": "moron",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "motor",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "motto",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ammo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "baba",
+      "word": "atom",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "baby",
+      "word": "camo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bail",
+      "word": "coma",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bald",
+      "word": "cram",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ball",
+      "word": "mama",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "baud",
+      "word": "marm",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bill",
+      "word": "mart",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "blab",
+      "word": "moan",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bulb",
+      "word": "moat",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bull",
+      "word": "mono",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "daub",
+      "word": "moon",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "moor",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "moot",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "morn",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "norm",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "roam",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "room",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tram",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 129,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "audibly"
-  ]
+  "totalPoints": 260,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
