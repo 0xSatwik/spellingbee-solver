@@ -1,295 +1,372 @@
 {
   "puzzle": {
-    "puzzle_id": 2862,
-    "date": "March 10, 2026",
-    "letters": "M",
-    "all_letters": "MACNORT",
-    "word_count": 56,
-    "pangrams_count": 2
+    "puzzle_id": 2863,
+    "date": "March 11, 2026",
+    "letters": "N",
+    "all_letters": "NDELOTW",
+    "word_count": 71,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "cormorant",
+      "word": "letdown",
       "is_pangram": 1,
-      "length": 9
+      "length": 7
     },
     {
-      "word": "monocrat",
-      "is_pangram": 1,
-      "length": 8
-    },
-    {
-      "word": "catamaran",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "coatroom",
+      "word": "downtown",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "macaroon",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "motorcar",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "macaron",
+      "word": "denoted",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "morocco",
+      "word": "detente",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "ottoman",
+      "word": "endnote",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "tramcar",
+      "word": "endowed",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "common",
+      "word": "entente",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lowdown",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "needled",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "nettled",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "noodled",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "tenoned",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "denote",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "macron",
+      "word": "dented",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mammon",
+      "word": "donned",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mantra",
+      "word": "downed",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "maraca",
+      "word": "needed",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "marmot",
+      "word": "needle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "maroon",
+      "word": "netted",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "matron",
+      "word": "nettle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mortar",
+      "word": "newton",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "noncom",
+      "word": "nodded",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "romcom",
+      "word": "noodle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tarmac",
+      "word": "tended",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tomato",
+      "word": "tendon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tomcat",
+      "word": "tented",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "armor",
+      "word": "wended",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "wonton",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "wooden",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "woolen",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "donee",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "aroma",
+      "word": "ended",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "carom",
+      "word": "endow",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "comma",
+      "word": "lento",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "macro",
+      "word": "newel",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mamma",
+      "word": "nonet",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "manna",
+      "word": "noted",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "manor",
+      "word": "odeon",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "manta",
+      "word": "olden",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "momma",
+      "word": "owned",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "moron",
+      "word": "tenet",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "motor",
+      "word": "tenon",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "motto",
+      "word": "toned",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ammo",
+      "word": "tonne",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tween",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "dent",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "atom",
+      "word": "done",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "camo",
+      "word": "down",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coma",
+      "word": "lend",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cram",
+      "word": "lent",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mama",
+      "word": "lone",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "marm",
+      "word": "loon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mart",
+      "word": "need",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "moan",
+      "word": "nene",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "moat",
+      "word": "neon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mono",
+      "word": "newt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "moon",
+      "word": "node",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "moor",
+      "word": "noel",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "moot",
+      "word": "none",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "morn",
+      "word": "noon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "norm",
+      "word": "note",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "roam",
+      "word": "onto",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "room",
+      "word": "teen",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tram",
+      "word": "tend",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tent",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tone",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "toon",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "town",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "wend",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "went",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "wont",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 260,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 301,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "letdown"
+  ]
 }
