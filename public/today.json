@@ -1,372 +1,210 @@
 {
   "puzzle": {
-    "puzzle_id": 2863,
-    "date": "March 11, 2026",
-    "letters": "N",
-    "all_letters": "NDELOTW",
-    "word_count": 71,
+    "puzzle_id": 2864,
+    "date": "March 12, 2026",
+    "letters": "C",
+    "all_letters": "CDEILNP",
+    "word_count": 39,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "letdown",
+      "word": "penciled",
       "is_pangram": 1,
-      "length": 7
+      "length": 8
     },
     {
-      "word": "downtown",
+      "word": "independence",
+      "is_pangram": 0,
+      "length": 12
+    },
+    {
+      "word": "dependence",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "incipience",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "penicillin",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "incidence",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "declined",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "denoted",
+      "word": "inclined",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "lenience",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "pellicle",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "clipped",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "detente",
+      "word": "decided",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "endnote",
+      "word": "decline",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "endowed",
+      "word": "deicide",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "entente",
+      "word": "epicene",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "lowdown",
+      "word": "incline",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "needled",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "nettled",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "noodled",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "tenoned",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "denote",
+      "word": "celled",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dented",
+      "word": "clinic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "donned",
+      "word": "decide",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "downed",
+      "word": "deiced",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "needed",
+      "word": "icicle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "needle",
+      "word": "pencil",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "netted",
+      "word": "picnic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nettle",
+      "word": "pieced",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "newton",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "nodded",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "noodle",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tended",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tendon",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tented",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "wended",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "wonton",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "wooden",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "woolen",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "donee",
+      "word": "ceded",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ended",
+      "word": "celli",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "endow",
+      "word": "deice",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "lento",
+      "word": "diced",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "newel",
+      "word": "niece",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "nonet",
+      "word": "pence",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "noted",
+      "word": "piece",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "odeon",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "olden",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "owned",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tenet",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tenon",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "toned",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tonne",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tween",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "dent",
+      "word": "cede",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "done",
+      "word": "cell",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "down",
+      "word": "clip",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lend",
+      "word": "dice",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lent",
+      "word": "epic",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lone",
+      "word": "iced",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loon",
+      "word": "lice",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "need",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "nene",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "neon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "newt",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "node",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "noel",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "none",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "noon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "note",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "onto",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "teen",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tend",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tent",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tone",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "toon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "town",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "wend",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "went",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "wont",
+      "word": "nice",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 301,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "letdown"
-  ]
+  "totalPoints": 231,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
