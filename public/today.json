@@ -1,210 +1,313 @@
 {
   "puzzle": {
-    "puzzle_id": 2864,
-    "date": "March 12, 2026",
-    "letters": "C",
-    "all_letters": "CDEILNP",
-    "word_count": 39,
-    "pangrams_count": 1
+    "puzzle_id": 2865,
+    "date": "March 13, 2026",
+    "letters": "I",
+    "all_letters": "IACHORT",
+    "word_count": 59,
+    "pangrams_count": 3
   },
   "words": [
     {
-      "word": "penciled",
+      "word": "thoracic",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "independence",
-      "is_pangram": 0,
-      "length": 12
+      "word": "chariot",
+      "is_pangram": 1,
+      "length": 7
     },
     {
-      "word": "dependence",
-      "is_pangram": 0,
-      "length": 10
+      "word": "haricot",
+      "is_pangram": 1,
+      "length": 7
     },
     {
-      "word": "incipience",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "penicillin",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "incidence",
+      "word": "arthritic",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "declined",
+      "word": "cathartic",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "trattoria",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "chitchat",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "inclined",
+      "word": "oratorio",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "lenience",
+      "word": "orthotic",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "pellicle",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "clipped",
+      "word": "archaic",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "decided",
+      "word": "chaotic",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "decline",
+      "word": "cochair",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "deicide",
+      "word": "ricotta",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "epicene",
+      "word": "traitor",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "incline",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "celled",
+      "word": "acacia",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "clinic",
+      "word": "aortic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "decide",
+      "word": "arctic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "deiced",
+      "word": "chichi",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "icicle",
+      "word": "citric",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "pencil",
+      "word": "critic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "picnic",
+      "word": "rhotic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "pieced",
+      "word": "tactic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "ceded",
+      "word": "tricot",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "atria",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "celli",
+      "word": "attic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "deice",
+      "word": "cacti",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "diced",
+      "word": "chair",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "niece",
+      "word": "chica",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "pence",
+      "word": "choir",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "piece",
+      "word": "circa",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cede",
+      "word": "cirri",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "coati",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "cocci",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "croci",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "hitch",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ichor",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "raita",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ratio",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tacit",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tiara",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "toric",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "torii",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "trait",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "acai",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cell",
+      "word": "aria",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "clip",
+      "word": "chai",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dice",
+      "word": "chia",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "epic",
+      "word": "chic",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "iced",
+      "word": "chit",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lice",
+      "word": "ciao",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nice",
+      "word": "coir",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "hair",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "iota",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "itch",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "rich",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "riot",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "roti",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tori",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "trio",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 231,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 299,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "chariot",
+    "haricot"
+  ]
 }
