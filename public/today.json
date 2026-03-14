@@ -1,313 +1,155 @@
 {
   "puzzle": {
-    "puzzle_id": 2865,
-    "date": "March 13, 2026",
-    "letters": "I",
-    "all_letters": "IACHORT",
-    "word_count": 59,
-    "pangrams_count": 3
+    "puzzle_id": 2866,
+    "date": "March 14, 2026",
+    "letters": "R",
+    "all_letters": "RBFGLOU",
+    "word_count": 28,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "thoracic",
+      "word": "bullfrog",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "chariot",
-      "is_pangram": 1,
-      "length": 7
-    },
-    {
-      "word": "haricot",
-      "is_pangram": 1,
-      "length": 7
-    },
-    {
-      "word": "arthritic",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "cathartic",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "trattoria",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "chitchat",
+      "word": "froufrou",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "oratorio",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "orthotic",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "archaic",
+      "word": "logroll",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "chaotic",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "cochair",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "ricotta",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "traitor",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "acacia",
+      "word": "bulgur",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "aortic",
+      "word": "burgoo",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "arctic",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "chichi",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "citric",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "critic",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "rhotic",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tactic",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tricot",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "atria",
+      "word": "blurb",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "attic",
+      "word": "burro",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cacti",
+      "word": "floor",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "chair",
+      "word": "flour",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "chica",
+      "word": "forgo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "choir",
+      "word": "furor",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "circa",
+      "word": "gruff",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cirri",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "coati",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "cocci",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "croci",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "hitch",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "ichor",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "raita",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "ratio",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tacit",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tiara",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "toric",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "torii",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "trait",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "acai",
+      "word": "blur",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "aria",
+      "word": "boor",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "chai",
+      "word": "burb",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "chia",
+      "word": "burg",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "chic",
+      "word": "burl",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "chit",
+      "word": "burr",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ciao",
+      "word": "four",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coir",
+      "word": "frog",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hair",
+      "word": "frug",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "iota",
+      "word": "furl",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "itch",
+      "word": "grog",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "rich",
+      "word": "grub",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "riot",
+      "word": "guru",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "roti",
+      "word": "roll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tori",
+      "word": "roof",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "trio",
+      "word": "ruff",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 299,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "chariot",
-    "haricot"
-  ]
+  "totalPoints": 93,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
