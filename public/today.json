@@ -1,155 +1,327 @@
 {
   "puzzle": {
-    "puzzle_id": 2866,
-    "date": "March 14, 2026",
-    "letters": "R",
-    "all_letters": "RBFGLOU",
-    "word_count": 28,
-    "pangrams_count": 1
+    "puzzle_id": 2867,
+    "date": "March 15, 2026",
+    "letters": "L",
+    "all_letters": "LACDIRY",
+    "word_count": 62,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "bullfrog",
+      "word": "radically",
       "is_pangram": 1,
-      "length": 8
+      "length": 9
     },
     {
-      "word": "froufrou",
+      "word": "acridly",
+      "is_pangram": 1,
+      "length": 7
+    },
+    {
+      "word": "idyllically",
+      "is_pangram": 0,
+      "length": 11
+    },
+    {
+      "word": "cyclically",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "dillydally",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "lyrically",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "carryall",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "logroll",
+      "word": "cyclical",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "racially",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "radially",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "acrylic",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "bulgur",
+      "word": "acyclic",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "daylily",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "idyllic",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lyrical",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "radical",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "railcar",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "acidly",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "burgoo",
+      "word": "airily",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "blurb",
+      "word": "cyclic",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "diddly",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "laical",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "racial",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "racily",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "radial",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "allay",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "burro",
+      "word": "calla",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "floor",
+      "word": "cilia",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "flour",
+      "word": "daily",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "forgo",
+      "word": "dally",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "furor",
+      "word": "dilly",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gruff",
+      "word": "drill",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "blur",
+      "word": "dryly",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "icily",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "idyll",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "iliac",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "lilac",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "lyric",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "rally",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "riyal",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ally",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boor",
+      "word": "aril",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "burb",
+      "word": "call",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "burg",
+      "word": "clad",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "burl",
+      "word": "clay",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "burr",
+      "word": "dial",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "four",
+      "word": "dill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "frog",
+      "word": "idly",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "frug",
+      "word": "idyl",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "furl",
+      "word": "illy",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "grog",
+      "word": "lacy",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "grub",
+      "word": "lady",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "guru",
+      "word": "laic",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "roll",
+      "word": "laid",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "roof",
+      "word": "lair",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ruff",
+      "word": "lard",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "liar",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lily",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lira",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "rail",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "rial",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "rill",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 93,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 296,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "acridly"
+  ]
 }
