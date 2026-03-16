@@ -1,327 +1,205 @@
 {
   "puzzle": {
-    "puzzle_id": 2867,
-    "date": "March 15, 2026",
-    "letters": "L",
-    "all_letters": "LACDIRY",
-    "word_count": 62,
-    "pangrams_count": 2
+    "puzzle_id": 2868,
+    "date": "March 16, 2026",
+    "letters": "N",
+    "all_letters": "NCEGILX",
+    "word_count": 38,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "radically",
+      "word": "excelling",
       "is_pangram": 1,
       "length": 9
     },
     {
-      "word": "acridly",
-      "is_pangram": 1,
-      "length": 7
-    },
-    {
-      "word": "idyllically",
-      "is_pangram": 0,
-      "length": 11
-    },
-    {
-      "word": "cyclically",
+      "word": "excellence",
       "is_pangram": 0,
       "length": 10
     },
     {
-      "word": "dillydally",
+      "word": "negligence",
       "is_pangram": 0,
       "length": 10
     },
     {
-      "word": "lyrically",
+      "word": "inclining",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "carryall",
+      "word": "clinging",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "cyclical",
+      "word": "giggling",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "racially",
+      "word": "lenience",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "radially",
+      "word": "negligee",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "acrylic",
+      "word": "niggling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "ceiling",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "acyclic",
+      "word": "exiling",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "daylily",
+      "word": "gelling",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "idyllic",
+      "word": "gigging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "lyrical",
+      "word": "gilling",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "radical",
+      "word": "ginning",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "railcar",
+      "word": "incline",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "acidly",
+      "word": "legging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "clinic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "airily",
+      "word": "egging",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cyclic",
+      "word": "engine",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "diddly",
+      "word": "inning",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "laical",
+      "word": "lining",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "racial",
+      "word": "niggle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "racily",
+      "word": "nixing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "radial",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "allay",
+      "word": "cling",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "calla",
+      "word": "genie",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cilia",
+      "word": "genii",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "daily",
+      "word": "icing",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dally",
+      "word": "innie",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dilly",
+      "word": "linen",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "drill",
+      "word": "niece",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dryly",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "icily",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "idyll",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "iliac",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "lilac",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "lyric",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "rally",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "riyal",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "ally",
+      "word": "gene",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "aril",
+      "word": "glen",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "call",
+      "word": "lien",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "clad",
+      "word": "line",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "clay",
+      "word": "nene",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dial",
+      "word": "nice",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dill",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "idly",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "idyl",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "illy",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lacy",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lady",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "laic",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "laid",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lair",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lard",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "liar",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lily",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lira",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "rail",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "rial",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "rill",
+      "word": "nine",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 296,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "acridly"
-  ]
+  "totalPoints": 225,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
