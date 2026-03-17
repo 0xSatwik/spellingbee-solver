@@ -1,205 +1,265 @@
 {
   "puzzle": {
-    "puzzle_id": 2868,
-    "date": "March 16, 2026",
-    "letters": "N",
-    "all_letters": "NCEGILX",
-    "word_count": 38,
+    "puzzle_id": 2869,
+    "date": "March 17, 2026",
+    "letters": "F",
+    "all_letters": "FBDELOU",
+    "word_count": 50,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "excelling",
+      "word": "befouled",
       "is_pangram": 1,
-      "length": 9
+      "length": 8
     },
     {
-      "word": "excellence",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "negligence",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "inclining",
+      "word": "befuddled",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "clinging",
+      "word": "befuddle",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "giggling",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "lenience",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "negligee",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "niggling",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "ceiling",
+      "word": "bluffed",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "exiling",
+      "word": "doleful",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gelling",
+      "word": "flooded",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gigging",
+      "word": "flubbed",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gilling",
+      "word": "fluffed",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "ginning",
+      "word": "fuddled",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "incline",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "legging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "clinic",
+      "word": "beefed",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "egging",
+      "word": "befell",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "engine",
+      "word": "befoul",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "inning",
+      "word": "buffed",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lining",
+      "word": "doffed",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "niggle",
+      "word": "duffel",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nixing",
+      "word": "duffle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cling",
+      "word": "feeble",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "felled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "feuded",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "fobbed",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "folded",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "fooled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "fouled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "fuddle",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "fueled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "bluff",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "genie",
+      "word": "boffo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "genii",
+      "word": "flood",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "icing",
+      "word": "fluff",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "innie",
+      "word": "offed",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "linen",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "niece",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "gene",
+      "word": "beef",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "glen",
+      "word": "buff",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lien",
+      "word": "doff",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "line",
+      "word": "duff",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nene",
+      "word": "feed",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nice",
+      "word": "feel",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nine",
+      "word": "fell",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "feud",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "fled",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "flee",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "floe",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "flub",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "flue",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "fold",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "food",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "fool",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "foul",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "fuel",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "full",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "luff",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 225,
+  "totalPoints": 215,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
