@@ -1,265 +1,352 @@
 {
   "puzzle": {
-    "puzzle_id": 2869,
-    "date": "March 17, 2026",
-    "letters": "F",
-    "all_letters": "FBDELOU",
-    "word_count": 50,
+    "puzzle_id": 2870,
+    "date": "March 18, 2026",
+    "letters": "R",
+    "all_letters": "RAIJNOT",
+    "word_count": 67,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "befouled",
+      "word": "janitor",
       "is_pangram": 1,
-      "length": 8
+      "length": 7
     },
     {
-      "word": "befuddled",
+      "word": "irritation",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "annotator",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "befuddle",
+      "word": "attrition",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "initiator",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "narration",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "tarnation",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "titration",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "trattoria",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "irritant",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "bluffed",
+      "word": "narrator",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "oratorio",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "rotation",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "notator",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "doleful",
+      "word": "oration",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "flooded",
+      "word": "ratatat",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "flubbed",
+      "word": "rotator",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "fluffed",
+      "word": "tantara",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "fuddled",
+      "word": "tortoni",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "beefed",
+      "word": "traitor",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "arrant",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "befell",
+      "word": "nonart",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "befoul",
+      "word": "orator",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "buffed",
+      "word": "ration",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "doffed",
+      "word": "rattan",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "duffel",
+      "word": "rotini",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "duffle",
+      "word": "tantra",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "feeble",
+      "word": "tartan",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "felled",
+      "word": "tartar",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "feuded",
+      "word": "triton",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "fobbed",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "folded",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "fooled",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "fouled",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "fuddle",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "fueled",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "bluff",
+      "word": "aorta",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "boffo",
+      "word": "atria",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "flood",
+      "word": "attar",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "fluff",
+      "word": "intro",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "offed",
+      "word": "nitro",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "beef",
+      "word": "raita",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ratio",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "rioja",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "rotor",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tarot",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tiara",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "torii",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "torta",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "train",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "trait",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ajar",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "buff",
+      "word": "aria",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "doff",
+      "word": "iron",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "duff",
+      "word": "noir",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "feed",
+      "word": "nori",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "feel",
+      "word": "rain",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fell",
+      "word": "raja",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "feud",
+      "word": "rani",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fled",
+      "word": "rant",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "flee",
+      "word": "riot",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "floe",
+      "word": "roan",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "flub",
+      "word": "roar",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "flue",
+      "word": "root",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fold",
+      "word": "roti",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "food",
+      "word": "taro",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fool",
+      "word": "tart",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "foul",
+      "word": "tori",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fuel",
+      "word": "torn",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "full",
+      "word": "toro",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "luff",
+      "word": "tort",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "trio",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "trot",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 215,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 325,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "janitor"
+  ]
 }
