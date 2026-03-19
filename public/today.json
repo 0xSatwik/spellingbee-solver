@@ -1,352 +1,180 @@
 {
   "puzzle": {
-    "puzzle_id": 2870,
-    "date": "March 18, 2026",
-    "letters": "R",
-    "all_letters": "RAIJNOT",
-    "word_count": 67,
-    "pangrams_count": 1
+    "puzzle_id": 2871,
+    "date": "March 19, 2026",
+    "letters": "N",
+    "all_letters": "NEGHMOY",
+    "word_count": 33,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "janitor",
+      "word": "hegemony",
       "is_pangram": 1,
-      "length": 7
+      "length": 8
     },
     {
-      "word": "irritation",
-      "is_pangram": 0,
-      "length": 10
+      "word": "homogeny",
+      "is_pangram": 1,
+      "length": 8
     },
     {
-      "word": "annotator",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "attrition",
+      "word": "honeymoon",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "initiator",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "narration",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "tarnation",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "titration",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "trattoria",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "irritant",
+      "word": "homonymy",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "narrator",
+      "word": "moneymen",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "oratorio",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "rotation",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "notator",
+      "word": "hegemon",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "oration",
+      "word": "homonym",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "ratatat",
+      "word": "mononym",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "rotator",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "tantara",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "tortoni",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "traitor",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "arrant",
+      "word": "eggnog",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nonart",
+      "word": "genome",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "orator",
+      "word": "gnomon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "ration",
+      "word": "yeomen",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "rattan",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "rotini",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tantra",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tartan",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tartar",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "triton",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "aorta",
+      "word": "enemy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "atria",
+      "word": "gnome",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "attar",
+      "word": "goony",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "intro",
+      "word": "henge",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "nitro",
+      "word": "honey",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "raita",
+      "word": "hymen",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ratio",
+      "word": "money",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "rioja",
+      "word": "moony",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "rotor",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tarot",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tiara",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "torii",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "torta",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "train",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "trait",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "ajar",
+      "word": "gene",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "aria",
+      "word": "gone",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "iron",
+      "word": "gong",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "noir",
+      "word": "goon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nori",
+      "word": "hone",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "rain",
+      "word": "hymn",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "raja",
+      "word": "mono",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "rani",
+      "word": "moon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "rant",
+      "word": "nene",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "riot",
+      "word": "neon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "roan",
+      "word": "none",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "roar",
+      "word": "noon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "root",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "roti",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "taro",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tart",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tori",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "torn",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "toro",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tort",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "trio",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "trot",
+      "word": "omen",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 325,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "janitor"
-  ]
+  "totalPoints": 153,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
