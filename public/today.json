@@ -1,180 +1,297 @@
 {
   "puzzle": {
-    "puzzle_id": 2871,
-    "date": "March 19, 2026",
-    "letters": "N",
-    "all_letters": "NEGHMOY",
-    "word_count": 33,
-    "pangrams_count": 2
+    "puzzle_id": 2872,
+    "date": "March 20, 2026",
+    "letters": "M",
+    "all_letters": "MACDEHT",
+    "word_count": 56,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "hegemony",
+      "word": "matched",
       "is_pangram": 1,
-      "length": 8
+      "length": 7
     },
     {
-      "word": "homogeny",
-      "is_pangram": 1,
-      "length": 8
-    },
-    {
-      "word": "honeymoon",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "homonymy",
+      "word": "meathead",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "moneymen",
+      "word": "metadata",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "hegemon",
+      "word": "teammate",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "academe",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "homonym",
+      "word": "edamame",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "mononym",
+      "word": "macadam",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "eggnog",
+      "word": "machete",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "mahatma",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "dammed",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "genome",
+      "word": "deemed",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gnomon",
+      "word": "emceed",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "yeomen",
+      "word": "hamate",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "enemy",
+      "word": "hammed",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "hemmed",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "madame",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "matcha",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "matted",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "teamed",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "teemed",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "themed",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "edema",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gnome",
+      "word": "emcee",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "goony",
+      "word": "maced",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "henge",
+      "word": "madam",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "honey",
+      "word": "mamma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "hymen",
+      "word": "match",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "money",
+      "word": "mated",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "moony",
+      "word": "matte",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gene",
+      "word": "mecca",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "memed",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "meted",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tamed",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "theme",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "acme",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gone",
+      "word": "ahem",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gong",
+      "word": "came",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "goon",
+      "word": "dame",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hone",
+      "word": "deem",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hymn",
+      "word": "heme",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mono",
+      "word": "mace",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "moon",
+      "word": "made",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nene",
+      "word": "mama",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "neon",
+      "word": "mate",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "none",
+      "word": "math",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "noon",
+      "word": "mead",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "omen",
+      "word": "meat",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "meet",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "meme",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "meta",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mete",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "meth",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tame",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "team",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "teem",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "them",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 153,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 232,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "matched"
+  ]
 }
