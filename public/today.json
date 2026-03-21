@@ -1,297 +1,257 @@
 {
   "puzzle": {
-    "puzzle_id": 2872,
-    "date": "March 20, 2026",
-    "letters": "M",
-    "all_letters": "MACDEHT",
-    "word_count": 56,
+    "puzzle_id": 2873,
+    "date": "March 21, 2026",
+    "letters": "E",
+    "all_letters": "EILNPUV",
+    "word_count": 48,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "matched",
+      "word": "vulpine",
       "is_pangram": 1,
       "length": 7
     },
     {
-      "word": "meathead",
+      "word": "pipeline",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "metadata",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "teammate",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "academe",
+      "word": "enliven",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "edamame",
+      "word": "ninepin",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "macadam",
+      "word": "unlevel",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "machete",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "mahatma",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "dammed",
+      "word": "eleven",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "deemed",
+      "word": "lineup",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "emceed",
+      "word": "lupine",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "hamate",
+      "word": "nipple",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "hammed",
+      "word": "penile",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "hemmed",
+      "word": "pileup",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "madame",
+      "word": "uneven",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "matcha",
+      "word": "unpile",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "matted",
+      "word": "unveil",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "teamed",
+      "word": "venule",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "teemed",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "themed",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "edema",
+      "word": "ennui",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "emcee",
+      "word": "innie",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "maced",
+      "word": "levee",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "madam",
+      "word": "level",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mamma",
+      "word": "linen",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "match",
+      "word": "liven",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mated",
+      "word": "peeve",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "matte",
+      "word": "penne",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mecca",
+      "word": "unpen",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "memed",
+      "word": "venue",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "meted",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tamed",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "theme",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "acme",
+      "word": "epee",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ahem",
+      "word": "even",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "came",
+      "word": "evil",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dame",
+      "word": "lien",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "deem",
+      "word": "lieu",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "heme",
+      "word": "line",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mace",
+      "word": "live",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "made",
+      "word": "lune",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mama",
+      "word": "nene",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mate",
+      "word": "nine",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "math",
+      "word": "peel",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mead",
+      "word": "peen",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "meat",
+      "word": "peep",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "meet",
+      "word": "pile",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "meme",
+      "word": "pine",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "meta",
+      "word": "pipe",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mete",
+      "word": "plie",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "meth",
+      "word": "pule",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tame",
+      "word": "veep",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "team",
+      "word": "veil",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "teem",
+      "word": "vein",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "them",
+      "word": "vile",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "vine",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 232,
+  "totalPoints": 176,
   "hasPerfectPangram": true,
   "perfectPangrams": [
-    "matched"
+    "vulpine"
   ]
 }
