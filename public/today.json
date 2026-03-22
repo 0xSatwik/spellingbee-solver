@@ -1,257 +1,360 @@
 {
   "puzzle": {
-    "puzzle_id": 2873,
-    "date": "March 21, 2026",
-    "letters": "E",
-    "all_letters": "EILNPUV",
-    "word_count": 48,
-    "pangrams_count": 1
+    "puzzle_id": 2874,
+    "date": "March 22, 2026",
+    "letters": "A",
+    "all_letters": "ADGHILN",
+    "word_count": 69,
+    "pangrams_count": 3
   },
   "words": [
     {
-      "word": "vulpine",
+      "word": "gladhanding",
       "is_pangram": 1,
-      "length": 7
+      "length": 11
     },
     {
-      "word": "pipeline",
+      "word": "handling",
+      "is_pangram": 1,
+      "length": 8
+    },
+    {
+      "word": "highland",
+      "is_pangram": 1,
+      "length": 8
+    },
+    {
+      "word": "aligning",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "enliven",
+      "word": "dandling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "dangling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "galangal",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "gangland",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "gangling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "gladhand",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "haggling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "hangnail",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "inhaling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "addling",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "ninepin",
+      "word": "angling",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "unlevel",
+      "word": "dialing",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "eleven",
+      "word": "gadding",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "gagging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "gaining",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "galling",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "ganging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "ganglia",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "hailing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "handing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "hanging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "ladling",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lagging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "landing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "nagging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "nailing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "adding",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lineup",
+      "word": "aiding",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lupine",
+      "word": "ailing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nipple",
+      "word": "angina",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "penile",
+      "word": "dahlia",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "pileup",
+      "word": "inlaid",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "uneven",
+      "word": "inland",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "unpile",
+      "word": "lading",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "unveil",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "venule",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "ennui",
+      "word": "again",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "innie",
+      "word": "aging",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "levee",
+      "word": "algal",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "level",
+      "word": "align",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "linen",
+      "word": "annal",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "liven",
+      "word": "gland",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "peeve",
+      "word": "halal",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "penne",
+      "word": "lanai",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "unpen",
+      "word": "naiad",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "venue",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "epee",
+      "word": "alga",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "even",
+      "word": "anal",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "evil",
+      "word": "dang",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lien",
+      "word": "dial",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lieu",
+      "word": "gaga",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "line",
+      "word": "gain",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "live",
+      "word": "gala",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lune",
+      "word": "gall",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nene",
+      "word": "gang",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nine",
+      "word": "glad",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "peel",
+      "word": "glia",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "peen",
+      "word": "hail",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "peep",
+      "word": "hall",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pile",
+      "word": "hand",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pine",
+      "word": "hang",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pipe",
+      "word": "laid",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "plie",
+      "word": "lain",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pule",
+      "word": "land",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "veep",
+      "word": "naan",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "veil",
+      "word": "nada",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "vein",
+      "word": "nail",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "vile",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "vine",
+      "word": "nana",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 176,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "vulpine"
-  ]
+  "totalPoints": 362,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
