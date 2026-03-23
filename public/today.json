@@ -1,360 +1,277 @@
 {
   "puzzle": {
-    "puzzle_id": 2874,
-    "date": "March 22, 2026",
-    "letters": "A",
-    "all_letters": "ADGHILN",
-    "word_count": 69,
-    "pangrams_count": 3
+    "puzzle_id": 2875,
+    "date": "March 23, 2026",
+    "letters": "U",
+    "all_letters": "UCDEHLN",
+    "word_count": 52,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "gladhanding",
+      "word": "unclenched",
       "is_pangram": 1,
-      "length": 11
+      "length": 10
     },
     {
-      "word": "handling",
+      "word": "lunched",
       "is_pangram": 1,
-      "length": 8
+      "length": 7
     },
     {
-      "word": "highland",
-      "is_pangram": 1,
-      "length": 8
-    },
-    {
-      "word": "aligning",
+      "word": "unclench",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "dandling",
+      "word": "unheeded",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "dangling",
+      "word": "unneeded",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "galangal",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "gangland",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "gangling",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "gladhand",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "haggling",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "hangnail",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "inhaling",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "addling",
+      "word": "cellule",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "angling",
+      "word": "cuddled",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "dialing",
+      "word": "deduced",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gadding",
+      "word": "deluded",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gagging",
+      "word": "denuded",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gaining",
+      "word": "huddled",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "galling",
+      "word": "hunched",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "ganging",
+      "word": "unceded",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "ganglia",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "hailing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "handing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "hanging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "ladling",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "lagging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "landing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "nagging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "nailing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "adding",
+      "word": "cuddle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "aiding",
+      "word": "culled",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "ailing",
+      "word": "deduce",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "angina",
+      "word": "delude",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dahlia",
+      "word": "denude",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "inlaid",
+      "word": "dueled",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "inland",
+      "word": "dulled",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lading",
+      "word": "dunned",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "again",
+      "word": "educed",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "eluded",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "endued",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "eunuch",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "huddle",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "hulled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "lulled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "clued",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "aging",
+      "word": "deuce",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "algal",
+      "word": "dunce",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "align",
+      "word": "educe",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "annal",
+      "word": "elude",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gland",
+      "word": "endue",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "halal",
+      "word": "hunch",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "lanai",
+      "word": "lunch",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "naiad",
+      "word": "uncle",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "alga",
+      "word": "undue",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "clue",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "anal",
+      "word": "cued",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dang",
+      "word": "cull",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dial",
+      "word": "dude",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gaga",
+      "word": "duel",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gain",
+      "word": "dull",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gala",
+      "word": "dune",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gall",
+      "word": "hued",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gang",
+      "word": "hull",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "glad",
+      "word": "lull",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "glia",
+      "word": "lulu",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hail",
+      "word": "lune",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hall",
+      "word": "nude",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hand",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "hang",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "laid",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lain",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "land",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "naan",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "nada",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "nail",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "nana",
+      "word": "null",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 362,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 265,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "lunched"
+  ]
 }
