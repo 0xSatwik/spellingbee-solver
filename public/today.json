@@ -1,277 +1,120 @@
 {
   "puzzle": {
-    "puzzle_id": 2875,
-    "date": "March 23, 2026",
-    "letters": "U",
-    "all_letters": "UCDEHLN",
-    "word_count": 52,
-    "pangrams_count": 2
+    "puzzle_id": 2876,
+    "date": "March 24, 2026",
+    "letters": "I",
+    "all_letters": "IABRTUY",
+    "word_count": 21,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "unclenched",
+      "word": "tributary",
       "is_pangram": 1,
-      "length": 10
+      "length": 9
     },
     {
-      "word": "lunched",
-      "is_pangram": 1,
-      "length": 7
-    },
-    {
-      "word": "unclench",
+      "word": "arbitrary",
       "is_pangram": 0,
-      "length": 8
+      "length": 9
     },
     {
-      "word": "unheeded",
+      "word": "barbarity",
       "is_pangram": 0,
-      "length": 8
+      "length": 9
     },
     {
-      "word": "unneeded",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "cellule",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "cuddled",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "deduced",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "deluded",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "denuded",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "huddled",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "hunched",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "unceded",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "cuddle",
+      "word": "birria",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "culled",
+      "word": "briary",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "deduce",
+      "word": "rabbit",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "delude",
+      "word": "rarity",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "denude",
+      "word": "ribbit",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dueled",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "dulled",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "dunned",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "educed",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "eluded",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "endued",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "eunuch",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "huddle",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "hulled",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "lulled",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "clued",
+      "word": "atria",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "deuce",
+      "word": "briar",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dunce",
+      "word": "rabbi",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "educe",
+      "word": "raita",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "elude",
+      "word": "ribby",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "endue",
+      "word": "tiara",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "hunch",
+      "word": "tibia",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "lunch",
+      "word": "trait",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "uncle",
+      "word": "tutti",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "undue",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "clue",
+      "word": "airy",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cued",
+      "word": "aria",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cull",
+      "word": "bait",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dude",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "duel",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "dull",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "dune",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "hued",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "hull",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lull",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lulu",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lune",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "nude",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "null",
+      "word": "itty",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 265,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "lunched"
-  ]
+  "totalPoints": 113,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
