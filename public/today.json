@@ -1,120 +1,267 @@
 {
   "puzzle": {
-    "puzzle_id": 2876,
-    "date": "March 24, 2026",
-    "letters": "I",
-    "all_letters": "IABRTUY",
-    "word_count": 21,
-    "pangrams_count": 1
+    "puzzle_id": 2877,
+    "date": "March 25, 2026",
+    "letters": "L",
+    "all_letters": "LEINPTY",
+    "word_count": 50,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "tributary",
+      "word": "penitently",
       "is_pangram": 1,
-      "length": 9
+      "length": 10
     },
     {
-      "word": "arbitrary",
+      "word": "ineptly",
+      "is_pangram": 1,
+      "length": 7
+    },
+    {
+      "word": "leniently",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "barbarity",
+      "word": "intently",
       "is_pangram": 0,
-      "length": 9
+      "length": 8
     },
     {
-      "word": "birria",
+      "word": "pipeline",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "teletype",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "entitle",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lenient",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "pettily",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "eyelet",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "briary",
+      "word": "lenity",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "rabbit",
+      "word": "lentil",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "rarity",
+      "word": "linnet",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "ribbit",
+      "word": "lintel",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "atria",
+      "word": "little",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "nettle",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "nipple",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "pellet",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "penile",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "plenty",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tinily",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tipple",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tittle",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "elite",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "briar",
+      "word": "inlet",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "rabbi",
+      "word": "intel",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "raita",
+      "word": "linen",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ribby",
+      "word": "linty",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tiara",
+      "word": "lippy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tibia",
+      "word": "title",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "trait",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tutti",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "airy",
+      "word": "eely",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "aria",
+      "word": "illy",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bait",
+      "word": "lent",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "itty",
+      "word": "lien",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lilt",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lily",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "line",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lint",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lite",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "peel",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pelt",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pile",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pill",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "plie",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tell",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tile",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "till",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tilt",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "yell",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "yelp",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 113,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 224,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "ineptly"
+  ]
 }
