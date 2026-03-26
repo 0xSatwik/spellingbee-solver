@@ -1,267 +1,340 @@
 {
   "puzzle": {
-    "puzzle_id": 2877,
-    "date": "March 25, 2026",
-    "letters": "L",
-    "all_letters": "LEINPTY",
-    "word_count": 50,
-    "pangrams_count": 2
+    "puzzle_id": 2878,
+    "date": "March 26, 2026",
+    "letters": "I",
+    "all_letters": "IADLMNO",
+    "word_count": 65,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "penitently",
+      "word": "mandolin",
       "is_pangram": 1,
-      "length": 10
+      "length": 8
     },
     {
-      "word": "ineptly",
-      "is_pangram": 1,
-      "length": 7
-    },
-    {
-      "word": "leniently",
+      "word": "mammalian",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "intently",
+      "word": "monomania",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "nonillion",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "dominion",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "pipeline",
+      "word": "mainland",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "teletype",
+      "word": "monomial",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "entitle",
+      "word": "ammonia",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "lenient",
+      "word": "diamond",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "pettily",
+      "word": "laminal",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "eyelet",
+      "word": "lanolin",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "liminal",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "mailman",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "midland",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "million",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "minimal",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "nominal",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "animal",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lenity",
+      "word": "domain",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lentil",
+      "word": "domino",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "linnet",
+      "word": "inlaid",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lintel",
+      "word": "inland",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "little",
+      "word": "lamina",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nettle",
+      "word": "manila",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nipple",
+      "word": "minima",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "pellet",
+      "word": "minion",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "penile",
+      "word": "oilman",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "plenty",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tinily",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tipple",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tittle",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "elite",
+      "word": "admin",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "inlet",
+      "word": "aioli",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "intel",
+      "word": "amino",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "linen",
+      "word": "amnio",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "linty",
+      "word": "anima",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "lippy",
+      "word": "anion",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "title",
+      "word": "dildo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "eely",
+      "word": "idiom",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "lanai",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mania",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "minim",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "naiad",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "onion",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "amid",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "illy",
+      "word": "dial",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lent",
+      "word": "dill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lien",
+      "word": "dino",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lilt",
+      "word": "idol",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lily",
+      "word": "imam",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "line",
+      "word": "laid",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lint",
+      "word": "lain",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lite",
+      "word": "lima",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "peel",
+      "word": "limn",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pelt",
+      "word": "limo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pile",
+      "word": "lion",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pill",
+      "word": "loin",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "plie",
+      "word": "maid",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tell",
+      "word": "mail",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tile",
+      "word": "maim",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "till",
+      "word": "main",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tilt",
+      "word": "midi",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "yell",
+      "word": "mild",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "yelp",
+      "word": "mill",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mind",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mini",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "moil",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "nail",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "olio",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 224,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "ineptly"
-  ]
+  "totalPoints": 286,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
