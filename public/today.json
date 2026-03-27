@@ -1,200 +1,90 @@
 {
   "puzzle": {
-    "puzzle_id": 2878,
-    "date": "March 26, 2026",
-    "letters": "I",
-    "all_letters": "IADLMNO",
-    "word_count": 65,
+    "puzzle_id": 2879,
+    "date": "March 27, 2026",
+    "letters": "A",
+    "all_letters": "ADFGINU",
+    "word_count": 28,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "mandolin",
+      "word": "unfading",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "mammalian",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "monomania",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "nonillion",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "dominion",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "mainland",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "monomial",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "ammonia",
+      "word": "fanning",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "diamond",
+      "word": "gadding",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "laminal",
+      "word": "gagging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "lanolin",
+      "word": "gaining",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "liminal",
+      "word": "ganging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "mailman",
+      "word": "gauging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "midland",
+      "word": "nagging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "million",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "minimal",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "nominal",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "animal",
+      "word": "adding",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "domain",
+      "word": "aiding",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "domino",
+      "word": "angina",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "inlaid",
+      "word": "fading",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "inland",
+      "word": "iguana",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lamina",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "manila",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "minima",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "minion",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "oilman",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "admin",
+      "word": "again",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "aioli",
+      "word": "aging",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "amino",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "amnio",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "anima",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "anion",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "dildo",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "idiom",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "lanai",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "mania",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "minim",
+      "word": "fauna",
       "is_pangram": 0,
       "length": 5
     },
@@ -204,137 +94,62 @@
       "length": 5
     },
     {
-      "word": "onion",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "amid",
+      "word": "dang",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dial",
+      "word": "fang",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dill",
+      "word": "faun",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dino",
+      "word": "gaff",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "idol",
+      "word": "gaga",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "imam",
+      "word": "gain",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "laid",
+      "word": "gang",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lain",
+      "word": "naan",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lima",
+      "word": "nada",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "limn",
+      "word": "naif",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "limo",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lion",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loin",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "maid",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mail",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "maim",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "main",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "midi",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mild",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mill",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mind",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mini",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "moil",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "nail",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "olio",
+      "word": "nana",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 286,
+  "totalPoints": 125,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
