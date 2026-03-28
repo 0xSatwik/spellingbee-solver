@@ -1,130 +1,220 @@
 {
   "puzzle": {
-    "puzzle_id": 2879,
-    "date": "March 27, 2026",
-    "letters": "A",
-    "all_letters": "ADFGINU",
-    "word_count": 28,
+    "puzzle_id": 2880,
+    "date": "March 28, 2026",
+    "letters": "N",
+    "all_letters": "NABEKMT",
+    "word_count": 50,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "unfading",
+      "word": "embankment",
       "is_pangram": 1,
+      "length": 10
+    },
+    {
+      "word": "abatement",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "battement",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "abetment",
+      "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "fanning",
+      "word": "antennae",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "tenement",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "antenna",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gadding",
+      "word": "betaken",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gagging",
+      "word": "emanate",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gaining",
+      "word": "entente",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "ganging",
+      "word": "manatee",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gauging",
+      "word": "nankeen",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "nagging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "adding",
+      "word": "banana",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "aiding",
+      "word": "bantam",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "angina",
+      "word": "batten",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "fading",
+      "word": "beaten",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "iguana",
+      "word": "embank",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "again",
+      "word": "katana",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "mentee",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "natant",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "neaten",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tenant",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "eaten",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "aging",
+      "word": "enema",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "fauna",
+      "word": "kente",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "naiad",
+      "word": "manna",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dang",
+      "word": "manta",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "meant",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "taken",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tanka",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tenet",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "amen",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fang",
+      "word": "ante",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "faun",
+      "word": "bane",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gaff",
+      "word": "bank",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gaga",
+      "word": "bean",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gain",
+      "word": "been",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gang",
+      "word": "bent",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "keen",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "knee",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mane",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mean",
       "is_pangram": 0,
       "length": 4
     },
@@ -134,12 +224,7 @@
       "length": 4
     },
     {
-      "word": "nada",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "naif",
+      "word": "name",
       "is_pangram": 0,
       "length": 4
     },
@@ -147,9 +232,34 @@
       "word": "nana",
       "is_pangram": 0,
       "length": 4
+    },
+    {
+      "word": "neat",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "nene",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tank",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "teen",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tent",
+      "is_pangram": 0,
+      "length": 4
     }
   ],
-  "totalPoints": 125,
+  "totalPoints": 225,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
