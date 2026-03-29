@@ -1,72 +1,62 @@
 {
   "puzzle": {
-    "puzzle_id": 2880,
-    "date": "March 28, 2026",
-    "letters": "N",
-    "all_letters": "NABEKMT",
+    "puzzle_id": 2881,
+    "date": "March 29, 2026",
+    "letters": "B",
+    "all_letters": "BACILNO",
     "word_count": 50,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "embankment",
+      "word": "anabolic",
       "is_pangram": 1,
+      "length": 8
+    },
+    {
+      "word": "cannonball",
+      "is_pangram": 0,
       "length": 10
     },
     {
-      "word": "abatement",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "battement",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "abetment",
+      "word": "biblical",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "antennae",
+      "word": "bilabial",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "tenement",
+      "word": "cannibal",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "antenna",
+      "word": "bacilli",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "betaken",
+      "word": "balloon",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "emanate",
+      "word": "billion",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "entente",
+      "word": "albino",
       "is_pangram": 0,
-      "length": 7
+      "length": 6
     },
     {
-      "word": "manatee",
+      "word": "baboon",
       "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "nankeen",
-      "is_pangram": 0,
-      "length": 7
+      "length": 6
     },
     {
       "word": "banana",
@@ -74,192 +64,202 @@
       "length": 6
     },
     {
-      "word": "bantam",
+      "word": "baobab",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "batten",
+      "word": "bionic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "beaten",
+      "word": "bobbin",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "embank",
+      "word": "bonbon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "katana",
+      "word": "bonobo",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mentee",
+      "word": "booboo",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "natant",
+      "word": "cabala",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "neaten",
+      "word": "cabana",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tenant",
+      "word": "collab",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "eaten",
+      "word": "labial",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "abaci",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "enema",
+      "word": "aboil",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "kente",
+      "word": "alibi",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "manna",
+      "word": "bacon",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "manta",
+      "word": "banal",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "meant",
+      "word": "blini",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "taken",
+      "word": "bocci",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tanka",
+      "word": "cabal",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tenet",
+      "word": "cabin",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "amen",
+      "word": "labia",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "nabob",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "baba",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ante",
+      "word": "bail",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bane",
+      "word": "ball",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bank",
+      "word": "banc",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bean",
+      "word": "bill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "been",
+      "word": "blab",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bent",
+      "word": "blin",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "keen",
+      "word": "blob",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "knee",
+      "word": "bloc",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mane",
+      "word": "boba",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mean",
+      "word": "boil",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "naan",
+      "word": "bola",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "name",
+      "word": "boll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nana",
+      "word": "bolo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "neat",
+      "word": "boob",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nene",
+      "word": "boon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tank",
+      "word": "lobo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "teen",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tent",
+      "word": "noob",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 225,
+  "totalPoints": 221,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
