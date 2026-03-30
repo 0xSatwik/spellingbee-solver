@@ -1,265 +1,245 @@
 {
   "puzzle": {
-    "puzzle_id": 2881,
-    "date": "March 29, 2026",
-    "letters": "B",
-    "all_letters": "BACILNO",
-    "word_count": 50,
+    "puzzle_id": 2882,
+    "date": "March 30, 2026",
+    "letters": "T",
+    "all_letters": "TBELNOV",
+    "word_count": 46,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "anabolic",
+      "word": "benevolent",
       "is_pangram": 1,
-      "length": 8
-    },
-    {
-      "word": "cannonball",
-      "is_pangram": 0,
       "length": 10
     },
     {
-      "word": "biblical",
+      "word": "novelette",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "velveteen",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "nonevent",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "bilabial",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "cannibal",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "bacilli",
+      "word": "entente",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "balloon",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "billion",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "albino",
+      "word": "beetle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "baboon",
+      "word": "blotto",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "banana",
+      "word": "bonnet",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "baobab",
+      "word": "bootee",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bionic",
+      "word": "botnet",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bobbin",
+      "word": "bottle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bonbon",
+      "word": "nettle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bonobo",
+      "word": "tootle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "booboo",
+      "word": "velvet",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cabala",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "cabana",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "collab",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "labial",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "abaci",
+      "word": "bento",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "aboil",
+      "word": "betel",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "alibi",
+      "word": "event",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bacon",
+      "word": "lento",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "banal",
+      "word": "lotto",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "blini",
+      "word": "nonet",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bocci",
+      "word": "tenet",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cabal",
+      "word": "tenon",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cabin",
+      "word": "tonne",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "labia",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "nabob",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "baba",
+      "word": "beet",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bail",
+      "word": "belt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ball",
+      "word": "bent",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "banc",
+      "word": "blot",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bill",
+      "word": "bolt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "blab",
+      "word": "boot",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "blin",
+      "word": "lent",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "blob",
+      "word": "loot",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bloc",
+      "word": "note",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boba",
+      "word": "onto",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boil",
+      "word": "teen",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bola",
+      "word": "tell",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boll",
+      "word": "tent",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bolo",
+      "word": "toll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boob",
+      "word": "tone",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boon",
+      "word": "tool",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lobo",
+      "word": "toon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "noob",
+      "word": "toot",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tote",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "vent",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "veto",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "volt",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "vote",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 221,
+  "totalPoints": 172,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
