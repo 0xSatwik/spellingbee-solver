@@ -1,245 +1,260 @@
 {
   "puzzle": {
-    "puzzle_id": 2882,
-    "date": "March 30, 2026",
-    "letters": "T",
-    "all_letters": "TBELNOV",
-    "word_count": 46,
+    "puzzle_id": 2883,
+    "date": "March 31, 2026",
+    "letters": "L",
+    "all_letters": "LCDIOUY",
+    "word_count": 49,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "benevolent",
+      "word": "cloudily",
       "is_pangram": 1,
-      "length": 10
-    },
-    {
-      "word": "novelette",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "velveteen",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "nonevent",
-      "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "entente",
+      "word": "codicil",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "beetle",
+      "word": "colloid",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "idyllic",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lucidly",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "cloudy",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "blotto",
+      "word": "coldly",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bonnet",
+      "word": "coolly",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bootee",
+      "word": "cuddly",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "botnet",
+      "word": "cyclic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bottle",
+      "word": "diddly",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nettle",
+      "word": "loudly",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tootle",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "velvet",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "bento",
+      "word": "cloud",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "betel",
+      "word": "colic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "event",
+      "word": "could",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "lento",
+      "word": "coyly",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "lotto",
+      "word": "dildo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "nonet",
+      "word": "dilly",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tenet",
+      "word": "doily",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tenon",
+      "word": "dolly",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tonne",
+      "word": "dully",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "beet",
+      "word": "icily",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "idyll",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "lucid",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "oculi",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "oddly",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "clod",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "belt",
+      "word": "cloy",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bent",
+      "word": "coil",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "blot",
+      "word": "cold",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bolt",
+      "word": "cool",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boot",
+      "word": "cull",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lent",
+      "word": "dill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loot",
+      "word": "doll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "note",
+      "word": "dull",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "onto",
+      "word": "duly",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "teen",
+      "word": "idly",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tell",
+      "word": "idol",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tent",
+      "word": "idyl",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "toll",
+      "word": "illy",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tone",
+      "word": "lily",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tool",
+      "word": "loci",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "toon",
+      "word": "loco",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "toot",
+      "word": "loll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tote",
+      "word": "loud",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "vent",
+      "word": "lull",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "veto",
+      "word": "lulu",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "volt",
+      "word": "oily",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "vote",
+      "word": "olio",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 172,
+  "totalPoints": 178,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
