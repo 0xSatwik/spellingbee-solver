@@ -1,260 +1,147 @@
 {
   "puzzle": {
-    "puzzle_id": 2883,
-    "date": "March 31, 2026",
-    "letters": "L",
-    "all_letters": "LCDIOUY",
-    "word_count": 49,
+    "puzzle_id": 2884,
+    "date": "April 1, 2026",
+    "letters": "M",
+    "all_letters": "MBGINPU",
+    "word_count": 26,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "cloudily",
+      "word": "bumping",
       "is_pangram": 1,
+      "length": 7
+    },
+    {
+      "word": "impinging",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "impugning",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "imbibing",
+      "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "codicil",
+      "word": "bumming",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "colloid",
+      "word": "gumming",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "idyllic",
+      "word": "imbuing",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "lucidly",
+      "word": "minimum",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "cloudy",
+      "word": "mugging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "numbing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "pimping",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "pumping",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "impugn",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "coldly",
+      "word": "miming",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "coolly",
+      "word": "mining",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cuddly",
+      "word": "muumuu",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cyclic",
+      "word": "umping",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "diddly",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "loudly",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "cloud",
+      "word": "minim",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "colic",
+      "word": "nimbi",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "could",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "coyly",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "dildo",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "dilly",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "doily",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "dolly",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "dully",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "icily",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "idyll",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "lucid",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "oculi",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "oddly",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "clod",
+      "word": "bump",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cloy",
+      "word": "gimp",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coil",
+      "word": "mini",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cold",
+      "word": "mung",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cool",
+      "word": "numb",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cull",
+      "word": "pimp",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dill",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "doll",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "dull",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "duly",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "idly",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "idol",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "idyl",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "illy",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lily",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loci",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loco",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loll",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loud",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lull",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lulu",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "oily",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "olio",
+      "word": "pump",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 178,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 143,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "bumping"
+  ]
 }
