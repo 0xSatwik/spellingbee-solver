@@ -1,147 +1,295 @@
 {
   "puzzle": {
-    "puzzle_id": 2884,
-    "date": "April 1, 2026",
-    "letters": "M",
-    "all_letters": "MBGINPU",
-    "word_count": 26,
-    "pangrams_count": 1
+    "puzzle_id": 2885,
+    "date": "April 2, 2026",
+    "letters": "O",
+    "all_letters": "OAIMNTY",
+    "word_count": 56,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "bumping",
+      "word": "anonymity",
       "is_pangram": 1,
-      "length": 7
+      "length": 9
     },
     {
-      "word": "impinging",
+      "word": "antimony",
+      "is_pangram": 1,
+      "length": 8
+    },
+    {
+      "word": "annotation",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "initiation",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "intimation",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "intonation",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "nomination",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "animation",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "impugning",
+      "word": "imitation",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "imbibing",
+      "word": "monomania",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "antonymy",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "bumming",
+      "word": "monotony",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "notation",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "ammonia",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gumming",
+      "word": "anatomy",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "imbuing",
+      "word": "annatto",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "minimum",
+      "word": "antonym",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "mugging",
+      "word": "mononym",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "numbing",
+      "word": "ottoman",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "pimping",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "pumping",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "impugn",
+      "word": "anoint",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "miming",
+      "word": "mammon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mining",
+      "word": "minion",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "muumuu",
+      "word": "motion",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "umping",
+      "word": "nation",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "minim",
+      "word": "notion",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "oniony",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tattoo",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tomato",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tomtit",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "amino",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "nimbi",
+      "word": "amnio",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bump",
+      "word": "anion",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "annoy",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "momma",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mommy",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "moony",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "motto",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "onion",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ammo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gimp",
+      "word": "anon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mini",
+      "word": "atom",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mung",
+      "word": "into",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "numb",
+      "word": "iota",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pimp",
+      "word": "mayo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pump",
+      "word": "moan",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "moat",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mono",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "moon",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "moot",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "noon",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "oaty",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "omit",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "onto",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tony",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "toon",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "toot",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 143,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "bumping"
-  ]
+  "totalPoints": 297,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
