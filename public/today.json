@@ -1,295 +1,187 @@
 {
   "puzzle": {
-    "puzzle_id": 2885,
-    "date": "April 2, 2026",
-    "letters": "O",
-    "all_letters": "OAIMNTY",
-    "word_count": 56,
-    "pangrams_count": 2
+    "puzzle_id": 2886,
+    "date": "April 3, 2026",
+    "letters": "K",
+    "all_letters": "KADEFLN",
+    "word_count": 34,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "anonymity",
+      "word": "flanked",
       "is_pangram": 1,
-      "length": 9
+      "length": 7
     },
     {
-      "word": "antimony",
-      "is_pangram": 1,
-      "length": 8
-    },
-    {
-      "word": "annotation",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "initiation",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "intimation",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "intonation",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "nomination",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "animation",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "imitation",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "monomania",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "antonymy",
+      "word": "kenneled",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "monotony",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "notation",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "ammonia",
+      "word": "kneaded",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "anatomy",
+      "word": "kneeled",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "annatto",
+      "word": "knelled",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "antonym",
+      "word": "nankeen",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "mononym",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "ottoman",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "anoint",
+      "word": "flaked",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mammon",
+      "word": "keeled",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "minion",
+      "word": "keened",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "motion",
+      "word": "kennel",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nation",
+      "word": "leaked",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "notion",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "oniony",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tattoo",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tomato",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tomtit",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "amino",
+      "word": "ankle",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "amnio",
+      "word": "deked",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "anion",
+      "word": "faked",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "annoy",
+      "word": "flake",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "momma",
+      "word": "flank",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mommy",
+      "word": "knead",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "moony",
+      "word": "kneed",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "motto",
+      "word": "kneel",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "onion",
+      "word": "knell",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ammo",
+      "word": "naked",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "dank",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "anon",
+      "word": "deke",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "atom",
+      "word": "eked",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "into",
+      "word": "fake",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "iota",
+      "word": "flak",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mayo",
+      "word": "kale",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "moan",
+      "word": "keel",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "moat",
+      "word": "keen",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mono",
+      "word": "knee",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "moon",
+      "word": "lake",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "moot",
+      "word": "lank",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "noon",
+      "word": "leak",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "oaty",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "omit",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "onto",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tony",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "toon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "toot",
+      "word": "leek",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 297,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 143,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "flanked"
+  ]
 }
