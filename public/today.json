@@ -1,187 +1,215 @@
 {
   "puzzle": {
-    "puzzle_id": 2886,
-    "date": "April 3, 2026",
-    "letters": "K",
-    "all_letters": "KADEFLN",
-    "word_count": 34,
-    "pangrams_count": 1
+    "puzzle_id": 2887,
+    "date": "April 4, 2026",
+    "letters": "G",
+    "all_letters": "GABLRUY",
+    "word_count": 40,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "flanked",
+      "word": "arguably",
       "is_pangram": 1,
-      "length": 7
+      "length": 8
     },
     {
-      "word": "kenneled",
+      "word": "burglary",
+      "is_pangram": 1,
+      "length": 8
+    },
+    {
+      "word": "lallygag",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "kneaded",
+      "word": "arugula",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "kneeled",
+      "word": "burglar",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "knelled",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "nankeen",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "flaked",
+      "word": "augury",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "keeled",
+      "word": "braggy",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "keened",
+      "word": "bulgur",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "kennel",
+      "word": "grabby",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "leaked",
+      "word": "grubby",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "ankle",
+      "word": "ragbag",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "algal",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "deked",
+      "word": "augur",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "faked",
+      "word": "baggy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "flake",
+      "word": "buggy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "flank",
+      "word": "bulgy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "knead",
+      "word": "gabby",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "kneed",
+      "word": "gayly",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "kneel",
+      "word": "gulag",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "knell",
+      "word": "gully",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "naked",
+      "word": "laggy",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dank",
+      "word": "rugby",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "agar",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "deke",
+      "word": "alga",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "eked",
+      "word": "brag",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fake",
+      "word": "burg",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "flak",
+      "word": "gaga",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "kale",
+      "word": "gala",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "keel",
+      "word": "gall",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "keen",
+      "word": "garb",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "knee",
+      "word": "glug",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lake",
+      "word": "grab",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lank",
+      "word": "gray",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "leak",
+      "word": "grub",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "leek",
+      "word": "guar",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "gull",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "guru",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "raga",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "ragu",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "ugly",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 143,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "flanked"
-  ]
+  "totalPoints": 161,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
