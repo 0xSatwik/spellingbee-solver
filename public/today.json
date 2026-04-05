@@ -1,215 +1,355 @@
 {
   "puzzle": {
-    "puzzle_id": 2887,
-    "date": "April 4, 2026",
-    "letters": "G",
-    "all_letters": "GABLRUY",
-    "word_count": 40,
-    "pangrams_count": 2
+    "puzzle_id": 2888,
+    "date": "April 5, 2026",
+    "letters": "A",
+    "all_letters": "ACFILTY",
+    "word_count": 68,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "arguably",
+      "word": "facility",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "burglary",
-      "is_pangram": 1,
-      "length": 8
+      "word": "catalytically",
+      "is_pangram": 0,
+      "length": 13
     },
     {
-      "word": "lallygag",
+      "word": "cyclically",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "tactically",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "catalytic",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "facticity",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "tactility",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "cyclical",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "arugula",
+      "word": "facially",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "fatality",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "filially",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "tactical",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "acyclic",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "burglar",
+      "word": "afflict",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "augury",
+      "word": "alfalfa",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "calcify",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "catcall",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "cattail",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "cattily",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "fallacy",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "fatally",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "tacitly",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "acacia",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "braggy",
+      "word": "facial",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bulgur",
+      "word": "filial",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "grabby",
+      "word": "flatly",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "grubby",
+      "word": "italic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "ragbag",
+      "word": "lactic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "algal",
+      "word": "laical",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tactic",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tallit",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "allay",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "augur",
+      "word": "atilt",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "baggy",
+      "word": "attic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "buggy",
+      "word": "cacti",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bulgy",
+      "word": "calla",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gabby",
+      "word": "catty",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gayly",
+      "word": "cilia",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gulag",
+      "word": "fatal",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gully",
+      "word": "fatly",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "laggy",
+      "word": "fatty",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "rugby",
+      "word": "flail",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "agar",
+      "word": "iliac",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "laity",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "lilac",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tacit",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "taffy",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tally",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tatty",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "acai",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "alga",
+      "word": "alit",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "brag",
+      "word": "ally",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "burg",
+      "word": "calf",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gaga",
+      "word": "call",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gala",
+      "word": "clay",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gall",
+      "word": "fact",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "garb",
+      "word": "fail",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "glug",
+      "word": "fall",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "grab",
+      "word": "fiat",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gray",
+      "word": "flat",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "grub",
+      "word": "flay",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "guar",
+      "word": "lacy",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gull",
+      "word": "laic",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "guru",
+      "word": "tact",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "raga",
+      "word": "tail",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ragu",
+      "word": "talc",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ugly",
+      "word": "tali",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tall",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 161,
+  "totalPoints": 348,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
