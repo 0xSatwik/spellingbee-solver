@@ -1,130 +1,255 @@
 {
   "puzzle": {
-    "puzzle_id": 2889,
-    "date": "April 6, 2026",
-    "letters": "H",
-    "all_letters": "HACEKPY",
-    "word_count": 23,
-    "pangrams_count": 1
+    "puzzle_id": 2890,
+    "date": "April 7, 2026",
+    "letters": "G",
+    "all_letters": "GDEFLNU",
+    "word_count": 48,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "paycheck",
+      "word": "unfledged",
+      "is_pangram": 1,
+      "length": 9
+    },
+    {
+      "word": "engulfed",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "cheeky",
+      "word": "deluged",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "fledged",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "gleeful",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "glugged",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lungful",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "unglued",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "deluge",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "peachy",
+      "word": "dengue",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cache",
+      "word": "engulf",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "fledge",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "fudged",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "gelded",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "gelled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "gulled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "gunned",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "legend",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "legged",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "lugged",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "lunged",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "nudged",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "unglue",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "edged",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cheap",
+      "word": "egged",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "check",
+      "word": "flung",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cheek",
+      "word": "fudge",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cheep",
+      "word": "fugue",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "happy",
+      "word": "gelee",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "peach",
+      "word": "glued",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "yecch",
+      "word": "ledge",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ache",
+      "word": "luged",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "lunge",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "nudge",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "dung",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "achy",
+      "word": "edge",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "chap",
+      "word": "fugu",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "each",
+      "word": "geld",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hack",
+      "word": "gene",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "haka",
+      "word": "glee",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hake",
+      "word": "glen",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "heap",
+      "word": "glue",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "heck",
+      "word": "glug",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hype",
+      "word": "guff",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "yeah",
+      "word": "gulf",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "yech",
+      "word": "gull",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "luge",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lung",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 79,
+  "totalPoints": 232,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
