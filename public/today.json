@@ -1,255 +1,305 @@
 {
   "puzzle": {
-    "puzzle_id": 2890,
-    "date": "April 7, 2026",
-    "letters": "G",
-    "all_letters": "GDEFLNU",
-    "word_count": 48,
+    "puzzle_id": 2891,
+    "date": "April 8, 2026",
+    "letters": "T",
+    "all_letters": "TABHINO",
+    "word_count": 58,
     "pangrams_count": 2
   },
   "words": [
     {
-      "word": "unfledged",
+      "word": "inhabitation",
       "is_pangram": 1,
-      "length": 9
+      "length": 12
     },
     {
-      "word": "engulfed",
+      "word": "habitation",
       "is_pangram": 1,
+      "length": 10
+    },
+    {
+      "word": "annotation",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "inhabitant",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "inhibition",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "initiation",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "intonation",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "notation",
+      "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "deluged",
+      "word": "annatto",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "fledged",
+      "word": "habitat",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gleeful",
+      "word": "inhabit",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "glugged",
+      "word": "inhibit",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "lungful",
+      "word": "nanobot",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "unglued",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "deluge",
+      "word": "anoint",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dengue",
+      "word": "attain",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "engulf",
+      "word": "biotin",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "fledge",
+      "word": "bonito",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "fudged",
+      "word": "hobbit",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gelded",
+      "word": "natant",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gelled",
+      "word": "nation",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gulled",
+      "word": "notion",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gunned",
+      "word": "obtain",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "legend",
+      "word": "tahini",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "legged",
+      "word": "tannin",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lugged",
+      "word": "tattoo",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lunged",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "nudged",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "unglue",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "edged",
+      "word": "abbot",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "egged",
+      "word": "baton",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "flung",
+      "word": "biota",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "fudge",
+      "word": "booth",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "fugue",
+      "word": "habit",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gelee",
+      "word": "hatha",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "glued",
+      "word": "ninth",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ledge",
+      "word": "taboo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "luged",
+      "word": "taint",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "lunge",
+      "word": "tibia",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "nudge",
+      "word": "titan",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dung",
+      "word": "tooth",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "anti",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "edge",
+      "word": "baht",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fugu",
+      "word": "bait",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "geld",
+      "word": "bath",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gene",
+      "word": "boat",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "glee",
+      "word": "boot",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "glen",
+      "word": "both",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "glue",
+      "word": "hath",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "glug",
+      "word": "hint",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "guff",
+      "word": "hoot",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gulf",
+      "word": "into",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gull",
+      "word": "iota",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "luge",
+      "word": "oath",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lung",
+      "word": "obit",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "onto",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "than",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "that",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "thin",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tint",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "toon",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "toot",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 232,
+  "totalPoints": 282,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
