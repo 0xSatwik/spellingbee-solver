@@ -1,305 +1,175 @@
 {
   "puzzle": {
-    "puzzle_id": 2891,
-    "date": "April 8, 2026",
-    "letters": "T",
-    "all_letters": "TABHINO",
-    "word_count": 58,
-    "pangrams_count": 2
+    "puzzle_id": 2892,
+    "date": "April 9, 2026",
+    "letters": "C",
+    "all_letters": "CAEFMNT",
+    "word_count": 32,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "inhabitation",
-      "is_pangram": 1,
-      "length": 12
-    },
-    {
-      "word": "habitation",
+      "word": "effacement",
       "is_pangram": 1,
       "length": 10
     },
     {
-      "word": "annotation",
+      "word": "enactment",
       "is_pangram": 0,
-      "length": 10
+      "length": 9
     },
     {
-      "word": "inhabitant",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "inhibition",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "initiation",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "intonation",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "notation",
+      "word": "cetacean",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "annatto",
+      "word": "acetate",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "habitat",
+      "word": "cantata",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "inhabit",
+      "word": "canteen",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "inhibit",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "nanobot",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "anoint",
+      "word": "accent",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "attain",
+      "word": "affect",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "biotin",
+      "word": "caftan",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bonito",
+      "word": "cancan",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "hobbit",
+      "word": "cement",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "natant",
+      "word": "efface",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nation",
+      "word": "effect",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "notion",
+      "word": "menace",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "obtain",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tahini",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tannin",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tattoo",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "abbot",
+      "word": "canna",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "baton",
+      "word": "emcee",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "biota",
+      "word": "enact",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "booth",
+      "word": "facet",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "habit",
+      "word": "fence",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "hatha",
+      "word": "mecca",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ninth",
+      "word": "tacet",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "taboo",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "taint",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tibia",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "titan",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tooth",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "anti",
+      "word": "acme",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "baht",
+      "word": "acne",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bait",
+      "word": "cafe",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bath",
+      "word": "came",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boat",
+      "word": "cane",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boot",
+      "word": "cant",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "both",
+      "word": "cent",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hath",
+      "word": "face",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hint",
+      "word": "fact",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hoot",
+      "word": "mace",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "into",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "iota",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "oath",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "obit",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "onto",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "than",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "that",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "thin",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tint",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "toon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "toot",
+      "word": "tact",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 282,
+  "totalPoints": 149,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
