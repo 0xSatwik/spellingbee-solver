@@ -1,175 +1,205 @@
 {
   "puzzle": {
-    "puzzle_id": 2892,
-    "date": "April 9, 2026",
-    "letters": "C",
-    "all_letters": "CAEFMNT",
-    "word_count": 32,
+    "puzzle_id": 2893,
+    "date": "April 10, 2026",
+    "letters": "N",
+    "all_letters": "NDGIOXZ",
+    "word_count": 38,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "effacement",
+      "word": "oxidizing",
       "is_pangram": 1,
-      "length": 10
-    },
-    {
-      "word": "enactment",
-      "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "cetacean",
+      "word": "iodizing",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "acetate",
+      "word": "ionizing",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "digging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "cantata",
+      "word": "dinging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "canteen",
+      "word": "dodging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "accent",
+      "word": "dogging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "donning",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "doxxing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "gigging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "ginning",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "gonging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "nodding",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "ongoing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "zigging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "zinging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "dining",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "affect",
+      "word": "dioxin",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "caftan",
+      "word": "doxing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cancan",
+      "word": "dozing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cement",
+      "word": "indigo",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "efface",
+      "word": "inning",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "effect",
+      "word": "nixing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "menace",
+      "word": "noggin",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "canna",
+      "word": "oozing",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "zoning",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "dingo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "emcee",
+      "word": "doing",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "enact",
+      "word": "going",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "facet",
+      "word": "gonzo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "fence",
+      "word": "onion",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mecca",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tacet",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "acme",
+      "word": "ding",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "acne",
+      "word": "dino",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cafe",
+      "word": "dong",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "came",
+      "word": "gong",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cane",
+      "word": "goon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cant",
+      "word": "noon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cent",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "face",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "fact",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mace",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tact",
+      "word": "zing",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 149,
+  "totalPoints": 215,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
