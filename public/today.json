@@ -1,205 +1,348 @@
 {
   "puzzle": {
-    "puzzle_id": 2893,
-    "date": "April 10, 2026",
-    "letters": "N",
-    "all_letters": "NDGIOXZ",
-    "word_count": 38,
-    "pangrams_count": 1
+    "puzzle_id": 2894,
+    "date": "April 11, 2026",
+    "letters": "L",
+    "all_letters": "LDEGHIT",
+    "word_count": 66,
+    "pangrams_count": 4
   },
   "words": [
     {
-      "word": "oxidizing",
+      "word": "highlighted",
+      "is_pangram": 1,
+      "length": 11
+    },
+    {
+      "word": "delighted",
       "is_pangram": 1,
       "length": 9
     },
     {
-      "word": "iodizing",
-      "is_pangram": 0,
-      "length": 8
+      "word": "delight",
+      "is_pangram": 1,
+      "length": 7
     },
     {
-      "word": "ionizing",
-      "is_pangram": 0,
-      "length": 8
+      "word": "lighted",
+      "is_pangram": 1,
+      "length": 7
     },
     {
-      "word": "digging",
+      "word": "highlight",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "deleted",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "dinging",
+      "word": "diddled",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "dodging",
+      "word": "giggled",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "dogging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "donning",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "doxxing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "gigging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "ginning",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "gonging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "nodding",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "ongoing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "zigging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "zinging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "dining",
+      "word": "delete",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dioxin",
+      "word": "diddle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "doxing",
+      "word": "elided",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dozing",
+      "word": "gelded",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "indigo",
+      "word": "gelled",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "inning",
+      "word": "giggle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nixing",
+      "word": "gilded",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "noggin",
+      "word": "gilled",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "oozing",
+      "word": "glided",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "zoning",
+      "word": "heeled",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dingo",
+      "word": "hilled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "legged",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "lidded",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "lilted",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "little",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tilled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tilted",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "titled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tittle",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "elide",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "doing",
+      "word": "elite",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "going",
+      "word": "gelee",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gonzo",
+      "word": "gelid",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "onion",
+      "word": "glide",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ding",
+      "word": "idled",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ledge",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "legit",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "liege",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "light",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "lithe",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tilde",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tiled",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tilth",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "title",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "deli",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dino",
+      "word": "dell",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dong",
+      "word": "delt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gong",
+      "word": "dill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "goon",
+      "word": "geld",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "noon",
+      "word": "gelt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "zing",
+      "word": "gild",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "gill",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "gilt",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "glee",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "heel",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "held",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "hell",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "hill",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "hilt",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "idle",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lede",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lied",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lilt",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lite",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tell",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tile",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "till",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tilt",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 215,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 305,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "delight",
+    "lighted"
+  ]
 }
