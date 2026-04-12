@@ -1,348 +1,325 @@
 {
   "puzzle": {
-    "puzzle_id": 2894,
-    "date": "April 11, 2026",
-    "letters": "L",
-    "all_letters": "LDEGHIT",
-    "word_count": 66,
-    "pangrams_count": 4
+    "puzzle_id": 2895,
+    "date": "April 12, 2026",
+    "letters": "N",
+    "all_letters": "NACEHLO",
+    "word_count": 62,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "highlighted",
+      "word": "nonchalance",
       "is_pangram": 1,
       "length": 11
     },
     {
-      "word": "delighted",
-      "is_pangram": 1,
-      "length": 9
-    },
-    {
-      "word": "delight",
-      "is_pangram": 1,
-      "length": 7
-    },
-    {
-      "word": "lighted",
-      "is_pangram": 1,
-      "length": 7
-    },
-    {
-      "word": "highlight",
+      "word": "colcannon",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "deleted",
+      "word": "nonlocal",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "chancel",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "diddled",
+      "word": "channel",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "giggled",
+      "word": "colleen",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "delete",
+      "word": "colonel",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "conceal",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "echelon",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "enhance",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "nacelle",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "anneal",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "diddle",
+      "word": "cancan",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "elided",
+      "word": "cancel",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gelded",
+      "word": "cannon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gelled",
+      "word": "canola",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "giggle",
+      "word": "chance",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gilded",
+      "word": "clench",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gilled",
+      "word": "cocoon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "glided",
+      "word": "enlace",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "heeled",
+      "word": "honcho",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "hilled",
+      "word": "neocon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "legged",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "lidded",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "lilted",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "little",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tilled",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tilted",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "titled",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tittle",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "elide",
+      "word": "alone",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "elite",
+      "word": "ancho",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gelee",
+      "word": "annal",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gelid",
+      "word": "canal",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "glide",
+      "word": "canna",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "idled",
+      "word": "canoe",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ledge",
+      "word": "canon",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "legit",
+      "word": "clean",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "liege",
+      "word": "clone",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "light",
+      "word": "colon",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "lithe",
+      "word": "conch",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tilde",
+      "word": "hence",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tiled",
+      "word": "henna",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tilth",
+      "word": "lance",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "title",
+      "word": "llano",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "deli",
+      "word": "nacho",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "nonce",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ocean",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "acne",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dell",
+      "word": "aeon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "delt",
+      "word": "anal",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dill",
+      "word": "anon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "geld",
+      "word": "cane",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gelt",
+      "word": "clan",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gild",
+      "word": "cone",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gill",
+      "word": "elan",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gilt",
+      "word": "hone",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "glee",
+      "word": "lane",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "heel",
+      "word": "lean",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "held",
+      "word": "loan",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hell",
+      "word": "lone",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hill",
+      "word": "loon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hilt",
+      "word": "naan",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "idle",
+      "word": "nana",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lede",
+      "word": "nene",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lied",
+      "word": "neon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lilt",
+      "word": "noel",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lite",
+      "word": "none",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tell",
+      "word": "noon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tile",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "till",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tilt",
+      "word": "once",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 305,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "delight",
-    "lighted"
-  ]
+  "totalPoints": 269,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
