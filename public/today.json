@@ -1,325 +1,137 @@
 {
   "puzzle": {
-    "puzzle_id": 2895,
-    "date": "April 12, 2026",
-    "letters": "N",
-    "all_letters": "NACEHLO",
-    "word_count": 62,
-    "pangrams_count": 1
+    "puzzle_id": 2896,
+    "date": "April 13, 2026",
+    "letters": "G",
+    "all_letters": "GHORTUW",
+    "word_count": 24,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "nonchalance",
+      "word": "outgrowth",
       "is_pangram": 1,
-      "length": 11
-    },
-    {
-      "word": "colcannon",
-      "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "nonlocal",
+      "word": "wrought",
+      "is_pangram": 1,
+      "length": 7
+    },
+    {
+      "word": "outthought",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "throughout",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "thorough",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "chancel",
+      "word": "outgrow",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "channel",
+      "word": "thought",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "colleen",
+      "word": "through",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "colonel",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "conceal",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "echelon",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "enhance",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "nacelle",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "anneal",
+      "word": "grotto",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cancan",
+      "word": "growth",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cancel",
+      "word": "rotgut",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cannon",
+      "word": "though",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "canola",
+      "word": "trough",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "chance",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "clench",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "cocoon",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "enlace",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "honcho",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "neocon",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "alone",
+      "word": "grout",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ancho",
+      "word": "ought",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "annal",
+      "word": "outgo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "canal",
+      "word": "rough",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "canna",
+      "word": "tough",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "canoe",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "canon",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "clean",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "clone",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "colon",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "conch",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "hence",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "henna",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "lance",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "llano",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "nacho",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "nonce",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "ocean",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "acne",
+      "word": "goth",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "aeon",
+      "word": "gout",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "anal",
+      "word": "grog",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "anon",
+      "word": "grow",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cane",
+      "word": "guru",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "clan",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "cone",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "elan",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "hone",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lane",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lean",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loan",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lone",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "naan",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "nana",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "nene",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "neon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "noel",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "none",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "noon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "once",
+      "word": "thug",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 269,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 140,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "wrought"
+  ]
 }
