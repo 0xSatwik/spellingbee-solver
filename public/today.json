@@ -1,137 +1,255 @@
 {
   "puzzle": {
-    "puzzle_id": 2896,
-    "date": "April 13, 2026",
-    "letters": "G",
-    "all_letters": "GHORTUW",
-    "word_count": 24,
-    "pangrams_count": 2
+    "puzzle_id": 2897,
+    "date": "April 14, 2026",
+    "letters": "B",
+    "all_letters": "BACEILY",
+    "word_count": 48,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "outgrowth",
+      "word": "celibacy",
       "is_pangram": 1,
-      "length": 9
+      "length": 8
     },
     {
-      "word": "wrought",
-      "is_pangram": 1,
-      "length": 7
-    },
-    {
-      "word": "outthought",
+      "word": "biblically",
       "is_pangram": 0,
       "length": 10
     },
     {
-      "word": "throughout",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "thorough",
+      "word": "biblical",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "outgrow",
+      "word": "bilabial",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "billable",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "callable",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "bacilli",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "thought",
+      "word": "bicycle",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "through",
+      "word": "eyeball",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "grotto",
+      "word": "libelee",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "abbacy",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "growth",
+      "word": "babble",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "rotgut",
+      "word": "blabby",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "though",
+      "word": "cabala",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "trough",
+      "word": "cabbie",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "grout",
+      "word": "labial",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "labile",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "liable",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "abaci",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ought",
+      "word": "abbey",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "outgo",
+      "word": "alibi",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "rough",
+      "word": "babel",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tough",
+      "word": "belay",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "goth",
+      "word": "belie",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "belle",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "belly",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "bialy",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "bible",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "billy",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "cabal",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "cabby",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "cable",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "celeb",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "label",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "labia",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "libel",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "able",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gout",
+      "word": "ably",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "grog",
+      "word": "baba",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "grow",
+      "word": "babe",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "guru",
+      "word": "baby",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "thug",
+      "word": "bail",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "bale",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "ball",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "bell",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "bile",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "bill",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "blab",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 140,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "wrought"
-  ]
+  "totalPoints": 235,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
