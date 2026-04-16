@@ -1,325 +1,265 @@
 {
   "puzzle": {
-    "puzzle_id": 2898,
-    "date": "April 15, 2026",
-    "letters": "A",
-    "all_letters": "AEMNPTV",
-    "word_count": 62,
-    "pangrams_count": 1
+    "puzzle_id": 2899,
+    "date": "April 16, 2026",
+    "letters": "F",
+    "all_letters": "FAGILNT",
+    "word_count": 50,
+    "pangrams_count": 3
   },
   "words": [
     {
-      "word": "pavement",
+      "word": "affiliating",
       "is_pangram": 1,
-      "length": 8
+      "length": 11
     },
     {
-      "word": "antennae",
+      "word": "flatlining",
+      "is_pangram": 1,
+      "length": 10
+    },
+    {
+      "word": "inflating",
+      "is_pangram": 1,
+      "length": 9
+    },
+    {
+      "word": "finagling",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "infilling",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "fainting",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "nametape",
+      "word": "flagging",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "patentee",
+      "word": "flailing",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "teammate",
+      "word": "flanging",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "antenna",
+      "word": "flinging",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "flitting",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "affiant",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "attempt",
+      "word": "alfalfa",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "emanate",
+      "word": "failing",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "manatee",
+      "word": "falling",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "pennant",
+      "word": "fanning",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "pentane",
+      "word": "fantail",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "apeman",
+      "word": "filling",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "fitting",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "gifting",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lifting",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "antifa",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "apemen",
+      "word": "fating",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "natant",
+      "word": "fifing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "neaten",
+      "word": "filial",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "panama",
+      "word": "filing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "patent",
+      "word": "finial",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "pavane",
+      "word": "fining",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "penman",
+      "word": "infant",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tenant",
+      "word": "infill",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "apnea",
+      "word": "faint",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "eaten",
+      "word": "fatal",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "enema",
+      "word": "final",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mamma",
+      "word": "flail",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "manna",
+      "word": "fling",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "manta",
+      "word": "flint",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "matte",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "maven",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "meant",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "paean",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "pampa",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "amen",
+      "word": "fail",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ante",
+      "word": "fall",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "eave",
+      "word": "fang",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mama",
+      "word": "fiat",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mane",
+      "word": "fill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mate",
+      "word": "flag",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mean",
+      "word": "flan",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "meat",
+      "word": "flat",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "meta",
+      "word": "flit",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "naan",
+      "word": "gaff",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "name",
+      "word": "gift",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nana",
+      "word": "lift",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nape",
+      "word": "naif",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nave",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "neap",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "neat",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pane",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pant",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "papa",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pate",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pave",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "peat",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tame",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tamp",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tapa",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tape",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "team",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "teat",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "vamp",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "vane",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "vape",
+      "word": "tiff",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 229,
+  "totalPoints": 285,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
