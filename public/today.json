@@ -1,265 +1,265 @@
 {
   "puzzle": {
-    "puzzle_id": 2899,
-    "date": "April 16, 2026",
-    "letters": "F",
-    "all_letters": "FAGILNT",
+    "puzzle_id": 2900,
+    "date": "April 17, 2026",
+    "letters": "R",
+    "all_letters": "RABDIMN",
     "word_count": 50,
-    "pangrams_count": 3
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "affiliating",
+      "word": "midbrain",
       "is_pangram": 1,
-      "length": 11
+      "length": 8
     },
     {
-      "word": "flatlining",
-      "is_pangram": 1,
-      "length": 10
-    },
-    {
-      "word": "inflating",
-      "is_pangram": 1,
-      "length": 9
-    },
-    {
-      "word": "finagling",
+      "word": "barbarian",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "infilling",
+      "word": "birdbrain",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "fainting",
+      "word": "mandarin",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "flagging",
+      "word": "marinara",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "flailing",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "flanging",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "flinging",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "flitting",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "affiant",
+      "word": "armband",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "alfalfa",
+      "word": "barmaid",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "failing",
+      "word": "marimba",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "falling",
+      "word": "minibar",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "fanning",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "fantail",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "filling",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "fitting",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "gifting",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "lifting",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "antifa",
+      "word": "airman",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "fating",
+      "word": "armada",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "fifing",
+      "word": "barman",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "filial",
+      "word": "birria",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "filing",
+      "word": "marina",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "finial",
+      "word": "midair",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "fining",
+      "word": "midrib",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "infant",
+      "word": "radian",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "infill",
+      "word": "ramada",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "faint",
+      "word": "braid",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "fatal",
+      "word": "brain",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "final",
+      "word": "brand",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "flail",
+      "word": "briar",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "fling",
+      "word": "dinar",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "flint",
+      "word": "drain",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "fail",
+      "word": "drama",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mirin",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "nadir",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "rabbi",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "rabid",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "radar",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "radii",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "aria",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fall",
+      "word": "arid",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fang",
+      "word": "barb",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fiat",
+      "word": "bard",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "fill",
+      "word": "barn",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "flag",
+      "word": "bird",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "flan",
+      "word": "brad",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "flat",
+      "word": "bran",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "flit",
+      "word": "brim",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gaff",
+      "word": "darn",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gift",
+      "word": "drab",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lift",
+      "word": "dram",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "naif",
+      "word": "drib",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tiff",
+      "word": "marm",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "raid",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "rain",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "rand",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "rani",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "rind",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 285,
+  "totalPoints": 215,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
