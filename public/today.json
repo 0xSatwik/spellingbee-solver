@@ -1,265 +1,165 @@
 {
   "puzzle": {
-    "puzzle_id": 2900,
-    "date": "April 17, 2026",
-    "letters": "R",
-    "all_letters": "RABDIMN",
-    "word_count": 50,
+    "puzzle_id": 2901,
+    "date": "April 18, 2026",
+    "letters": "C",
+    "all_letters": "CEKMOAB",
+    "word_count": 30,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "midbrain",
+      "word": "comeback",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "barbarian",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "birdbrain",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "mandarin",
+      "word": "backcomb",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "marinara",
+      "word": "cookbook",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "armband",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "barmaid",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "marimba",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "minibar",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "airman",
+      "word": "became",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "armada",
+      "word": "become",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "barman",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "birria",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "marina",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "midair",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "midrib",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "radian",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "ramada",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "braid",
+      "word": "aback",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "brain",
+      "word": "bocce",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "brand",
+      "word": "cacao",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "briar",
+      "word": "cameo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dinar",
+      "word": "cocoa",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "drain",
+      "word": "combo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "drama",
+      "word": "comma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mirin",
+      "word": "emcee",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "nadir",
+      "word": "mecca",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "rabbi",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "rabid",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "radar",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "radii",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "aria",
+      "word": "acme",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "arid",
+      "word": "back",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "barb",
+      "word": "beck",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bard",
+      "word": "bock",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "barn",
+      "word": "cake",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bird",
+      "word": "came",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "brad",
+      "word": "camo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bran",
+      "word": "coca",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "brim",
+      "word": "cock",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "darn",
+      "word": "coke",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "drab",
+      "word": "coma",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dram",
+      "word": "comb",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "drib",
+      "word": "come",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "marm",
+      "word": "cook",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "raid",
+      "word": "mace",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "rain",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "rand",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "rani",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "rind",
+      "word": "mock",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 215,
+  "totalPoints": 104,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
