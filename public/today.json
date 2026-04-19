@@ -1,165 +1,355 @@
 {
   "puzzle": {
-    "puzzle_id": 2901,
-    "date": "April 18, 2026",
-    "letters": "C",
-    "all_letters": "CEKMOAB",
-    "word_count": 30,
-    "pangrams_count": 1
+    "puzzle_id": 2902,
+    "date": "April 19, 2026",
+    "letters": "M",
+    "all_letters": "MAILNTU",
+    "word_count": 68,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "comeback",
+      "word": "illuminati",
       "is_pangram": 1,
-      "length": 8
+      "length": 10
     },
     {
-      "word": "backcomb",
+      "word": "matutinal",
+      "is_pangram": 1,
+      "length": 9
+    },
+    {
+      "word": "militiaman",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "mammalian",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "ultimatum",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "aluminum",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "cookbook",
+      "word": "autumnal",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "became",
+      "word": "maintain",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "mantilla",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "militant",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "tantalum",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "titanium",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "ultimata",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "alumina",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "laminal",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "liminal",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "mailman",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "manumit",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "militia",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "minimal",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "minimum",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "minutia",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "allium",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "become",
+      "word": "alumna",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "aback",
+      "word": "alumni",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "animal",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "autumn",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "lamina",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "mammal",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "manila",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "manual",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "minima",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "mutant",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "mutual",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "muumuu",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tatami",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tumult",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "ultima",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "umlaut",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "anima",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bocce",
+      "word": "ilium",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cacao",
+      "word": "limit",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cameo",
+      "word": "llama",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cocoa",
+      "word": "mamma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "combo",
+      "word": "mania",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "comma",
+      "word": "manna",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "emcee",
+      "word": "manta",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mecca",
+      "word": "minim",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "acme",
+      "word": "umami",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "unman",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "alum",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "back",
+      "word": "imam",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "beck",
+      "word": "lama",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bock",
+      "word": "lima",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cake",
+      "word": "limn",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "came",
+      "word": "mail",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "camo",
+      "word": "maim",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coca",
+      "word": "main",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cock",
+      "word": "mall",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coke",
+      "word": "malt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coma",
+      "word": "mama",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "comb",
+      "word": "maul",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "come",
+      "word": "mill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cook",
+      "word": "mini",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mace",
+      "word": "mint",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mock",
+      "word": "mitt",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mull",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mutt",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 104,
+  "totalPoints": 363,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
