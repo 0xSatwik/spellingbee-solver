@@ -1,355 +1,290 @@
 {
   "puzzle": {
-    "puzzle_id": 2902,
-    "date": "April 19, 2026",
-    "letters": "M",
-    "all_letters": "MAILNTU",
-    "word_count": 68,
-    "pangrams_count": 2
+    "puzzle_id": 2903,
+    "date": "April 20, 2026",
+    "letters": "L",
+    "all_letters": "LADINTY",
+    "word_count": 55,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "illuminati",
+      "word": "daintily",
       "is_pangram": 1,
-      "length": 10
+      "length": 8
     },
     {
-      "word": "matutinal",
-      "is_pangram": 1,
-      "length": 9
-    },
-    {
-      "word": "militiaman",
+      "word": "dillydally",
       "is_pangram": 0,
       "length": 10
     },
     {
-      "word": "mammalian",
+      "word": "initially",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "ultimatum",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "aluminum",
+      "word": "landlady",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "autumnal",
+      "word": "natality",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "maintain",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "mantilla",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "militant",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "tantalum",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "titanium",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "ultimata",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "alumina",
+      "word": "dandily",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "laminal",
+      "word": "daylily",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "liminal",
+      "word": "initial",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "mailman",
+      "word": "lantana",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "manumit",
+      "word": "nattily",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "militia",
+      "word": "tidally",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "minimal",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "minimum",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "minutia",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "allium",
+      "word": "anally",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "alumna",
+      "word": "daylit",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "alumni",
+      "word": "diddly",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "animal",
+      "word": "inlaid",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "autumn",
+      "word": "inland",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lamina",
+      "word": "litany",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mammal",
+      "word": "tallit",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "manila",
+      "word": "tidily",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "manual",
+      "word": "tinily",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "minima",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "mutant",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "mutual",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "muumuu",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tatami",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tumult",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "ultima",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "umlaut",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "anima",
+      "word": "allay",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ilium",
+      "word": "annal",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "limit",
+      "word": "atilt",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "llama",
+      "word": "daily",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mamma",
+      "word": "dally",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mania",
+      "word": "dilly",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "manna",
+      "word": "idyll",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "manta",
+      "word": "inlay",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "minim",
+      "word": "laity",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "umami",
+      "word": "lanai",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "unman",
+      "word": "linty",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "alum",
+      "word": "natal",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tally",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tidal",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "alit",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "imam",
+      "word": "ally",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lama",
+      "word": "anal",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lima",
+      "word": "dial",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "limn",
+      "word": "dill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mail",
+      "word": "idly",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "maim",
+      "word": "idyl",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "main",
+      "word": "illy",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mall",
+      "word": "lady",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "malt",
+      "word": "laid",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mama",
+      "word": "lain",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "maul",
+      "word": "land",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mill",
+      "word": "lilt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mini",
+      "word": "lily",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mint",
+      "word": "lint",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mitt",
+      "word": "nail",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mull",
+      "word": "tail",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mutt",
+      "word": "tali",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tall",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "till",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tilt",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 363,
+  "totalPoints": 237,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
