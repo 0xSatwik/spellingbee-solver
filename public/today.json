@@ -1,290 +1,105 @@
 {
   "puzzle": {
-    "puzzle_id": 2903,
-    "date": "April 20, 2026",
-    "letters": "L",
-    "all_letters": "LADINTY",
-    "word_count": 55,
+    "puzzle_id": 2904,
+    "date": "April 21, 2026",
+    "letters": "B",
+    "all_letters": "BCIKORW",
+    "word_count": 18,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "daintily",
+      "word": "brickwork",
       "is_pangram": 1,
-      "length": 8
-    },
-    {
-      "word": "dillydally",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "initially",
-      "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "landlady",
+      "word": "bookwork",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "natality",
+      "word": "cookbook",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "dandily",
+      "word": "workbook",
       "is_pangram": 0,
-      "length": 7
+      "length": 8
     },
     {
-      "word": "daylily",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "initial",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "lantana",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "nattily",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "tidally",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "anally",
+      "word": "booboo",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "daylit",
+      "word": "borrow",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "diddly",
+      "word": "bowwow",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "inlaid",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "inland",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "litany",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tallit",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tidily",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tinily",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "allay",
+      "word": "bocci",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "annal",
+      "word": "boric",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "atilt",
+      "word": "brick",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "daily",
+      "word": "brook",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dally",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "dilly",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "idyll",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "inlay",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "laity",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "lanai",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "linty",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "natal",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tally",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tidal",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "alit",
+      "word": "bock",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ally",
+      "word": "boob",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "anal",
+      "word": "book",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dial",
+      "word": "boor",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dill",
+      "word": "brio",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "idly",
+      "word": "brow",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "idyl",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "illy",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lady",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "laid",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lain",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "land",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lilt",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lily",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lint",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "nail",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tail",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tali",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tall",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "till",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tilt",
+      "word": "crib",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 237,
+  "totalPoints": 85,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
