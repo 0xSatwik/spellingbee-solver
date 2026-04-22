@@ -1,105 +1,140 @@
 {
   "puzzle": {
-    "puzzle_id": 2904,
-    "date": "April 21, 2026",
-    "letters": "B",
-    "all_letters": "BCIKORW",
-    "word_count": 18,
-    "pangrams_count": 1
+    "puzzle_id": 2905,
+    "date": "April 22, 2026",
+    "letters": "N",
+    "all_letters": "NBCEILV",
+    "word_count": 25,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "brickwork",
+      "word": "invincible",
       "is_pangram": 1,
-      "length": 9
+      "length": 10
     },
     {
-      "word": "bookwork",
+      "word": "vincible",
+      "is_pangram": 1,
+      "length": 8
+    },
+    {
+      "word": "lenience",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "cookbook",
+      "word": "beeline",
       "is_pangram": 0,
-      "length": 8
+      "length": 7
     },
     {
-      "word": "workbook",
+      "word": "enliven",
       "is_pangram": 0,
-      "length": 8
+      "length": 7
     },
     {
-      "word": "booboo",
+      "word": "incline",
       "is_pangram": 0,
-      "length": 6
+      "length": 7
     },
     {
-      "word": "borrow",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "bowwow",
+      "word": "clinic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bocci",
+      "word": "eleven",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "evince",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "nibble",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "blini",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "boric",
+      "word": "innie",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "brick",
+      "word": "linen",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "brook",
+      "word": "liven",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bock",
+      "word": "niece",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "been",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boob",
+      "word": "blin",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "book",
+      "word": "even",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boor",
+      "word": "lien",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "brio",
+      "word": "line",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "brow",
+      "word": "nene",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "crib",
+      "word": "nice",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "nine",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "vein",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "vine",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 85,
+  "totalPoints": 120,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
