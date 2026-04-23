@@ -1,140 +1,320 @@
 {
   "puzzle": {
-    "puzzle_id": 2905,
-    "date": "April 22, 2026",
-    "letters": "N",
-    "all_letters": "NBCEILV",
-    "word_count": 25,
-    "pangrams_count": 2
+    "puzzle_id": 2906,
+    "date": "April 23, 2026",
+    "letters": "A",
+    "all_letters": "ADELNQU",
+    "word_count": 61,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "invincible",
+      "word": "unequaled",
       "is_pangram": 1,
-      "length": 10
+      "length": 9
     },
     {
-      "word": "vincible",
-      "is_pangram": 1,
-      "length": 8
-    },
-    {
-      "word": "lenience",
+      "word": "annealed",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "beeline",
+      "word": "annulled",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "deadened",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "quaalude",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "unleaded",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "addenda",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "enliven",
+      "word": "alluded",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "incline",
+      "word": "dandled",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "clinic",
+      "word": "equaled",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lunulae",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "unequal",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "unladen",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "addend",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "eleven",
+      "word": "addled",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "evince",
+      "word": "allele",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nibble",
+      "word": "allude",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "blini",
+      "word": "anneal",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "annual",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "dandle",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "deaden",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "ennead",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "ladled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "landed",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "lauded",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "leaded",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "leaden",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "leaned",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "lunula",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "undead",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "added",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "innie",
+      "word": "addle",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "linen",
+      "word": "annal",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "liven",
+      "word": "annul",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "niece",
+      "word": "eland",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "been",
+      "word": "equal",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "laded",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "laden",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ladle",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ulnae",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "anal",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "blin",
+      "word": "aqua",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "even",
+      "word": "dale",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lien",
+      "word": "dead",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "line",
+      "word": "deal",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nene",
+      "word": "dean",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nice",
+      "word": "dual",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nine",
+      "word": "elan",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "vein",
+      "word": "lade",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "vine",
+      "word": "land",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lane",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "laud",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lead",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lean",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "luau",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "luna",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "naan",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "nada",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "nana",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "quad",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "ulna",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 120,
+  "totalPoints": 278,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
