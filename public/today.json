@@ -1,295 +1,240 @@
 {
   "puzzle": {
-    "puzzle_id": 2906,
-    "date": "April 23, 2026",
-    "letters": "A",
-    "all_letters": "ADELNQU",
-    "word_count": 61,
+    "puzzle_id": 2907,
+    "date": "April 24, 2026",
+    "letters": "D",
+    "all_letters": "DABGINO",
+    "word_count": 47,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "unequaled",
+      "word": "abandoning",
       "is_pangram": 1,
+      "length": 10
+    },
+    {
+      "word": "nonbinding",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "bandaging",
+      "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "annealed",
+      "word": "bandanna",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "annulled",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "deadened",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "quaalude",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "unleaded",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "addenda",
+      "word": "abandon",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "alluded",
+      "word": "abiding",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "dandled",
+      "word": "badging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "equaled",
+      "word": "bandana",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "lunulae",
+      "word": "banding",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "unequal",
+      "word": "bidding",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "unladen",
+      "word": "binding",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "addend",
+      "word": "bonding",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "dabbing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "digging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "dinging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "dodging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "dogging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "donning",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "gadding",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "goading",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "nodding",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "adagio",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "addled",
+      "word": "adding",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "allele",
+      "word": "aiding",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "allude",
+      "word": "biding",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "anneal",
+      "word": "boding",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "annual",
+      "word": "dining",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dandle",
+      "word": "doodad",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "deaden",
+      "word": "indigo",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "ennead",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "ladled",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "landed",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "lauded",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "leaded",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "leaden",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "leaned",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "lunula",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "undead",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "added",
+      "word": "adobo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "addle",
+      "word": "bindi",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "annal",
+      "word": "dingo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "annul",
+      "word": "doggo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "eland",
+      "word": "doing",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "equal",
+      "word": "gonad",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "laded",
+      "word": "naiad",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "laden",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "ladle",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "ulnae",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "anal",
+      "word": "band",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "aqua",
+      "word": "bind",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dale",
+      "word": "bond",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dead",
+      "word": "dang",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "deal",
+      "word": "ding",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dean",
+      "word": "dino",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dual",
+      "word": "dodo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "elan",
+      "word": "dong",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lade",
+      "word": "goad",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "land",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lane",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "laud",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lead",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lean",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "luau",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "luna",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "naan",
+      "word": "good",
       "is_pangram": 0,
       "length": 4
     },
@@ -297,24 +242,9 @@
       "word": "nada",
       "is_pangram": 0,
       "length": 4
-    },
-    {
-      "word": "nana",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "quad",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "ulna",
-      "is_pangram": 0,
-      "length": 4
     }
   ],
-  "totalPoints": 278,
+  "totalPoints": 257,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
