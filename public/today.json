@@ -1,250 +1,317 @@
 {
   "puzzle": {
-    "puzzle_id": 2907,
-    "date": "April 24, 2026",
-    "letters": "D",
-    "all_letters": "DABGINO",
-    "word_count": 47,
-    "pangrams_count": 1
+    "puzzle_id": 2908,
+    "date": "April 25, 2026",
+    "letters": "O",
+    "all_letters": "OEHILNP",
+    "word_count": 60,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "abandoning",
+      "word": "oenophile",
       "is_pangram": 1,
-      "length": 10
+      "length": 9
     },
     {
-      "word": "nonbinding",
-      "is_pangram": 0,
-      "length": 10
+      "word": "pinhole",
+      "is_pangram": 1,
+      "length": 7
     },
     {
-      "word": "bandaging",
+      "word": "nonillion",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "bandanna",
+      "word": "hellhole",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "abandon",
+      "word": "lollipop",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "loophole",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "peephole",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "hellion",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "abiding",
+      "word": "leonine",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "badging",
+      "word": "opinion",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "bandana",
+      "word": "piehole",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "banding",
+      "word": "pillion",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "bidding",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "binding",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "bonding",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "dabbing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "digging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "dinging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "dodging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "dogging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "donning",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "gadding",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "goading",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "nodding",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "adagio",
+      "word": "hoopoe",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "adding",
+      "word": "lollop",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "aiding",
+      "word": "loonie",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "biding",
+      "word": "online",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "boding",
+      "word": "people",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dining",
+      "word": "phenol",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "doodad",
+      "word": "pinion",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "indigo",
+      "word": "pollen",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "adobo",
+      "word": "poplin",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "elope",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bindi",
+      "word": "hello",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dingo",
+      "word": "hippo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "doggo",
+      "word": "ollie",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "doing",
+      "word": "onion",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gonad",
+      "word": "opine",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "naiad",
+      "word": "phone",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "band",
+      "word": "phono",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "polio",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "hole",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bind",
+      "word": "hone",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bond",
+      "word": "hoop",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dang",
+      "word": "hope",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ding",
+      "word": "lion",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dino",
+      "word": "lipo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dodo",
+      "word": "loin",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dong",
+      "word": "loll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "goad",
+      "word": "lone",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "good",
+      "word": "loon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nada",
+      "word": "loop",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lope",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "neon",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "noel",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "none",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "noon",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "nope",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "oleo",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "olio",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "open",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "peon",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "plop",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pole",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "poll",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "polo",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pone",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pooh",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pool",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "poop",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pope",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 257,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 235,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "pinhole"
+  ]
 }
