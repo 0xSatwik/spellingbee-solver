@@ -1,317 +1,310 @@
 {
   "puzzle": {
-    "puzzle_id": 2908,
-    "date": "April 25, 2026",
-    "letters": "O",
-    "all_letters": "OEHILNP",
-    "word_count": 60,
-    "pangrams_count": 2
+    "puzzle_id": 2909,
+    "date": "April 26, 2026",
+    "letters": "R",
+    "all_letters": "RACINTY",
+    "word_count": 59,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "oenophile",
+      "word": "intricacy",
       "is_pangram": 1,
       "length": 9
     },
     {
-      "word": "pinhole",
-      "is_pangram": 1,
-      "length": 7
+      "word": "attractant",
+      "is_pangram": 0,
+      "length": 10
     },
     {
-      "word": "nonillion",
+      "word": "antarctic",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "hellhole",
+      "word": "arancini",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "lollipop",
+      "word": "cataract",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "loophole",
+      "word": "irritant",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "peephole",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "hellion",
+      "word": "attract",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "leonine",
+      "word": "ratatat",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "opinion",
+      "word": "tantara",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "piehole",
+      "word": "tantric",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "pillion",
+      "word": "trinity",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "hoopoe",
+      "word": "tyranny",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "arcana",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lollop",
+      "word": "arctic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "loonie",
+      "word": "arnica",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "online",
+      "word": "arrant",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "people",
+      "word": "canary",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "phenol",
+      "word": "citric",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "pinion",
+      "word": "crania",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "pollen",
+      "word": "cranny",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "poplin",
+      "word": "critic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "elope",
+      "word": "nitric",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "rarity",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "rattan",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tantra",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tartan",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tartar",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tyrant",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "array",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "hello",
+      "word": "atria",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "hippo",
+      "word": "attar",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ollie",
+      "word": "cairn",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "onion",
+      "word": "carat",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "opine",
+      "word": "carny",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "phone",
+      "word": "carry",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "phono",
+      "word": "circa",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "polio",
+      "word": "cirri",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "hole",
+      "word": "rainy",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "raita",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ratty",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ricin",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tarry",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tiara",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tract",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "train",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "trait",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "airy",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hone",
+      "word": "aria",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hoop",
+      "word": "arty",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hope",
+      "word": "cart",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lion",
+      "word": "narc",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lipo",
+      "word": "nary",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loin",
+      "word": "racy",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loll",
+      "word": "rain",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lone",
+      "word": "rani",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loon",
+      "word": "rant",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loop",
+      "word": "tart",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lope",
+      "word": "tray",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "neon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "noel",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "none",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "noon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "nope",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "oleo",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "olio",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "open",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "peon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "plop",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pole",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "poll",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "polo",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pone",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pooh",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pool",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "poop",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "pope",
+      "word": "yarn",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 235,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "pinhole"
-  ]
+  "totalPoints": 300,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
