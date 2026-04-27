@@ -1,310 +1,130 @@
 {
   "puzzle": {
-    "puzzle_id": 2909,
-    "date": "April 26, 2026",
-    "letters": "R",
-    "all_letters": "RACINTY",
-    "word_count": 59,
+    "puzzle_id": 2910,
+    "date": "April 27, 2026",
+    "letters": "Z",
+    "all_letters": "ZAEGILN",
+    "word_count": 23,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "intricacy",
+      "word": "legalizing",
       "is_pangram": 1,
-      "length": 9
+      "length": 10
     },
     {
-      "word": "attractant",
+      "word": "zigzagging",
       "is_pangram": 0,
       "length": 10
     },
     {
-      "word": "antarctic",
+      "word": "elegizing",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "arancini",
+      "word": "legalize",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "cataract",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "irritant",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "attract",
+      "word": "elegize",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "ratatat",
+      "word": "gazelle",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "tantara",
+      "word": "glazing",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "tantric",
+      "word": "zagging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "trinity",
+      "word": "zigging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "tyranny",
+      "word": "zinging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "arcana",
+      "word": "azalea",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "arctic",
+      "word": "gazing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "arnica",
+      "word": "lazing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "arrant",
+      "word": "zigzag",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "canary",
+      "word": "zinnia",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "citric",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "crania",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "cranny",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "critic",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "nitric",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "rarity",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "rattan",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tantra",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tartan",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tartar",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tyrant",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "array",
+      "word": "agaze",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "atria",
+      "word": "glaze",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "attar",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "cairn",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "carat",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "carny",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "carry",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "circa",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "cirri",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "rainy",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "raita",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "ratty",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "ricin",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tarry",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tiara",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tract",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "train",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "trait",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "airy",
+      "word": "gaze",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "aria",
+      "word": "geez",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "arty",
+      "word": "laze",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cart",
+      "word": "zeal",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "narc",
+      "word": "zine",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nary",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "racy",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "rain",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "rani",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "rant",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tart",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tray",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "yarn",
+      "word": "zing",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 300,
+  "totalPoints": 132,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
