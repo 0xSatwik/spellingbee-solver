@@ -1,130 +1,220 @@
 {
   "puzzle": {
-    "puzzle_id": 2910,
-    "date": "April 27, 2026",
-    "letters": "Z",
-    "all_letters": "ZAEGILN",
-    "word_count": 23,
-    "pangrams_count": 1
+    "puzzle_id": 2911,
+    "date": "April 28, 2026",
+    "letters": "C",
+    "all_letters": "CEILMNT",
+    "word_count": 41,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "legalizing",
+      "word": "clementine",
       "is_pangram": 1,
       "length": 10
     },
     {
-      "word": "zigzagging",
+      "word": "inclement",
+      "is_pangram": 1,
+      "length": 9
+    },
+    {
+      "word": "enticement",
       "is_pangram": 0,
       "length": 10
     },
     {
-      "word": "elegizing",
+      "word": "incitement",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "clientele",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "legalize",
+      "word": "imminence",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "intellect",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "eclectic",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "elegize",
+      "word": "eminence",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "lenience",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "clement",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gazelle",
+      "word": "electee",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "glazing",
+      "word": "illicit",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "zagging",
+      "word": "incline",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "zigging",
+      "word": "memetic",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "zinging",
+      "word": "mimetic",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "azalea",
+      "word": "titmice",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "cement",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gazing",
+      "word": "client",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lazing",
+      "word": "clinic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "zigzag",
+      "word": "elicit",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "zinnia",
+      "word": "emetic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "agaze",
+      "word": "entice",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "icemen",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "icicle",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "incite",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "celli",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "glaze",
+      "word": "clime",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gaze",
+      "word": "elect",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "emcee",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "licit",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mimic",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mince",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "niece",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tinct",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "cell",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "geez",
+      "word": "cent",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "laze",
+      "word": "cite",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "zeal",
+      "word": "lice",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "zine",
+      "word": "mice",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "zing",
+      "word": "nice",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 132,
+  "totalPoints": 258,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
