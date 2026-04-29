@@ -1,220 +1,182 @@
 {
   "puzzle": {
-    "puzzle_id": 2911,
-    "date": "April 28, 2026",
-    "letters": "C",
-    "all_letters": "CEILMNT",
-    "word_count": 41,
-    "pangrams_count": 2
+    "puzzle_id": 2912,
+    "date": "April 29, 2026",
+    "letters": "V",
+    "all_letters": "VAEGLOT",
+    "word_count": 33,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "clementine",
+      "word": "voltage",
       "is_pangram": 1,
-      "length": 10
+      "length": 7
     },
     {
-      "word": "inclement",
-      "is_pangram": 1,
-      "length": 9
-    },
-    {
-      "word": "enticement",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "incitement",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "clientele",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "imminence",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "intellect",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "eclectic",
+      "word": "vegetate",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "eminence",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "lenience",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "clement",
+      "word": "elevate",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "electee",
+      "word": "gavotte",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "illicit",
+      "word": "vegetal",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "incline",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "memetic",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "mimetic",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "titmice",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "cement",
+      "word": "evolve",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "client",
+      "word": "gavage",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "clinic",
+      "word": "lavage",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "elicit",
+      "word": "lovage",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "emetic",
+      "word": "velvet",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "entice",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "icemen",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "icicle",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "incite",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "celli",
+      "word": "agave",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "clime",
+      "word": "gavel",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "elect",
+      "word": "glove",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "emcee",
+      "word": "leave",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "licit",
+      "word": "levee",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mimic",
+      "word": "level",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mince",
+      "word": "ovate",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "niece",
+      "word": "vagal",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tinct",
+      "word": "valet",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cell",
+      "word": "valve",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "eave",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cent",
+      "word": "gave",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cite",
+      "word": "lava",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lice",
+      "word": "lave",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mice",
+      "word": "love",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nice",
+      "word": "oval",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "vale",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "veal",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "veto",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "vlog",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "vole",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "volt",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "vote",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 258,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 136,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "voltage"
+  ]
 }
