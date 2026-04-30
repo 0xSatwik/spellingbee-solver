@@ -1,182 +1,160 @@
 {
   "puzzle": {
-    "puzzle_id": 2912,
-    "date": "April 29, 2026",
-    "letters": "V",
-    "all_letters": "VAEGLOT",
-    "word_count": 33,
+    "puzzle_id": 2913,
+    "date": "April 30, 2026",
+    "letters": "U",
+    "all_letters": "UCIMNOT",
+    "word_count": 29,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "voltage",
+      "word": "continuum",
       "is_pangram": 1,
-      "length": 7
+      "length": 9
     },
     {
-      "word": "vegetate",
+      "word": "communion",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "intuition",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "munition",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "elevate",
+      "word": "nonunion",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "uncommon",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "coconut",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gavotte",
+      "word": "minimum",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "vegetal",
+      "word": "tuition",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "evolve",
+      "word": "unction",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "unmount",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "cutout",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gavage",
+      "word": "intuit",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lavage",
+      "word": "mutton",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lovage",
+      "word": "muumuu",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "velvet",
+      "word": "nuncio",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "agave",
+      "word": "count",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gavel",
+      "word": "cumin",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "glove",
+      "word": "mount",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "leave",
+      "word": "tunic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "levee",
+      "word": "tutti",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "level",
+      "word": "uncut",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ovate",
+      "word": "union",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "vagal",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "valet",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "valve",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "eave",
+      "word": "mutt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gave",
+      "word": "noun",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lava",
+      "word": "tout",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lave",
+      "word": "tutu",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "love",
+      "word": "unit",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "oval",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "vale",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "veal",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "veto",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "vlog",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "vole",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "volt",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "vote",
+      "word": "unto",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 136,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "voltage"
-  ]
+  "totalPoints": 164,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
