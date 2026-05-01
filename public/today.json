@@ -1,160 +1,260 @@
 {
   "puzzle": {
-    "puzzle_id": 2913,
-    "date": "April 30, 2026",
-    "letters": "U",
-    "all_letters": "UCIMNOT",
-    "word_count": 29,
+    "puzzle_id": 2914,
+    "date": "May 1, 2026",
+    "letters": "L",
+    "all_letters": "LCDEHIK",
+    "word_count": 49,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "continuum",
+      "word": "childlike",
       "is_pangram": 1,
       "length": 9
     },
     {
-      "word": "communion",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "intuition",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "munition",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "nonunion",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "uncommon",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "coconut",
+      "word": "chilled",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "minimum",
+      "word": "cichlid",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "tuition",
+      "word": "cliched",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "unction",
+      "word": "clicked",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "unmount",
+      "word": "diddled",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "cutout",
+      "word": "heckled",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "leeched",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "celled",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "intuit",
+      "word": "chicle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mutton",
+      "word": "cliche",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "muumuu",
+      "word": "deckle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nuncio",
+      "word": "diddle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "count",
+      "word": "elided",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "heckle",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "heeled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "hilled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "icicle",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "keeled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "killed",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "licked",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "lidded",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "celli",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cumin",
+      "word": "child",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mount",
+      "word": "chili",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tunic",
+      "word": "chill",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tutti",
+      "word": "click",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "uncut",
+      "word": "elide",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "union",
+      "word": "idled",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mutt",
+      "word": "leech",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "liked",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "cell",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "noun",
+      "word": "deli",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tout",
+      "word": "dell",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tutu",
+      "word": "dill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "unit",
+      "word": "heel",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "unto",
+      "word": "held",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "hell",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "hill",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "idle",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "keel",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "kill",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lech",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lede",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "leek",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lice",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lick",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lied",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "like",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 164,
+  "totalPoints": 212,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
