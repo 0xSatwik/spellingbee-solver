@@ -1,260 +1,345 @@
 {
   "puzzle": {
-    "puzzle_id": 2914,
-    "date": "May 1, 2026",
-    "letters": "L",
-    "all_letters": "LCDEHIK",
-    "word_count": 49,
-    "pangrams_count": 1
+    "puzzle_id": 2915,
+    "date": "May 2, 2026",
+    "letters": "G",
+    "all_letters": "GBDELNO",
+    "word_count": 66,
+    "pangrams_count": 3
   },
   "words": [
     {
-      "word": "childlike",
+      "word": "boondoggled",
       "is_pangram": 1,
+      "length": 11
+    },
+    {
+      "word": "boondoggle",
+      "is_pangram": 1,
+      "length": 10
+    },
+    {
+      "word": "belonged",
+      "is_pangram": 1,
+      "length": 8
+    },
+    {
+      "word": "doglegged",
+      "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "chilled",
+      "word": "blogged",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "cichlid",
+      "word": "boggled",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "cliched",
+      "word": "doggone",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "clicked",
+      "word": "gobbled",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "diddled",
+      "word": "goggled",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "heckled",
+      "word": "googled",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "leeched",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "celled",
+      "word": "begged",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "chicle",
+      "word": "begone",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cliche",
+      "word": "belong",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "deckle",
+      "word": "bogged",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "diddle",
+      "word": "boggle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "elided",
+      "word": "dodged",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "heckle",
+      "word": "dogged",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "heeled",
+      "word": "dogleg",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "hilled",
+      "word": "dongle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "icicle",
+      "word": "eggnog",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "keeled",
+      "word": "gelded",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "killed",
+      "word": "gelled",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "licked",
+      "word": "gobble",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lidded",
+      "word": "goggle",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "celli",
+      "word": "golden",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "gonged",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "google",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "googol",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "legend",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "legged",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "lodged",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "logged",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "longed",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "oblong",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "oolong",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "bongo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "child",
+      "word": "dodge",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "chili",
+      "word": "doggo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "chill",
+      "word": "edged",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "click",
+      "word": "egged",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "elide",
+      "word": "gelee",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "idled",
+      "word": "geode",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "leech",
+      "word": "globe",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "liked",
+      "word": "ledge",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cell",
+      "word": "lodge",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ogled",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "blog",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "deli",
+      "word": "bong",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dell",
+      "word": "doge",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dill",
+      "word": "dong",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "heel",
+      "word": "edge",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "held",
+      "word": "geld",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hell",
+      "word": "gene",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hill",
+      "word": "glee",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "idle",
+      "word": "glen",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "keel",
+      "word": "glob",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "kill",
+      "word": "gold",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lech",
+      "word": "gone",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lede",
+      "word": "gong",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "leek",
+      "word": "good",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lice",
+      "word": "goon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lick",
+      "word": "loge",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lied",
+      "word": "logo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "like",
+      "word": "long",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "ogee",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "ogle",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 212,
+  "totalPoints": 326,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
