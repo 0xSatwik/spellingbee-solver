@@ -1,345 +1,360 @@
 {
   "puzzle": {
-    "puzzle_id": 2915,
-    "date": "May 2, 2026",
-    "letters": "G",
-    "all_letters": "GBDELNO",
-    "word_count": 66,
-    "pangrams_count": 3
+    "puzzle_id": 2916,
+    "date": "May 3, 2026",
+    "letters": "C",
+    "all_letters": "CANORTU",
+    "word_count": 69,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "boondoggled",
-      "is_pangram": 1,
-      "length": 11
-    },
-    {
-      "word": "boondoggle",
-      "is_pangram": 1,
-      "length": 10
-    },
-    {
-      "word": "belonged",
+      "word": "turncoat",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "doglegged",
+      "word": "accountant",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "attractant",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "contractor",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "attractor",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "blogged",
+      "word": "actuator",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "autocrat",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "cataract",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "contract",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "account",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "boggled",
+      "word": "attract",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "doggone",
+      "word": "cantata",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gobbled",
+      "word": "cartoon",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "goggled",
+      "word": "coconut",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "googled",
+      "word": "concoct",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "begged",
+      "word": "contact",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "contort",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "contour",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "crouton",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "curacao",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "curator",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "currant",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "raccoon",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "toccata",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "tractor",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "arcana",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "begone",
+      "word": "cancan",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "belong",
+      "word": "cannon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bogged",
+      "word": "cannot",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "boggle",
+      "word": "canton",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dodged",
+      "word": "cantor",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dogged",
+      "word": "carrot",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dogleg",
+      "word": "carton",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dongle",
+      "word": "cocoon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "eggnog",
+      "word": "concur",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gelded",
+      "word": "corona",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gelled",
+      "word": "cotton",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gobble",
+      "word": "cutout",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "goggle",
+      "word": "octant",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "golden",
+      "word": "rancor",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gonged",
+      "word": "rococo",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "google",
+      "word": "toucan",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "googol",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "legend",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "legged",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "lodged",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "logged",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "longed",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "oblong",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "oolong",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "bongo",
+      "word": "acorn",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dodge",
+      "word": "actor",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "doggo",
+      "word": "cacao",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "edged",
+      "word": "canna",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "egged",
+      "word": "canon",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gelee",
+      "word": "carat",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "geode",
+      "word": "cocoa",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "globe",
+      "word": "count",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ledge",
+      "word": "court",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "lodge",
+      "word": "croon",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ogled",
+      "word": "narco",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "blog",
+      "word": "occur",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tract",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "uncut",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "arco",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bong",
+      "word": "cant",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "doge",
+      "word": "cart",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dong",
+      "word": "coat",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "edge",
+      "word": "coca",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "geld",
+      "word": "coot",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gene",
+      "word": "corn",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "glee",
+      "word": "croc",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "glen",
+      "word": "curt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "glob",
+      "word": "narc",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gold",
+      "word": "orca",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gone",
+      "word": "taco",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gong",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "good",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "goon",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loge",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "logo",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "long",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "ogee",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "ogle",
+      "word": "tact",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 326,
+  "totalPoints": 383,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
