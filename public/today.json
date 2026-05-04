@@ -1,360 +1,152 @@
 {
   "puzzle": {
-    "puzzle_id": 2916,
-    "date": "May 3, 2026",
-    "letters": "C",
-    "all_letters": "CANORTU",
-    "word_count": 69,
+    "puzzle_id": 2917,
+    "date": "May 4, 2026",
+    "letters": "L",
+    "all_letters": "LFGHITY",
+    "word_count": 27,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "turncoat",
+      "word": "flighty",
       "is_pangram": 1,
-      "length": 8
+      "length": 7
     },
     {
-      "word": "accountant",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "attractant",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "contractor",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "attractor",
+      "word": "highlight",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "actuator",
+      "word": "filthily",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "autocrat",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "cataract",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "contract",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "account",
+      "word": "lightly",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "attract",
+      "word": "tightly",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "cantata",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "cartoon",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "coconut",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "concoct",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "contact",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "contort",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "contour",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "crouton",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "curacao",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "curator",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "currant",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "raccoon",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "toccata",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "tractor",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "arcana",
+      "word": "filthy",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cancan",
+      "word": "flight",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cannon",
+      "word": "giggly",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cannot",
+      "word": "highly",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "canton",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "cantor",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "carrot",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "carton",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "cocoon",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "concur",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "corona",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "cotton",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "cutout",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "octant",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "rancor",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "rococo",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "toucan",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "acorn",
+      "word": "filly",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "actor",
+      "word": "filth",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cacao",
+      "word": "fitly",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "canna",
+      "word": "hilly",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "canon",
+      "word": "light",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "carat",
+      "word": "tilth",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cocoa",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "count",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "court",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "croon",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "narco",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "occur",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tract",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "uncut",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "arco",
+      "word": "fill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cant",
+      "word": "flit",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cart",
+      "word": "gill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coat",
+      "word": "gilt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coca",
+      "word": "hill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coot",
+      "word": "hilt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "corn",
+      "word": "illy",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "croc",
+      "word": "lift",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "curt",
+      "word": "lilt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "narc",
+      "word": "lily",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "orca",
+      "word": "till",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "taco",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tact",
+      "word": "tilt",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 383,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 111,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "flighty"
+  ]
 }
