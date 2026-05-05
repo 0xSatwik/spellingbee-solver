@@ -1,152 +1,185 @@
 {
   "puzzle": {
-    "puzzle_id": 2917,
-    "date": "May 4, 2026",
-    "letters": "L",
-    "all_letters": "LFGHITY",
-    "word_count": 27,
+    "puzzle_id": 2918,
+    "date": "May 5, 2026",
+    "letters": "C",
+    "all_letters": "CDENUAB",
+    "word_count": 34,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "flighty",
+      "word": "abundance",
       "is_pangram": 1,
-      "length": 7
+      "length": 9
     },
     {
-      "word": "highlight",
+      "word": "decadence",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "filthily",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "lightly",
+      "word": "acceded",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "tightly",
+      "word": "adduced",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "filthy",
+      "word": "cadence",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "deduced",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "nuanced",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "unceded",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "accede",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "flight",
+      "word": "adduce",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "giggly",
+      "word": "cabana",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "highly",
+      "word": "cabbed",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "filly",
+      "word": "cancan",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "canned",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "danced",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "decade",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "deduce",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "educed",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "nuance",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "caned",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "filth",
+      "word": "canna",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "fitly",
+      "word": "ceded",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "hilly",
+      "word": "cubed",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "light",
+      "word": "dance",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tilth",
+      "word": "deuce",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "fill",
+      "word": "dunce",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "educe",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "aced",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "flit",
+      "word": "acne",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gill",
+      "word": "banc",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gilt",
+      "word": "cane",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hill",
+      "word": "cede",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hilt",
+      "word": "cube",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "illy",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lift",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lilt",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lily",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "till",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tilt",
+      "word": "cued",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 111,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "flighty"
-  ]
+  "totalPoints": 180,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
