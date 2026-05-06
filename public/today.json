@@ -1,185 +1,302 @@
 {
   "puzzle": {
-    "puzzle_id": 2918,
-    "date": "May 5, 2026",
-    "letters": "C",
-    "all_letters": "CDENUAB",
-    "word_count": 34,
+    "puzzle_id": 2919,
+    "date": "May 6, 2026",
+    "letters": "A",
+    "all_letters": "AILRTUV",
+    "word_count": 57,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "abundance",
+      "word": "virtual",
       "is_pangram": 1,
-      "length": 9
+      "length": 7
     },
     {
-      "word": "decadence",
+      "word": "alluvial",
       "is_pangram": 0,
-      "length": 9
+      "length": 8
     },
     {
-      "word": "acceded",
+      "word": "arrival",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "adduced",
+      "word": "ratatat",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "cadence",
+      "word": "rattail",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "deduced",
+      "word": "titular",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "nuanced",
+      "word": "travail",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "unceded",
+      "word": "trivial",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "accede",
+      "word": "atrial",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "adduce",
+      "word": "avatar",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cabana",
+      "word": "lariat",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cabbed",
+      "word": "larval",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cancan",
+      "word": "ritual",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "canned",
+      "word": "tallit",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "danced",
+      "word": "tartar",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "decade",
+      "word": "trivia",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "deduce",
+      "word": "uvular",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "educed",
+      "word": "vulval",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "nuance",
+      "word": "vulvar",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "caned",
+      "word": "altar",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "canna",
+      "word": "atilt",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ceded",
+      "word": "atria",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cubed",
+      "word": "attar",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dance",
+      "word": "aural",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "deuce",
+      "word": "avail",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dunce",
+      "word": "larva",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "educe",
+      "word": "raita",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "aced",
+      "word": "rival",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "rural",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tiara",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "trail",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "trait",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "trial",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ultra",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "uvula",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "vault",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "villa",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "viral",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "vital",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "vulva",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "alit",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "acne",
+      "word": "aria",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "banc",
+      "word": "aril",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cane",
+      "word": "aura",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cede",
+      "word": "lair",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cube",
+      "word": "lava",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cued",
+      "word": "liar",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lira",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "luau",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "rail",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "rial",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tail",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tali",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tall",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tart",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "taut",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "vial",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 180,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 252,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "virtual"
+  ]
 }
