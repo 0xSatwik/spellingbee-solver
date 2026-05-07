@@ -1,302 +1,250 @@
 {
   "puzzle": {
-    "puzzle_id": 2919,
-    "date": "May 6, 2026",
-    "letters": "A",
-    "all_letters": "AILRTUV",
-    "word_count": 57,
+    "puzzle_id": 2920,
+    "date": "May 7, 2026",
+    "letters": "N",
+    "all_letters": "NDEIMUZ",
+    "word_count": 47,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "virtual",
+      "word": "immunized",
       "is_pangram": 1,
-      "length": 7
+      "length": 9
     },
     {
-      "word": "alluvial",
+      "word": "minimized",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "immunize",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "arrival",
+      "word": "minimize",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "undimmed",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "unneeded",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "denizen",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "ratatat",
+      "word": "denuded",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "rattail",
+      "word": "emended",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "titular",
+      "word": "minimum",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "travail",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "trivial",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "atrial",
+      "word": "denied",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "avatar",
+      "word": "denude",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lariat",
+      "word": "dunned",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "larval",
+      "word": "endued",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "ritual",
+      "word": "immune",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tallit",
+      "word": "indeed",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tartar",
+      "word": "indium",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "trivia",
+      "word": "mended",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "uvular",
+      "word": "minded",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "vulval",
+      "word": "mizzen",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "vulvar",
+      "word": "needed",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "altar",
+      "word": "denim",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "atilt",
+      "word": "dined",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "atria",
+      "word": "emend",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "attar",
+      "word": "ended",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "aural",
+      "word": "endue",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "avail",
+      "word": "ennui",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "larva",
+      "word": "indie",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "raita",
+      "word": "innie",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "rival",
+      "word": "mined",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "rural",
+      "word": "minim",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tiara",
+      "word": "nudie",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "trail",
+      "word": "undid",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "trait",
+      "word": "undue",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "trial",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "ultra",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "uvula",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "vault",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "villa",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "viral",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "vital",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "vulva",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "alit",
+      "word": "dine",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "aria",
+      "word": "dune",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "aril",
+      "word": "mend",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "aura",
+      "word": "menu",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lair",
+      "word": "mien",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lava",
+      "word": "mind",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "liar",
+      "word": "mine",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lira",
+      "word": "mini",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "luau",
+      "word": "need",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "rail",
+      "word": "nene",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "rial",
+      "word": "nine",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tail",
+      "word": "nude",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tali",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tall",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tart",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "taut",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "vial",
+      "word": "zine",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 252,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "virtual"
-  ]
+  "totalPoints": 229,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
