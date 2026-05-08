@@ -1,250 +1,255 @@
 {
   "puzzle": {
-    "puzzle_id": 2920,
-    "date": "May 7, 2026",
-    "letters": "N",
-    "all_letters": "NDEIMUZ",
-    "word_count": 47,
-    "pangrams_count": 1
+    "puzzle_id": 2921,
+    "date": "May 8, 2026",
+    "letters": "C",
+    "all_letters": "CAGILOY",
+    "word_count": 48,
+    "pangrams_count": 3
   },
   "words": [
     {
-      "word": "immunized",
+      "word": "illogically",
+      "is_pangram": 1,
+      "length": 11
+    },
+    {
+      "word": "glaciology",
+      "is_pangram": 1,
+      "length": 10
+    },
+    {
+      "word": "logically",
       "is_pangram": 1,
       "length": 9
     },
     {
-      "word": "minimized",
+      "word": "cyclically",
+      "is_pangram": 0,
+      "length": 10
+    },
+    {
+      "word": "glacially",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "immunize",
+      "word": "illogical",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "callaloo",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "minimize",
+      "word": "cyclical",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "undimmed",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "unneeded",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "denizen",
+      "word": "acyclic",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "denuded",
+      "word": "glacial",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "emended",
+      "word": "illogic",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "minimum",
+      "word": "locally",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "denied",
+      "word": "logical",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "acacia",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "denude",
+      "word": "cagily",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dunned",
+      "word": "calico",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "endued",
+      "word": "cloaca",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "immune",
+      "word": "coolly",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "indeed",
+      "word": "cyclic",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "indium",
+      "word": "laical",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mended",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "minded",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "mizzen",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "needed",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "denim",
+      "word": "cacao",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dined",
+      "word": "calla",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "emend",
+      "word": "cilia",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ended",
+      "word": "cocci",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "endue",
+      "word": "cocoa",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ennui",
+      "word": "colic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "indie",
+      "word": "coyly",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "innie",
+      "word": "icily",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mined",
+      "word": "iliac",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "minim",
+      "word": "lilac",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "nudie",
+      "word": "local",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "undid",
+      "word": "logic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "undue",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "dine",
+      "word": "acai",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dune",
+      "word": "cagy",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mend",
+      "word": "call",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "menu",
+      "word": "ciao",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mien",
+      "word": "clay",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mind",
+      "word": "clog",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mine",
+      "word": "cloy",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mini",
+      "word": "coal",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "need",
+      "word": "coca",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nene",
+      "word": "coil",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nine",
+      "word": "cola",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nude",
+      "word": "cool",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "zine",
+      "word": "lacy",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "laic",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "loci",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "loco",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 229,
+  "totalPoints": 248,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
