@@ -1,255 +1,282 @@
 {
   "puzzle": {
-    "puzzle_id": 2921,
-    "date": "May 8, 2026",
-    "letters": "C",
-    "all_letters": "CAGILOY",
-    "word_count": 48,
-    "pangrams_count": 3
+    "puzzle_id": 2922,
+    "date": "May 9, 2026",
+    "letters": "T",
+    "all_letters": "TAEGHIM",
+    "word_count": 53,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "illogically",
+      "word": "megahit",
       "is_pangram": 1,
-      "length": 11
+      "length": 7
     },
     {
-      "word": "glaciology",
-      "is_pangram": 1,
-      "length": 10
-    },
-    {
-      "word": "logically",
-      "is_pangram": 1,
-      "length": 9
-    },
-    {
-      "word": "cyclically",
-      "is_pangram": 0,
-      "length": 10
-    },
-    {
-      "word": "glacially",
+      "word": "eightieth",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "illogical",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "callaloo",
+      "word": "hematite",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "cyclical",
+      "word": "mitigate",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "acyclic",
+      "word": "teammate",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "agitate",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "glacial",
+      "word": "imitate",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "illogic",
+      "word": "mahatma",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "locally",
+      "word": "teatime",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "logical",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "acacia",
+      "word": "eighth",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cagily",
+      "word": "gamete",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "calico",
+      "word": "hamate",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cloaca",
+      "word": "height",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "coolly",
+      "word": "tatami",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cyclic",
+      "word": "teethe",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "laical",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "cacao",
+      "word": "agate",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "calla",
+      "word": "agita",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cilia",
+      "word": "eight",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cocci",
+      "word": "hatha",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cocoa",
+      "word": "heath",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "colic",
+      "word": "matte",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "coyly",
+      "word": "might",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "icily",
+      "word": "taiga",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "iliac",
+      "word": "teeth",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "lilac",
+      "word": "theme",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "local",
+      "word": "theta",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "logic",
+      "word": "thigh",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "acai",
+      "word": "tight",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tithe",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "emit",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cagy",
+      "word": "gait",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "call",
+      "word": "gate",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ciao",
+      "word": "hate",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "clay",
+      "word": "hath",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "clog",
+      "word": "heat",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cloy",
+      "word": "item",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coal",
+      "word": "mate",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coca",
+      "word": "math",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coil",
+      "word": "meat",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cola",
+      "word": "meet",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cool",
+      "word": "meta",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lacy",
+      "word": "mete",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "laic",
+      "word": "meth",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loci",
+      "word": "mite",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loco",
+      "word": "mitt",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tame",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "team",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "teat",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "teem",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "that",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "thee",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "them",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "time",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 248,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 205,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "megahit"
+  ]
 }
