@@ -1,282 +1,332 @@
 {
   "puzzle": {
-    "puzzle_id": 2922,
-    "date": "May 9, 2026",
-    "letters": "T",
-    "all_letters": "TAEGHIM",
-    "word_count": 53,
-    "pangrams_count": 1
+    "puzzle_id": 2923,
+    "date": "May 10, 2026",
+    "letters": "L",
+    "all_letters": "LDFGINO",
+    "word_count": 63,
+    "pangrams_count": 3
   },
   "words": [
     {
-      "word": "megahit",
+      "word": "flooding",
+      "is_pangram": 1,
+      "length": 8
+    },
+    {
+      "word": "fondling",
+      "is_pangram": 1,
+      "length": 8
+    },
+    {
+      "word": "folding",
       "is_pangram": 1,
       "length": 7
     },
     {
-      "word": "eightieth",
+      "word": "infilling",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "hematite",
+      "word": "nonillion",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "diddling",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "mitigate",
+      "word": "doodling",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "teammate",
+      "word": "fiddling",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "agitate",
+      "word": "flinging",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "flogging",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "giggling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "goggling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "googling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "niggling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "noodling",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "dolling",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "imitate",
+      "word": "filling",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "mahatma",
+      "word": "foiling",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "teatime",
+      "word": "fooling",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "eighth",
+      "word": "gilding",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "gilling",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "gliding",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "golfing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lodging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "logging",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "lolling",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "longing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "doling",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gamete",
+      "word": "filing",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "hamate",
+      "word": "gigolo",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "height",
+      "word": "googol",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tatami",
+      "word": "idling",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "teethe",
+      "word": "infill",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "agate",
+      "word": "lining",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "ogling",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "oiling",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "oolong",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "dildo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "agita",
+      "word": "fling",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "eight",
+      "word": "flood",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "hatha",
+      "word": "folio",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "heath",
+      "word": "igloo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "matte",
+      "word": "lingo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "might",
+      "word": "login",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "taiga",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "teeth",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "theme",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "theta",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "thigh",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tight",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tithe",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "emit",
+      "word": "dill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gait",
+      "word": "doll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gate",
+      "word": "fill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hate",
+      "word": "flog",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hath",
+      "word": "foil",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "heat",
+      "word": "fold",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "item",
+      "word": "fool",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mate",
+      "word": "gild",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "math",
+      "word": "gill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "meat",
+      "word": "gold",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "meet",
+      "word": "golf",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "meta",
+      "word": "idol",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mete",
+      "word": "lion",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "meth",
+      "word": "logo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mite",
+      "word": "loin",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mitt",
+      "word": "loll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tame",
+      "word": "long",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "team",
+      "word": "loon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "teat",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "teem",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "that",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "thee",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "them",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "time",
+      "word": "olio",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 205,
+  "totalPoints": 340,
   "hasPerfectPangram": true,
   "perfectPangrams": [
-    "megahit"
+    "folding"
   ]
 }
