@@ -1,275 +1,205 @@
 {
   "puzzle": {
-    "puzzle_id": 2924,
-    "date": "May 11, 2026",
-    "letters": "T",
-    "all_letters": "TCDEHIW",
-    "word_count": 52,
-    "pangrams_count": 1
+    "puzzle_id": 2925,
+    "date": "May 12, 2026",
+    "letters": "C",
+    "all_letters": "CABMNOT",
+    "word_count": 38,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "twitched",
+      "word": "noncombatant",
       "is_pangram": 1,
-      "length": 8
+      "length": 12
     },
     {
-      "word": "detected",
+      "word": "combatant",
+      "is_pangram": 1,
+      "length": 9
+    },
+    {
+      "word": "catacomb",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "dietetic",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "ditched",
+      "word": "cantata",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "eidetic",
+      "word": "concoct",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "hitched",
+      "word": "contact",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "teethed",
+      "word": "tobacco",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "tweeted",
+      "word": "toccata",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "whetted",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "deceit",
+      "word": "bobcat",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "detect",
+      "word": "cabana",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dieted",
+      "word": "cancan",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "edited",
+      "word": "cannon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "etched",
+      "word": "cannot",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "hectic",
+      "word": "canton",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "itched",
+      "word": "cocoon",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "techie",
+      "word": "combat",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "teethe",
+      "word": "common",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tidied",
+      "word": "cotton",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "tithed",
+      "word": "noncom",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "twitch",
+      "word": "octant",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "wetted",
+      "word": "tomcat",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cited",
+      "word": "bacon",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ditch",
+      "word": "cacao",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "edict",
+      "word": "canna",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ethic",
+      "word": "canon",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "hitch",
+      "word": "cocoa",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "teeth",
+      "word": "combo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tided",
+      "word": "comma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tithe",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tweed",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "tweet",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "twice",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "white",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "width",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "witch",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "chit",
+      "word": "banc",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cite",
+      "word": "camo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "diet",
+      "word": "cant",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "edit",
+      "word": "coat",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "etch",
+      "word": "coca",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "itch",
+      "word": "coma",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tech",
+      "word": "comb",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "teed",
+      "word": "coot",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "thee",
+      "word": "taco",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tide",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tied",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "twee",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "twit",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "whet",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "whit",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "with",
+      "word": "tact",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 237,
+  "totalPoints": 201,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
