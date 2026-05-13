@@ -1,205 +1,170 @@
 {
   "puzzle": {
-    "puzzle_id": 2925,
-    "date": "May 12, 2026",
-    "letters": "C",
-    "all_letters": "CABMNOT",
-    "word_count": 38,
-    "pangrams_count": 2
+    "puzzle_id": 2926,
+    "date": "May 13, 2026",
+    "letters": "L",
+    "all_letters": "LABDIRZ",
+    "word_count": 31,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "noncombatant",
+      "word": "blizzard",
       "is_pangram": 1,
-      "length": 12
+      "length": 8
     },
     {
-      "word": "combatant",
-      "is_pangram": 1,
-      "length": 9
-    },
-    {
-      "word": "catacomb",
+      "word": "bilabial",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "cantata",
+      "word": "billiard",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "biradial",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "railbird",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "airball",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "concoct",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "contact",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "tobacco",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "toccata",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "bobcat",
+      "word": "ballad",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cabana",
+      "word": "bridal",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cancan",
+      "word": "labial",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cannon",
+      "word": "lizard",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cannot",
+      "word": "radial",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "canton",
+      "word": "ribald",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "cocoon",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "combat",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "common",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "cotton",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "noncom",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "octant",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tomcat",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "bacon",
+      "word": "alibi",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cacao",
+      "word": "drill",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "canna",
+      "word": "labia",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "canon",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "cocoa",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "combo",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "comma",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "banc",
+      "word": "aril",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "camo",
+      "word": "bail",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cant",
+      "word": "bald",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coat",
+      "word": "ball",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coca",
+      "word": "bill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coma",
+      "word": "blab",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "comb",
+      "word": "dial",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coot",
+      "word": "dill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "taco",
+      "word": "laid",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tact",
+      "word": "lair",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lard",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "liar",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lira",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "rail",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "rial",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "rill",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 201,
+  "totalPoints": 121,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
