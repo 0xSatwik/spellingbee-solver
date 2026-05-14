@@ -1,105 +1,95 @@
 {
   "puzzle": {
-    "puzzle_id": 2926,
-    "date": "May 13, 2026",
-    "letters": "L",
-    "all_letters": "LABDIRZ",
-    "word_count": 31,
+    "puzzle_id": 2927,
+    "date": "May 14, 2026",
+    "letters": "I",
+    "all_letters": "IBEKLMO",
+    "word_count": 32,
     "pangrams_count": 1
   },
   "words": [
     {
-      "word": "blizzard",
+      "word": "bookmobile",
       "is_pangram": 1,
-      "length": 8
+      "length": 10
     },
     {
-      "word": "bilabial",
+      "word": "immobile",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "billiard",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "biradial",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "railbird",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "airball",
+      "word": "libelee",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "ballad",
+      "word": "bookie",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "bridal",
+      "word": "imbibe",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "labial",
+      "word": "kibble",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lizard",
+      "word": "mobile",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "radial",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "ribald",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "alibi",
+      "word": "belie",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "drill",
+      "word": "bible",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "labia",
+      "word": "biome",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "aril",
+      "word": "libel",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "limbo",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mimeo",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "ollie",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "bike",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bail",
+      "word": "bile",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bald",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "ball",
+      "word": "bilk",
       "is_pangram": 0,
       "length": 4
     },
@@ -109,62 +99,77 @@
       "length": 4
     },
     {
-      "word": "blab",
+      "word": "boil",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dial",
+      "word": "kill",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dill",
+      "word": "kilo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "laid",
+      "word": "like",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lair",
+      "word": "limb",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lard",
+      "word": "lime",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "liar",
+      "word": "limo",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lira",
+      "word": "mike",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "rail",
+      "word": "mile",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "rial",
+      "word": "milk",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "rill",
+      "word": "mill",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "mime",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "moil",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "olio",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 121,
+  "totalPoints": 109,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
