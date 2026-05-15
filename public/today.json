@@ -1,175 +1,267 @@
 {
   "puzzle": {
-    "puzzle_id": 2927,
-    "date": "May 14, 2026",
-    "letters": "I",
-    "all_letters": "IBEKLMO",
-    "word_count": 32,
-    "pangrams_count": 1
+    "puzzle_id": 2928,
+    "date": "May 15, 2026",
+    "letters": "M",
+    "all_letters": "MACGINP",
+    "word_count": 50,
+    "pangrams_count": 3
   },
   "words": [
     {
-      "word": "bookmobile",
+      "word": "campaigning",
       "is_pangram": 1,
-      "length": 10
+      "length": 11
     },
     {
-      "word": "immobile",
+      "word": "campaign",
+      "is_pangram": 1,
+      "length": 8
+    },
+    {
+      "word": "camping",
+      "is_pangram": 1,
+      "length": 7
+    },
+    {
+      "word": "imagining",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "impinging",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "magician",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "libelee",
+      "word": "managing",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "minicamp",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "imaging",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "bookie",
+      "word": "maiming",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "manning",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "mapping",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "mincing",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "minicam",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "pimping",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "aiming",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "imbibe",
+      "word": "amping",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "kibble",
+      "word": "caiman",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mobile",
+      "word": "gaming",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "belie",
+      "word": "macing",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "maniac",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "miming",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "minima",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "mining",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "naming",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "panama",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "anima",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bible",
+      "word": "gamin",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "biome",
+      "word": "gamma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "libel",
+      "word": "magic",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "limbo",
+      "word": "magma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mimeo",
+      "word": "mamma",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "ollie",
+      "word": "manga",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "bike",
+      "word": "mania",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "manic",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "manna",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "mimic",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "minim",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "pampa",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "cami",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bile",
+      "word": "camp",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bilk",
+      "word": "gimp",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "bill",
+      "word": "imam",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "boil",
+      "word": "magi",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "kill",
+      "word": "maim",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "kilo",
+      "word": "main",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "like",
+      "word": "mama",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "limb",
+      "word": "mica",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lime",
+      "word": "mini",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "limo",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mike",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mile",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "milk",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mill",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "mime",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "moil",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "olio",
+      "word": "pimp",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 109,
-  "hasPerfectPangram": false,
-  "perfectPangrams": []
+  "totalPoints": 280,
+  "hasPerfectPangram": true,
+  "perfectPangrams": [
+    "camping"
+  ]
 }
