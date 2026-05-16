@@ -1,317 +1,338 @@
 {
   "puzzle": {
-    "puzzle_id": 2820,
-    "date": "January 27, 2026",
-    "letters": "I",
-    "all_letters": "IAGHLNU",
-    "word_count": 60,
-    "pangrams_count": 2
+    "puzzle_id": 2929,
+    "date": "May 16, 2026",
+    "letters": "A",
+    "all_letters": "AEHNOPT",
+    "word_count": 64,
+    "pangrams_count": 3
   },
   "words": [
     {
-      "word": "laughing",
+      "word": "pantheon",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "hauling",
+      "word": "phaeton",
       "is_pangram": 1,
       "length": 7
     },
     {
-      "word": "unilingual",
-      "is_pangram": 0,
-      "length": 10
+      "word": "phonate",
+      "is_pangram": 1,
+      "length": 7
     },
     {
-      "word": "annulling",
+      "word": "panettone",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "unhanging",
+      "word": "potentate",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "unhinging",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "aligning",
+      "word": "annotate",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "gangling",
+      "word": "antennae",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "giggling",
+      "word": "patentee",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "glugging",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "haggling",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "hangnail",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "inhaling",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "linguini",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "niggling",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "angling",
+      "word": "annatto",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gagging",
+      "word": "antenna",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gaining",
+      "word": "heathen",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "galling",
+      "word": "heptane",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "ganging",
+      "word": "neonate",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "ganglia",
+      "word": "pennant",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gauging",
+      "word": "pentane",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "gigging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "gilling",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "ginning",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "gulling",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "gunning",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "hailing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "hanging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "hilling",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "hinging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "hugging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "hulling",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "lagging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "lugging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "lulling",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "lunging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "nagging",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "nailing",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "ailing",
+      "word": "ethane",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "angina",
+      "word": "happen",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "annuli",
+      "word": "natant",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gluing",
+      "word": "neaten",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "iguana",
+      "word": "notate",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "inning",
+      "word": "patent",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lining",
+      "word": "peahen",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "luging",
+      "word": "potato",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "again",
+      "word": "tattoo",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "teapot",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tenant",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "apnea",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "aging",
+      "word": "atone",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "align",
+      "word": "eaten",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "lanai",
+      "word": "hatha",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gain",
+      "word": "heath",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "henna",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "neath",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "oaten",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "paean",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "poppa",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "thane",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "theta",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "aeon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gill",
+      "word": "anon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "glia",
+      "word": "ante",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hail",
+      "word": "atop",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "high",
+      "word": "hate",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hill",
+      "word": "hath",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lain",
+      "word": "heap",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nail",
+      "word": "heat",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nigh",
+      "word": "naan",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "nana",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "nape",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "neap",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "neat",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "oath",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pane",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pant",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "papa",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pate",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "path",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "peat",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "phat",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tapa",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tape",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "teat",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "than",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "that",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 383,
+  "totalPoints": 286,
   "hasPerfectPangram": true,
   "perfectPangrams": [
-    "hauling"
+    "phaeton",
+    "phonate"
   ]
 }
