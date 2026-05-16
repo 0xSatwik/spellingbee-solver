@@ -1,267 +1,338 @@
 {
   "puzzle": {
-    "puzzle_id": 2928,
-    "date": "May 15, 2026",
-    "letters": "M",
-    "all_letters": "MACGINP",
-    "word_count": 50,
+    "puzzle_id": 2929,
+    "date": "May 16, 2026",
+    "letters": "A",
+    "all_letters": "AEHNOPT",
+    "word_count": 64,
     "pangrams_count": 3
   },
   "words": [
     {
-      "word": "campaigning",
-      "is_pangram": 1,
-      "length": 11
-    },
-    {
-      "word": "campaign",
+      "word": "pantheon",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "camping",
+      "word": "phaeton",
       "is_pangram": 1,
       "length": 7
     },
     {
-      "word": "imagining",
+      "word": "phonate",
+      "is_pangram": 1,
+      "length": 7
+    },
+    {
+      "word": "panettone",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "impinging",
+      "word": "potentate",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "magician",
+      "word": "annotate",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "managing",
+      "word": "antennae",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "minicamp",
+      "word": "patentee",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "imaging",
+      "word": "annatto",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "maiming",
+      "word": "antenna",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "manning",
+      "word": "heathen",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "mapping",
+      "word": "heptane",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "mincing",
+      "word": "neonate",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "minicam",
+      "word": "pennant",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "pimping",
+      "word": "pentane",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "aiming",
+      "word": "ethane",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "amping",
+      "word": "happen",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "caiman",
+      "word": "natant",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "gaming",
+      "word": "neaten",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "macing",
+      "word": "notate",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "maniac",
+      "word": "patent",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "miming",
+      "word": "peahen",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "minima",
+      "word": "potato",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "mining",
+      "word": "tattoo",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "naming",
+      "word": "teapot",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "panama",
+      "word": "tenant",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "anima",
+      "word": "apnea",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gamin",
+      "word": "atone",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "gamma",
+      "word": "eaten",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "magic",
+      "word": "hatha",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "magma",
+      "word": "heath",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mamma",
+      "word": "henna",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "manga",
+      "word": "neath",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mania",
+      "word": "oaten",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "manic",
+      "word": "paean",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "manna",
+      "word": "poppa",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "mimic",
+      "word": "thane",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "minim",
+      "word": "theta",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "pampa",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "cami",
+      "word": "aeon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "camp",
+      "word": "anon",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "gimp",
+      "word": "ante",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "imam",
+      "word": "atop",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "magi",
+      "word": "hate",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "maim",
+      "word": "hath",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "main",
+      "word": "heap",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mama",
+      "word": "heat",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mica",
+      "word": "naan",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "mini",
+      "word": "nana",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pimp",
+      "word": "nape",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "neap",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "neat",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "oath",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pane",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pant",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "papa",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pate",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "path",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "peat",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "phat",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tapa",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "tape",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "teat",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "than",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "that",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 280,
+  "totalPoints": 286,
   "hasPerfectPangram": true,
   "perfectPangrams": [
-    "camping"
+    "phaeton",
+    "phonate"
   ]
 }
