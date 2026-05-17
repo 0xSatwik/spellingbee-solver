@@ -1,338 +1,285 @@
 {
   "puzzle": {
-    "puzzle_id": 2929,
-    "date": "May 16, 2026",
-    "letters": "A",
-    "all_letters": "AEHNOPT",
-    "word_count": 64,
-    "pangrams_count": 3
+    "puzzle_id": 2930,
+    "date": "May 17, 2026",
+    "letters": "L",
+    "all_letters": "LACDORT",
+    "word_count": 54,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "pantheon",
+      "word": "cartload",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "phaeton",
+      "word": "doctoral",
       "is_pangram": 1,
-      "length": 7
+      "length": 8
     },
     {
-      "word": "phonate",
-      "is_pangram": 1,
-      "length": 7
-    },
-    {
-      "word": "panettone",
+      "word": "allocator",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "potentate",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "annotate",
+      "word": "callaloo",
       "is_pangram": 0,
       "length": 8
     },
     {
-      "word": "antennae",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "patentee",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "annatto",
+      "word": "carload",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "antenna",
+      "word": "catcall",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "heathen",
+      "word": "collard",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "heptane",
+      "word": "corolla",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "neonate",
+      "word": "locator",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "pennant",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "pentane",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "ethane",
+      "word": "aortal",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "happen",
+      "word": "cloaca",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "natant",
+      "word": "collar",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "neaten",
+      "word": "corral",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "notate",
+      "word": "dollar",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "patent",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "peahen",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "potato",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tattoo",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "teapot",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tenant",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "apnea",
+      "word": "allot",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "atone",
+      "word": "altar",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "eaten",
+      "word": "atoll",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "hatha",
+      "word": "calla",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "heath",
+      "word": "carol",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "henna",
+      "word": "color",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "neath",
+      "word": "coral",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "oaten",
+      "word": "dolor",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "paean",
+      "word": "droll",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "poppa",
+      "word": "drool",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "thane",
+      "word": "local",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "theta",
+      "word": "lotto",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "aeon",
+      "word": "octal",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "total",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "troll",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "alto",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "anon",
+      "word": "call",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "ante",
+      "word": "clad",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "atop",
+      "word": "clod",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hate",
+      "word": "clot",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "hath",
+      "word": "coal",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "heap",
+      "word": "cola",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "heat",
+      "word": "cold",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "naan",
+      "word": "colt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nana",
+      "word": "cool",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "nape",
+      "word": "doll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "neap",
+      "word": "dolt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "neat",
+      "word": "lard",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "oath",
+      "word": "load",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pane",
+      "word": "loco",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pant",
+      "word": "loll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "papa",
+      "word": "loot",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pate",
+      "word": "lord",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "path",
+      "word": "oral",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "peat",
+      "word": "roll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "phat",
+      "word": "talc",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tapa",
+      "word": "tall",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tape",
+      "word": "told",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "teat",
+      "word": "toll",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "than",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "that",
+      "word": "tool",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 286,
-  "hasPerfectPangram": true,
-  "perfectPangrams": [
-    "phaeton",
-    "phonate"
-  ]
+  "totalPoints": 212,
+  "hasPerfectPangram": false,
+  "perfectPangrams": []
 }
