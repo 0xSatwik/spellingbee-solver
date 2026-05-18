@@ -1,285 +1,95 @@
 {
   "puzzle": {
-    "puzzle_id": 2930,
-    "date": "May 17, 2026",
-    "letters": "L",
-    "all_letters": "LACDORT",
-    "word_count": 54,
-    "pangrams_count": 2
+    "puzzle_id": 2931,
+    "date": "May 18, 2026",
+    "letters": "P",
+    "all_letters": "PACHTUZ",
+    "word_count": 16,
+    "pangrams_count": 1
   },
   "words": [
     {
-      "word": "cartload",
+      "word": "chutzpah",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "doctoral",
-      "is_pangram": 1,
-      "length": 8
-    },
-    {
-      "word": "allocator",
-      "is_pangram": 0,
-      "length": 9
-    },
-    {
-      "word": "callaloo",
-      "is_pangram": 0,
-      "length": 8
-    },
-    {
-      "word": "carload",
+      "word": "captcha",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "catcall",
+      "word": "catchup",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "collard",
+      "word": "chuppah",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "corolla",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "locator",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "aortal",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "cloaca",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "collar",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "corral",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "dollar",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "allot",
+      "word": "cuppa",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "altar",
+      "word": "cutup",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "atoll",
+      "word": "patch",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "calla",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "carol",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "color",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "coral",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "dolor",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "droll",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "drool",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "local",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "lotto",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "octal",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "total",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "troll",
-      "is_pangram": 0,
-      "length": 5
-    },
-    {
-      "word": "alto",
+      "word": "chap",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "call",
+      "word": "pact",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "clad",
+      "word": "papa",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "clod",
+      "word": "path",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "clot",
+      "word": "phat",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "coal",
+      "word": "pupa",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cola",
+      "word": "putt",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "cold",
+      "word": "putz",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "colt",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "cool",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "doll",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "dolt",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lard",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "load",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loco",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loll",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "loot",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "lord",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "oral",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "roll",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "talc",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tall",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "told",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "toll",
-      "is_pangram": 0,
-      "length": 4
-    },
-    {
-      "word": "tool",
+      "word": "tapa",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 212,
+  "totalPoints": 60,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
