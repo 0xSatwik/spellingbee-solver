@@ -1,75 +1,300 @@
 {
   "puzzle": {
-    "puzzle_id": 2931,
-    "date": "May 18, 2026",
-    "letters": "P",
-    "all_letters": "PACHTUZ",
-    "word_count": 16,
-    "pangrams_count": 1
+    "puzzle_id": 2932,
+    "date": "May 19, 2026",
+    "letters": "U",
+    "all_letters": "UDELOPT",
+    "word_count": 62,
+    "pangrams_count": 2
   },
   "words": [
     {
-      "word": "chutzpah",
+      "word": "outpolled",
+      "is_pangram": 1,
+      "length": 9
+    },
+    {
+      "word": "polluted",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "captcha",
+      "word": "outdueled",
+      "is_pangram": 0,
+      "length": 9
+    },
+    {
+      "word": "deluded",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "catchup",
+      "word": "deputed",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "chuppah",
+      "word": "duetted",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "cuppa",
+      "word": "outduel",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "outpoll",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "pollute",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "puddled",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "pullout",
+      "is_pangram": 0,
+      "length": 7
+    },
+    {
+      "word": "delude",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "depute",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "dueled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "dulled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "eluded",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "lulled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "outlet",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "output",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "pouted",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "puddle",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "pulled",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "pullet",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "pulped",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "puppet",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "putout",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "putted",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "toupee",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "touted",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tupelo",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "tutted",
+      "is_pangram": 0,
+      "length": 6
+    },
+    {
+      "word": "duped",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "cutup",
+      "word": "duple",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "patch",
+      "word": "elude",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "chap",
+      "word": "etude",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "letup",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "loupe",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "outdo",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "outed",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "poult",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "puled",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tulle",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "tutee",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "upped",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "dude",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pact",
+      "word": "duel",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "papa",
+      "word": "duet",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "path",
+      "word": "dull",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "phat",
+      "word": "dupe",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pupa",
+      "word": "loud",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lout",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lull",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lulu",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "lute",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pout",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pule",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pull",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "pulp",
       "is_pangram": 0,
       "length": 4
     },
@@ -79,17 +304,22 @@
       "length": 4
     },
     {
-      "word": "putz",
+      "word": "tout",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tapa",
+      "word": "tutu",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "updo",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 60,
+  "totalPoints": 299,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
