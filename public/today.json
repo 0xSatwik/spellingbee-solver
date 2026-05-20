@@ -1,325 +1,270 @@
 {
   "puzzle": {
-    "puzzle_id": 2932,
-    "date": "May 19, 2026",
-    "letters": "U",
-    "all_letters": "UDELOPT",
-    "word_count": 62,
-    "pangrams_count": 2
+    "puzzle_id": 2933,
+    "date": "May 20, 2026",
+    "letters": "A",
+    "all_letters": "ABCDKOR",
+    "word_count": 51,
+    "pangrams_count": 3
   },
   "words": [
     {
-      "word": "outpolled",
+      "word": "backboard",
       "is_pangram": 1,
       "length": 9
     },
     {
-      "word": "polluted",
+      "word": "corkboard",
+      "is_pangram": 1,
+      "length": 9
+    },
+    {
+      "word": "backdoor",
       "is_pangram": 1,
       "length": 8
     },
     {
-      "word": "outdueled",
+      "word": "abracadabra",
+      "is_pangram": 0,
+      "length": 11
+    },
+    {
+      "word": "cardboard",
       "is_pangram": 0,
       "length": 9
     },
     {
-      "word": "deluded",
+      "word": "barbacoa",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "bookrack",
+      "is_pangram": 0,
+      "length": 8
+    },
+    {
+      "word": "barback",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "deputed",
+      "word": "barrack",
       "is_pangram": 0,
       "length": 7
     },
     {
-      "word": "duetted",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "outduel",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "outpoll",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "pollute",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "puddled",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "pullout",
-      "is_pangram": 0,
-      "length": 7
-    },
-    {
-      "word": "delude",
+      "word": "aboard",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "depute",
+      "word": "abroad",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dueled",
+      "word": "accord",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "dulled",
+      "word": "baobab",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "eluded",
+      "word": "doodad",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "lulled",
+      "word": "dorado",
       "is_pangram": 0,
       "length": 6
     },
     {
-      "word": "outlet",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "output",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "pouted",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "puddle",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "pulled",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "pullet",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "pulped",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "puppet",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "putout",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "putted",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "toupee",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "touted",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tupelo",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "tutted",
-      "is_pangram": 0,
-      "length": 6
-    },
-    {
-      "word": "duped",
+      "word": "aback",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "duple",
+      "word": "adobo",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "elude",
+      "word": "arbor",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "etude",
+      "word": "ardor",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "letup",
+      "word": "babka",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "loupe",
+      "word": "board",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "outdo",
+      "word": "broad",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "outed",
+      "word": "cacao",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "poult",
+      "word": "carob",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "puled",
+      "word": "cobra",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tulle",
+      "word": "cocoa",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "tutee",
+      "word": "crack",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "upped",
+      "word": "croak",
       "is_pangram": 0,
       "length": 5
     },
     {
-      "word": "dude",
+      "word": "kabob",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "radar",
+      "is_pangram": 0,
+      "length": 5
+    },
+    {
+      "word": "arco",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "duel",
+      "word": "baba",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "duet",
+      "word": "back",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dull",
+      "word": "barb",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "dupe",
+      "word": "bard",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "loud",
+      "word": "bark",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lout",
+      "word": "boar",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lull",
+      "word": "boba",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lulu",
+      "word": "brad",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "lute",
+      "word": "carb",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pout",
+      "word": "card",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pule",
+      "word": "coca",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pull",
+      "word": "coda",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "pulp",
+      "word": "crab",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "putt",
+      "word": "dark",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tout",
+      "word": "drab",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "tutu",
+      "word": "okra",
       "is_pangram": 0,
       "length": 4
     },
     {
-      "word": "updo",
+      "word": "orca",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "rack",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "road",
+      "is_pangram": 0,
+      "length": 4
+    },
+    {
+      "word": "roar",
       "is_pangram": 0,
       "length": 4
     }
   ],
-  "totalPoints": 299,
+  "totalPoints": 229,
   "hasPerfectPangram": false,
   "perfectPangrams": []
 }
